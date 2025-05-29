@@ -1,0 +1,237 @@
+/* Wrapper to center the navbar */
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8); /* Optional if you want a consistent background */
+}
+
+/* Base styles for all screens */
+.navbar {
+  position: fixed;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.7); /* Black background with opacity */
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 30px;
+  border-bottom: 1px solid #dfdfdf;
+  max-width: 2300px;
+  z-index: 10;
+}
+
+/* Navbar brand (Logo / Title) */
+.navbar-brand {
+  grid-column-start: 2; /* Start at column 2 */
+  grid-column-end: 5; /* End at column 5 */
+  grid-row-start: 1;
+  grid-row-end: 2 ;
+  text-align: left; /* Align to the right */
+  /* background-color: red; */
+}
+
+/* Navbar menu items */
+.navbar-menu {
+  grid-column-start: 4; /* Start at column 7 */
+  grid-column-end: 12; /* End at column 13 */
+  grid-row-start: 1;
+  grid-row-end: 2 ;
+  display: flex;
+  justify-content: center; /* Align items to the left */
+  font-size: 16px;
+  font-weight: 400;
+  gap: 15px;
+  /* background-color: #007400; */
+}
+
+/* Navbar brand logo styling */
+.navbar-logo {
+  height: 45px; /* Adjust the size */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-menu a {
+  color: rgb(0, 0, 0);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: left; /* Align menu items left */
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+  color: #1E9500;
+}
+
+/* Active menu item (dark white color) */
+.navbar-menu a.active {
+  color: #1E9500;
+}
+.navbarRightSide{
+  grid-column-start: 11; /* Start at column 7 */
+  grid-column-end: 14; /* End at column 13 */
+  grid-row-start: 1;
+  grid-row-end:2 ;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end; /* Align items to the left */
+  align-items: center;
+  /* background-color: red; */
+}
+
+.know-more-button {
+  background-color: #1e950000; /* Fluent Design System blue */
+  color:  #1e9500;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid  #1e9500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.language-menu {
+  position: relative;
+  cursor: pointer;
+}
+.globe-icon {
+  font-size: 24px;
+  color: #1b1b1b;
+  transition: color 0.3s ease;
+}
+.globe-icon:hover {
+  color: #1E9500;
+}
+.language-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: rgb(192, 89, 89);
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  z-index: 1000;
+}
+
+.language-dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+
+.language-switcher {
+border-radius: 1px
+}
+
+.language-switcher select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ffffff00;
+  border-radius: 5px;
+  background-color: #ffffff00;
+  color: #000000;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.language-switcher select:focus {
+  outline: none;
+  border-color: #4CAF50; /* A green accent for focus */
+}
+
+/* Base styles for hamburger menu */
+.hamburger {
+  display: none; /* Hidden on larger screens */
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  z-index: 1000; /* Bring it above other elements */
+  position: absolute; /* Ensure it positions relative to the navbar */
+  top: 20px; /* Adjust to align with navbar */
+  right: 20px; /* Place it on the right side */
+}
+
+.hamburger .bar {
+  width: 100%;
+  height: 3px;
+  background-color: black; /* Ensure it’s visible */
+  margin: 4px 0;
+  transition: all 0.3s ease; /* Smooth transitions for animation */
+}
+
+/* Media Queries for Responsive Design */
+
+/* Adjustments for 125% scaling (1536px width) */
+
+@media (max-width: 1560px) {
+
+
+}
+
+/* For very small devices like phones in portrait mode */
+@media (max-width: 480px) {
+  .navbar {
+    position: fixed;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.8); /* Black background with opacity */
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px; /* 14 grid columns */
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 5px;
+    border-bottom: 1px solid #dfdfdf;
+    max-width: 2300px;
+    z-index: 10;
+  }
+
+  .navbar-logo {
+    height: 36px; /* Adjust the size */
+    width: auto;  /* Maintain aspect ratio */
+  }
+
+  
+.navbarRightSide{
+  grid-column-start: 10; /* Start at column 7 */
+  grid-column-end: 14; /* End at column 13 */
+  grid-row-start: 1;
+  grid-row-end:2 ;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end; /* Align items to the left */
+  align-items: center;
+  /* background-color: red; */
+}
+
+  .know-more-button {
+    background-color: #1E9500; /* Fluent Design System blue */
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 140px;
+  }
+
+}
