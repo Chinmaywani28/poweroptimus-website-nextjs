@@ -24,12 +24,13 @@
 
 "use client"
 import Navbar from '../components/navbar/Navbar';
+import HomeMainContent from '../components/home-main-content/home-main-content'
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      {/* <HomePage /> */}
+      <HomeMainContent />
 
     </div>
   );

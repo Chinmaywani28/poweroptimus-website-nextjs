@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <h1>This is navabar component</h1>
+      {/* <h1>This is navabar component</h1> */}
 
       <div className="navbar-container">
         <nav className="navbar">
