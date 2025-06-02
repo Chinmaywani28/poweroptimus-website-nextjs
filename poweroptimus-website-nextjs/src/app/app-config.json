@@ -1,0 +1,18 @@
+{
+    "features": {
+        "localization": {
+            "locales": {
+                "en": "Eng",
+                "jp": "日本語",
+                "de": "Deu"
+            }
+        }
+    },
+    "links": {
+        "facebook": "https://m.facebook.com/Neilsoftpvtltd",
+        "instagram": "https://www.instagram.com",
+        "linkedin": "https://www.linkedin.com/company/constructmonitor/",
+        "twitter": "https://twitter.com/neilsoft?s=21&t=Y6NKmrtitMjq6fjYMP3-6g",
+        "youtube": "https://www.youtube.com/@ConstructMonitor"
+    }
+}

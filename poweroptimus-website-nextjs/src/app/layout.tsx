@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import I18nProvider from "./i18n/i18n.Provider";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,11 +26,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
-    </html>
+    // <html lang="en">
+    //   <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    //     {children}
+    //   </body>
+    // </html>
+
     // <html lang="en">
     //   <head>
     //     <meta name="google-site-verification" content="-4Q1Sz981Q_ffWdCyYiVk_MJ0qCxkRL4c8Q6cfrn-jU" />
@@ -45,5 +48,22 @@ export default function RootLayout({
     //     {/* <ToastContainer position="top-right" autoClose={3000} /> */}
     //   </body>
     // </html>
+    
+    <html lang="en">
+      <body>
+
+        <I18nProvider>
+          {/* <LayoutWrapper>
+            {children}
+          </LayoutWrapper> */}
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </I18nProvider>
+
+
+        
+      </body>
+    </html>
   );
 }
