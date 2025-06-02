@@ -110,9 +110,10 @@
 
 // export default Footer;
 
-
+"use client"
 import React from 'react'
 import { useTranslation } from 'react-i18next';
+
 
 const Footer = () => {
   const { t } = useTranslation(); // Initialize translation hook

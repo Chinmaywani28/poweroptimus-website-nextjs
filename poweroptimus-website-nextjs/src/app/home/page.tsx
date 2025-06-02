@@ -31,7 +31,7 @@ export default function Home() {
     <div>
       <Navbar />
       <HomeMainContent />
-
+      
     </div>
   );
 }

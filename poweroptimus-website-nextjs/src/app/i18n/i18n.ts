@@ -53,6 +53,7 @@ const resources: any = {}
 async function loadTranslations() {
   for (const locale of Object.keys(config.features.localization.locales)) {
     const translations = await import(`./locales/${locale}/translations.json`);
+    console.log('asdfnbnb',translations)
     resources[locale] = { translations: translations.default };
   }
 }

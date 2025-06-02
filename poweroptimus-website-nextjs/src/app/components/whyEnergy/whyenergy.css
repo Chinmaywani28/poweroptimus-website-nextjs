@@ -1,0 +1,335 @@
+/* Wrapper to center the navbar */
+.WhyEnergy_home_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+}
+.WhyEnergyhome {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 30px;
+  max-width: 2300px;
+  background: #ffffff; 
+}
+
+.HeaderWhyEnergy{
+  grid-column-start: 3;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.alignbodytext2{
+  text-align: justify;
+  /* width: 150px; */
+}
+
+.WhyEnergy_3inputs{
+  padding-top: 80px;
+  grid-column-start: 3;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs11{
+  padding-top: 80px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.WhyEnergy_3_2inputs{
+  padding-top: 80px;
+  grid-column-start: 3;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+
+
+.alignbodytextwidth{
+    text-align: center;
+    /* width: 340px; */
+}
+
+
+
+/* 6 family  */
+
+.WhyEnergy_3inputs11{
+  padding-top: 20px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  align-self: start;
+  gap: 50px;
+}
+
+.WhyEnergy_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 10px;
+}
+
+.WhyEnergy_3inputs12{
+  padding-top: 20px;
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  
+  align-self: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs13{
+  padding-top: 20px;
+  grid-column-start: 10;
+  grid-column-end: 14;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  align-self: start;
+  gap: 50px;
+}
+
+
+.WhyEnergy_3inputs21{
+  padding-top: 20px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  flex-direction: row;
+  
+  align-self: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs22{
+  padding-top: 20px;
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  align-self: start;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs23{
+  padding-top: 20px;
+  grid-column-start: 10;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: start;
+  gap: 50px;
+}
+/* Media Queries for Responsive Design */
+
+
+/* For very small devices like phones in portrait mode */
+@media (max-width: 480px) {
+    
+.WhyEnergyhome {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px; /* 14 grid columns */
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 5px;
+  max-width: 2300px;
+  background: #ffffff; 
+  }
+  
+  .WhyEnergy_home_container {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background: rgb(255, 255, 255);
+  }
+
+  
+  .HeaderWhyEnergy{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .alignbodytext2{
+    text-align: justify;
+    /* background-color: red; */
+  }
+  
+  .WhyEnergy_3inputs{
+    padding-top: 50px;
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 50px;
+  }
+  
+  .WhyEnergy_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+/* 6 family  */
+
+.WhyEnergy_3inputs11{
+  padding-top: 60px;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  align-self: start;
+  gap: 50px;
+}
+
+.WhyEnergy_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 10px;
+}
+
+.WhyEnergy_3inputs12{
+  padding-top: 60px;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  flex-direction: row;
+  
+  align-self: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs13{
+  padding-top: 60px;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  align-self: start;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs21{
+  padding-top: 60px;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: flex;
+  flex-direction: row;
+  
+  align-self: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs22{
+  padding-top: 60px;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  align-self: start;
+  gap: 50px;
+}
+
+.WhyEnergy_3inputs23{
+  padding-top: 60px;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: start;
+  gap: 50px;
+}
+
+  
+}
+
+
+
