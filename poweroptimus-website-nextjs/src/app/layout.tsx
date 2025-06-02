@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import I18nProvider from "./i18n/i18n.Provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,5 +29,21 @@ export default function RootLayout({
         {children}
       </body>
     </html>
+    // <html lang="en">
+    //   <head>
+    //     <meta name="google-site-verification" content="-4Q1Sz981Q_ffWdCyYiVk_MJ0qCxkRL4c8Q6cfrn-jU" />
+    //     <meta name="p:domain_verify" content="40c99aa5436aedbbc5e0f1ed8d36091f" />
+    //     <link rel="icon" href="/public/favicon-32x32.png" sizes="any" />
+    //   </head>
+    //   <body >
+    //     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    //     <I18nProvider>
+    //       {/* <LayoutWrapper> */}
+    //         {children}
+    //       {/* </LayoutWrapper> */}
+    //     </I18nProvider>
+    //     {/* <ToastContainer position="top-right" autoClose={3000} /> */}
+    //   </body>
+    // </html>
   );
 }

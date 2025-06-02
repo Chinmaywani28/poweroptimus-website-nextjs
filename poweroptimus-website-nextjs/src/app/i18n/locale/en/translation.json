@@ -1,0 +1,129 @@
+{
+    "HowItWorks": "How It Works",
+    "Feature": "Feature",
+    "KeyVerticals": "Key Verticals",
+    "Resources": "Resources",
+    "NewsAndEvents": "News and Events",
+    "ContactUs": "Get in Touch",
+    "BuildingSustainableFuture": "Data-driven Energy Management and Environmental Monitoring System",
+    "IntroducingEnergySolution": "Introducing PowerOptimus - A solution for Energy Management and Environmental Monitoring. PowerOptimus monitors, analyzes, and optimizes energy consumption with precise, data-driven insights. By integrating energy meters and sensors, seamless connectivity, and predictive analytics, it empowers organizations to enhance energy efficiency, improve operational performance, and ensure sustainable environmental health.",
+
+    "WhyEnergyEfficiencyMatters": "Why Energy Efficiency Matters More Than Ever?",
+    "WhyEnergyEfficiencyDescription": "With the increasing demand for energy and the rising cost of electricity, energy efficiency has become more important than ever. Industries, commercial establishments, and data centers consume significant amounts of electricity, but inefficient usage leads to wastage, higher expenses, and higher greenhouse gas emissions. Energy management systems help address this by tracking consumption in real-time, offering actionable insights that support better decision-making and reduce unnecessary waste.",
+    
+    "WhyEnergyPoint1Title": "Cost Savings ",
+    "WhyEnergyPoint1Description": "By identifying inefficient energy usage, businesses can significantly cut down on operational expenses.",
+    
+    "WhyEnergyPoint2Title": "Operational Efficiency",
+    "WhyEnergyPoint2Description": " Automated energy controls and real-time monitoring ensure optimized performance of electrical systems.",
+  
+    "WhyEnergyPoint3Title": "Eco-Efficiency",
+    "WhyEnergyPoint3Description": "Reducing energy consumption leads to lower carbon emissions, supporting eco-monitoring goals.",
+
+    "WhyEnergyPoint4Title": "Regulatory Compliance",
+    "WhyEnergyPoint4Description": "Many industries now face strict energy consumption regulations, requiring adherence to these standards.",
+
+    "WhyEnergyPoint5Title": "Analytical & Insightful",
+    "WhyEnergyPoint5Description": " Provides real-time insights with predictive, prescriptive & descriptive analytics.",
+
+    "WhyEnergyPoint6Title": "Technological Advancements",
+    "WhyEnergyPoint6Description": " Utilize IoT, sensors, and data analytics for real-time energy monitoring and control.",
+
+    "HowItWorksImageAlt": "How It Works",
+    "HowPowerOptimusHelps": "How Does PowerOptimus Enhance Energy Efficiency? ",
+    "HowPowerOptimusDescription": "PowerOptimus is a scalable solution that monitors energy consumption, environmental factors, and equipment metrics through IoT Nodes and Gateways. It provides real-time insights through customizable, intuitive dashboards. It  can integrate with Digital Twin solutions and make use of existing as-built BIM data for fast equipment identification, assessment and implementation.",
+
+    "FeatureImageAlt": "Feature Background",
+    "FeatureLogoAlt": "Feature Logo",
+    "HomeFeatureTitle": "A Simple and Customizable Solution Designed for Your Needs  ",
+    "HomeFeatureDescription": "PowerOptimus allows users to select and customize the sensor data, level of detail, and layout to suit requirements. Manage real-time data, trends, and patterns through a modern web-based user interface that offers effective data visualization techniques. Users can easily set up personalized alerts in just a few simple steps.",
+    "KnowMore": "Know More",
+  
+    "KeyVerticalsDescription": "PowerOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. ",
+
+    "ManufacturingPlant": "Industrial Plants & Factories",
+    "ManufacturingPlantDescription": "PowerOptimus improves energy efficiency in production facilities by analyzing energy consumption against committed demand thus optimizing machine operations, reducing downtime, and minimizing waste.",
+
+    "DataCenter": "Data Centers",
+    "DataCenterDescription": "It enables the optimization of cooling systems to prevent overheating and extend equipment lifespan, monitor temperature, humidity, and power load, and ensure uninterrupted and efficient operations.",
+
+    "Warehouse": "Warehouses",
+    "WarehouseDescription": "It improves lighting, HVAC systems & equipment usage in warehouses while ensuring air quality and temperature monitoring; it enhances worker safety and supports sustainability goals. ",
+
+    "Hospital": "Hospitals",
+    "HospitalDescription": "PowerOptimus ensures reliable and efficient energy management for critical hospital systems, reducing wastage while maintaining uninterrupted power for medical equipment. ",
+
+    "CommercialBuilding": "Commercial Buildings",
+    "CommercialBuildingDescription": "It enhances energy performance in office spaces, shopping centers, and other commercial properties through demand-based energy optimization.",
+
+    "OtherIndustries": "Other Industries",
+    "OtherIndustriesDescription": "From hotels to educational institutions and transportation hubs, PowerOptimus adapts to various industries, helping businesses achieve their sustainability and cost-saving goals.",
+
+    "OurRecentBlog":"Our Recent Blogs",
+
+    "Read" : "Read",
+  
+    "GetInTouch_Title" : "Get in Touch ",
+    "GetInTouch_Descr" : "PowerOptimus supports you at every stage of energy management and environmental monitoring—from on-site evaluations and gap analysis to actionable recommendations for optimizing efficiency. With regular assessments, we refine strategies to maximize ROI and long-term value. Connect with us to get started! ",
+
+    "PowerOptimus": "PowerOptimus",
+    "SolutionBy": "A solution by",
+    "CompanyAddressLine1": "Neilsoft - SEZ, Plot No. 21/2,",
+    "CompanyAddressLine2": "",
+    "CompanyAddressLine3": "Hinjawadi Phase III, Pune - 411057, India",
+    "QuickLinks": "",
+    "AboutUs": "",
+    "FAQ": "FAQ",
+    "CaseStudy": "Case Study",
+    "Link2": "Link 2",
+    "FollowUsOn": "",
+    "YouTube": "",
+    "LinkedIn": "",
+    "Pinterest": "",
+    "Twitter": "Twitter",
+    "WantToKnowMore": "Want to Know More?",
+    "FooterDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+    "AllRightsReserved": "All rights reserved",
+    "PrivacyPolicy": "",
+    "TermsAndConditions": "",
+    "Disclaimer": "",
+    "Sitemap": "Sitemap",
+
+
+    "Table1Header":"What PowerOptimus Monitors",
+
+    "Table1point1Header":"Energy Sources",
+    "Table1point1Body":"Grid Power, Solar Panels, Diesel Generators, UPS",
+
+    "Table1point2Header":"Energy Consumers",
+    "Table1point2Body":"Industrial Machinery, HVAC systems, Elevators, Lighting, Healthcare Equipment, Energy Consumption against Committed Demand",
+
+    "Table1point3Header":"Environmental Monitoring",
+    "Table1point3Body":"Temperature, Humidity, Particulate Matter (PM), Greenhouse Gases (CO2, N2O, CH4, …), Hazardous Gases (CO, NO2, H2S, NH3, Cl2, O3, …)",
+
+    "Table1point4Header":"Predictive Equipment Maintenance",
+    "Table1point4Body":"Early detection of failures in industrial machinery, HVAC systems, and critical assets.",
+    
+    "Table1footer":"PowerOptimus empowers facilities into energy-efficient, sustainable, and safe environments.",
+
+
+
+
+
+    "Table2Header":"How PowerOptimus Supports ISO 14001 & ISO 50001 Compliance & Certifications",
+
+    "Table2point1Header":"ISO 50001 – Energy Management System (EnMS)",
+    "Table2point1Body":"Tracks real-time energy usage from multiple sources (grid, solar, diesel, etc.). Identifies inefficient energy practices and provides actionable insights for corrective actions. Ensures compliance with government regulations, organizational objectives & sustainability goals.",
+
+    "Table2point2Header":"ISO 14001 – Environmental Management System",
+    "Table2point2Body":"Automates monitoring of greenhouse gases, air quality, and hazardous gases [COx, NOx, H2S, NH3, SO2, O3, VOCs] Provides real-time alerts for regulatory compliance violations. Supports sustainability initiatives through energy & environment optimization strategies",
+    
+    "Table2footer":"PowerOptimus simplifies compliance reporting & audit readiness, reducing risks & penalties."
+
+
+
+  }
+  
+  
+  
+  
