@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +39,202 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* text */
+.Header1{
+  font-size: 40px;
+  line-height: 130%;
+  font-weight: 500;
+  /* background-color: red; */
+}
+
+.Header1ABold{
+  font-size: 42px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.body1{
+  font-size: 22px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.body1_300{
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.Header2{
+  font-size: 36px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.Header2Bold{
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.body2{
+  font-size: 20px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.Header3{
+  font-size: 28px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.Header3Bold{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.body3{
+  font-size: 18px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.body4{
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+/* Text color */
+
+.TextBlue{
+  color: #004D95;
+}
+
+.TextGreen{
+  color: #00951F;
+}
+.TextWhite{
+  color: #ffffff;
+}
+
+.TextGray1{
+  color: hsl(0, 0%, 25%);
+}
+
+.TextGray2{
+  color: hsl(0, 0%, 15%);;
+}
+
+.TextGray3{
+  color: hsl(0, 0%, 0%);;
+}
+
+.TextGrayOpacity{
+  color: hsla(0, 0%, 100%, 0.85);
+}
+
+/* Media Queries for Responsive Design */
+
+/* Adjustments for 125% scaling (1536px width) */
+
+@media (max-width: 1560px) {
+  .Header1{
+    font-size: 34px;
+    line-height: 130%;
+    /* background-color: rgb(255, 228, 228); */
+  }
+  .body1{
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .body1_300{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+  }
+  
+  .Header2{
+    font-size: 34px;
+    line-height: 130%;
+  }  
+  
+  .body2{
+    font-size: 18px;
+    line-height: 150%;
+  }
+  
+  .Header3{
+    font-size: 24px;
+    line-height: 130%;
+  }
+  
+  .body3{
+    font-size: 16px;
+    line-height: 130%;
+  }
+  
+}
+
+/* For very small devices like phones in portrait mode */
+@media (max-width: 480px) {
+  /* text */
+.Header1{
+  font-size: 24px;
+  line-height: 130%;
+}
+.body1{
+  font-size: 16px;
+  line-height: 150%;
+}
+.body1_300{
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+}
+.Header2{
+  font-size: 24px;
+  line-height: 130%;
+}  
+
+.body2{
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.Header3{
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.body3{
+  font-size: 16px;
+  line-height: 130%;
+}
+
+}
+

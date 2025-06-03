@@ -71,7 +71,7 @@ import './table2.css'; // Import HomePage specific styles
 // export default Table2;
 
 
-const table = () => {
+const TableTwo = () => {
 
   const { t } = useTranslation(); // Initialize translation hook
   return (
@@ -137,4 +137,4 @@ const table = () => {
   )
 }
 
-export default table
+export default TableTwo
