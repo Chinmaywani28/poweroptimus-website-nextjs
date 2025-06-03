@@ -1,7 +1,8 @@
 "use client";
+import { useState } from 'react';
 import './navbar.css'
 import { useTranslation } from 'react-i18next';
-
+import Link from 'next/link'
 const Navbar = () => {
 
   const handleContactClick = () => {
@@ -11,7 +12,11 @@ const Navbar = () => {
     window.location.href = mailtoLink;
   };
   const { t } = useTranslation(); // Translation hook
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((prev: any) => !prev);
+  };
 
   return (
     <div>
@@ -29,6 +34,23 @@ const Navbar = () => {
               style={{ cursor: "pointer" }} // Make it clear that it's clickable
             />
           </div>
+
+            {/* Burger Icon */}
+          <div className="hamburger" onClick={toggleMobileMenu}>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div>
+
+          {/* Nav Links */}
+          <div className={`navbar-menu ${isMobileMenuOpen ? 'open' : ''}`}>
+            <Link href="/solution">{t('Solutions')}</Link>
+            <Link href="/key-vertical">{t('Key Verticals')}</Link>
+            <Link href="/roles">{t('Roles')}</Link>
+            <Link href="/resources">{t('Resources')}</Link>
+            <Link href="/news-and-events">{t('News and Events')}</Link>
+          </div>
+
           <div className="navbarRightSide">
             <button
               className="know-more-button Header3Bold"

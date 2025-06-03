@@ -1,8 +1,14 @@
 import React from 'react'
+import './page.css'
+import Hero from '../components/solution/hero'
 
 const page = () => {
   return (
-    <div>solution</div>
+    <>
+    <div>adf</div>
+    <Hero/>
+    </>
+    
   )
 }
 
