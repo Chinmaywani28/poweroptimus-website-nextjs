@@ -16,9 +16,9 @@ const Hero = ({headerText,bodyText}: HeroProps) => {
 
   return (
     <>
-    <h1>
+    {/* <h1>
       this is hero 
-    </h1>
+    </h1> */}
     <div id="hero-section" className="home-container">
         <div className="home"> 
                     {/* sectin 1.1  */}
