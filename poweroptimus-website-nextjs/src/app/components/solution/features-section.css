@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
+
+.features-section {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Exactly 4 per row on desktop */
+  gap: 1.5rem;
+}
+
+/* Responsive for tablets */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+/* Responsive for mobiles */
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+}
+
+.feature-card {
+  padding: 1.7rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  text-align: left;
+}
