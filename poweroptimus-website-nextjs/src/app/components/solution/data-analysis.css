@@ -1,0 +1,78 @@
+.data-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.data-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.data-subtitle {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.data-card {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.data-label {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background: #fff;
+  padding: 0 8px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+
+.data-box {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 20px;
+  height: 120px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === RESPONSIVE BREAKPOINTS === */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .data-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Tablet - no override needed */
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* Laptop - no override needed */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Desktop - no override needed */
+}

@@ -1,0 +1,79 @@
+.integration-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 60px 20px; */
+  padding: 60px 168px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.integration-content {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.integration-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.integration-desc {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.integration-button {
+  background-color: #29cc00;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.integration-image-wrapper {
+  flex: 1 1 400px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.integration-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* === RESPONSIVE BREAKPOINTS === */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .integration-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .integration-content,
+  .integration-image-wrapper {
+    max-width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Tablet - no override needed */
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* Laptop - no override needed */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Desktop - no override needed */
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
 
 .features-section {
   padding-top: 2rem;
@@ -15,21 +15,21 @@
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Exactly 4 per row on desktop */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 1.5rem;
 }
 
-/* Responsive for tablets */
+
 @media (max-width: 1024px) {
   .features-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
-/* Responsive for mobiles */
+
 @media (max-width: 600px) {
   .features-grid {
-    grid-template-columns: 1fr; /* 1 card per row */
+    grid-template-columns: 1fr; 
   }
 }
 
@@ -39,4 +39,54 @@
   border-radius: 10px;
   background: #fff;
   text-align: left;
+} */
+
+.features-section {
+  padding: 40px 167px;
+  /* padding: 40px 20px; */
+  text-align: center;
+}
+.features-title {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.feature-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: left;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

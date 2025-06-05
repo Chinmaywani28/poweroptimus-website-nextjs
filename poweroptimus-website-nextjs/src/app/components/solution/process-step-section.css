@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
 
 .process-section {
   background-color: #004b93;
@@ -37,8 +37,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem; /* More space between image and text */
-  padding: 2rem 0; /* More padding vertically */
+  gap: 4rem; 
+  padding: 2rem 0; 
   flex-wrap: wrap;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .step-image, .step-text {
-  flex: 1 1 45%; /* Both get equal flexible width with room for gap */
+  flex: 1 1 45%; 
   max-width: 45%;
 }
 
@@ -77,7 +77,7 @@
   font-size: 1rem;
 }
 
-/* Responsive: tablet and below */
+
 @media (max-width: 768px) {
   .process-step,
   .process-step.reverse {
@@ -90,4 +90,75 @@
     width: 100%;
     max-width: 100%;
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
+
+.step-section {
+  background-color: #0053a0;
+  color: white;
+  /* padding: 40px 20px; */
+  padding: 40px 169px;
 }
+.step {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+/* ext added */
+.step-title{
+  font-size: 28px;
+}
+.step-desc{
+  font-size: 20px;
+}
+.step.reverse {
+  flex-direction: row-reverse;
+}
+.step img {
+  width: 50%;
+  border-radius: 10px;
+}
+.step .text {
+  width: 50%;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .step {
+    flex-direction: column;
+  }
+  .step.reverse {
+    flex-direction: column;
+  }
+  .step img,
+  .step .text {
+    width: 100%;
+  }
+  /* ext added */
+  .step-section {
+  padding: 40px 20px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Optional: adjust spacing or font size */
+  /* ext added */
+  .step-title{
+  font-size: 16px;
+}
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* Optional: adjust layout */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Optional: adjust layout */
+}
+
+

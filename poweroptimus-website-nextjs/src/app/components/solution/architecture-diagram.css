@@ -1,0 +1,36 @@
+.architecture-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.architecture-image {
+  max-width: 100%;
+  height: auto;
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* === RESPONSIVE BREAKPOINTS === */
+
+/* Mobile */
+@media (max-width: 600px) {
+  /* Mobile - empty for now */
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Tablet - empty for now */
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* Laptop - empty for now */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Desktop - empty for now */
+}
