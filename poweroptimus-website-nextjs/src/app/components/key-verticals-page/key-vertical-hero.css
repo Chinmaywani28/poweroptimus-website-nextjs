@@ -1,0 +1,52 @@
+.industry-section {
+  background-color: #f5f8fb;
+  /* margin added */
+  margin-top: 100px;
+  padding: 60px 20px;
+}
+
+.industry-content {
+  max-width: 800px;
+  /* margin: 0 auto; */
+  margin-left: 147px;
+}
+
+.industry-title {
+  font-size: 32px;
+  color: #00529b;
+  margin-bottom: 20px;
+}
+
+.industry-description {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ==== Responsive Breakpoints ==== */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .industry-title {
+    font-size: 24px;
+  }
+
+  .industry-description {
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* (optional) Keep same as base for now */
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* (optional) Keep same as base for now */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* (optional) Keep same as base for now */
+}

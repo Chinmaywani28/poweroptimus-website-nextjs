@@ -8,7 +8,6 @@ const Hero = () => {
   
   return (
     <div>
-      <div className='layout'>solution</div>
       <section className="hero-section">
       <div className="hero-overlay">
         <div className="hero-content">

@@ -1,0 +1,78 @@
+.facility-section {
+  padding: 40px 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 30px auto;
+  /* max-width: 1200px; */
+  max-width: 1435px;
+}
+
+.facility-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.facility-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.facility-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.facility-text {
+  flex: 1;
+}
+
+.facility-text h2 {
+  color: #004488;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.facility-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.tags {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  background-color: #d4f4d4;
+  color: #1b5e20;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Mobile (up to 600px) */
+@media (max-width: 600px) {
+  .facility-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Tablet (601px–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* empty for future */
+}
+
+/* Laptop (901px–1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* empty for future */
+}
+
+/* Desktop (1201px and up) */
+@media (min-width: 1201px) {
+  /* empty for future */
+}

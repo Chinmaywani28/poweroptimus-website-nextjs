@@ -12,7 +12,6 @@ import Integration from '../components/solution/integration'
 const page = () => {
   return (
     <>
-    <div>adf</div>
     <Hero/>
     {/* features */}
     <FeatureSection/>
