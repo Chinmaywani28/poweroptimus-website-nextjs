@@ -187,12 +187,72 @@ border-radius: 1px
 
 }
 
+@media (max-width: 1380px) {
+    .navbar {
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px;
+    row-gap: 10px;
+    column-gap: 5px;
+    /* added column-gap: 141px; */
+    /* column-gap: 141px; */
+  }
+
+  .navbar-logo {
+    height: 36px;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hide menu and contact by default */
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* below navbar */
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 20px;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+
+  /* Show when active */
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-menu a {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #000;
+  }
+
+  /* Hide contact button (or optionally move it inside menu) */
+  .navbarRightSide {
+    display: none;
+  }
+
+}
+
+/* @media (min-width: 769px) and (max-width: 1199px) {
+   .navbar {
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px;
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+  
+} */
 
 @media (max-width: 768px) {
   .navbar {
     grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px;
     row-gap: 10px;
     column-gap: 5px;
+    /* column-gap: 68px; */
   }
 
   .navbar-logo {
@@ -276,7 +336,7 @@ border-radius: 1px
 }
 
   .know-more-button {
-    background-color: #1E9500; /* Fluent Design System blue */
+    /* background-color: #1E9500;
     color: white;
     font-size: 14px;
     padding: 8px 15px;
@@ -284,7 +344,8 @@ border-radius: 1px
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    max-width: 140px;
+    max-width: 140px; */
+    display: none;
   }
 
 }
