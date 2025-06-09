@@ -14,8 +14,8 @@ const FacilitySections = ({ title, text, imageSrc, reverse }: {
           <img src={imageSrc} alt={title} />
         </div>
         <div className="facility-text">
-          <h2>{title}</h2>
-          <p>{text}</p>
+          <h2 className="Header3 TextBlue">{title}</h2>
+          <p className="body3">{text}</p>
           <div className="tags">
             <span>HVAC Management</span>
             <span>Energy Monitoring</span>

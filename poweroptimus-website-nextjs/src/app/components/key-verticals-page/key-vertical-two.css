@@ -23,6 +23,24 @@
   line-height: 1.6;
 }
 
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a1a1a; /* Adjust based on your design */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  margin-right: 6px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+
+
 /* ==== Responsive Breakpoints ==== */
 
 /* Mobile */

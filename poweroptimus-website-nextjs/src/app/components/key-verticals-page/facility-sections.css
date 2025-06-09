@@ -1,15 +1,15 @@
 .facility-section {
-  padding: 40px 20px;
+  padding: 40px 54px;
   border: 1px solid #ddd;
   border-radius: 12px;
   margin: 30px auto;
   /* max-width: 1200px; */
-  max-width: 1435px;
+  max-width: 1380px;
 }
 
 .facility-content {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   gap: 40px;
 }
@@ -27,17 +27,18 @@
   flex: 1;
 }
 
-.facility-text h2 {
+/* taking global text */
+/* .facility-text h2 {
   color: #004488;
   font-size: 24px;
   margin-bottom: 16px;
-}
+} */
 
-.facility-text p {
+/* .facility-text p {
   font-size: 16px;
   line-height: 1.6;
   color: #333;
-}
+} */
 
 .tags {
   margin-top: 20px;
