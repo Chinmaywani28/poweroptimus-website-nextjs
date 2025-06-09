@@ -53,7 +53,7 @@ const page = () => {
       />
 
       <FacilitySectionsTwo
-        title="HVAC Controls and Monitoring"
+        title="AQI Monitoring "
         subtitle="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam. chine operations, reducing downtime, and minimizing waste.PowerOptimus improves energy efficiency in production facilities by analyzing energy consumption against committed demand thus optimizing machine operations, reducing downtime"
         imageSrc="./key-vertical-sec-two.png"
@@ -61,7 +61,7 @@ const page = () => {
       />
 
       <FacilitySectionsTwo
-        title="HVAC Controls and Monitoring"
+        title="Temperature Monitoring "
         subtitle="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam. chine operations, reducing downtime, and minimizing waste.PowerOptimus improves energy efficiency in production facilities by analyzing energy consumption against committed demand thus optimizing machine operations, reducing downtime"
         imageSrc="./key-vertical-sec-three.png"
@@ -69,7 +69,7 @@ const page = () => {
       />
 
       <FacilitySectionsTwo
-        title="HVAC Controls and Monitoring"
+        title="Early Fault Detection "
         subtitle="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam. chine operations, reducing downtime, and minimizing waste.PowerOptimus improves energy efficiency in production facilities by analyzing energy consumption against committed demand thus optimizing machine operations, reducing downtime"
         imageSrc="./key-vertical-sec-four.png"
