@@ -21,7 +21,7 @@ export const FacilitySectionsTwo = ({
         <img src={imageSrc} alt="Feature" />
       </div>
       <div className="feature-text">
-        <h4 className="Header3 TextBlue">{subtitle}</h4>
+        <h4 className="Header3 TextBlue marTopNil">{subtitle}</h4>
         <h2 className="Header2">{title}</h2>
         <p className="body3">{description}</p>
       </div>

@@ -30,6 +30,10 @@
   justify-self: start; /* changed default for left alignment */
 }
 
+.marTopNil{
+  margin-top: 0;
+}
+
 /* === Desktop (1201px+) === */
 @media (min-width: 1201px) {
   .feature-section {
