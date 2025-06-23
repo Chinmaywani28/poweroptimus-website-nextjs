@@ -9,8 +9,8 @@
   display: grid;
   grid-template-columns: 1fr; /* Default: 1 column on mobile */
   gap: 24px;
-  max-width: 1200px;
-  /* max-width: 1480px; */
+  /* max-width: 1200px; */
+  max-width: 1480px;
   margin: 0 auto;
 }
 
@@ -29,7 +29,8 @@
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
-  height: 180px;
+  /* height: 180px; */
+  height: 230px;
   margin-bottom: 12px;
 }
 
