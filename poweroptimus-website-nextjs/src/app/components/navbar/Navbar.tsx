@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './navbar.css'
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link'
@@ -14,9 +14,31 @@ const Navbar = () => {
   const { t } = useTranslation(); // Translation hook
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // dropdown logic
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  // dropdown open and close on outside click
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev: any) => !prev);
   };
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    if (isDropdownOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isDropdownOpen]);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <div>
@@ -47,7 +69,24 @@ const Navbar = () => {
             <Link href="/solution">{t('Solutions')}</Link>
             <Link href="/key-vertical">{t('Key Verticals')}</Link>
             <Link href="/roles">{t('Roles')}</Link>
-            <Link href="/resources">{t('Resources')}</Link>
+            {/* <Link href="/resources">{t('Resources')}</Link> */}
+
+
+            <div className="nav-item-with-dropdown" ref={dropdownRef}>
+              <span onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="dropdown-toggle">
+                {t('Resources')}
+              </span>
+              {isDropdownOpen && (
+                <ul className="dropdown-menu">
+                  <li><Link href="/resources/blogs">Blog</Link></li>
+                  <li><Link href="/resources/case-study">Case Study</Link></li>
+                  <li><Link href="/resources/video">Video</Link></li>
+                  <li><Link href="/resources/brochure">Brochure</Link></li>
+                </ul>
+              )}
+            </div>
+
+
             <Link href="/news-and-events">{t('News and Events')}</Link>
           </div>
 

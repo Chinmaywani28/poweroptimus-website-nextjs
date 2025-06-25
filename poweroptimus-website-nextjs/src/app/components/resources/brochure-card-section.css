@@ -1,0 +1,154 @@
+/* ✅ Global fix to include padding in total width */
+* {
+  box-sizing: border-box;
+}
+
+/* ✅ Prevent entire body from scrolling sideways */
+body {
+  overflow-x: hidden;
+}
+
+/* ✅ Full wrapper */
+.energy-slider-wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden; /* ⛔ double lock */
+}
+
+/* ✅ Scroll container */
+.energy-slider {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+
+  /* ✅ Prevent overflow */
+  max-width: 100%;
+  overflow-y: hidden;
+
+  /* ✅ Padding for mobile (adjusted below in media) */
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* ✅ Individual card */
+.energy-card {
+  scroll-snap-align: start;
+  /* border: 1px solid #ccc; */
+  border-radius: 12px;
+  padding: 16px;
+  /* background: #fff; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
+  text-align: center;
+
+  /* ✅ Prevent card from overflowing its flex box */
+  min-width: 0;
+}
+.energy-card button{
+  color: #00951F;
+  padding: 5px 10px;
+  border: 2px solid #00951F;
+  border-radius: 8px;
+  background-color: #fff
+}
+
+
+/* ✅ Arrows */
+.arrow-btn-container {
+  display: none;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.arrow-btn {
+  background: #eee;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* ✅ Keep card image responsive using aspect ratio */
+.card-image {
+  width: 100%;
+  aspect-ratio: 2 / 3; /* ✅ Maintains same shape */
+  margin-bottom: 12px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* ✅ Image fills container without shrinking weirdly */
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+
+/* === ✅ Responsive Card Widths === */
+
+/* 📱 Mobile (≤600px) — 1 card */
+@media (max-width: 600px) {
+  .energy-card {
+    flex: 0 0 100%;
+  }
+
+  .arrow-btn-container {
+    display: flex;
+  }
+
+    
+}
+
+/* 🟨 Tablet (601–900px) — 2 cards */
+@media (min-width: 601px) and (max-width: 900px) {
+  .energy-card {
+    flex: 0 0 48%;
+  }
+
+  .energy-slider {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .arrow-btn-container {
+    display: flex;
+  }
+}
+
+/* 💻 Laptop (901–1200px) — 3 cards */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .energy-card {
+    flex: 0 0 31.5%;
+  }
+
+  .energy-slider {
+    overflow-x: visible;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* 🖥 Desktop (≥1201px) — 4 cards */
+@media (min-width: 1201px) {
+  .energy-card {
+    flex: 0 0 23.5%;
+  }
+
+  .energy-slider {
+    overflow-x: visible;
+    padding-left: 185px;
+    padding-right: 148px;
+  }
+}
