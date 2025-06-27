@@ -1,0 +1,150 @@
+/* ========================
+  🎯 Wrapper (no side padding here)
+========================= */
+.carousel-wrapper {
+  position: relative;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+/* ========================
+  📦 Container: Scroll OR Grid based on screen
+========================= */
+.card-container {
+  gap: 20px;
+  padding: 0 24px;
+  scrollbar-width: none;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* ========================
+  💻 Default: Grid layout (3 in a row)
+========================= */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ========================
+  🔳 Card style
+========================= */
+.carousel-card {
+  /* background: white; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px #ccc; */
+  /* padding: 16px; */
+  box-sizing: border-box;
+}
+
+.carousel-img {
+  width: 100%;
+  /* height: 180px; */
+  object-fit: cover;
+  border-radius: 8px;
+  /* margin: 12px 0; */
+}
+
+.carousel-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.carousel-date {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #777;
+}
+
+.carousel-desc {
+  font-size: 14px;
+  color: #333;
+}
+
+/* ========================
+  ⬅️➡️ Scroll Buttons
+========================= */
+.carousel-buttons {
+  display: none;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.carousel-buttons button {
+  background: #eee;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* ========================
+  📱 Mobile (1 card scroll)
+========================= */
+@media (max-width: 600px) {
+  .card-container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .carousel-card {
+    flex: 0 0 100%;
+    min-width: 100%;
+  }
+
+  .carousel-buttons {
+    display: flex;
+  }
+}
+
+/* ========================
+  📱 Tablet (2 card scroll)
+========================= */
+@media (min-width: 601px) and (max-width: 900px) {
+  .card-container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .carousel-card {
+    flex: 0 0 calc(50% - 10px);
+    min-width: calc(50% - 10px);
+  }
+
+  .carousel-buttons {
+    display: flex;
+  }
+}
+
+/* ========================
+  💻 Laptop (3 grid items)
+========================= */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 48px;
+  }
+
+  .carousel-buttons {
+    display: none;
+  }
+}
+
+/* ========================
+  🖥️ Desktop (3 grid items)
+========================= */
+@media (min-width: 1201px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 210px;
+  }
+
+  .carousel-buttons {
+    display: none;
+  }
+}

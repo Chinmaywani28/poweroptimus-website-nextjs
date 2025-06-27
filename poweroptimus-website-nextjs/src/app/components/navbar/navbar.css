@@ -240,7 +240,11 @@ border-radius: 1px
   .navbarRightSide {
     display: none;
   }
-
+  
+  /* margin top btm for navlinks */
+  .nav-item-with-dropdown {
+    margin: 10px 0;
+  }
 }
 
 /* @media (min-width: 769px) and (max-width: 1199px) {

@@ -40,6 +40,34 @@ const Navbar = () => {
   }, [isDropdownOpen]);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
 
+  // Dropdown for news and events
+  const [isDropdownOpenNews, setIsDropdownOpenNews] = useState(false);
+  const toggleMobileMenuNews = () => {
+    setIsDropdownOpenNews((prev: any) => !prev);
+  };
+  
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRefNews.current &&
+        !dropdownRefNews.current.contains(event.target as Node)
+      ) {
+        setIsDropdownOpenNews(false);
+      }
+    };
+
+    if (isDropdownOpenNews) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isDropdownOpenNews]);
+  const dropdownRefNews = useRef<HTMLDivElement | null>(null);
+
+  
+
   return (
     <div>
       {/* <h1>This is navabar component</h1> */}
@@ -87,7 +115,18 @@ const Navbar = () => {
             </div>
 
 
-            <Link href="/news-and-events">{t('News and Events')}</Link>
+            {/* <Link href="/news-and-events">{t('News and Events')}</Link> */}
+            <div className="nav-item-with-dropdown" ref={dropdownRefNews}>
+              <span onClick={() => setIsDropdownOpenNews(!isDropdownOpenNews)} className="dropdown-toggle">
+                {t('News and Events')}
+              </span>
+              {isDropdownOpenNews && (
+                <ul className="dropdown-menu">
+                  <li><Link href="/news-and-events/news">News</Link></li>
+                  <li><Link href="/news-and-events/events">Events</Link></li>
+                </ul>
+              )}
+            </div>
           </div>
 
           <div className="navbarRightSide">
