@@ -1,12 +1,14 @@
 "use client"
 import { useRef } from 'react';
 import './news-and-events-section.css';
+import Link from 'next/link';
 
 type CardData = {
   title: string;
   image: string;
   date: string;
   description: string;
+  link: string
 };
 
 type Props = {
@@ -66,6 +68,20 @@ export const NewsAndEventsSection : React.FC<Props> = ({ cards }) => {
             <p className="body3">{item.description}</p>
           </div>
         ))}
+
+          {/* {
+            cards.map((item, idx) => (
+              <Link href={item.link || '#'} key={idx}>
+                <div className="carousel-card">
+                  <h3 className="Header3 TextBlue">{item.title}</h3>
+                  <img src={item.image} alt="card" className="carousel-img" />
+                  <p className="body3" style={{ color: '#666' }}>{item.date}</p>
+                  <p className="body3">{item.description}</p>
+                </div>
+              </Link>
+            ))
+          } */}
+
       </div>
 
       {/* Left/Right buttons visible only on mobile/tablet */}

@@ -18,54 +18,63 @@ const page = () => {
           image: '../news-one.png',
           date: 'January 2, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-two.png',
           date: 'January 3, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-three.png',
           date: 'January 4, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-one.png',
           date: 'January 2, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-two.png',
           date: 'January 3, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-three.png',
           date: 'January 4, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-one.png',
           date: 'January 2, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-two.png',
           date: 'January 3, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../news-three.png',
           date: 'January 4, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
+          link: '/news-and-events/news/${id}'
         },
         // You can add more cards here...
       ]} />
