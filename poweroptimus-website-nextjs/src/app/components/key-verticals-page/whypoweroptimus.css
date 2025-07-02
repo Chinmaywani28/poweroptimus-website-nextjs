@@ -1,0 +1,78 @@
+/* why-section.component.css */
+
+/* Whole section background and spacing */
+.why-section {
+  padding: 20px 0; /* Only vertical padding here */
+}
+
+/* Container for centered layout and left-right spacing */
+/* ✅ reduced max-width to match upper section */
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px; /* Ensures spacing even on small screens */
+}
+
+/* Title style */
+.why-section h2 {
+  color: #0056A3;
+  /* font-size: 2rem; */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Intro paragraph */
+.why-section .intro {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  /* font-size: 1rem; */
+  text-align: center;
+  color: #333;
+}
+
+/* Bullet list */
+.why-list {
+  list-style-type: disc;
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.why-list li {
+  margin-bottom: 16px;
+  /* line-height: 1.6;
+  font-size: 1rem; */
+}
+
+/* .why-list strong {
+  font-weight: bold;
+} */
+
+/* ------------------ Breakpoints ------------------ */
+
+/* Mobile (max 600px) */
+@media (max-width: 600px) {
+  .why-section {
+    padding: 40px 0;
+  }
+}
+
+/* Tablet (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* (keeping structure for tablet) */
+  .why-section{
+    padding: 0 0;
+  }
+}
+
+/* Laptop (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* (keeping structure for laptop) */
+}
+
+/* Desktop (1201px and up) */
+@media (min-width: 1201px) {
+  /* (keeping structure for desktop) */
+}

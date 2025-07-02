@@ -1,0 +1,114 @@
+/* Root section styling */
+.feature-section {
+  padding: 20px 20px; /* top-bottom 60px, left-right 20px */
+  background-color: white;
+}
+
+/* Container holds text + image */
+.feature-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1496px;     /* increased max-width slightly */
+  margin: 0 auto;
+  gap: 40px;
+  padding: 0 40px;        /* safe padding on left/right */
+}
+
+
+/* Left text content */
+.feature-text {
+  padding: 0 10px; /* minor internal spacing */
+}
+
+.feature-text h2 {
+  /* font-size: 32px; */
+  margin-bottom: 20px;
+}
+
+.feature-text p {
+  margin-bottom: 16px;
+  /* line-height: 1.6;
+  color: #333; */
+}
+
+/* Button style */
+.download-btn {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Image wrapper */
+/* .feature-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+.feature-image img {
+  width: 100%;         /* takes full container width */
+  max-width: 500px;    /* ✅ image won’t grow bigger than this */
+  height: auto;
+  display: block;
+  margin: 0;       /* ✅ center it if it’s smaller */
+}
+.feature-image {
+  display: flex;
+  justify-content: flex-end; /* 👈 push image to right */
+}
+
+
+/* ------------------ Breakpoints ------------------ */
+
+/* ✅ Mobile: max-width 600px */
+@media (max-width: 600px) {
+  .feature-container {
+    grid-template-columns: 1fr; /* Stack */
+    text-align: center;
+  }
+
+  .feature-text {
+    padding: 0;
+  }
+
+
+  .download-btn {
+    width: 100%;
+  }
+
+   .feature-text {
+    order: 2; /* text below */
+  }
+
+  .feature-image {
+    order: 1; /* image on top */
+    margin-bottom: 20px; /* spacing between image and text */
+  }
+}
+
+/* ✅ Tablet: 601px - 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .feature-container {
+    grid-template-columns: 1fr; /* Stack */
+    text-align: center;
+  }
+
+  .download-btn {
+    width: auto;
+  }
+}
+
+/* ✅ Laptop: 901px - 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* Layout stays side-by-side, no changes needed */
+}
+
+/* ✅ Desktop: 1201px and above */
+@media (min-width: 1201px) {
+  /* Layout already perfect, nothing to change */
+}
