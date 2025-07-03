@@ -1,0 +1,30 @@
+"use client";
+import React from 'react';
+import { useTranslation } from 'react-i18next'; // Import translation hook
+import './hero-two.css'; // Import HomePage specific styles
+
+const HeroTwo = () => {
+  const { t } = useTranslation(); // Initialize translation hook
+  
+  return (
+    
+    <section className="overview-section">
+      <div className="image-container">
+        <img src="/solution-hero-bg.png" alt="Overview" className="bg-image" />
+        <div className="text-content">
+          <h2 className="Header1 TextWhite">PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring</h2>
+          <p className="body1 TextWhite">
+            PowerOptimus is an intelligent, scalable building management system (BMS) designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    
+  )
+}
+
+export default HeroTwo

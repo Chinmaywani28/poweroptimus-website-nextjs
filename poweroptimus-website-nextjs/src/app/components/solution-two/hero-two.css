@@ -1,0 +1,128 @@
+/* Outer section wrapper */
+.overview-section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Image container handles aspect ratio and positioning */
+.image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Maintain aspect ratio across screen sizes */
+  overflow: hidden;
+}
+
+/* Responsive image */
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Fill container and crop if needed */
+  display: block;
+}
+
+/* Text block over image */
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 9.4%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+  width: 100%;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Optional: dark overlay behind text for readability */
+.image-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Slight dark overlay */
+  z-index: 1;
+}
+
+/* Make sure text stays above overlay */
+.text-content h2,
+.text-content p {
+  position: relative;
+  z-index: 2;
+}
+
+.text-content p {
+  margin-right: 440px;
+}
+
+/* Headline style */
+.text-content h2 {
+  /* font-size: 32px; */
+  margin-bottom: 16px;
+  padding-right: 268px;
+}
+
+/* Paragraph style */
+/* .text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+} */
+
+/* ------------ Breakpoints ------------ */
+@media (max-width: 480px) {
+    .image-container {
+        aspect-ratio: 2 / 3;
+      }
+    
+      .text-content h2 {
+        padding-right: 151px;
+      }
+    
+      .text-content p {
+        margin-right: 116px;
+      }
+}
+
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .image-container {
+        aspect-ratio: 2 / 3;
+      }
+    
+      .text-content h2 {
+        padding-right: 151px;
+      }
+    
+      .text-content p {
+        margin-right: 116px;
+      }
+}
+
+
+/* ✅ Tablet: 601px–900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .text-content {
+    padding: 0 24px;
+    top: 58%;
+  }
+  .image-container {
+    aspect-ratio: 3 / 3; /* Taller image on small screens */
+  }
+  .text-content p {
+    margin-right: 193px;
+  }
+}
+
+/* ✅ Laptop: 901px–1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .text-content {
+    padding: 0 32px;
+  }
+}
+
+/* ✅ Desktop: 1201px+ */
+@media (min-width: 1201px) {
+  .text-content {
+    padding: 0 40px;
+  }
+}

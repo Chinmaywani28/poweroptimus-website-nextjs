@@ -8,11 +8,13 @@ import DeviceSection from '../components/solution/device-section'
 import ArchitectureDiagram from '../components/solution/architecture-diagram'
 import DataAnalysis from '../components/solution/data-analysis'
 import Integration from '../components/solution/integration'
+import HeroTwo from '../components/solution-two/hero-two'
 
 const page = () => {
   return (
     <>
-    <Hero/>
+    {/* <Hero/> */}
+    <HeroTwo/>
     {/* features */}
     <FeatureSection/>
     {/* process diagram */}
