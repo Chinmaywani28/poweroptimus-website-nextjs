@@ -17,6 +17,8 @@ const page = () => {
     <HeroTwo/>
     {/* features */}
     <FeatureSection/>
+
+    
     {/* process diagram */}
     <ProcessDiagram/>
     {/* process step */}

@@ -1,92 +1,115 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
-
-.features-section {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  text-align: center;
+/* Basic reset */
+* {
+  box-sizing: border-box;
 }
 
-.features-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 1.5rem;
-}
-
-
-@media (max-width: 1024px) {
-  .features-grid {
-    grid-template-columns: repeat(2, 1fr); 
-  }
-}
-
-
-@media (max-width: 600px) {
-  .features-grid {
-    grid-template-columns: 1fr; 
-  }
-}
-
-.feature-card {
-  padding: 1.7rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background: #fff;
-  text-align: left;
-} */
-
+/* Main section */
 .features-section {
   padding: 40px 11.5%;
-  /* padding: 40px 20px; */
   text-align: center;
 }
+
 .features-title {
-  /* font-size: 34px; */
   margin-bottom: 30px;
 }
+
+/* Scroll container */
+.features-scroll-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+/* Default: Desktop view = grid */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
 .feature-card {
   border: 1px solid #ccc;
   padding: 31px;
   border-radius: 10px;
   background: #fff;
   text-align: left;
+  flex-shrink: 0;
 }
 
-/* Mobile */
+/* Scroll buttons */
+.scroll-buttons {
+  display: none;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.scroll-buttons button {
+  padding: 10px 16px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+/* MOBILE: 1 card */
 @media (max-width: 600px) {
   .features-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+  }
+
+    .feature-card {
+      flex: 0 0 100%;
+      max-width: 100%;
+      white-space: normal;
+      word-break: break-word;
+    }
+
+
+  .scroll-buttons {
+    display: flex;
   }
 }
 
-/* Tablet */
+
+
+/* TABLET: 3 cards per scroll */
 @media (min-width: 601px) and (max-width: 900px) {
   .features-grid {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+  }
+
+    .feature-card {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+      white-space: normal;
+      /* ✅ Allow text to wrap */
+      word-break: break-word;
+      /* ✅ Break long words if needed */
+    }
+
+
+  .scroll-buttons {
+    display: flex;
   }
 }
 
-/* Laptop */
+/* LAPTOP: grid */
 @media (min-width: 901px) and (max-width: 1200px) {
   .features-grid {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Desktop */
+/* DESKTOP: grid */
 @media (min-width: 1201px) {
   .features-grid {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 }
