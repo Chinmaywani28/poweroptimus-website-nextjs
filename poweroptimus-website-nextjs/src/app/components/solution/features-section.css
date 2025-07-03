@@ -42,12 +42,12 @@
 } */
 
 .features-section {
-  padding: 40px 167px;
+  padding: 40px 11.5%;
   /* padding: 40px 20px; */
   text-align: center;
 }
 .features-title {
-  font-size: 34px;
+  /* font-size: 34px; */
   margin-bottom: 30px;
 }
 .features-grid {
@@ -57,7 +57,7 @@
 }
 .feature-card {
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 31px;
   border-radius: 10px;
   background: #fff;
   text-align: left;
