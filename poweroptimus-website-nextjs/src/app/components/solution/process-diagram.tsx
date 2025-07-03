@@ -25,8 +25,8 @@ import './process-diagram.css'; // Import HomePage specific styles
 const ProcessDiagram = () => {
   return (
     <section className="process-section">
-      <h2 className="process-title">Process</h2>
-      <div className="diagram-placeholder">&lt; Diagram &gt;</div>
+      <h2 className="process-title Header2">Process</h2>
+      <div className="diagram-placeholder Header2">&lt; Diagram &gt;</div>
     </section>
   )
 }
