@@ -9,6 +9,7 @@ import ArchitectureDiagram from '../components/solution/architecture-diagram'
 import DataAnalysis from '../components/solution/data-analysis'
 import Integration from '../components/solution/integration'
 import HeroTwo from '../components/solution-two/hero-two'
+import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 
 const page = () => {
   return (
@@ -33,7 +34,16 @@ const page = () => {
     {/* data visulization */}
     <DataAnalysis/>
     {/* integration */}
-    <Integration/>
+    {/* <Integration/> */}
+    <SolFeatureBtmSection
+        heading="Easy to Integrate with Existing Systems"
+        paragraphs={[
+          "PowerOptimus is designed with interoperability and flexibility at its core, making it simple to integrate with your existing infrastructure—whether it’s legacy systems, Building Management Systems (BMS), SCADA, or industrial automation setups. Our solution supports widely-used communication protocols such as Modbus, BACnet, MQTT, and OPC-UA, ensuring seamless data flow from your current energy meters, environmental sensors, and control systems."
+        ]}
+        buttonText="Download Documentation"
+        imageSrc="/integration.png"
+        imageAlt="Illustration of integration"
+      />
 
     </>
     

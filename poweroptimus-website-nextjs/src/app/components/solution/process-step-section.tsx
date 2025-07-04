@@ -61,10 +61,10 @@ import './process-step-section.css'; // Import HomePage specific styles
 
 const ProcessStepSection = () => {
     const steps = [
-    { id: 1, title: 'Install Sensors and Gateways', image: './process-step-img.png', description: 'Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.' },
-    { id: 2, title: 'Connect to the Cloud', image: './process-step-img.png', description: 'Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.' },
-    { id: 3, title: 'Monitor via Dashboard', image: './process-step-img.png', description: 'Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.' },
-    { id: 4, title: 'Act on Insights', image: './process-step-img.png', description: 'Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.Pariatur dolores sapiente dolorem quis nulla eius. Officia earum aut illum illum ullam esse error molestiae ut. Quae corrupti saepe itaque et. Quo et rerum cumque ipsam.' }
+    { id: 1, title: '1 Sensor & Gateway Installation', image: './process-step-img.png', description: 'PowerOptimus begins by deploying sensors and gateways across critical industrial areas. These components play a vital role in measuring and analyzing energy and environmental parameters, helping identify inefficiencies and reducing overall energy consumption.' },
+    { id: 2, title: '2 Seamless Cloud Connectivity', image: './process-step-img.png', description: 'Data from the installed sensors is securely collected by gateways using advanced communication protocols. This data is then transmitted to the cloud for processing, analytics, storage, and visualization, ensuring seamless access from anywhere, anytime.' },
+    { id: 3, title: '3 Real-Time Monitoring via Dashboard', image: './process-step-img.png', description: 'The cloud-processed data is presented through an intuitive dashboard, providing real-time visibility into key metrics such as air quality, temperature, oxygen levels, and CO₂ concentrations. Users can track trends, analyze patterns, and monitor critical setpoints with ease.' },
+    { id: 4, title: '4 Data-Driven, Actionable Insights', image: './process-step-img.png', description: 'By comparing historical data with live sensor readings, PowerOptimus delivers meaningful, actionable insights. These insights empower organizations to reduce CO₂ emissions, optimize energy usage, and advance their sustainability goals through smarter decision-making.' }
   ];
 
   return (
@@ -73,8 +73,8 @@ const ProcessStepSection = () => {
         <div key={step.id} className={`step ${index % 2 !== 0 ? 'reverse' : ''}`}>
           <img src={step.image} alt={step.title} />
           <div className="text">
-            <h2 className="step-title">{step.id} {step.title}</h2>
-            <p className="step-desc">{step.description}</p>
+            <h2 className="step-title Header2">{step.title}</h2>
+            <p className="step-desc body1">{step.description}</p>
           </div>
         </div>
       ))}

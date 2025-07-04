@@ -1,11 +1,11 @@
 .data-section {
   /* padding: 60px 20px; */
-  padding: 60px 168px;
+  padding: 60px 11.5%;
   text-align: center;
   background-color: #dddddd45;
 }
 
-.data-title {
+/* .data-title {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -19,10 +19,18 @@
   display: flex;
   color: #004d95;
   margin-top: 0;
+} */
+.noSpace{
+  margin-top: 0;
+  margin-bottom: 0;  
 }
+.data-title{
+  display: flex;
+}
+
 .data-subtitle {
-  color: #666;
-  font-size: 16px;
+  /* color: #666;
+  font-size: 16px; */
   margin-bottom: 40px;
 }
 

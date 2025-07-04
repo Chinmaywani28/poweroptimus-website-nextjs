@@ -92,39 +92,40 @@
   }
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
-
 .step-section {
   background-color: #0053a0;
   color: white;
-  /* padding: 40px 20px; */
-  padding: 40px 169px;
+  padding: 40px 11.5%;
 }
+
 .step {
   display: flex;
-  gap: 20px;
+  gap: 10%;
   align-items: center;
   margin-bottom: 40px;
 }
-/* ext added */
-.step-title{
-  font-size: 28px;
-}
-.step-desc{
-  font-size: 20px;
-}
+
 .step.reverse {
   flex-direction: row-reverse;
 }
+.step-title{
+  margin-bottom: 0;
+}
+
+/* 🖼️ Image styling */
 .step img {
-  width: 50%;
+  width: 40%;
+  aspect-ratio: 4 / 3; /* keeps image box ratio like 4:3 so it doesn’t shrink vertically */
+  object-fit: cover; /* ensures image fills box correctly */
   border-radius: 10px;
 }
+
+/* 📄 Text box */
 .step .text {
   width: 50%;
 }
 
-/* Mobile */
+/* 📱 Mobile */
 @media (max-width: 600px) {
   .step {
     flex-direction: column;
@@ -132,33 +133,61 @@
   .step.reverse {
     flex-direction: column;
   }
+
   .step img,
   .step .text {
     width: 100%;
   }
-  /* ext added */
-  .step-section {
-  padding: 40px 20px;
+
+  .step img {
+    aspect-ratio: 16 / 9; /* for mobile, use wider ratio if needed */
+    margin-bottom: 20px; /* space below image */
   }
 }
 
-/* Tablet */
+/* 📱 Tablet */
 @media (min-width: 601px) and (max-width: 900px) {
-  /* Optional: adjust spacing or font size */
-  /* ext added */
-  .step-title{
-  font-size: 16px;
-}
+  /* hzl */
+  /* .step img {
+    aspect-ratio: 3 / 2;
+  } */
+
+  /* vertical stacking */
+  .step {
+    flex-direction: column;
+  }
+
+  .step.reverse {
+    flex-direction: column;
+  }
+
+  .step img,
+  .step .text {
+    width: 100%;
+  }
+
+  .step img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
 }
 
-/* Laptop */
+/* 💻 Laptop  and big tabs*/
 @media (min-width: 901px) and (max-width: 1200px) {
-  /* Optional: adjust layout */
+  .step img {
+    /* aspect-ratio: 4 / 3; for ipad did 3 /3 */
+    aspect-ratio: 3 / 3;
+  }
 }
 
-/* Desktop */
+/* 🖥️ Desktop */
 @media (min-width: 1201px) {
-  /* Optional: adjust layout */
+  .step img {
+    aspect-ratio: 4 / 3;
+  }
 }
+
 
 
