@@ -73,6 +73,10 @@
     .image-container {
         aspect-ratio: 2 / 3;
       }
+
+            .text-content {
+              top: 57%;
+            }
     
       .text-content h2 {
         padding-right: 151px;
