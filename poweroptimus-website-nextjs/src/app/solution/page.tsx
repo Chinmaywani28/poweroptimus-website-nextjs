@@ -26,7 +26,10 @@ const page = () => {
     {/* DeviceSection */}
     <DeviceSection/>
     {/* system architecture */}
+
+
     <ArchitectureDiagram/>
+
     {/* data visulization */}
     <DataAnalysis/>
     {/* integration */}

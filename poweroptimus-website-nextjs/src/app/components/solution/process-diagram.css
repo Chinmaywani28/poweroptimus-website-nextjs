@@ -52,13 +52,7 @@
 
 /* Mobile */
 @media (max-width: 600px) {
-  .process-title {
-    font-size: 24px;
-  }
-  .diagram-placeholder {
-    font-size: 18px;
-    padding: 60px;
-  }
+  /* Optional: adjust font size if needed */
 }
 
 /* Tablet */

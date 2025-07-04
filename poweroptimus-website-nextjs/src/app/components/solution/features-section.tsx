@@ -184,7 +184,7 @@ const FeatureSection = () => {
           {features.map((item: any, index: any) => (
             <div className="feature-card" key={index}>
               <h3 className="Header3 alignbodytextwidth" style={{ marginTop: '0px', marginBottom: '0px' }}>{item.title}</h3>
-              <p className="body3 alignbodytext TextGray3">{item.desc}</p>
+              <p className="body3 TextGray3">{item.desc}</p>
             </div>
           ))}
         </div>
