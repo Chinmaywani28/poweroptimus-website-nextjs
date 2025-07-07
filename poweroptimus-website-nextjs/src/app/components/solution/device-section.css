@@ -1,23 +1,32 @@
+/* === ROOT SECTION === */
 .device-section {
-  padding: 60px 20px;
+  padding: 60px 14.5%; /* Equal left-right spacing */
   text-align: center;
 }
 
+/* === HEADING === */
 .device-heading {
-  font-size: 28px;
-  font-weight: 600;
   margin-bottom: 40px;
 }
 
+/* === MAIN CARD CONTAINER === */
 .devices-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default: 1 card on mobile */
   gap: 40px;
-  flex-wrap: wrap;
+  justify-content: center;
 }
-
+.downMargin{
+  margin-bottom: 0;
+}
+.topMargin{
+  margin-top: 0;
+}
+/* === CARD STYLING === */
 .device-card {
   max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -29,37 +38,39 @@
 
 .device-title {
   margin-top: 20px;
-  color: #0066cc;
-  font-size: 18px;
 }
 
 .device-desc {
-  font-size: 14px;
   color: #444;
   margin-top: 8px;
 }
 
-/* === RESPONSIVE BREAKPOINTS === */
+/* === RESPONSIVE BREAKPOINTS (OUR RULES) === */
 
-/* Mobile */
+/* === Mobile (max-width: 600px) === */
 @media (max-width: 600px) {
   .devices-container {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: repeat(1, 1fr); /* 1 card */
   }
 }
 
-/* Tablet */
+/* === Tablet (601px–900px) === */
 @media (min-width: 601px) and (max-width: 900px) {
-  /* Tablet - empty for now */
+  .devices-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards */
+  }
 }
 
-/* Laptop */
+/* === Laptop (901px–1200px) === */
 @media (min-width: 901px) and (max-width: 1200px) {
-  /* Laptop - empty for now */
+  .devices-container {
+    grid-template-columns: repeat(2, 1fr); /* 4 cards */
+  }
 }
 
-/* Desktop */
+/* === Desktop (1201px and up) === */
 @media (min-width: 1201px) {
-  /* Desktop - empty for now */
+  .devices-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 cards */
+  }
 }
