@@ -2,7 +2,8 @@
   padding: 40px 54px;
   border: 1px solid #ddd;
   border-radius: 12px;
-  margin: 30px auto;
+  /* margin: 30px auto; */
+  margin: 30px 11.5%;
   /* max-width: 1200px; */
   max-width: 1380px;
 }

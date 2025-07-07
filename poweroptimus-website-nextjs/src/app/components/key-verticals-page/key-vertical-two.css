@@ -8,7 +8,9 @@
 .industry-content {
   max-width: 800px;
   /* margin: 0 auto; */
-  margin-left: 191px;
+  /* margin-left: 191px; */
+  margin-left: 10.5%;
+  margin-right: 10.5%;
 }
 
 .industry-title {
@@ -55,7 +57,7 @@
   .industry-content {
   max-width: 800px;
   /* margin: 0 auto; */
-  margin-left: 23px;
+  /* margin-left: 23px; */
 }
   .industry-section {
       margin-top: 85px;
@@ -68,7 +70,7 @@
   .industry-content {
   max-width: 800px;
   /* margin: 0 auto; */
-  margin-left: 45px;
+  /* margin-left: 45px; */
 }
   .industry-section {
       margin-top: 85px;
@@ -81,7 +83,7 @@
   .industry-content {
   max-width: 800px;
   /* margin: 0 auto; */
-  margin-left: 78px;
+  /* margin-left: 78px; */
 }
 
   .industry-section {

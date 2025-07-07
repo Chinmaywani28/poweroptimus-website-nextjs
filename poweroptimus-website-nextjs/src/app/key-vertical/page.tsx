@@ -6,6 +6,7 @@ import { FacilitySectionsTwo } from '../components/key-verticals-page/facility-s
 import WhyPowerOptimus from '../components/key-verticals-page/whypoweroptimus'
 import Integration from '../components/solution/integration'
 import FeatureBtmSection from '../components/key-verticals-page/feature-btm-section'
+import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 
 
 const page = () => {
@@ -127,7 +128,7 @@ const page = () => {
 
       <WhyPowerOptimus/>
 
-      <FeatureBtmSection
+      {/* <FeatureBtmSection
         heading="Easy to integrate with existing setup "
         paragraphs={[
           "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
@@ -135,8 +136,17 @@ const page = () => {
         buttonText="Download Documentation"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
-      />
+      /> */}
 
+      <SolFeatureBtmSection
+        heading="Easy to Integrate with Existing Systems"
+        paragraphs={[
+          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+        ]}
+        buttonText="Download Documentation"
+        imageSrc="/integration.png"
+        imageAlt="Illustration of integration"
+      />
       
 
     </>

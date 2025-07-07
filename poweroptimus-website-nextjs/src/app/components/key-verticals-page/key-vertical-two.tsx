@@ -48,7 +48,7 @@
 
 
 import Link from 'next/link';
-import './key-vertical-hero.css';
+import './key-vertical-two.css';
 
 type KeyverticalTwoProps = {
   title: string;
