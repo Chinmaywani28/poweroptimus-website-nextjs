@@ -6,51 +6,29 @@ import './data-analysis.css'; // Import HomePage specific styles
 const DataAnalysis = () => {
 
   const cards = [
-    {
-      img: '/data-analysis-one.png',
-      text: 'Dolorum voluptates qui doloribus fugiat aut dolores. Facilis iure molestiae. Repudiandae dolore...',
-    },
-    {
-      img: '/data-analysis-two.png',
-      text: 'Dolorum voluptates qui doloribus fugiat aut dolores. Facilis iure molestiae. Repudiandae dolore...',
-    },
-    {
-      img: '/data-analysis-third.png',
-      text: 'Dolorum voluptates qui doloribus fugiat aut dolores. Facilis iure molestiae. Repudiandae dolore...',
-    },
-    {
-      img: '/data-analysis-four.png',
-      text: 'Dolorum voluptates qui doloribus fugiat aut dolores. Facilis iure molestiae. Repudiandae dolore...',
-    },
-    {
-      img: '/data-analysis-five.png',
-      text: 'Dolorum voluptates qui doloribus fugiat aut dolores. Facilis iure molestiae. Repudiandae dolore...',
-    },
-    {
-      img: '/data-analysis-six.png',
-      text: 'Dolorum voluptates qui doloribus fugiat aut dolores. Facilis iure molestiae. Repudiandae dolore...',
-    }
+    { img: '/data-analysis-one.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-two.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-third.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-four.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-five.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-six.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' }
   ];
 
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
-  if (scrollRef.current) {
-    const width = window.innerWidth;
-    const container = scrollRef.current;
-    let scrollAmount = 0;
+    if (scrollRef.current) {
+      const width = window.innerWidth;
+      const container = scrollRef.current;
+      let scrollAmount = 0;
 
-    if (width <= 600) {
-      scrollAmount = container.offsetWidth; // 1 card
-    } else if (width <= 900) {
-      scrollAmount = container.offsetWidth; // 2 cards (tablet full width)
-    } else if (width <= 1200) {
-      scrollAmount = container.offsetWidth / 3 * 2; // scroll 2 cards of 3
+      if (width <= 600) scrollAmount = container.offsetWidth;
+      else if (width <= 900) scrollAmount = container.offsetWidth;
+      else if (width <= 1200) scrollAmount = (container.offsetWidth / 3) * 2;
+
+      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
     }
-
-    container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-  }
-};
+  };
 
   const scrollRight = () => {
     if (scrollRef.current) {
@@ -58,13 +36,9 @@ const DataAnalysis = () => {
       const container = scrollRef.current;
       let scrollAmount = 0;
 
-      if (width <= 600) {
-        scrollAmount = container.offsetWidth; // 1 card
-      } else if (width <= 900) {
-        scrollAmount = container.offsetWidth; // 2 cards (tablet full width)
-      } else if (width <= 1200) {
-        scrollAmount = container.offsetWidth / 3 * 2; // scroll 2 cards of 3
-      }
+      if (width <= 600) scrollAmount = container.offsetWidth;
+      else if (width <= 900) scrollAmount = container.offsetWidth;
+      else if (width <= 1200) scrollAmount = (container.offsetWidth / 3) * 2;
 
       container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
@@ -81,29 +55,32 @@ const DataAnalysis = () => {
         Designed with sustainability in mind, PowerOptimus tracks emissions, air quality, and resource use, empowering organizations to lower their carbon footprint and stay compliant with environmental standards.
       </p>
 
-      
-     <section className="image-card-section">
-      <div className="image-card-scroll-container" ref={scrollRef}>
-        <div className="image-card-wrapper">
-          {cards.map((card, index) => (
-            <div className="image-card" key={index}>
-              <div className="card-img-wrapper">
-                <img src={card.img} alt={`card-${index}`} />
-                <div className="card-overlay">
-                  <p>{card.text}</p>
+      <div className="image-card-section">
+        <div className="image-card-scroll-container" ref={scrollRef}>
+          <div className="image-card-wrapper">
+            {cards.map((card, index) => (
+              <div className="image-card" key={index}>
+                <div className="card-img-wrapper">
+                  <img src={card.img} alt={`card-${index}`} />
+                  <div className="card-overlay">
+                    <p className="body3">{card.text}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+        </div>
+
+        <div className="scroll-buttonss">
+          <button onClick={scrollLeft}>
+            <i className="ri-arrow-left-s-line"></i>
+          </button>
+          <button onClick={scrollRight}>
+          <i className="ri-arrow-right-s-line"></i>
+          </button>
         </div>
       </div>
-
-      <div className="scroll-buttons">
-        <button onClick={scrollLeft}>←</button>
-        <button onClick={scrollRight}>→</button>
-      </div>
-    </section>
-
+      
 
     </section>
   )

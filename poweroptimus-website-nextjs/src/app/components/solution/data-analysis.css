@@ -1,84 +1,31 @@
 .data-section {
-  /* padding: 60px 20px; */
   padding: 60px 11.5%;
   text-align: center;
   background-color: #dddddd45;
 }
 
-/* .data-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  display: flex;
-  color: #004d95;
-}
-.data-title-two{
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  display: flex;
-  color: #004d95;
+.noSpace {
   margin-top: 0;
-} */
-.noSpace{
-  margin-top: 0;
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
-.data-title{
+.data-title {
   display: flex;
 }
 
 .data-subtitle {
-  /* color: #666;
-  font-size: 16px; */
   margin-bottom: 40px;
 }
 
-.data-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  justify-items: center;
-}
-
-.data-card {
-  width: 100%;
-  max-width: 280px;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-}
-
-.image-wrapper {
+/* Card Section Wrappers */
+.image-card-section {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3; /* maintain clean proportions */
-  overflow: hidden;
-  border-radius: 8px;
 }
-
-.card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.overlay-text {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 6px 12px;
-  font-size: 14px;
-  border-radius: 4px;
-}
-/* card css start */
 
 .image-card-scroll-container {
   overflow-x: auto;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 .image-card-wrapper {
@@ -93,7 +40,7 @@
   border-radius: 12px;
   background-color: #f4f4f4;
   overflow: hidden;
-  flex: 0 0 auto; /* useful for flex mode */
+  flex: 0 0 auto;
 }
 
 .card-img-wrapper {
@@ -116,18 +63,19 @@
   padding: 10px;
   color: white;
   font-size: 14px;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
 }
 
-/* Buttons visible only on scrollable views */
-.scroll-buttons {
-  display: none;
+/* Scroll Buttons */
+.scroll-buttonss {
   justify-content: center;
   gap: 12px;
   margin-top: 16px;
+  z-index: 2;
+  position: relative;
 }
 
-.scroll-buttons button {
+.scroll-buttonss button {
   padding: 8px 16px;
   font-size: 16px;
   border-radius: 6px;
@@ -137,19 +85,14 @@
   cursor: pointer;
 }
 
-/* card css end */
+.scroll-buttonss {
+  background: red; /* temp debug */
+}
 
-
-
-
-/* === RESPONSIVE BREAKPOINTS === */
+/* === Responsive Layouts === */
 
 /* Mobile */
 @media (max-width: 600px) {
-  .data-grid {
-    grid-template-columns: 1fr;
-  }
-
   .image-card-wrapper {
     display: flex;
     gap: 20px;
@@ -159,15 +102,14 @@
     min-width: 100%;
   }
 
-  .scroll-buttons {
+  .scroll-buttonss {
     display: flex;
   }
 }
 
 /* Tablet */
 @media (min-width: 601px) and (max-width: 900px) {
-  /* Tablet - no override needed */
-   .image-card-wrapper {
+  .image-card-wrapper {
     display: flex;
     gap: 20px;
   }
@@ -176,17 +118,30 @@
     min-width: 50%;
   }
 
-  .scroll-buttons {
+  .scroll-buttonss {
     display: flex;
   }
 }
 
-/* Laptop */
+/* ✅ Laptop (scroll 2 cards out of 3 shown) */
 @media (min-width: 901px) and (max-width: 1200px) {
-  /* Laptop - no override needed */
+  .image-card-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .image-card {
+    min-width: 50%;
+  }
+
+  .scroll-buttonss {
+    display: flex;
+  }
 }
 
-/* Desktop */
+/* Desktop — static layout */
 @media (min-width: 1201px) {
-  /* Desktop - no override needed */
+  .scroll-buttonss {
+    display: none;
+  }
 }
