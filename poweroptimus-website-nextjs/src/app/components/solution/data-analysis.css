@@ -85,12 +85,7 @@
   cursor: pointer;
 }
 
-.scroll-buttonss {
-  background: red; /* temp debug */
-}
-
 /* === Responsive Layouts === */
-
 /* Mobile */
 @media (max-width: 600px) {
   .image-card-wrapper {
