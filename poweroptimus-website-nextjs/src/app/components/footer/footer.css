@@ -11,7 +11,8 @@
   padding-bottom: 30px;
   display: grid;
   width: 100%;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */
+  /* grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; */
+  grid-template-columns: 7.2fr 37fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; 
   align-items: center;
   row-gap: 20px;
   column-gap: 30px;

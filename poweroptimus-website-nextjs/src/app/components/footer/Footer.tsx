@@ -138,7 +138,9 @@ const Footer = () => {
 
             {/* <div className="footer_email">info@poweroptimus.com</div> */}
 
-            <div className="footer_email">productsmarketing@neilsoft.com</div>
+            {/* <div className="footer_email">productsmarketing@neilsoft.com</div> */}
+            <div className="footer_email"><span> <i className="ri-contacts-book-2-line"></i> {t('CompanyAddressLine4')} </span> </div>
+            <div><i className="ri-mail-line"></i><span> eems@neilautomation.com</span> </div>
           </div>
         </div>
 
