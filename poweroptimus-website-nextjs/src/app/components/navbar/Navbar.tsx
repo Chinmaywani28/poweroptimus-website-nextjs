@@ -96,11 +96,11 @@ const Navbar = () => {
           <div className={`navbar-menu ${isMobileMenuOpen ? 'open' : ''}`}>
             <Link href="/solution">{t('Solutions')}</Link>
             <Link href="/key-vertical">{t('Key Verticals')}</Link>
-            <Link href="/roles">{t('Roles')}</Link>
+            {/* <Link href="/roles">{t('Roles')}</Link> */}
             {/* <Link href="/resources">{t('Resources')}</Link> */}
 
 
-            <div className="nav-item-with-dropdown" ref={dropdownRef}>
+            {/* <div className="nav-item-with-dropdown" ref={dropdownRef}>
               <span onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="dropdown-toggle">
                 {t('Resources')}
               </span>
@@ -112,11 +112,11 @@ const Navbar = () => {
                   <li><Link href="/resources/brochure">Brochure</Link></li>
                 </ul>
               )}
-            </div>
+            </div> */}
 
 
             {/* <Link href="/news-and-events">{t('News and Events')}</Link> */}
-            <div className="nav-item-with-dropdown" ref={dropdownRefNews}>
+            {/* <div className="nav-item-with-dropdown" ref={dropdownRefNews}>
               <span onClick={() => setIsDropdownOpenNews(!isDropdownOpenNews)} className="dropdown-toggle">
                 {t('News and Events')}
               </span>
@@ -126,7 +126,7 @@ const Navbar = () => {
                   <li><Link href="/news-and-events/events">Events</Link></li>
                 </ul>
               )}
-            </div>
+            </div> */}
           </div>
 
           <div className="navbarRightSide">
