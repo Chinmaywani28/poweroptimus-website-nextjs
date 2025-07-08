@@ -12,7 +12,7 @@ const page = () => {
         showLink={false}
       />
 
-      <NewsAndEventsSection cards={[
+      {/* <NewsAndEventsSection cards={[
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut ',
           image: '../events-one.png',
@@ -68,7 +68,7 @@ const page = () => {
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
         }
         // You can add more cards here...
-      ]} />
+      ]} /> */}
     </>
   )
 }
