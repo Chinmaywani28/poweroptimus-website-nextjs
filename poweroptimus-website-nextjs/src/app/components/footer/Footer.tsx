@@ -126,9 +126,9 @@ const Footer = () => {
             <div className="Header1ABold">
               {t('PowerOptimus')}
             </div>
-            <div className="body3">
+            {/* <div className="body3">
               {t('SolutionBy')} Neilsoft
-            </div>
+            </div> */}
           </div>
 
           <div className="footerAddress body4">
