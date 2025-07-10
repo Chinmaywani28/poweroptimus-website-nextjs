@@ -13,6 +13,7 @@ import TableTwo from '../table2/tabletwo';
 import WhyEnergy from '../whyEnergy/whyenergy';
 import HomefeatureTwo from './homefeature/home-feature-two';
 import { FeatureHeader } from './feature-header/feature-header';
+import { RecentBlogs } from './recent-blogs/recent-blogs';
 
 
 
@@ -98,6 +99,65 @@ const HomeMainContent = () => {
           }
       ]}/>
       
+      <RecentBlogs cards={[
+
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          },
+          {
+            title: "More productive with an atmosphere",
+            image: "./resources-one.png",
+            date: "January 1, 2025",
+            description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
+            link: "Read More"
+          }
+      ]}/>
 
 
     </div>

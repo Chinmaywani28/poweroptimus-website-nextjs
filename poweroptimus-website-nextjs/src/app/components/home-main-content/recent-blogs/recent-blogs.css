@@ -1,0 +1,125 @@
+/* ========================
+🎯 Outer wrapper
+========================= */
+.carousel-wrapper {
+  position: relative;
+  padding: 54px 11.5%;
+  overflow: hidden;
+}
+
+.blogheading{
+  display: flex;
+  justify-content: center;
+}
+.marginTopZero{
+  margin-top: 0;
+}
+
+/* ========================
+📦 Horizontal scroll container
+========================= */
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  /* padding: 0 24px; */
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* ========================
+🔳 Card style
+========================= */
+.carousel-card {
+  flex: 0 0 300px; /* Fixed card width */
+  min-width: 300px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px #ddd; */
+  /* padding: 16px; */
+}
+
+.carousel-img {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.carousel-title {
+  /* font-size: 16px;
+  font-weight: bold;
+  color: #0056b3; */
+  margin-bottom: 6px;
+}
+
+.carousel-date {
+  /* font-size: 14px; */
+  margin-bottom: 8px;
+  color: #666;
+}
+
+/* .carousel-desc {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+} */
+
+/* ========================
+⬅️➡️ Scroll Buttons (Always visible)
+========================= */
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 16px;
+}
+
+.carousel-buttons button {
+  background: #eee;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.2s ease;
+}
+
+.carousel-buttons button:hover {
+  background: #ccc;
+}
+
+.carousel-btm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow{
+      /* font-size: 13px; */
+    color: #1eaa59;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+/* ========================
+📱 Standard breakpoints (optional, empty if no layout change)
+========================= */
+@media (max-width: 600px) {
+  /* No layout change needed */
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  /* No layout change needed */
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* No layout change needed */
+}
+@media (min-width: 1201px) {
+  /* No layout change needed */
+}
