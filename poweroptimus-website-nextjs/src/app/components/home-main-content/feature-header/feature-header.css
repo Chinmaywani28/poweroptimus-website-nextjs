@@ -1,0 +1,104 @@
+/* ============================
+🎯 Main Section
+============================ */
+.feature-wrapper {
+  padding: 40px 11.5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.feature-desc {
+  /* max-width: 720px; */
+  margin: 0 auto 30px;
+  /* font-size: 16px; */
+  /* color: #444; */
+}
+
+/* ============================
+📦 Scrollable Row
+============================ */
+.card-row {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  /* padding: 0 24px; */
+  scrollbar-width: none;
+}
+
+.card-row::-webkit-scrollbar {
+  display: none;
+}
+
+/* ============================
+🃏 Each Card Block
+============================ */
+.feature-card-wrapper {
+  position: relative;
+  flex: 0 0 auto;
+  width: 300px;
+  margin-bottom: 100px; /* space for floating box */
+}
+
+/* Image container */
+.feature-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.feature-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* ============================
+💬 Floating White Box
+============================ */
+.feature-content {
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  right: 12px;
+  background: white;
+  padding: 16px;
+  /* border: 1px solid #333; */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(50%);
+  z-index: 1;
+  text-align: left;
+}
+
+.feature-text {
+  /* font-size: 14px; */
+  /* color: #333; */
+  margin-bottom: 14px;
+}
+
+.feature-link {
+  /* font-size: 14px; */
+  color: #1E9500;
+  text-decoration: none;
+}
+
+/* ============================
+⬅️➡️ Scroll Buttons
+============================ */
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.scroll-buttons button {
+  background: #eee;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}

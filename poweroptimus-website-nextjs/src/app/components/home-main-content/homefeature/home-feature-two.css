@@ -1,0 +1,139 @@
+/* === Wrapper to center the feature section === */
+.HomeFeature_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+/* === Main grid layout: 14 columns (with outer paddings) === */
+.HomeFeature_Home {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  display: grid;
+  width: 100%;
+  /* Corrected grid: 2fr outer padding + 12 inner columns + 2fr padding */
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  row-gap: 20px;
+  column-gap: 30px;
+  max-width: 2300px;
+  background: #ffffff;
+}
+
+/* === Full-width background layer === */
+.HomeFeature_BG {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #004D95;
+}
+
+.HomeFeatureBGimage {
+  width: 100%;
+}
+
+/* === IMAGE Section (moved to left) === */
+.HomeFeature_Rightss {
+  grid-column-start: 2;  /* starts from 2nd column */
+  grid-column-end: 7;    /* ends at 7th column */
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+}
+
+/* === TEXT Section (moved to right) === */
+.HomeFeature_Leftss {
+  grid-column-start: 9;  /* starts from 8th column it was 8 here */
+  grid-column-end: 14;   /* ends at 13th column it was 13 here*/
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttonDiv2 {
+  margin-top: 15px;
+}
+
+.know-more-button3 {
+  background-color: #1E9500;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+/* === MOBILE VIEW (max-width: 480px) === */
+@media (max-width: 480px) {
+
+  /* Mobile: 14 columns with 10px outer padding */
+  .HomeFeature_Home {
+    margin-top: 40px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px;
+    row-gap: 10px;
+    column-gap: 5px;
+    max-width: 2300px;
+    background: #ffffff;
+  }
+
+  /* Background full width */
+  .HomeFeature_BGss {
+    grid-column-start: 1;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    background-color: #004D95;
+  }
+
+  .HomeFeatureBGimage {
+    width: 100%;
+  }
+
+  /* IMAGE section first (top) */
+  .HomeFeature_Rightss {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  /* TEXT section second (below image) */
+  .HomeFeature_Leftss {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .buttonDiv2 {
+    margin-top: 15px;
+  }
+
+  .know-more-button3 {
+    background-color: #1E9500;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+}

@@ -11,6 +11,8 @@ import Keyvertical from '../keyvertical/keyvertical';
 import Table from '../table1/table';
 import TableTwo from '../table2/tabletwo';
 import WhyEnergy from '../whyEnergy/whyenergy';
+import HomefeatureTwo from './homefeature/home-feature-two';
+import { FeatureHeader } from './feature-header/feature-header';
 
 
 
@@ -24,19 +26,80 @@ const HomeMainContent = () => {
     <div>
       <Hero headerText={t('BuildingSustainableFuture') } bodyText={t('IntroducingEnergySolution')} />
       {/* slider */}
+      
       <Slider/>
       {/* why energy efficiency matters the most */}
       <WhyEnergy/>
+
       {/* how it works */}
-      <Homehowitwork/>
+      {/* <Homehowitwork/> */}
+
       {/* table1 */}
-      <Table/>
+      {/* <Table/> */}
+
       {/* table2 */}
-      <TableTwo/>
+      {/* <TableTwo/> */}
+
       {/* home feature */}
-      <Homefeature/>
+      {/* <Homefeature/> */}
+
       {/* key-vertical */}
-      <Keyvertical/>
+      {/* <Keyvertical/> */
+      }
+
+
+      
+
+
+
+      <HomefeatureTwo/>
+      <Homefeature/>
+      
+      <FeatureHeader cards={[
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          },
+          {
+            image: "./home-feature-header.jpg",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            link: "string"
+          }
+      ]}/>
+      
+
+
     </div>
     </>
 
