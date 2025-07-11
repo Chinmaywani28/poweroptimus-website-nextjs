@@ -16,6 +16,7 @@ import { FeatureHeader } from './feature-header/feature-header';
 import { RecentBlogs } from './recent-blogs/recent-blogs';
 import { KeyVertices } from './key-vertices/key-vertices';
 import { KeyVerticesTwo } from './key-vertices two/key-vertices-two';
+import { FormSection } from './form-section/form-section';
 
 
 
@@ -165,7 +166,7 @@ const HomeMainContent = () => {
           }
       ]}/>
 
-      
+      <FormSection/>
 
     </div>
     </>

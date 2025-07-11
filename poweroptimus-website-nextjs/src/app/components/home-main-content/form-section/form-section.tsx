@@ -4,42 +4,55 @@ import './form-section.css';
 
 export const FormSection = () => {
   return (
-    <section className='HomeFeature_container'>
-      <div className='HomeFeature_Home'>
+    <section className="quote-section">
+  <div className="quote-container">
+    <div className="quote-text">
+      <div className="Header2 TextBlue">Get a Quote</div>
+      <p className="body3">
+        An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress. An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress.
+      </p>
+    </div>
 
-        <div className='left-img-grid-container'>
-          <div className="left-img-grid">
-            <Link href="/industry">
-              <img src="./key-vertices-one.jpg" alt="Industry" />
-            </Link>
-
-            <Link href="/robotics">
-              <img src="./key-vertices-two.jpg" alt="Robotics" />
-            </Link>
-
-            <Link href="/chip">
-              <img src="./key-vertices-one.jpg" alt="Chip" />
-            </Link>
-
-            <Link href="/medical">
-              <img src="./key-vertices-two.jpg" alt="Medical" />
-            </Link>
-          </div>
+    <form className="quote-form">
+      <div className="form-grid">
+        <div className="form-group">
+          <label className="Header3">Name*</label>
+          <input type="text" />
         </div>
-
-        <div className='HomeFeature_Leftss'>
-          <div className='Header1 TextBlue'>
-            Key Vertices
-          </div>
-          <div className='body1_300'>
-            Eum in placeat doloremque sed aliquid iste. Enim ullam esse ipsa aut velit alias rerum. Eligendi quasi exercitationem incidunt. Sapiente totam dignissimos alias est dicta magni enim dolores soluta. Nobis reiciendis nulla ex eum id qui. Id et aperiam dolore aspernatur architecto ducimus ut nobis ut.
-          </div>
-          <div className='buttonDiv2'>
-            <button className="know-more-button3">Know More</button>
-          </div>
+        <div className="form-group">
+          <label>Phone*</label>
+          <input type="text" />
         </div>
-
+        <div className="form-group">
+          <label>Email*</label>
+          <input type="email" />
+        </div>
+        <div className="form-group">
+          <label>Company Name*</label>
+          <input type="text" />
+        </div>
+        <div className="form-group">
+          <label>Designation*</label>
+          <input type="text" />
+        </div>
+        <div className="form-group">
+          <label>Country*</label>
+          <input type="text" />
+        </div>
+        <div className="form-group">
+          <label>Input Field Name</label>
+          <input type="text" />
+        </div>
+        <div className="form-group">
+          <label>Input Field Name</label>
+          <input type="text" />
+        </div>
       </div>
-    </section>
+
+      <button type="submit" className="submit-btn">Submit</button>
+    </form>
+  </div>
+</section>
+
   );
 };
