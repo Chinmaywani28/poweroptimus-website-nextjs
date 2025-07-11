@@ -14,6 +14,8 @@ import WhyEnergy from '../whyEnergy/whyenergy';
 import HomefeatureTwo from './homefeature/home-feature-two';
 import { FeatureHeader } from './feature-header/feature-header';
 import { RecentBlogs } from './recent-blogs/recent-blogs';
+import { KeyVertices } from './key-vertices/key-vertices';
+import { KeyVerticesTwo } from './key-vertices two/key-vertices-two';
 
 
 
@@ -98,6 +100,10 @@ const HomeMainContent = () => {
             link: "string"
           }
       ]}/>
+
+      {/* <KeyVertices/> */}
+      <KeyVerticesTwo/>
+      
       
       <RecentBlogs cards={[
 
@@ -159,6 +165,7 @@ const HomeMainContent = () => {
           }
       ]}/>
 
+      
 
     </div>
     </>
