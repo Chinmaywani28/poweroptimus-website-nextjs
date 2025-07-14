@@ -42,7 +42,7 @@ export const RecentBlogs: React.FC<Props> = ({ cards }) => {
   return (
     <div className="carousel-wrapper">
 
-      <h2 className="Header1 TextBlue blogheading">Recent Blogs</h2>
+      <h2 className="Header1sec TextBlue blogheading">Recent Blogs</h2>
 
 
       {/* Horizontal scrolling card container */}
@@ -50,12 +50,12 @@ export const RecentBlogs: React.FC<Props> = ({ cards }) => {
         {cards.map((item, idx) => (
           <div className="carousel-card" key={idx}>
             <img src={item.image} alt="card" className="carousel-img" />
-            <div className="carousel-title Header3 TextBlue marginTopZero">{item.title}</div>
-            <p className="carousel-desc body3">{item.description}</p>
+            <div className="carousel-title Header3sec TextBlue marginTopZero">{item.title}</div>
+            <p className="carousel-desc body3sec">{item.description}</p>
             <div className="carousel-btm">
-                <div className="carousel-date body3">{item.date}</div>
+                <div className="carousel-date body3sec">{item.date}</div>
                 {/* <a className="card-link body3" href="/blog/power">Read More<span className="arrow">→</span></a> */}
-              <Link href="" className="feature-link body3 alignbodytext TextGray3">Read More <span><i className="ri-arrow-right-long-line"></i></span></Link>
+              <Link href="" className="feature-link body3sec alignbodytext TextGray3">Read More <span><i className="ri-arrow-right-long-line"></i></span></Link>
             </div>
           </div>
         ))}

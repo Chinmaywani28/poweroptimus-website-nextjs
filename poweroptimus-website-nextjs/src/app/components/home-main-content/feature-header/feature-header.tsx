@@ -36,11 +36,11 @@ export const FeatureHeader: React.FC<Props> = ({ cards }) => {
 
   return (
     <section className="feature-wrapper">
-      <h2 className="feature-title Header1 TextBlue marTop">Feature Header</h2>
-      <p className="feature-desc body1_300">
+      <h2 className="feature-title Header1sec TextBlue marTop">Feature Header</h2>
+      <p className="feature-desc body1_300sec">
         Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et.
         Quo ex deserunt aperiam. Est fuga ut odit porro nam. Natus commodi nostrum nesciunt
-        quia mollitia eligendi voluptas iste odit.
+        quia mollitia eligendi voluptas iste.
       </p>
 
       <div className="card-row" ref={scrollRef}>
@@ -50,8 +50,8 @@ export const FeatureHeader: React.FC<Props> = ({ cards }) => {
               <img src={item.image} alt="card" className="feature-img" />
             </div>
             <div className="feature-content">
-              <p className="feature-text body3 alignbodytext TextGray3">{item.description}</p>
-              <Link href={item.link || "#"} className="feature-link body3 alignbodytext TextGray3">Read More</Link>
+              <p className="feature-text body3sec alignbodytext TextGray3">{item.description}</p>
+              <Link href={item.link || "#"} className="feature-link body3sec alignbodytext TextGray3">Read More</Link>
             </div>
           </div>
         ))}

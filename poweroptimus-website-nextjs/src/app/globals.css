@@ -239,3 +239,110 @@ body {
 
 }
 
+/* from second page text */
+/* text */
+.Header1sec{
+  font-size: 41px;
+  line-height: 130%;
+  font-weight: 500;
+  /* background-color: red; */
+}
+
+.Header1ABoldsec{
+  font-size: 43px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.body1sec{
+  font-size: 24px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.body1_300sec{
+  font-size: 25px;
+  line-height: 150%;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.Header2sec{
+  font-size: 37px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.Header2Boldsec{
+  font-size: 33px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.body2sec{
+  font-size: 21px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.Header3sec{
+  font-size: 29px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.Header3Boldsec{
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.body3sec{
+  font-size: 19px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.body4sec{
+  font-size: 19px;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+@media (max-width: 1560px) {
+  .Header1sec{
+    font-size: 35px;
+    line-height: 130%;
+    /* background-color: rgb(255, 228, 228); */
+  }
+  .body1{
+    font-size: 21px;
+    line-height: 150%;
+  }
+
+  .body1_300{
+    font-size: 21px;
+    line-height: 150%;
+    font-weight: 400;
+  }
+  
+  .Header2{
+    font-size: 35px;
+    line-height: 130%;
+  }  
+  
+  .body2{
+    font-size: 19px;
+    line-height: 150%;
+  }
+  
+  .Header3{
+    font-size: 25px;
+    line-height: 130%;
+  }
+  
+  .body3{
+    font-size: 17px;
+    line-height: 130%;
+  }
+  
+}

@@ -62,42 +62,42 @@ const HomeMainContent = () => {
       <FeatureHeader cards={[
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           },
           {
             image: "./home-feature-header.jpg",
-            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut odit ",
+            description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           }
       ]}/>
