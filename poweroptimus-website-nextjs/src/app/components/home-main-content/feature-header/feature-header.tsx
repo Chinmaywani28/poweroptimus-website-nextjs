@@ -36,7 +36,7 @@ export const FeatureHeader: React.FC<Props> = ({ cards }) => {
 
   return (
     <section className="feature-wrapper">
-      <h2 className="feature-title Header1 TextBlue">Feature Header</h2>
+      <h2 className="feature-title Header1 TextBlue marTop">Feature Header</h2>
       <p className="feature-desc body1_300">
         Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et.
         Quo ex deserunt aperiam. Est fuga ut odit porro nam. Natus commodi nostrum nesciunt

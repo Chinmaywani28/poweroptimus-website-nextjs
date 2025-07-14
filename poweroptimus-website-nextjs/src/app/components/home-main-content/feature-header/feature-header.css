@@ -6,7 +6,9 @@
   text-align: center;
   overflow: hidden;
 }
-
+.marTop{
+  margin-top: 0;
+}
 .feature-desc {
   /* max-width: 720px; */
   margin: 0 auto 30px;
