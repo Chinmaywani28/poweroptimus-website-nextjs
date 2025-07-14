@@ -7,7 +7,7 @@ const HomefeatureTwo = () => {
   return (
 
     <div className='HomeFeature_container'>
-      <div className='HomeFeature_Home'>
+      <div className='HomeFeature_Home-four'>
         {/* <div className='HomeFeature_BG'>
           <img src="/HomeFeatureBG2.svg" alt={t('FeatureImageAlt')} className="HomeFeatureBGimage" />
         </div> */}

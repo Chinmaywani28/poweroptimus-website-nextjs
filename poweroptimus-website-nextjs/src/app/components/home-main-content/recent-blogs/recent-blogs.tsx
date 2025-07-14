@@ -50,7 +50,7 @@ export const RecentBlogs: React.FC<Props> = ({ cards }) => {
         {cards.map((item, idx) => (
           <div className="carousel-card" key={idx}>
             <img src={item.image} alt="card" className="carousel-img" />
-            <h3 className="carousel-title Header3 TextBlue marginTopZero">{item.title}</h3>
+            <div className="carousel-title Header3 TextBlue marginTopZero">{item.title}</div>
             <p className="carousel-desc body3">{item.description}</p>
             <div className="carousel-btm">
                 <div className="carousel-date body3">{item.date}</div>

@@ -6,9 +6,9 @@
   background: rgb(255, 255, 255);
 }
 
-.HomeFeature_Home {
+.HomeFeature_Home-five {
   margin-top: 80px;
-  margin-bottom: 0px;
+  margin-bottom: 80px;
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */
@@ -76,7 +76,7 @@
 
 /* For very small devices like phones in portrait mode */
 @media (max-width: 480px) {
-  .HomeFeature_Home {
+  .HomeFeature_Home-five {
     margin-top: 40px;
     margin-bottom: 0px;
     display: grid;

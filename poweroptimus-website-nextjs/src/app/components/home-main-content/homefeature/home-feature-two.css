@@ -7,9 +7,9 @@
 }
 
 /* === Main grid layout: 14 columns (with outer paddings) === */
-.HomeFeature_Home {
+.HomeFeature_Home-four {
   margin-top: 80px;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
   display: grid;
   width: 100%;
   /* Corrected grid: 2fr outer padding + 12 inner columns + 2fr padding */
@@ -76,7 +76,7 @@
 @media (max-width: 480px) {
 
   /* Mobile: 14 columns with 10px outer padding */
-  .HomeFeature_Home {
+  .HomeFeature_Home-four {
     margin-top: 40px;
     display: grid;
     width: 100%;

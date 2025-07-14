@@ -16,35 +16,35 @@ export const FormSection = () => {
     <form className="quote-form">
       <div className="form-grid">
         <div className="form-group">
-          <label className="Header3">Name*</label>
+          <div className="Header3 TextBlue">Name*</div>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label>Phone*</label>
+          <label className="Header3 TextBlue">Phone*</label>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label>Email*</label>
+          <label className="Header3 TextBlue">Email*</label>
           <input type="email" />
         </div>
         <div className="form-group">
-          <label>Company Name*</label>
+          <label className="Header3 TextBlue">Company Name*</label>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label>Designation*</label>
+          <label className="Header3 TextBlue">Designation*</label>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label>Country*</label>
+          <label className="Header3 TextBlue">Country*</label>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label>Input Field Name</label>
+          <label className="Header3 TextBlue">Input Field Name</label>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label>Input Field Name</label>
+          <label className="Header3 TextBlue">Input Field Name</label>
           <input type="text" />
         </div>
       </div>

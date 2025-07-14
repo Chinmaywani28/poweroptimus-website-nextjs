@@ -6,15 +6,15 @@ const Homefeature = () => {
   return (
 
     <div className='HomeFeature_container'>
-      <div className='HomeFeature_Home'>
-        <div className='HomeFeature_BG'>
+      <div className='HomeFeature_Home-five'>
+        {/* <div className='HomeFeature_BG'>
           <img src="/HomeFeatureBG2.svg" alt={t('FeatureImageAlt')} className="HomeFeatureBGimage" />
-        </div>
+        </div> */}
         <div className='HomeFeature_Left'>
-          <div className='Header1 TextWhite'>
+          <div className='Header1'>
             {t('HomeFeatureTitle')}
           </div>
-          <div className='body1_300 TextGrayOpacity'>
+          <div className='body1_300'>
             {t('HomeFeatureDescription')}
           </div>
           <div className='buttonDiv2'>

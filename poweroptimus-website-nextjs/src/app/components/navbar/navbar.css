@@ -44,7 +44,7 @@
   grid-row-end: 2 ;
   display: flex;
   justify-content: center; /* Align items to the left */
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   gap: 15px;
   /* background-color: #007400; */
