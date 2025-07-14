@@ -9,7 +9,7 @@
 .image-container {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9; /* Maintain aspect ratio across screen sizes */
+  aspect-ratio: 19 / 8.75; /* Maintain aspect ratio across screen sizes */
   overflow: hidden;
 }
 
@@ -24,6 +24,7 @@
 /* Text block over image */
 .text-content {
   position: absolute;
+  /* top: 47.5%; */
   top: 50%;
   left: 9.4%;
   transform: translateY(-50%);
@@ -51,8 +52,17 @@
   z-index: 2;
 }
 
-.text-content p {
+/* .text-content p {
   margin-right: 440px;
+} */
+
+.heroDesc{
+  margin-top: 15px;
+  padding-right: 23%;
+}
+
+.heroTitle{
+  padding-right: 10%;
 }
 
 /* Headline style */

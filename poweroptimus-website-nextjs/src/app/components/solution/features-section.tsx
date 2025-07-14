@@ -130,14 +130,14 @@ const FeatureSection = () => {
         title: 'Hazardous Gas Monitoring',
         desc: 'In chemical handling and processing environments, hazardous gas emissions pose serious health risks. PowerOptimus integrates gas detection sensors to monitor and alert in real time, ensuring a safer work environment and compliance with occupational health and safety norms.'
       },
-      {
-        title: 'Predictive Analytics for Energy & Environmental Management',
-        desc: 'our tailored energy monitoring system combines historical energy data with real-time sensor inputs to detect trends and anomalies. Acting as a predictive energy management system, it helps prevent unplanned downtime, optimize maintenance, and extend equipment lifespan.'
-      },
-      {
-        title: 'Actionable Environmental Insights',
-        desc: 'PowerOptimus also uses environmental sensors to track air quality, hazardous gases, and temperature. By analyzing real-time and historical data, it delivers actionable insights that help reduce the carbon footprint and support compliance. This blend of energy monitoring systems and environmental intelligence makes it ideal for sustainable, efficient operations.'
-      }
+      // {
+      //   title: 'Predictive Analytics for Energy & Environmental Management',
+      //   desc: 'our tailored energy monitoring system combines historical energy data with real-time sensor inputs to detect trends and anomalies. Acting as a predictive energy management system, it helps prevent unplanned downtime, optimize maintenance, and extend equipment lifespan.'
+      // },
+      // {
+      //   title: 'Actionable Environmental Insights',
+      //   desc: 'PowerOptimus also uses environmental sensors to track air quality, hazardous gases, and temperature. By analyzing real-time and historical data, it delivers actionable insights that help reduce the carbon footprint and support compliance. This blend of energy monitoring systems and environmental intelligence makes it ideal for sustainable, efficient operations.'
+      // }
       
   ]
 
@@ -177,7 +177,7 @@ const FeatureSection = () => {
 
   return (
     <section className="features-section">
-      <h2 className="features-title Header2">Features</h2>
+      <h2 className="features-title Header2sec">Features</h2>
 
       <div className="features-scroll-container" ref={scrollRef}>
         <div className="features-grid">

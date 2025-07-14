@@ -10,7 +10,8 @@
 }
 
 .features-title {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-top: 0;
 }
 
 /* Scroll container */
