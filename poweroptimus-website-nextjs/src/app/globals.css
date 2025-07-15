@@ -346,3 +346,18 @@ body {
   }
   
 }
+/* key vertical font-size */
+.body2three{
+  font-size: 23px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+/* css which not worked on component load start */
+.marTopGlobal{
+  margin-top: 15px;
+}
+
+
+/* css which not worked on component load end */
+

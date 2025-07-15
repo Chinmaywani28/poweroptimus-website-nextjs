@@ -7,6 +7,7 @@ import WhyPowerOptimus from '../components/key-verticals-page/whypoweroptimus'
 import Integration from '../components/solution/integration'
 import FeatureBtmSection from '../components/key-verticals-page/feature-btm-section'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
+import { WhyPowerOptimusTwo } from '../components/key-verticals-page/why-power-optimus/why-power-optimus-two'
 
 
 const page = () => {
@@ -21,7 +22,7 @@ const page = () => {
     {/* sections */}
       <FacilitySections
         title="Industrial Plants & Factories"
-        text="In energy-intensive environments like industrial plants and factories, operational inefficiencies can lead to substantial cost overruns and increased environmental impact. PowerOptimus delivers advanced energy monitoring systems that offer granular insights into every unit of energy consumed. By tracking critical KPIs such as energy usage, production efficiency, HVAC performance, and compressor operations, facilities can reduce inefficiencies, streamline workflows, and enhance productivity.The platform also supports compliance monitoring and workplace safety by enabling real-time tracking of key operational parameters. This integrated approach empowers industries to take a proactive role in achieving operational efficiency and meeting environmental performance goals."
+        text="Data centers require uninterrupted performance and precise control over power usage. With PowerOptimus, you gain complete visibility into energy metrics, thermal loads, cooling efficiency, and backup systems. Our platform ensures balanced energy optimization, allowing your data center to minimize power usage effectiveness (PUE) and avoid equipment strain.The intelligent monitoring layer also supports environmental monitoring for detecting fluctuations in temperature, humidity, or AQI, keeping your critical infrastructure protected and resilient around the clock."
         imageSrc="./key-vertical-one.png"
         label1="HVAC Management "
         label2="Energy Monitoring"
@@ -32,7 +33,7 @@ const page = () => {
         title="Data Centers"
         text="Data centers require uninterrupted performance and precise control over power usage. With PowerOptimus, you gain complete visibility into energy metrics, thermal loads, cooling efficiency, and backup systems. Our platform ensures balanced energy optimization, allowing your data center to minimize power usage effectiveness (PUE) and avoid equipment strain.The intelligent monitoring layer also supports environmental monitoring for detecting fluctuations in temperature, humidity, or AQI, keeping your critical infrastructure protected and resilient around the clock."
         imageSrc="./key-vertical-two.png"
-        // reverse
+        reverse
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
@@ -51,7 +52,7 @@ const page = () => {
         title="Commercial Buildings"
         text="Modern commercial spaces demand intelligent control over energy use, air quality, and occupancy to enhance comfort, reduce operational costs, and meet green building standards. PowerOptimus delivers tailored solutions for commercial buildings by monitoring KPIs like HVAC performance, energy consumption, air quality index (AQI), and occupancy patterns.These insights allow facilities to make real-time adjustments that optimize comfort and operational efficiency. Our robust energy management systems for commercial applications are not just about reducing bills—they’re about future-proofing your infrastructure and supporting your long-term sustainability goals."
         imageSrc="./key-vertical-four.png"
-        // reverse
+        reverse
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
@@ -71,7 +72,7 @@ const page = () => {
         title="Food and Beverage Industry"
         text="The food and beverage industry requires close monitoring of process efficiency and environmental standards. PowerOptimus supports this by providing complete control over energy usage, refrigeration systems, HVAC, and production-related KPIs. By integrating intelligent energy management systems, organizations can reduce energy wastage during food processing, preserve product integrity, and streamline utilities across distributed plants. Our solution also supports sustainable production practices that reduce carbon footprint while maintaining compliance with health and safety standards."
         imageSrc="./key-vertical-one.png"
-        // reverse
+        reverse
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
@@ -126,7 +127,8 @@ const page = () => {
         imageLeft={true}
       /> */}
 
-      <WhyPowerOptimus/>
+      {/* <WhyPowerOptimus/> */}
+      <WhyPowerOptimusTwo/>
 
       {/* <FeatureBtmSection
         heading="Easy to integrate with existing setup "

@@ -17,12 +17,12 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3 
           <img src={imageSrc} alt={title} />
         </div>
         <div className="facility-text">
-          <h2 className="Header3 TextBlue">{title}</h2>
-          <p className="body3">{text}</p>
+          <h2 className="Header1sec TextBlue marBtm">{title}</h2>
+          <div className="body2three marTopGlobal">{text}</div>
           <div className="tags">
-            <span>{label1}</span>
-            <span>{label2}</span>
-            <span>{label3}</span>
+            <span className="body2sec">{label1}</span>
+            <span className="body2sec">{label2}</span>
+            <span className="body2sec">{label3}</span>
           </div>
         </div>
       </div>
