@@ -10,12 +10,14 @@ import DataAnalysis from '../components/solution/data-analysis'
 import Integration from '../components/solution/integration'
 import HeroTwo from '../components/solution-two/hero-two'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
+import SolutionHero from '../components/solution/solution-hero'
 
 const page = () => {
   return (
     <>
     {/* <Hero/> */}
-    <HeroTwo/>
+    {/* <HeroTwo/> */}
+    <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable building management system (BMS) designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/>
     {/* features */}
     <FeatureSection/>
 
