@@ -1,8 +1,9 @@
 .industry-section {
-  background-color: #f5f8fb;
+  background-color: #F0F4F8;
   /* margin added */
   margin-top: 100px;
   padding: 60px 20px;
+  min-height: 76vh;
 }
 
 .industry-content {
@@ -11,6 +12,11 @@
   /* margin-left: 191px; */
   margin-left: 10.5%;
   margin-right: 10.5%;
+  margin-top: 11.2%;
+}
+
+.marTop{
+  margin-top: 15px;
 }
 
 .industry-title {
@@ -95,6 +101,6 @@
 @media (min-width: 1201px) {
   /* (optional) Keep same as base for now */
   .industry-section {
-      margin-top: 85px;
+      margin-top: 40px;
   }
 }

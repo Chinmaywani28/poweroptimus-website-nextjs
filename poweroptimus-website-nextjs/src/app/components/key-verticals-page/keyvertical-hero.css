@@ -1,0 +1,98 @@
+/* Wrapper to center the navbar */
+.home-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+}
+.home {
+  margin-top: 90px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 30px;
+  /* border-bottom: 1px solid #dfdfdf; */
+  max-width: 2300px;
+  background: #F0F4F8; 
+}
+
+.home_sectionHeader_left{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /* font-size: 18px; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 15px;
+  /* background: red; */
+}
+
+.home_sectionHeader_right{
+  grid-column-start: 8;
+  grid-column-end: 14;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header-image{
+  /* height: 250px;  */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+/* Media Queries for Responsive Design */
+
+
+/* For very small devices like phones in portrait mode */
+@media (max-width: 480px) {
+  .home {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px; /* 14 grid columns */
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 5px;
+    /* border-bottom: 1px solid #dfdfdf; */
+    max-width: 2300px;
+    background: #F0F4F8; 
+  }
+
+  
+.home_sectionHeader_left{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  /* font-size: 18px; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 5px;
+  /* background: red; */
+}
+
+.home_sectionHeader_right{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-top: 10px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+}

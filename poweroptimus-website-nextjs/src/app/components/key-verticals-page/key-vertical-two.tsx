@@ -78,8 +78,8 @@ const KeyverticalTwo = ({
             <span className="link-text">{linkText}</span>
           </Link>
         )}
-        <h1 className="Header1 TextBlue">{title}</h1>
-        <p className="body1 TextGray1">{description}</p>
+        <div className="Header1sec TextBlue">{title}</div>
+        <div className="body1sec TextGray1 marTop">{description}</div>
       </div>
     </section>
   );
