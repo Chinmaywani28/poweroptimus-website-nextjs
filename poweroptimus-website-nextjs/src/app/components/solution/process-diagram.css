@@ -34,9 +34,12 @@
 }
 
 .process-title {
-  font-size: 34px;
-  font-weight: 600;
+  /* font-size: 34px;
+  font-weight: 600; */
   margin-bottom: 30px;
+}
+.marTop{
+  margin-top: 0;
 }
 
 .diagram-placeholder {
@@ -45,7 +48,7 @@
   padding: 20%;
   margin-top: 20px;
   /* font-size: 24px; */
-  font-size: 32px;
+  /* font-size: 32px; */
   color: black;
   border-radius: 10px;
 }

@@ -95,7 +95,7 @@
 .step-section {
   background-color: #0053a0;
   color: white;
-  padding: 40px 11.5%;
+  padding: 0px 11.5% 60px;
 }
 
 .step {
@@ -110,6 +110,9 @@
 }
 .step-title{
   margin-bottom: 0;
+}
+.step-desc {
+  margin-top: 15px;
 }
 
 /* 🖼️ Image styling */

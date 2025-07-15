@@ -99,36 +99,36 @@ import './features-section.css'; // Import feature-section specific styles
 const FeatureSection = () => {
     let features: any = [
       {
-        title: 'Utility Energy Monitoring',
-        desc: 'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, this energy monitoring systems help organizations take corrective actions to reduce wastage and optimize utility consumption, contributing to lower energy bills and improved sustainability.'
+        title: 'Setpoints Monitoring',
+        desc: 'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, this energy monitoring systems help organizations take corrective actions to reduce wastage and optimize utility consumption, contributing to lower energy bills and improved sustainability.contributing to lower energy bills and improved sustainability.'
       },
       {
-        title: 'Power Quality Monitoring',
+        title: 'Setpoints Monitoring',
         desc: 'Ensure a reliable and efficient power supply by monitoring critical parameters like power factor, harmonics, and frequency. These insights help avoid penalties due to poor power quality, prevent excessive energy demand charges, and prolong the lifespan of sensitive equipment. PowerOptimus provides in-depth power quality analysis that is essential for any Energy Management System and environmental sustainability.'
       },
       {
         title: 'Setpoints Monitoring',
-        desc: 'Monitoring utility setpoints is vital for maintaining optimal operational parameters. This software alerts teams when setpoints exceed defined thresholds, helping prevent unnecessary energy use and avoidable operational costs.'
+        desc: 'Monitoring utility setpoints is vital for maintaining optimal operational parameters. This software alerts teams when setpoints exceed defined thresholds, helping prevent unnecessary energy use and avoidable operational costs.This software alerts teams when setpoints exceed defined thresholds, helping prevent unnecessary energy use and avoidable operational costs. and avoidable operational costs.'
       },
       {
-        title: 'Idle Equipment Detection',
-        desc: 'One of the most overlooked energy drains in industrial environments is equipment running idle. Our solution continuously monitors machine energy consumption versus output and flags idle equipment. It prompts automated actions such as turning off equipment during inactivity, a key feature of next-gen energy management systems. With this data, organizations can act quickly to shut down non-productive equipment, thereby reducing energy waste.'
+        title: 'Setpoints Monitoring',
+        desc: 'One of the most overlooked energy drains in industrial environments is equipment running idle. Our solution continuously monitors machine energy consumption versus output and flags idle equipment. It prompts automated actions such as turning off equipment during inactivity, a key feature of next-gen energy management systems. With this data, organizations can act quickly to shut down non-productive equipment'
       },
       {
-        title: 'Industrial Carbon Footprint Management',
+        title: 'Setpoints Monitoring',
         desc: 'With growing emphasis on environmental compliance, this solution aids in tracking and reducing Scope 1, 2, and 3 emissions. By analyzing energy efficiency data and carbon outputs, the platform supports your carbon footprint reduction strategy and helps meet corporate sustainability targets. This is where energy management systems meet environmental sustainability.'
       },
       {
-        title: 'Air Quality Monitoring',
+        title: 'Setpoints Monitoring',
         desc: 'Indoor air quality has a direct impact on employee health and productivity. PowerOptimus integrates with air and humidity sensors to monitor environmental conditions within industrial and healthcare facilities. It provides actionable insights to align indoor air quality with outdoor conditions and maintain a healthy workplace.'
       },
       {
-        title: 'CO₂ Percentage Monitoring',
-        desc: 'PowerOptimus measures indoor CO₂ concentrations and dynamically adjusts HVAC operations through Demand-Controlled Ventilation (DCV). This ensures both energy savings and a healthier working environment, demonstrating how comprehensive energy monitoring systems contribute to smarter infrastructure.'
+        title: 'Setpoints Monitoring',
+        desc: 'PowerOptimus measures indoor CO₂ concentrations and dynamically adjusts HVAC operations through Demand-Controlled Ventilation (DCV). This ensures both energy savings and a healthier working environment, demonstrating how comprehensive energy monitoring systems contribute to smarter infrastructure.with occupational health and safety norms.'
       },
       {
-        title: 'Hazardous Gas Monitoring',
-        desc: 'In chemical handling and processing environments, hazardous gas emissions pose serious health risks. PowerOptimus integrates gas detection sensors to monitor and alert in real time, ensuring a safer work environment and compliance with occupational health and safety norms.'
+        title: 'Setpoints Monitoring',
+        desc: 'In chemical handling and processing environments, hazardous gas emissions pose serious health risks. PowerOptimus integrates gas detection sensors to monitor and alert in real time, ensuring a safer work environment and compliance with occupational health and safety norms. with occupational health and safety norms.'
       },
       // {
       //   title: 'Predictive Analytics for Energy & Environmental Management',
@@ -183,7 +183,7 @@ const FeatureSection = () => {
         <div className="features-grid">
           {features.map((item: any, index: any) => (
             <div className="feature-card" key={index}>
-              <h3 className="Header3 alignbodytextwidth" style={{ marginTop: '0px', marginBottom: '0px' }}>{item.title}</h3>
+              <h3 className="Header3sec alignbodytextwidth" style={{ marginTop: '0px', marginBottom: '0px' }}>{item.title}</h3>
               <p className="body3 TextGray3">{item.desc}</p>
             </div>
           ))}

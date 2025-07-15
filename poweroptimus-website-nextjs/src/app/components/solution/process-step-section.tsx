@@ -73,8 +73,8 @@ const ProcessStepSection = () => {
         <div key={step.id} className={`step ${index % 2 !== 0 ? 'reverse' : ''}`}>
           <img src={step.image} alt={step.title} />
           <div className="text">
-            <h2 className="step-title Header2">{step.title}</h2>
-            <p className="step-desc body1">{step.description}</p>
+            <h2 className="step-title Header1sec">{step.title}</h2>
+            <div className="step-desc body1sec">{step.description}</div>
           </div>
         </div>
       ))}
