@@ -18,7 +18,7 @@
   /* border-bottom: 1px solid #dfdfdf; */
   max-width: 2300px;
   background: #F0F4F8; 
-  height: 76vh;
+  min-height: 76vh;
 }
 
 .home_sectionHeader_left{
