@@ -358,6 +358,15 @@ body {
   margin-top: 15px;
 }
 
+.marTopBtmZero{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.marTopBtm {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* css which not worked on component load end */
 

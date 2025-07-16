@@ -93,7 +93,8 @@
 .know-more-button {
   background-color: #1e950000; /* Fluent Design System blue */
   color:  #1e9500;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 25px;
   padding: 10px 20px;
   border: 1px solid  #1e9500;
   border-radius: 4px;

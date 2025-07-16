@@ -2,21 +2,35 @@
 .HomeFeature_container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background: #ffffff;
+}
+
+/* ✅ New Top Intro Section === */
+.HomeFeature_intro {
+  margin-top: 60px;
+  width: 100%;
+  text-align: center;
+}
+.HomeFeature_intro p {
+  /* font-size: 18px; */
+  /* color: #444; */
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 15px auto 0 auto;
 }
 
 /* === Main Grid: 14 Columns Layout === */
 .HomeFeature_Home {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  /* margin-bottom: 80px; */
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
   row-gap: 20px;
   column-gap: 30px;
   max-width: 2300px;
-  /* background: #ffffff; */
 }
 
 /* === LEFT Section: spans columns 1 to 7 === */
@@ -28,32 +42,19 @@
   align-items: flex-start;
 }
 
-/* === Nested Image Grid Inside LEFT Section === */
 .left-img-grid {
-  /* display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
+  max-width: 750px;
+  margin: 0 auto;
   width: 100%;
-  max-width: 100%;
-  box-sizing: border-box; */
-  display: grid;
-  grid-template-columns: 1fr 1fr;     /* 2 columns */
-  gap: 24px;                          /* spacing between images */
-  max-width: 750px;                   /* not too small now */
-  margin: 0 auto;                     /* center the grid */
-  width: 100%;
-  /* padding: 10px; */
   box-sizing: border-box;
 }
 
 .left-img-grid img {
-  /* width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  border-radius: 6px; */
   width: 100%;
-  aspect-ratio: 4 / 3;                /* uniform size */
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
   border-radius: 8px;
@@ -88,6 +89,14 @@
 
 /* === Responsive: Mobile View === */
 @media (max-width: 600px) {
+  .HomeFeature_intro h2 {
+    font-size: 24px;
+  }
+
+  .HomeFeature_intro p {
+    font-size: 16px;
+  }
+
   .HomeFeature_Home {
     grid-template-columns: 10px repeat(12, 1fr) 10px;
     row-gap: 10px;
