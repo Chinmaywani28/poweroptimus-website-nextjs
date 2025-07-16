@@ -17,6 +17,7 @@ import { RecentBlogs } from './recent-blogs/recent-blogs';
 import { KeyVertices } from './key-vertices/key-vertices';
 import { KeyVerticesTwo } from './key-vertices two/key-vertices-two';
 import { FormSection } from './form-section/form-section';
+import SolFeatureBtmSection from '../solution/sol-feature-btm-section';
 
 
 
@@ -167,6 +168,16 @@ const HomeMainContent = () => {
       ]}/>
 
       {/* <FormSection/> */}
+
+      <SolFeatureBtmSection
+        heading="Easy to Integrate with Existing Systems"
+        paragraphs={[
+          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+        ]}
+        buttonText="Download Documentation"
+        imageSrc="/integration.png"
+        imageAlt="Illustration of integration"
+      />
 
     </div>
     </>
