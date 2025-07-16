@@ -14,80 +14,69 @@ export const WhyPowerOptimusTwo = () => {
         </p>
       </div>
 
-      {/* ✅ Existing Grid Starts Here */}
+      <div className='HomeFeature_container'>
       <div className='HomeFeature_Home'>
 
-        {/* === Left Side: Background Section (grid from 1 to 7) === */}
-        <div className='left-img-grid-container'>
-          <div className="left-img-grid">
+        {/* === Left Side: Masonry-style image grid === */}
+        <div className='left-img-masonry-container'>
+          <div className="left-img-masonry">
             <Link href="/industry">
               <img src="./key-vertices-one.jpg" alt="Industry" />
             </Link>
-
-            <Link href="/robotics">
-              <img src="./key-vertices-two.jpg" alt="Robotics" />
-            </Link>
-
             <Link href="/chip">
-              <img src="./key-vertices-one.jpg" alt="Chip" />
+              <img src="./ky-vertices-threee.jpg" alt="Chip" />
             </Link>
-
+            <Link href="/robotics">
+              <img src="./ky-vertices-two.jpg" alt="Robotics" />
+            </Link>
+            
             <Link href="/medical">
-              <img src="./key-vertices-two.jpg" alt="Medical" />
+              <img src="./ky-vertices-two.jpg" alt="Medicalkkk" />
+            </Link>
+            <Link href="/energy">
+              <img src="./ky-vertices-four.jpg" alt="Energy" />
+            </Link>
+            <Link href="/ai">
+              <img src="./key-vertical-six.jpg" alt="AI" />
             </Link>
           </div>
         </div>
 
         {/* === Right Side: Text Content === */}
         <div className='HomeFeature_Leftss'>
-          <div>
-            <h2 className='Header2sec TextBlue marTopBtm'>· Lorem, ipsum dolor.</h2>
-            <div className='body2sec TextBlue marTopGlobal'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolores!
+            <div>
+              <h2 className='Header1sec'>· Customizable to Industry Needs:</h2>
+              <div className="body2three">
+                Whether it's a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation.
+              </div> 
             </div>
-          </div>
 
-          <div>
-            <h2 className='Header2sec TextBlue marTopBtm'>· Lorem, ipsum dolor.</h2>
-            <div className='body2sec TextBlue marTopGlobal'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolores!
+            <div>
+              <h2 className='Header1sec'>· Customizable to Industry Needs:</h2>
+              <div className="body2three">
+                Whether it's a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation.
+              </div> 
             </div>
-          </div>
 
-          <div>
-            <h2 className='Header2sec TextBlue marTopBtm'>· Lorem, ipsum dolor.</h2>
-            <div className='body2sec TextBlue marTopGlobal'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolores!
+            <div>
+              <h2 className='Header1sec'>· Customizable to Industry Needs:</h2>
+              <div className="body2three">
+                Whether it's a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation.
+              </div> 
             </div>
-          </div>
 
-         <div>
-            <h2 className='Header2sec TextBlue marTopBtm'>· Lorem, ipsum dolor.</h2>
-            <div className='body2sec TextBlue marTopGlobal'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolores!
+            <div>
+              <h2 className='Header1sec'>· Customizable to Industry Needs:</h2>
+              <div className="body2three">
+                Whether it's a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation.
+              </div> 
             </div>
-          </div>
 
 
-          {/* <li><strong>Customizable to Industry Needs:</strong> Whether it's a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation</li>
-
-            <li><strong>Scalable and Future-Ready:</strong> Designed to grow with your business, our platform integrates effortlessly with existing systems, including BIM, IoT devices, and SCADA.</li>
-            <li><strong>Actionable Insights, Always-On Monitoring:</strong> Continuous data visibility across energy, environment, and operations helps you make informed decisions faster.</li>
-            <li><strong>Driving Environmental Responsibility:</strong> From toxic gas emission monitoring in factories to AQI tracking in hospitals, PowerOptimus is built to support environmentally conscious operations.</li> */}
-
-
-          {/* <div className='Header1 TextBlue'>
-            Key Vertices
-          </div>
-          <div className='body1_300'>
-            Eum in placeat doloremque sed aliquid iste. Enim ullam esse ipsa aut velit alias rerum. Eligendi quasi exercitationem incidunt. Sapiente totam dignissimos alias est dicta magni enim dolores soluta. Nobis reiciendis nulla ex eum id qui. Id et aperiam dolore aspernatur architecto ducimus ut nobis ut.
-          </div>
-          <div className='buttonDiv2'>
-            <button className="know-more-button3">Know More</button>
-          </div> */}
         </div>
 
       </div>
+    </div>
     </div>
   );
 };
