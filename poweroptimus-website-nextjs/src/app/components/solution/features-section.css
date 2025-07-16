@@ -36,6 +36,14 @@
   flex-shrink: 0;
 }
 
+/* .feature-card h3 {
+  min-height: 68px;
+  display: flex;
+  align-items: flex-start; 
+  line-height: 1.2;
+  margin-bottom: 10px; 
+} */
+
 /* Scroll buttons */
 .scroll-buttons {
   display: none;
