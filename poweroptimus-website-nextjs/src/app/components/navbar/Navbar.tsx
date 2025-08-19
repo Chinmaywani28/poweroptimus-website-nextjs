@@ -96,7 +96,7 @@ const Navbar = () => {
           <div className={`navbar-menu ${isMobileMenuOpen ? 'open' : ''}`}>
             <Link href="/solution">{t('Solutions')}</Link>
             <Link href="/key-vertical">{t('Key Verticals')}</Link>
-            <Link href="/roles">{t('Roles')}</Link>
+            <Link href="/">{t('Roles')}</Link>
             {/* <Link href="/resources">{t('Resources')}</Link> */}
 
 
@@ -106,10 +106,10 @@ const Navbar = () => {
               </span>
               {isDropdownOpen && (
                 <ul className="dropdown-menu">
-                  <li><Link href="/resources/blogs">Blog</Link></li>
-                  <li><Link href="/resources/case-study">Case Study</Link></li>
-                  <li><Link href="/resources/video">Video</Link></li>
-                  <li><Link href="/resources/brochure">Brochure</Link></li>
+                  <li><Link href="/">Blog</Link></li>
+                  <li><Link href="/">Case Study</Link></li>
+                  <li><Link href="/">Video</Link></li>
+                  <li><Link href="/">Brochure</Link></li>
                 </ul>
               )}
             </div>
@@ -122,8 +122,8 @@ const Navbar = () => {
               </span>
               {isDropdownOpenNews && (
                 <ul className="dropdown-menu">
-                  <li><Link href="/news-and-events/news">News</Link></li>
-                  <li><Link href="/news-and-events/events">Events</Link></li>
+                  <li><Link href="/">News</Link></li>
+                  <li><Link href="/">Events</Link></li>
                 </ul>
               )}
             </div>
