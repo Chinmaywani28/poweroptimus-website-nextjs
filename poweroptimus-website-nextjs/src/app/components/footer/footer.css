@@ -12,7 +12,8 @@
   display: grid;
   width: 100%;
   /* grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; */
-  grid-template-columns: 7.2fr 37fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; 
+  /* grid-template-columns: 7.2fr 37fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;  */
+  grid-template-columns: 2.4fr 5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; 
   align-items: center;
   row-gap: 20px;
   column-gap: 30px;
@@ -50,8 +51,8 @@
 .footerLink1{
   padding-top: 50px;
   /* padding-left: 50px; */
-  grid-column-start: 9;
-  grid-column-end: 11;
+  grid-column-start: 6;
+  grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -66,8 +67,8 @@
   padding-top: 50px;
   
   /* padding-left: 50px; */
-  grid-column-start: 12;
-  grid-column-end: 14;
+  grid-column-start: 9;
+  grid-column-end: 11;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -80,8 +81,8 @@
 
 .footerLink3{
   padding-top: 50px;
-  grid-column-start: 13;
-  grid-column-end: 15;
+  grid-column-start: 12;
+  grid-column-end: 14;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;

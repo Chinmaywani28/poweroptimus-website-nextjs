@@ -177,7 +177,7 @@ const FeatureSection = () => {
 
   return (
     <section className="features-section">
-      <h2 className="features-title Header2sec">Features</h2>
+      <h2 className="features-title Header1sec">Features</h2>
 
       <div className="features-scroll-container" ref={scrollRef}>
         <div className="features-grid">

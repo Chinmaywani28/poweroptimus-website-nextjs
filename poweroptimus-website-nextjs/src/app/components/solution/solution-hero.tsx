@@ -20,7 +20,7 @@ const SolutionHero = ({headerText,bodyText}: HeroProps) => {
         <div className="home">
           {/* === Section 1.1 === */}
           <div className="hero-left-content">
-            <div className="Header1 TextWhite">
+            <div className="Header1sec TextWhite">
               {headerText}
               {/* Building a Sustainable Future with Smart Energy Solution */}
             </div>

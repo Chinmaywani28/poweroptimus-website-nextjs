@@ -197,9 +197,9 @@ const Footer = () => {
 
           <div className="footerAddress2 body4">
             
-            {/* <div>{t('FooterDescription')}</div> */}
+            <div>{t('FooterDescription')}</div>
 
-            {/* <button className="footer_know-more-button">{t('ContactUs')}</button> */}
+            <button className="footer_know-more-button">{t('ContactUs')}</button>
           </div>
         </div>
 
