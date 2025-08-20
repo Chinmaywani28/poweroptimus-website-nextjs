@@ -17,10 +17,10 @@
   column-gap: 30px;
   /* border-bottom: 1px solid #dfdfdf; */
   max-width: 2300px;
-  background: red; 
-  min-height: 76vh;
-  /* min-height: 82vh; */
-
+  /* background: red;  */
+  background: #f0f4f8;  
+  /* min-height: 76vh; */
+  min-height: 82vh;
 }
 
 .home_sectionHeader_left{
