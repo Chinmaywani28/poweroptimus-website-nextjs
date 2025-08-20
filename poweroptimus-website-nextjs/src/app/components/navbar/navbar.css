@@ -28,8 +28,9 @@
 
 /* Navbar brand (Logo / Title) */
 .navbar-brand {
-  grid-column-start: 2; /* Start at column 2 */
-  grid-column-end: 5; /* End at column 5 */
+  grid-column-start: 2; 
+  /* grid-column-end: 5; */
+  grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2 ;
   text-align: left; /* Align to the right */
@@ -38,8 +39,9 @@
 
 /* Navbar menu items */
 .navbar-menu {
-  grid-column-start: 4; /* Start at column 7 */
-  grid-column-end: 12; /* End at column 13 */
+  /* grid-column-start: 4;  */
+  grid-column-start: 5; 
+  grid-column-end: 12; 
   grid-row-start: 1;
   grid-row-end: 2 ;
   display: flex;
@@ -189,7 +191,9 @@ border-radius: 1px
 /* Adjustments for 125% scaling (1536px width) */
 
 @media (max-width: 1560px) {
-
+  .navbar-logo {
+    height: 40px;
+  }
 
 }
 
