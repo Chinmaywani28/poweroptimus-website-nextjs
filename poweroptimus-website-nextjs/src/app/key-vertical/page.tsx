@@ -8,17 +8,23 @@ import Integration from '../components/solution/integration'
 import FeatureBtmSection from '../components/key-verticals-page/feature-btm-section'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 import { WhyPowerOptimusTwo } from '../components/key-verticals-page/why-power-optimus/why-power-optimus-two'
+import HeroReusable from '../components/key-verticals-page/hero-reusable'
 
 
 const page = () => {
   return (
     <>
     {/* <KeyverticalHeader/> */}
-    <KeyverticalTwo
+    {/* <KeyverticalTwo
         title="Optimizing Energy Across Industries"
         description="Explore the diverse sectors we empower with intelligent energy monitoring and management solutions. From industrial plants and data centers to hospitals and commercial buildings, discover how our tailored approaches drive efficiency, reduce costs, and promote sustainability"
         showLink={false}
-      />
+      /> */}
+
+    <HeroReusable headerText={'Optimizing Energy Across Industries'} bodyText={'Explore the diverse sectors we empower with intelligent energy monitoring and management solutions. From industrial plants and data centers to hospitals and commercial buildings, discover how our tailored approaches drive efficiency, reduce costs, and promote sustainability'} />
+
+
+
     {/* sections */}
       <FacilitySections
         title="Industrial Plants & Factories"
