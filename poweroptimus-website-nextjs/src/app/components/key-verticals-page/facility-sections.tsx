@@ -13,6 +13,7 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
   label1: string;
   label2: string;
   label3: string;
+  showList?: boolean; // 👈 added
 }) => {
   return (
     <section className="facility-section">
@@ -24,12 +25,18 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
           <div className="Header1sec TextBlue marBtm">{title}</div>
           <div className="body1sec marTopGlobal">
             {text}
-            <ul className="listStyleGlobal">
+            {/* <ul  className="listStyleGlobal">
               <li>{listOne}</li>
               <li>{listTwo}</li>
               <li>{listThree}</li>
               <li>{listFour}</li>
-            </ul>
+            </ul> */}
+            <ul className="listStyleGlobal">
+                {listOne && <li>{listOne}</li>}
+                {listTwo && <li>{listTwo}</li>}
+                {listThree && <li>{listThree}</li>}
+                {listFour && <li>{listFour}</li>}
+              </ul>
           </div>
           <div className="tags marTopGlobal">
             <span className="body2sec">{label1}</span>

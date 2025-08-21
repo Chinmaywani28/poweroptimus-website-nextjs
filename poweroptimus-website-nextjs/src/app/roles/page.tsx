@@ -27,6 +27,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       <FacilitySections
@@ -41,6 +42,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       
@@ -56,6 +58,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       <FacilitySections
@@ -70,6 +73,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       <FacilitySections
@@ -83,6 +87,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       <FacilitySections
@@ -97,6 +102,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       <FacilitySections
@@ -110,6 +116,7 @@ const page = () => {
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
+        showList={true}
       />
 
       <SolFeatureBtmSection

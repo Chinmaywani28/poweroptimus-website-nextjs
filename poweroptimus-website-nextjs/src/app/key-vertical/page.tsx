@@ -33,6 +33,7 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
+         showList={false}
       />
 
       <FacilitySections
@@ -43,6 +44,7 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
+        showList={false}
       />
 
             <FacilitySections
@@ -52,6 +54,7 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
+        showList={false}
       />
 
             <FacilitySections
@@ -62,6 +65,7 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
+         showList={false}
       />
 
       <FacilitySections
@@ -72,6 +76,7 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
+        showList={false}
       />
 
       <FacilitySections
@@ -82,6 +87,7 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
+        showList={false}
       />
 
       {/* keyvertical two */}
