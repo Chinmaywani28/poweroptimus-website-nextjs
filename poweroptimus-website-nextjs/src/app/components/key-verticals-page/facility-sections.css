@@ -42,7 +42,7 @@
 } */
 
 .tags {
-  margin-top: 24px;
+  /* margin-top: 24px; */
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
@@ -52,6 +52,10 @@
   margin-bottom: 0;
 }
 
+.listStyleGlobal{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
 
 .tags span {
   background-color: #d4f4d4;

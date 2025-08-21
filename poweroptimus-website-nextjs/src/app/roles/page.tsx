@@ -2,6 +2,7 @@ import React from 'react'
 import KeyverticalTwo from '../components/key-verticals-page/key-vertical-two'
 import FacilitySections from '../components/key-verticals-page/facility-sections'
 import HeroReusable from '../components/key-verticals-page/hero-reusable'
+import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 
 const page = () => {
   return (
@@ -12,12 +13,16 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Energy Solutions for Every Stakeholder'} bodyText={'Whether you are a hands-on technical manager a strategic sustainability leader, or a service provider delivering client solutions, our comprehensive platform is designed to meet your unique needs. Gain real-time visibility, drive efficiency, and achieve measurable results with our energy monitoring and management solutions. See how we empower every stakeholder to make informed decisions and achieve their energy goals'} />
+      <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} />
 
 
       <FacilitySections
-        title="Technical Manager/Facility Manager"
-        text="Gain real-time visibility into your facility's energy consumption and identify potential issues before they escalate. Our platform provides the data and analytics you need for proactive maintenance, optimizing equipment performance and minimizing downtime. Quia ratione fuga accusamus corrupti et vitae aliquam. Ratione maxime vitae ipsum voluptate. Rerum laborum autem quaerat earum voluptas. Et porro error ut. Non explicabo excepturi minus quia quibusdam laboriosam quidem consectetur. Laboriosam fuga minima quia quibusdam. Dolores hic repellendus unde temporibus atque. Laudantium asperiores id quis. Voluptatem veniam id facilis rerum. Et ut corporis dolores aut expedita et minus blanditiis possimus. Eligendi provident delectus qui. Optio in quidem. Recusandae et nisi doloremque eaque. Voluptas optio quo blanditiis minus ab."
+        title="Facility Managers / Administrators"
+        text="Facility managers are responsible for the day-to-day efficiency and reliability of building systems. From HVAC to lighting and equipment scheduling, they must balance occupant comfort, energy use, and maintenance tasks."
+        listOne="Provides real-time monitoring and control of energy-consuming assets"
+        listTwo="Sends proactive alerts for abnormal consumption or equipment failure"
+        listThree="Reduces downtime through predictive insights and maintenance schedules"
+        listFour="Helps maintain optimal working conditions while reducing utility bills"
         imageSrc="./roles-one.png"
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
@@ -25,9 +30,13 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Sustainability Officer/Energy Manager"
-        text="Track your energy usage, monitor carbon emissions, and generate comprehensive reports to demonstrate your sustainability efforts. Our solutions empower you to meet your environmental targets and achieve a greener footprint. Quia ratione fuga accusamus corrupti et vitae aliquam. Ratione maxime vitae ipsum voluptate. Rerum laborum autem quaerat earum voluptas. Et porro error ut. Non explicabo excepturi minus quia quibusdam laboriosam quidem consectetur. Laboriosam fuga minima quia quibusdam.Dolores hic repellendus unde temporibus atque. Laudantium asperiores id quis. Voluptatem veniam id facilis rerum. Et ut corporis dolores aut expedita et minus blanditiis possimus.Eligendi provident delectus qui. Optio in quidem. Recusandae et nisi doloremque eaque. Voluptas optio quo blanditiis minus ab"
+        title="Operations Heads"
+        text="Operations Heads oversee plant and process performance, striving for operational excellence while managing budgets and resources."
         imageSrc="./roles-two.png"
+        listOne="Offers facility-wide dashboards for instant visibility into energy usage"
+        listTwo="Correlates energy consumption with process output to identify bottlenecks"
+        listThree="Enables load balancing and shift optimization based on usage trends"
+        listFour="Supports energy budgeting, target setting, and performance benchmarking"
         reverse
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
@@ -37,8 +46,12 @@ const page = () => {
       
 
       <FacilitySections
-        title="Maintenance/Reliability Engineers"
-        text="As a Maintenance or Reliability Engineer, your focus is on maximizing equipment uptime and preventing costly breakdowns. Our energy monitoring and management system provides you with real-time data on equipment performance, energy consumption, and potential anomalies. Leverage predictive analytics to identify maintenance needs before they become critical, ensuring continuous production and minimizing downtime. Receive alerts for abnormal power consumption, temperature spikes, or other signs of impending failure, allowing for proactive intervention. Optimize energy usage during scheduled maintenance to reduce operational costs. Gain detailed reports on energy efficiency of individual machines and overall production lines, helping you to make data-driven decisions for improved reliability."
+        title="Energy Managers"
+        text="Energy Managers lead efforts to reduce energy usage, improve efficiency, and achieve sustainability targets. Their role is increasingly data-driven and strategic."
+        listOne="Provides granular, circuit-level monitoring and historical data"
+        listTwo="Identifies inefficiencies with trend analysis and consumption patterns"
+        listThree="Enables benchmarking across departments or locations"
+        listFour="Supports ISO 50001, compliance, and other energy management frameworks"
         imageSrc="./roles-three.png"
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
@@ -46,8 +59,12 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Service Providers"
-        text="For service providers in facility management, energy consulting, and related fields, our solutions offer a powerful advantage. Deliver enhanced value to your clients by providing real-time energy monitoring, data-driven insights, and proactive management strategies, all through a unified platform. Quia ratione fuga accusamus corrupti et vitae aliquam. Ratione maxime vitae ipsum voluptate. Rerum laborum autem quaerat earum voluptas. Et porro error ut. Non explicabo excepturi minus quia quibusdam laboriosam quidem consectetur. Laboriosam fuga minima quia quibusdam.Dolores hic repellendus unde temporibus atque. Laudantium asperiores id quis. Voluptatem veniam id facilis rerum. Et ut corporis dolores aut expedita et minus blanditiis possimus.Eligendi provident delectus qui. Optio in quidem. Recusandae et nisi doloremque eaque. Voluptas optio quo blanditiis minus ab."
+        title="CXOs (Chief Executives / C-Suite)"
+        text="CXOs are focused on profitability, compliance, and long-term sustainability. They need insights, not just data, to support ESG initiatives and operational transformation."
+        listOne="Delivers executive dashboards with KPIs across energy, cost, and carbon"
+        listTwo="Aids in aligning ESG goals with real-time operational performance"
+        listThree="Offers ROI projections for energy interventions and capital investments"
+        listFour="Empowers strategic planning through scenario analysis and forecasting"
         imageSrc="./roles-four.png"
         reverse
         label1="Real-Time Usage Insights"
@@ -56,14 +73,54 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Soluta voluptas"
-        text="Quia ratione fuga accusamus corrupti et vitae aliquam. Ratione maxime vitae ipsum voluptate. Rerum laborum autem quaerat earum voluptas. Et porro error ut. Non explicabo excepturi minus quia quibusdam laboriosam quidem consectetur. Laboriosam fuga minima quia quibusdam.Dolores hic repellendus unde temporibus atque. Laudantium asperiores id quis. Voluptatem veniam id facilis rerum. Et ut corporis dolores aut expedita et minus blanditiis possimus.Eligendi provident delectus qui. Optio in quidem. Recusandae et nisi doloremque eaque. Voluptas optio quo blanditiis minus ab. Quia ratione fuga accusamus corrupti et vitae aliquam. Ratione maxime vitae ipsum voluptate. Rerum laborum autem quaerat earum voluptas. Et porro error ut. Non explicabo excepturi minus quia quibusdam laboriosam quidem consectetur. Laboriosam fuga minima quia quibusdam."
+        title="Sustainability Leaders"
+        text="Sustainability leaders track the environmental impact of operations and ensure compliance with internal and external sustainability standards."
+        listOne="Tracks carbon emissions and energy intensity metrics automatically"
+        listTwo="Supports GHG reporting frameworks, ISO 14001 compliance, and other sustainability documentation"
+        listThree="Enables visibility into sustainability KPIs across sites and teams"
+        listFour="Encourages behavioral change by making progress visible and actionable"
         imageSrc="./roles-five.png"
         label1="Real-Time Usage Insights"
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
       />
 
+      <FacilitySections
+        title="Production Managers"
+        text="Production managers focus on throughput, quality, and uptime. They often face trade-offs between operational efficiency and energy consumption."
+        imageSrc="./roles-four.png"
+        listOne="Links machine-level energy use with production metrics"
+        listTwo="Highlights inefficiencies during idle, peak, or off-peak hours"
+        listThree="Supports lean manufacturing through energy-aware scheduling"
+        listFour="Minimizes waste while ensuring production targets are met"
+        reverse
+        label1="Real-Time Usage Insights"
+        label2="Predictive Maintenance Alerts"
+        label3="Environmental Impact"
+      />
+
+      <FacilitySections
+        title="Health Inspectors"
+        text="Health inspectors oversee the adherence to safety and environmental regulations related to building operations, air quality, and equipment safety."
+        listOne="Monitors HVAC and indoor environmental quality in real time"
+        listTwo="Helps track equipment performance and preventive maintenance"
+        listThree="Provides logs and reports to support health audits and inspections"
+        listFour="Ensures transparency in adherence to operational health standards"
+        imageSrc="./roles-five.png"
+        label1="Real-Time Usage Insights"
+        label2="Predictive Maintenance Alerts"
+        label3="Environmental Impact"
+      />
+
+      <SolFeatureBtmSection
+        heading="Easy to Integrate with Existing Systems"
+        paragraphs={[
+          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+        ]}
+        buttonText="Download Documentation"
+        imageSrc="/integration.png"
+        imageAlt="Illustration of integration"
+      />
 
     </>
   )

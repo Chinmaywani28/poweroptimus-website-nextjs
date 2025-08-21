@@ -1,11 +1,15 @@
 import './facility-sections.css'; // Import HomePage specific styles
 
 
-const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3 }: {
+const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,listOne,listTwo,listThree,listFour }: {
   title: string;
   text: string;
   imageSrc: string;
   reverse?: boolean;
+  listOne: string;
+  listTwo: string;
+  listThree: string;
+  listFour: string;
   label1: string;
   label2: string;
   label3: string;
@@ -17,9 +21,17 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3 
           <img src={imageSrc} alt={title} />
         </div>
         <div className="facility-text">
-          <h2 className="Header1sec TextBlue marBtm">{title}</h2>
-          <div className="body2three marTopGlobal">{text}</div>
-          <div className="tags">
+          <div className="Header1sec TextBlue marBtm">{title}</div>
+          <div className="body1sec marTopGlobal">
+            {text}
+            <ul className="listStyleGlobal">
+              <li>{listOne}</li>
+              <li>{listTwo}</li>
+              <li>{listThree}</li>
+              <li>{listFour}</li>
+            </ul>
+          </div>
+          <div className="tags marTopGlobal">
             <span className="body2sec">{label1}</span>
             <span className="body2sec">{label2}</span>
             <span className="body2sec">{label3}</span>

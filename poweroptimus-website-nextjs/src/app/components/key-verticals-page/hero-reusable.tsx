@@ -28,7 +28,7 @@ const HeroReusable = ({headerText,bodyText}: HeroProps) => {
 
                         {/* Building a Sustainable Future with Smart Energy Solution */}
                 </div>
-                <div className='body1 TextGray1'>
+                <div className='body1sec TextGray1'>
                         {bodyText}
                         {/* Introducing our state-of-the-art solution designed to monitor, manage, analyze, and optimize energy consumption. With cutting-edge technology, our solution provides real-time insights and predictive analytics, enabling businesses to achieve unparalleled energy efficiency and operational excellence. */}
                 </div>
