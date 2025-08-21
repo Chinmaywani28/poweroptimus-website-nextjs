@@ -6,10 +6,10 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
   text: string;
   imageSrc: string;
   reverse?: boolean;
-  listOne: string;
-  listTwo: string;
-  listThree: string;
-  listFour: string;
+  listOne?: string;
+  listTwo?: string;
+  listThree?: string;
+  listFour?: string;
   label1: string;
   label2: string;
   label3: string;
