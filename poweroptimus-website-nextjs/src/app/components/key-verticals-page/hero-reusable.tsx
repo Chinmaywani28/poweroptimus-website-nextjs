@@ -23,7 +23,7 @@ const HeroReusable = ({headerText,bodyText}: HeroProps) => {
         <div className="home"> 
                     {/* sectin 1.1  */}
                 <div className='home_sectionHeader_left'>
-                <div className='Header1 TextBlue'>
+                <div className='Header1sec TextBlue'>
                         {headerText}
 
                         {/* Building a Sustainable Future with Smart Energy Solution */}

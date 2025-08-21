@@ -1,15 +1,19 @@
 import React from 'react'
 import KeyverticalTwo from '../components/key-verticals-page/key-vertical-two'
 import FacilitySections from '../components/key-verticals-page/facility-sections'
+import HeroReusable from '../components/key-verticals-page/hero-reusable'
 
 const page = () => {
   return (
     <>
-      <KeyverticalTwo
+      {/* <KeyverticalTwo
         title="Energy Solutions for Every Stakeholder"
         description="Whether you're a hands-on technical manager, a strategic sustainability leader, or a service provider delivering client solutions, our comprehensive platform is designed to meet your unique needs. Gain real-time visibility, drive efficiency, and achieve measurable results with our energy monitoring and management solutions. See how we empower every stakeholder to make informed decisions and achieve their energy goals"
         showLink={false}
-      />
+      /> */}
+
+      <HeroReusable headerText={'Energy Solutions for Every Stakeholder'} bodyText={'Whether you are a hands-on technical manager a strategic sustainability leader, or a service provider delivering client solutions, our comprehensive platform is designed to meet your unique needs. Gain real-time visibility, drive efficiency, and achieve measurable results with our energy monitoring and management solutions. See how we empower every stakeholder to make informed decisions and achieve their energy goals'} />
+
 
       <FacilitySections
         title="Technical Manager/Facility Manager"
