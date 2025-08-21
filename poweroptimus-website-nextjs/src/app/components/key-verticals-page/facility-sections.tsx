@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './facility-sections.css'; // Import HomePage specific styles
 
 
@@ -39,9 +40,22 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
               </ul>
           </div>
           <div className="tags marTopGlobal">
-            <span className="body2sec">{label1}</span>
+            {/* <span className="body2sec">{label1}</span>
             <span className="body2sec">{label2}</span>
+            <span className="body2sec">{label3}</span> */}
+
+            <Link style={{ textDecoration: "none" }} href="/"><span className="body2sec">{label1}</span></Link>
+            <Link style={{ textDecoration: "none" }} href="/">  
+            <span className="body2sec">{label2}</span>
+            
+            </Link>
+            <Link style={{ textDecoration: "none" }} href="/">
             <span className="body2sec">{label3}</span>
+
+            </Link>
+
+
+
           </div>
         </div>
       </div>
