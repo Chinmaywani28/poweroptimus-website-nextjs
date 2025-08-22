@@ -44,12 +44,12 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
             <span className="body2sec">{label2}</span>
             <span className="body2sec">{label3}</span> */}
 
-            <Link href="/key-verticals-page/facility-sections" style={{ textDecoration: "none" }}><span className="body2sec">{label1}</span></Link>
-            <Link style={{ textDecoration: "none" }} href="/">  
+            <Link href="/roles/roles-cap" style={{ textDecoration: "none" }}><span className="body2sec">{label1}</span></Link>
+            <Link href="/roles/roles-cap" style={{ textDecoration: "none" }}>  
             <span className="body2sec">{label2}</span>
             
             </Link>
-            <Link style={{ textDecoration: "none" }} href="/">
+            <Link href="/roles/roles-cap" style={{ textDecoration: "none" }}>
             <span className="body2sec">{label3}</span>
 
             </Link>
