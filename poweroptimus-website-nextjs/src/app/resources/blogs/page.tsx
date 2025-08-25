@@ -1,6 +1,7 @@
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { CardGridSection } from '@/app/components/resources/card-grid-section'
+import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section'
 import React from 'react'
 
 
@@ -106,6 +107,16 @@ const page = () => {
 
         
 />
+
+        <SolFeatureBtmSection
+        heading="Easy to Integrate with Existing Systems"
+        paragraphs={[
+          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+        ]}
+        buttonText="Download Documentation"
+        imageSrc="/integration.png"
+        imageAlt="Illustration of integration"
+      />
 
     </>
   )
