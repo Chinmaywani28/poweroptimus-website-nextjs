@@ -122,8 +122,8 @@ const Navbar = () => {
               </span>
               {isDropdownOpenNews && (
                 <ul className="dropdown-menu">
-                  <li><Link href="/">News</Link></li>
-                  <li><Link href="/">Events</Link></li>
+                  <li><Link href="/news-and-events/news">News</Link></li>
+                  <li><Link href="/news-and-events/events">Events</Link></li>
                 </ul>
               )}
             </div>
