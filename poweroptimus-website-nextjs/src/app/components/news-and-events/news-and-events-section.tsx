@@ -8,7 +8,7 @@ type CardData = {
   image: string;
   date: string;
   description: string;
-  link: string
+  link: string;
 };
 
 type Props = {
@@ -62,10 +62,10 @@ export const NewsAndEventsSection : React.FC<Props> = ({ cards }) => {
       <div className="card-container" ref={scrollRef}>
         {cards.map((item, idx) => (
           <div className="carousel-card" key={idx}>
-            <h3 className="Header3 TextBlue">{item.title}</h3>
-            <img src={item.image} alt="card" className="carousel-img" />
-            <p className="body3" style={{color:'#666' }}>{item.date}</p>
-            <p className="body3">{item.description}</p>
+            <Link href={"item.link"} className="Header3sec TextBlue" style={{ textDecoration: "none" }}>{item.title}</Link>
+            <img src={item.image} alt="card" className="carousel-img marTopGlobal" />
+            <div className="body3sec marTopGlobal" style={{color:'#666' }}>{item.date}</div>
+            <div className="body3sec marTopGlobal">{item.description}</div>
           </div>
         ))}
 
