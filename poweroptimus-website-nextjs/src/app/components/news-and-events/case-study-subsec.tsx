@@ -21,7 +21,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
 
   return (
     <>
-     {/* <section className="container">
+      {/* <section className="container">
         <nav className="topbar">
           <Link href="/blogs" className="back-link">
             <span className="arrow">←</span>
@@ -55,64 +55,101 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
         </section>
       </section> */}
 
-
       {/* down section */}
       <section className="case-study-section">
         {/* <Link href={linkPath} className="breadcrumb body3sec">
                 {linkText} <span className="body3sec">→</span>
               </Link> */}
 
-      {/* Header */}
-      {/* <header className="page-header marTopGlobal">
+        {/* Header */}
+        {/* <header className="page-header marTopGlobal">
         <div className="page-title Header3sec">{title}</div>
         <button className="download-btn">⬇ Download Full Case Study</button>
       </header> */}
 
         <div>
-           <nav className="topbar">
-          <Link href="/resources/case-study" className="back-link">
-            <span className="arrow">←</span>
-            <span>Case Study</span>
-          </Link>
-        </nav>
+          <nav className="topbar">
+            <Link href="/resources/case-study" className="back-link">
+              <span className="arrow">←</span>
+              <span>Case Study</span>
+            </Link>
+          </nav>
         </div>
-    
-      <main className="page-content">
-        {/* Left column */}
-        <div className="main-column">
-          <div className="page-title Header3sec">{title}</div>
 
-          <div className="body3sec marTopGlobal">
-            Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut aspernatur quisquam fuga quod distinctio voluptatibus doloribus laborum. Et voluptatem est ratione eum minus quia quas rem. Tempora officia maiores illo iste cumque aut. Molestiae fugiat animi ut et maiores. Et sit architecto. Est doloribus sapiente pariatur nihil reiciendis. Iusto facilis et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure 
-          </div>
+        <main className="page-content">
+          {/* Left column */}
+          <div className="main-column">
+            <div className="page-title Header3sec">{title}</div>
 
+            {/* <div className="body3sec marTopGlobal">
+              Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
+              consequatur labore est ipsum. Dolores dolore laudantium nam labore
+              dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt
+              laborum. Ut aspernatur quisquam fuga quod distinctio voluptatibus
+              doloribus laborum. Et voluptatem est ratione eum minus quia quas
+              rem. Tempora officia maiores illo iste cumque aut. Molestiae
+              fugiat animi ut et maiores. Et sit architecto. Est doloribus
+              sapiente pariatur nihil reiciendis. Iusto facilis et quisquam
+              laborum. Et voluptatem eveniet explicabo vitae. Ut esse est rerum
+              at. Sed consequatur labore est ipsum. Dolores dolore laudantium
+              nam labore dolor iure
+            </div> */}
 
-          <div className="marTopGlobal">
-          <img src={imageSrc} alt="Case study" className="main-image" />
-          </div>
+            <div className="marTopGlobal">
+              <img src={imageSrc} alt="Case study" className="main-image" />
+            </div>
 
-          <article className="content">
-            {/* {content.map((para, index) => (
+            <article className="content">
+              {/* {content.map((para, index) => (
               <p key={index}>{para}</p>
             ))} */}
 
-          <div className="body3sec marTopGlobal">
-            Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut aspernatur quisquam fuga quod distinctio voluptatibus doloribus laborum. Et voluptatem est ratione eum minus quia quas rem. Tempora officia maiores illo iste cumque aut. Molestiae fugiat animi ut et maiores. Et sit architecto. Est doloribus sapiente pariatur nihil reiciendis. Iusto facilis et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure 
+              <div className="body3sec marTopGlobal">
+                Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
+                consequatur labore est ipsum. Dolores dolore laudantium nam
+                labore dolor iure rerum. Dicta est dicta minus. Autem dicta
+                nesciunt laborum. Ut aspernatur quisquam fuga quod distinctio
+                voluptatibus doloribus laborum. Et voluptatem est ratione eum
+                minus quia quas rem. Tempora officia maiores illo iste cumque
+                aut. Molestiae fugiat animi ut et maiores. Et sit architecto.
+                Est doloribus sapiente pariatur nihil reiciendis. Iusto facilis
+                et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut
+                esse est rerum at. Sed consequatur labore est ipsum. Dolores
+                dolore laudantium nam labore dolor iure
+              </div>
+            </article>
           </div>
 
-
-          </article>
-        </div>
-
-        {/* Right column (sidebar) */}
-        <aside className="sidebar">
+          {/* Right column (sidebar) */}
+          <aside className="sidebar">
 
             <div>
-        <button className="download-btn">⬇ Download Full Case Study</button>
-
+              <form className="contact-form">
+            <label className="body3sec">
+              Name
+              <input type="text" placeholder="Enter your name" required />
+            </label>
+            <label className="body3sec">
+              Email
+              <input type="email" placeholder="Enter your email" required />
+            </label>
+            <label className="body3sec">
+              Message
+              <textarea placeholder="Enter your message" rows={4} required></textarea>
+            </label>
+            <button type="submit" className="submit-btn">
+              Submit
+            </button>
+          </form>
             </div>
 
-          <div className="share">
+            {/* <div>
+              <button className="download-btn">
+                ⬇ Download Full Case Study
+              </button>
+            </div> */}
+
+            {/* <div className="share">
             <div className="body3sec ">Share</div>
             <div className="share-icons marTopGlobal">
               <span>🔗</span>
@@ -133,10 +170,10 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
               </div>
               
             </ul>
-          </div>
-        </aside>
-      </main>
-    </section>
+          </div> */}
+          </aside>
+        </main>
+      </section>
     </>
   );
 };

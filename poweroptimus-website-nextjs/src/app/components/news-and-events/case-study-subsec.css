@@ -235,7 +235,54 @@
 @media (min-width: 1201px) {
   .page-content {
     grid-template-columns: 3.5fr 1fr;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: 0 auto;
   }
+}
+
+
+/* right sec for form*/
+/* Sidebar (form) */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  /* font-size: 14px; */
+  /* font-weight: bold; */
+  /* color: #333; */
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  /* font-size: 14px; */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.3);
+}
+
+.submit-btn {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  /* font-size: 14px; */
+}
+
+.submit-btn:hover {
+  background: #43a047;
 }
