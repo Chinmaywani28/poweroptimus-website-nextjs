@@ -1,6 +1,6 @@
 "use client"
 import { useRef } from 'react';
-import './news-and-events-subsec.css';
+import './case-study-subsec.css';
 import Link from 'next/link';
 
 interface CaseStudyProps {
@@ -10,7 +10,7 @@ interface CaseStudyProps {
   otherCases: string[];
 }
 
-export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
+export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
   title,
   imageSrc,
   content,
@@ -21,16 +21,15 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
 
   return (
     <>
-     <section className="container">
-        {/* Back link */}
+     {/* <section className="container">
         <nav className="topbar">
           <Link href="/blogs" className="back-link">
-            {/* <span className="arrow">←</span> */}
-            {/* <span>All Blogs</span> */}
+            <span className="arrow">←</span>
+            <span>All Blogs</span>
           </Link>
         </nav>
 
-        {/* Hero section */}
+        
         <header className="hero">
           <div className="Header1sec TextBlue">
             Necessitatibus perspiciatis voluptatem officia eos sed ut pariatur
@@ -43,7 +42,7 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
           </div>
         </header>
 
-        {/* Image + meta */}
+        
         <section className="media">
           <div className="image-wrap">
             <img
@@ -54,7 +53,7 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
           </div>
           <div className="body3sec marTopGlobal">Posted on 20 March 2024</div>
         </section>
-      </section>
+      </section> */}
 
 
       {/* down section */}
@@ -69,11 +68,17 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
         <button className="download-btn">⬇ Download Full Case Study</button>
       </header> */}
 
-      {/* Main grid */}
+        <div>
+           <nav className="topbar">
+          <Link href="/resources/case-study" className="back-link">
+            <span className="arrow">←</span>
+            <span>Case Study</span>
+          </Link>
+        </nav>
+        </div>
+    
       <main className="page-content">
         {/* Left column */}
-
-
         <div className="main-column">
           <div className="page-title Header3sec">{title}</div>
 
@@ -102,10 +107,10 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
         {/* Right column (sidebar) */}
         <aside className="sidebar">
 
-            {/* <div>
+            <div>
         <button className="download-btn">⬇ Download Full Case Study</button>
 
-            </div> */}
+            </div>
 
           <div className="share">
             <div className="body3sec ">Share</div>

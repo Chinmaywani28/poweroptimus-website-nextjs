@@ -24,7 +24,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/power',
+            linkHref: '/resources/case-study/case-study-details',
           },
           {
             imageSrc: '../resources-case-study-two.png',
@@ -32,7 +32,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/earth',
+            linkHref: '/resources/case-study/case-study-details',
           },
           {
             imageSrc: '../resources-case-study-three.png',
@@ -40,7 +40,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/solar',
+            linkHref: '/resources/case-study/case-study-details',
           },
         ]}
 
@@ -54,7 +54,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/power',
+            linkHref: '/resources/case-study/case-study-details',
           },
           {
             imageSrc: '../resources-two.png',
@@ -62,7 +62,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/earth',
+            linkHref: '/resources/case-study/case-study-details',
           },
           {
             imageSrc: '../resources-three.png',
@@ -70,7 +70,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/solar',
+            linkHref: '/resources/case-study/case-study-details',
           }
         ]}
 
@@ -85,7 +85,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/power',
+            linkHref: 'resources/case-study/case-study-details',
           },
           {
             imageSrc: '../resources-two.png',
@@ -93,7 +93,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/earth',
+            linkHref: 'resources/case-study/case-study-details',
           },
           {
             imageSrc: '../resources-three.png',
@@ -101,7 +101,7 @@ const page = () => {
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             linkText: 'Read More',
-            linkHref: '/blog/solar',
+            linkHref: 'resources/case-study/case-study-details',
           },
         ]}
 
