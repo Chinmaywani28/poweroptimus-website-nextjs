@@ -165,6 +165,10 @@
   text-decoration: underline; /* Optional: Adds underline on hover */
 }
 
+.socialLinks{
+  margin-left: 5px;
+}
+
 
 /* Media Queries for Responsive Design */
 /* For very small devices like phones in portrait mode */

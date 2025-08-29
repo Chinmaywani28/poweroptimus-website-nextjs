@@ -161,13 +161,19 @@ const Footer = () => {
         </div>
 
         <div className="footerLink2 TextWhite Header3">
-          <div className="footer_productname">{t('FollowUsOn')}</div>
+          <div className="footer_productname">
+            {t('FollowUsOn')}
+          </div>
 
           <div className="footer_email body4">
            
 
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="footer_email_link">
-              {t('LinkedIn')}
+              {/* {t('LinkedIn')} */}
+             {/* <i className="ri-linkedin-box-fill"></i> */}
+             <div>
+              <span><i className="ri-linkedin-box-fill"></i></span><span style={{ marginLeft: "5px" }}>LinkedIn</span>
+             </div>
             </a>
 
            
@@ -175,13 +181,21 @@ const Footer = () => {
 
           <div className="footer_email body4">
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="footer_email_link">
-          {t('YouTube')}
+          {/* {t('YouTube')} */}
+          {/* <i className="ri-youtube-fill"></i> */}
+          <div>
+              <span> <i className="ri-youtube-fill"></i></span><span style={{ marginLeft: "5px" }}>YouTube</span>
+             </div>
           </a>
           </div>
 
           <div className="footer_email body4">
             <a href="https://in.pinterest.com/" target="_blank" rel="noopener noreferrer" className="footer_email_link">
-              {t('Pinterest')}
+              {/* {t('Pinterest')} */}
+              {/* <i className="ri-pinterest-fill"></i> */}
+              <div>
+              <span><i className="ri-pinterest-fill"></i></span><span style={{ marginLeft: "5px" }}>Pinterest</span>
+             </div>
             </a>
           </div>
 
