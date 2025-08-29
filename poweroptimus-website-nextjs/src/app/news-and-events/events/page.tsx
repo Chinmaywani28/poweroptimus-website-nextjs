@@ -22,63 +22,63 @@ const page = () => {
                 image: '../news-one.png',
                 date: 'January 2, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-two.png',
                 date: 'January 3, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-three.png',
                 date: 'January 4, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-one.png',
                 date: 'January 2, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-two.png',
                 date: 'January 3, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-three.png',
                 date: 'January 4, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-one.png',
                 date: 'January 2, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-two.png',
                 date: 'January 3, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               {
                 title: 'Antium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum ',
                 image: '../news-three.png',
                 date: 'January 4, 2025',
                 description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
-                link: '/news-and-events/news/${id}'
+                link: '/news-and-events/events/events-details'
               },
               // You can add more cards here...
             ]} />

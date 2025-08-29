@@ -2,6 +2,7 @@
 import { useRef } from 'react';
 import './news-and-events-subsec.css';
 import Link from 'next/link';
+import SolFeatureBtmSection from '../solution/sol-feature-btm-section';
 
 interface CaseStudyProps {
   title: string;
@@ -70,7 +71,7 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
       </header> */}
 
       {/* Main grid */}
-      <main className="page-content">
+      <main className="page-content marTopGlobal">
         {/* Left column */}
 
 
@@ -110,9 +111,9 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
           <div className="share">
             <div className="body3sec ">Share</div>
             <div className="share-icons marTopGlobal">
-              <span>🔗</span>
-              <span>🐦</span>
-              <span>💼</span>
+              <span><i className="ri-links-fill"></i></span>
+              <span><i className="ri-twitter-x-fill"></i></span>
+              <span><i className="ri-facebook-fill"></i></span>
             </div>
           </div>
 
@@ -132,6 +133,16 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
         </aside>
       </main>
     </section>
+
+    {/* <SolFeatureBtmSection
+        heading="Easy to Integrate with Existing Systems"
+        paragraphs={[
+          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+        ]}
+        buttonText="Download Documentation"
+        imageSrc="/integration.png"
+        imageAlt="Illustration of integration"
+      /> */}
     </>
   );
 };
