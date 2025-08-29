@@ -51,8 +51,10 @@
 .footerLink1{
   padding-top: 50px;
   /* padding-left: 50px; */
-  grid-column-start: 6;
-  grid-column-end: 8;
+  /* grid-column-start: 6;
+  grid-column-end: 8; */
+  grid-column-start: 5;
+  grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -67,8 +69,10 @@
   padding-top: 50px;
   
   /* padding-left: 50px; */
-  grid-column-start: 9;
-  grid-column-end: 11;
+  /* grid-column-start: 9;
+  grid-column-end: 11; */
+  grid-column-start: 7;
+  grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -81,7 +85,9 @@
 
 .footerLink3{
   padding-top: 50px;
-  grid-column-start: 12;
+  /* grid-column-start: 12;
+  grid-column-end: 14; */
+  grid-column-start: 9;
   grid-column-end: 14;
   grid-row-start: 1;
   grid-row-end: 2;
