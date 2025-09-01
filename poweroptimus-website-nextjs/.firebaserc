@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "poweroptimus-stage"
+    "default": "poweroptimus-stage",
+    "staging": "poweroptimus-stage"
   }
 }

@@ -12,13 +12,7 @@ interface FeatureSectionProps {
   imageLeft?: boolean;
 }
 
-export const page = ({
-  title,
-  subtitle,
-  description,
-  imageSrc,
-  imageLeft = false,
-}: FeatureSectionProps) => {
+export default function Page() {
   return (
     <div>
       {/* keyvertical two */}
@@ -276,4 +270,4 @@ export const page = ({
 };
 
 
-export default page
+// export default page
