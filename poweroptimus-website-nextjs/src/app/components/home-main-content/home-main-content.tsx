@@ -57,7 +57,7 @@ const HomeMainContent = () => {
 
 
 
-      <HomefeatureTwo/>
+      {/* <HomefeatureTwo/> */}
       <Homefeature/>
       
       <FeatureHeader cards={[
