@@ -15,7 +15,7 @@ const DeviceSection = () => {
           />
           <h3 className="device-title Header3sec downMargin TextBlue">Sensor</h3>
           <p className="device-desc body3sec TextGray3">
-            Sensors are devices used to measure real-time environmental and energy parameters such as temperature, humidity, CO₂ levels, air quality, and light intensity. These sensors provide the raw data necessary for energy monitoring systems to analyze consumption, detect inefficiencies, and ensure workplace environmental safety.
+            Sensors are devices used to measure real-time environmental and energy parameters such as temperature, humidity, CO₂ levels, air quality, and light intensity. These sensors provide the raw data necessary for energy monitoring systems to analyze consumption, detect inefficiencies, and ensure workplace environmental.
           </p>
         </div>
         <div className="device-card">
