@@ -2,7 +2,7 @@ import React from 'react'
 import KeyverticalHeader from '../components/key-verticals-page/key-vertical-hero'
 import FacilitySections from '../components/key-verticals-page/facility-sections'
 import KeyverticalTwo from '../components/key-verticals-page/key-vertical-two'
-import { FacilitySectionsTwo } from '../components/key-verticals-page/facility-sections-two'
+// import { FacilitySectionsTwo } from '../components/key-verticals-page/facility-sections-two'
 import WhyPowerOptimus from '../components/key-verticals-page/whypoweroptimus'
 import Integration from '../components/solution/integration'
 import FeatureBtmSection from '../components/key-verticals-page/feature-btm-section'
@@ -33,7 +33,9 @@ const page = () => {
         label1="HVAC Management "
         label2="Energy Monitoring"
         label3="Placeholder"
-         showList={false}
+        showList={false}
+        tagPath="/key-vertical/key-vertical-cap"
+
       />
 
       <FacilitySections
@@ -45,6 +47,8 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Placeholder"
         showList={false}
+        tagPath="/key-vertical/key-vertical-cap"
+
       />
 
             <FacilitySections
@@ -55,6 +59,8 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Placeholder"
         showList={false}
+        tagPath="/key-vertical/key-vertical-cap"
+
       />
 
             <FacilitySections
@@ -66,6 +72,8 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Placeholder"
          showList={false}
+        tagPath="/key-vertical/key-vertical-cap"
+
       />
 
       <FacilitySections
@@ -77,6 +85,8 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Placeholder"
         showList={false}
+        tagPath="/key-vertical/key-vertical-cap"
+
       />
 
       <FacilitySections
@@ -88,6 +98,8 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Placeholder"
         showList={false}
+        tagPath="/key-vertical/key-vertical-cap"
+
       />
 
       

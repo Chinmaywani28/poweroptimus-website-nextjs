@@ -28,6 +28,7 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
       />
 
       <FacilitySections
@@ -43,6 +44,8 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
+
       />
 
       
@@ -59,6 +62,8 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
+
       />
 
       <FacilitySections
@@ -74,6 +79,8 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
+
       />
 
       <FacilitySections
@@ -88,6 +95,8 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
+
       />
 
       <FacilitySections
@@ -103,6 +112,8 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
+
       />
 
       <FacilitySections
@@ -117,6 +128,7 @@ const page = () => {
         label2="Predictive Maintenance Alerts"
         label3="Environmental Impact"
         showList={true}
+        tagPath="/roles/roles-cap"
       />
 
       <SolFeatureBtmSection

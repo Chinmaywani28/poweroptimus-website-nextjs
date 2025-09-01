@@ -121,7 +121,7 @@
 
 
 /* ===== Base Layout ===== */
-.facility-section {
+.facility-section-cap {
   display: grid;
   grid-template-columns: 1fr 1fr; /* two columns */
   grid-template-areas: "card image"; /* default: card left, image right */
@@ -133,7 +133,7 @@
 }
 
 /* Swap order when imageLeft */
-.facility-section.image-left {
+.facility-section-cap.image-left {
   grid-template-areas: "image card"; /* image left, card right */
 }
 
@@ -184,7 +184,7 @@
 
 /* Mobile (max 600px) */
 @media (max-width: 600px) {
-  .facility-section {
+  .facility-section-cap {
     grid-template-columns: 1fr;
     grid-template-areas:
       "card"
@@ -199,7 +199,7 @@
 
 /* Tablet (601px – 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
-  .facility-section {
+  .facility-section-cap {
     grid-template-columns: 1fr;
     grid-template-areas:
       "card"
@@ -214,14 +214,14 @@
 
 /* Laptop (901px – 1200px) */
 @media (min-width: 901px) and (max-width: 1200px) {
-  .facility-section.image-right .facility-card {
+  .facility-section-cap.image-right .facility-card {
     position: absolute;
     left: 11.5%; /* overlap from left */
     width: calc(100% - 11.5% - 5%);
     top: 50%;
     transform: translateY(-50%);
   }
-  .facility-section.image-left .facility-card {
+  .facility-section-cap.image-left .facility-card {
     position: absolute;
     right: 11.5%; /* overlap from right */
     width: calc(100% - 11.5% - 5%);
@@ -232,7 +232,7 @@
 
 /* Desktop (1201px and above) */
 @media (min-width: 1201px) {
-  .facility-section.image-right .facility-card {
+  .facility-section-cap.image-right .facility-card {
     position: absolute;
     /* left: 11.5%;
     width: calc(100% - 11.5% - 8%); */
@@ -241,7 +241,7 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  .facility-section.image-left .facility-card {
+  .facility-section-cap.image-left .facility-card {
     position: absolute;
     /* right: 11.5%;
     width: calc(100% - 11.5% - 8%); */

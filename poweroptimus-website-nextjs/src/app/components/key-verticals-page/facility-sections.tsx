@@ -2,7 +2,7 @@ import Link from 'next/link';
 import './facility-sections.css'; // Import HomePage specific styles
 
 
-const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,listOne,listTwo,listThree,listFour }: {
+const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,listOne,listTwo,listThree,listFour,tagPath }: {
   title: string;
   text: string;
   imageSrc: string;
@@ -15,6 +15,7 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
   label2: string;
   label3: string;
   showList?: boolean; // 👈 added
+  tagPath: string
 }) => {
   return (
     <section className="facility-section">
@@ -44,12 +45,12 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
             <span className="body2sec">{label2}</span>
             <span className="body2sec">{label3}</span> */}
 
-            <Link href="/key-vertical/key-vertical-cap" style={{ textDecoration: "none" }}><span className="body2sec">{label1}</span></Link>
-            <Link href="/key-vertical/key-vertical-cap" style={{ textDecoration: "none" }}>  
+            <Link href={tagPath} style={{ textDecoration: "none" }}><span className="body2sec">{label1}</span></Link>
+            <Link href={tagPath} style={{ textDecoration: "none" }}>  
             <span className="body2sec">{label2}</span>
             
             </Link>
-            <Link href="/key-vertical/key-vertical-cap" style={{ textDecoration: "none" }}>
+            <Link href={tagPath} style={{ textDecoration: "none" }}>
             <span className="body2sec">{label3}</span>
 
             </Link>

@@ -63,7 +63,7 @@ export default function FacilitySection({
 }: FacilitySectionProps) {
   return (
     <section
-      className={`facility-section ${imageLeft ? 'image-left' : 'image-right'}`}
+      className={`facility-section-cap ${imageLeft ? 'image-left' : 'image-right'}`}
     >
       {/* Text Card */}
       <div className="facility-card">
