@@ -1,61 +1,81 @@
+// import './facility-sections-two.css';
+
+// interface FacilitySectionProps {
+//   title: string;
+//   subtitle: string;
+//   description: string;
+//   imageSrc: string;
+//   imageLeft?: boolean; 
+// }
+
+// export default function FacilitySection({
+//   title,
+//   subtitle,
+//   description,
+//   imageSrc,
+//   imageLeft = false,
+// }: FacilitySectionProps) {
+//   return (
+//     <section
+//       className={`facility-section ${imageLeft ? 'image-left' : 'image-right'}`}
+//     >
+     
+//       {imageLeft && (
+//         <div className="facility-image">
+//           <img src={imageSrc} alt="facility" />
+//         </div>
+//       )}
+
+      
+//       <div className="facility-card">
+//         <h4 className="facility-subtitle">{subtitle}</h4>
+//         <h2 className="facility-title">{title}</h2>
+//         <p className="facility-text">{description}</p>
+//       </div>
+
+      
+//       {!imageLeft && (
+//         <div className="facility-image">
+//           <img src={imageSrc} alt="facility" />
+//         </div>
+//       )}
+//     </section>
+//   );
+// }
+
+// components/FacilitySection.tsx
 import './facility-sections-two.css';
 
-interface ListItem {
-  text: string;
-  subItems?: string[]; // optional sublist
-}
-
-
-interface FeatureSectionProps {
-  title: string;
+interface FacilitySectionProps {
+  title?: string;
   subtitle: string;
   description: string;
   imageSrc: string;
-  imageLeft?: boolean;
-  listItems?: ListItem[]; // <-- new prop for list
+  imageLeft?: boolean; // if true -> image on left
 }
 
-export const FacilitySectionsTwo = ({
+export default function FacilitySection({
   title,
   subtitle,
   description,
   imageSrc,
   imageLeft = false,
-  listItems = [], // default empty array
-}: FeatureSectionProps) => {
+}: FacilitySectionProps) {
   return (
-    <section className={`feature-section ${imageLeft ? 'image-left' : 'image-right'}`}>
-      <div className="feature-image">
-        <img src={imageSrc} alt="Feature" />
+    <section
+      className={`facility-section ${imageLeft ? 'image-left' : 'image-right'}`}
+    >
+      {/* Text Card */}
+      <div className="facility-card">
+        <div className="facility-subtitle Header1sec TextBlue marBtm">{subtitle}</div>
+        {/* <h2 className="facility-title">{title}</h2> */}
+        <div className="body1sec marTopGlobal">{description}</div>
       </div>
-      <div className="feature-text">
-        <h4 className="Header3 TextBlue marTopNil">{subtitle}</h4>
-        <h2 className="Header2">{title}</h2>
-        {/* <p className="body3">{description}</p> */}
-        
-        {listItems.length > 0 && (
-        <ul>
-          {listItems.map((item, index) => (
-            <li key={index}>
-              {item.text}
 
-              {/* Sublist (only if exists) */}
-              {item.subItems && item.subItems.length > 0 && (
-                <ul>
-                  {item.subItems.map((sub, subIndex) => (
-                    <li key={subIndex}>{sub}</li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
-      )}
-
-
-
+      {/* Image */}
+      <div className="facility-image">
+        <img src={imageSrc} alt="facility" />
       </div>
     </section>
   );
-};
-
+}
