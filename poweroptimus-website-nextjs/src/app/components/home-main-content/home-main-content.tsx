@@ -58,9 +58,14 @@ const HomeMainContent = () => {
 
 
       {/* <HomefeatureTwo/> */}
+
+
+      {/* Removed dif section instead of Homefeature
       <Homefeature/>
-      
-      <FeatureHeader cards={[
+       */}
+
+
+      {/* <FeatureHeader cards={[
           {
             image: "./home-feature-header.jpg",
             description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
@@ -101,13 +106,13 @@ const HomeMainContent = () => {
             description: "Et hic quisquam. Id expedita laboriosam temporibus placeat quia repellat sapiente et. Quo ex deserunt aperiam. Est fuga ut",
             link: "string"
           }
-      ]}/>
+      ]}/> */}
 
       {/* <KeyVertices/> */}
       <KeyVerticesTwo/>
       
       
-      <RecentBlogs cards={[
+      {/* <RecentBlogs cards={[
 
           {
             title: "lorem ipsum industry em",
@@ -165,16 +170,16 @@ const HomeMainContent = () => {
             description: "An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...",
             link: "Read More"
           }
-      ]}/>
+      ]}/> */}
 
       {/* <FormSection/> */}
 
       <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="A Simple and Customizable Solution Designed for Your Needs"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "PowerOptimus allows users to select and customize the sensor data, level of detail, and layout to suit requirements. Manage real-time data, trends, and patterns through a modern web-based user interface that offers effective data visualization techniques. Users can easily set up personalized alerts in just a few simple steps."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

@@ -83,7 +83,7 @@ export const KeyVerticesTwo = () => {
         {/* === Right Side: Text Content === */}
         <div className='HomeFeature_Leftss'>
           <div className='Header1 TextBlue'>
-            Key Vertices
+            Key Verticals
           </div>
           <div className='body1_300'>
             Eum in placeat doloremque sed aliquid iste. Enim ullam esse ipsa aut velit alias rerum. Eligendi quasi exercitationem incidunt. Sapiente totam dignissimos alias est dicta magni enim dolores soluta. Nobis reiciendis nulla ex eum id qui. Id et aperiam dolore aspernatur architecto ducimus ut nobis ut. Occaecati esse voluptas id velit. Fugit in sequi exercitationem magnam consequatur consequatur. Id natus iure illum molestias quia natus ex ea libero. Dicta nihil odio. Nemo veniam aut amet facilis doloribus et. Et in esse voluptates.

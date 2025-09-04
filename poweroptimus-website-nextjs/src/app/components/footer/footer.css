@@ -13,7 +13,7 @@
   width: 100%;
   /* grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; */
   /* grid-template-columns: 7.2fr 37fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;  */
-  grid-template-columns: 2.4fr 5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; 
+  grid-template-columns: 2.4fr 5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr; 
   align-items: center;
   row-gap: 20px;
   column-gap: 30px;
@@ -49,12 +49,12 @@
 }
 
 .footerLink1{
-  padding-top: 50px;
+  /* padding-top: 50px; */
   /* padding-left: 50px; */
   /* grid-column-start: 6;
   grid-column-end: 8; */
   grid-column-start: 5;
-  grid-column-end: 7;
+  grid-column-end: 14;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -142,6 +142,21 @@
   /* background-color: aquamarine; */
 }
 
+
+.footer_bottom_Middle{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 4; 
+  margin-top: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* background-color: red; */
+  /* justify-content: end; */
+}
+
 .footer_bottom_Right{
   grid-column-start: 9;
   grid-column-end: 14;
@@ -151,7 +166,7 @@
   /* background-color: aquamarine; */
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 5px;
   /* background-color: red; */
   justify-content: end;
 }
@@ -279,3 +294,65 @@
     justify-content: end;
   }
 }
+
+/*  */
+
+/* Outer section with dark background */
+.newsletter-section {
+  background-color: #2f2f2f; /* dark gray */
+  padding: 40px 20px; /* space inside */
+  display: flex;
+  justify-content: center; /* center horizontally */
+}
+
+/* Inner container to hold content */
+.newsletter-container {
+  width: 100%;
+  max-width: 500px; /* limit size on big screens */
+  text-align: center; /* center text */
+}
+
+/* Heading */
+.newsletter-title {
+  margin-bottom: 10px;
+}
+
+/* Description */
+.newsletter-text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Email input */
+.newsletter-input {
+  width: 100%; /* full width */
+  padding: 12px;
+  border: 2px solid #2196f3; /* blue border */
+  border-radius: 4px;
+  /* margin-bottom: 15px; */
+  font-size: 16px;
+  box-sizing: border-box; /* include padding in width */
+}
+
+/* Subscribe button */
+.newsletter-button {
+  margin-top: 20px;
+  width: 100%; /* full width */
+  padding: 14px;
+  background-color: #1E9500; /* bright blue */
+  color: #ffffff; /* white text */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  /* font-weight: bold; */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+
+
+
+
+/*  */

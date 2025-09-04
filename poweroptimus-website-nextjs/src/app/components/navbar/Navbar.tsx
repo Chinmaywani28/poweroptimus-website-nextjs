@@ -94,7 +94,7 @@ const Navbar = () => {
 
           {/* Nav Links */}
           <div className={`navbar-menu ${isMobileMenuOpen ? 'open' : ''}`}>
-            <Link href="/solution">{t('Solutions')}</Link>
+            <Link href="/solution">{t('Solution')}</Link>
             <Link href="/key-vertical">{t('Key Verticals')}</Link>
             <Link href="/roles">{t('Roles')}</Link>
             {/* <Link href="/resources">{t('Resources')}</Link> */}
@@ -108,6 +108,7 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link href="/resources/blogs">Blog</Link></li>
                   <li><Link href="/resources/case-study">Case Study</Link></li>
+                  <li><Link href="/resources/blogs">Webinars</Link></li>
                   <li><Link href="/resources/video">Video</Link></li>
                   <li><Link href="/resources/brochure">Brochure</Link></li>
                 </ul>
