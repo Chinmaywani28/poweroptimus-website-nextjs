@@ -36,7 +36,7 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Operations Heads"
+        title="Operation Head"
         text="Operations Heads oversee plant and process performance, striving for operational excellence while managing budgets and resources.
         Offers facility-wide dashboards for instant visibility into energy usage
         Correlates energy consumption with process output to identify bottlenecks
