@@ -6,6 +6,9 @@ import Link from 'next/link';
 interface CaseStudyProps {
   title: string;
   imageSrc: string;
+  backNavLink?: string;
+  backNavPath?: string;
+  showBackLink: boolean
   content: string[]; // paragraphs
   otherCases: string[];
 }
@@ -15,7 +18,9 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
   imageSrc,
   content,
   otherCases,
-  
+  backNavLink,
+  backNavPath,
+  showBackLink
 })  => {
   
 
@@ -69,9 +74,13 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
 
         <div>
           <nav className="topbar">
-            <Link href="/resources/case-study" className="back-link">
+            <Link href={"backNavPath"} className="back-link">
+            {showBackLink ? <div>
               <span className="arrow">←</span>
-              <span>Case Study</span>
+              <span>{backNavLink}</span></div>
+            : ''  
+            }
+            
             </Link>
           </nav>
         </div>

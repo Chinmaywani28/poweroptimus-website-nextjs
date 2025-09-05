@@ -169,7 +169,7 @@ export default function Page() {
 
       {/* <FacilitySection/> */}
       <FacilitySection
-        subtitle="ENHANCED ENVIRONMENTAL IMPACT"
+        subtitle="Eanhaced Enviorment Impact"
         // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="Air Quality Monitoring (IAQ & AQI)
         PowerOpimus continuously tracks indoor air quality to ensure healthy, compliant environments:
@@ -197,7 +197,7 @@ export default function Page() {
       />
 
       <FacilitySection
-        subtitle="Temp Monitoring & Boiler Optimization"
+        subtitle="Boiler Optimization & Temperature Monitoring"
         // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="
         Maintain optimal temperatures and maximize equipment efficiency:
@@ -242,7 +242,7 @@ export default function Page() {
 
       {/* Image on Left */}
       <FacilitySection
-        subtitle="Adv HVAC Controls & Pump Efficiency"
+        subtitle="Advanced HVAC Controls & Pump Efficiency"
         title="Energy efficiency in production facilities"
         description="
         Get more from your HVAC systems while lowering kW/TR:

@@ -11,18 +11,19 @@ const page = () => {
      
     
       <CaseStudySubSection 
-      title="Necessitatibus perspiciatis voluptatem officia eos sed ut pariatur debitis"
-      imageSrc="/blogs-img.jpg"
-      content={[
-        "Consequatur molestias sequi tempore officia. Sed consequatur facilis...",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-      ]}
-      otherCases={[
-        "Maires sit et architecto. Eos doloribus sapiente pariatur nihil reiciendis.",
-        "Another case study title...",
-        "Yet another case study title..."
-      ]}
-      />
+        title="Necessitatibus perspiciatis voluptatem officia eos sed ut pariatur debitis"
+        imageSrc="/blogs-img.jpg"
+        content={[
+          "Consequatur molestias sequi tempore officia. Sed consequatur facilis...",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        ]}
+        otherCases={[
+          "Maires sit et architecto. Eos doloribus sapiente pariatur nihil reiciendis.",
+          "Another case study title...",
+          "Yet another case study title..."
+        ]}
+        backNavLink="Case Study"
+        backNavPath="/resources/case-study" showBackLink={true}      />
 
 
 
