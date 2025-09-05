@@ -39,15 +39,30 @@
   margin-bottom: 30px;
 }
 
-.diagram-placeholder {
+/* .diagram-placeholder {
   background: #ccc;
-  /* padding: 80px; */
+  
   padding: 20%;
   margin-top: 20px;
-  /* font-size: 24px; */
-  /* font-size: 32px; */
-  /* color: black; */
+  
   border-radius: 10px;
+} */
+
+
+.diagram-placeholder {
+  width: 100%;              /* full width of parent */
+  aspect-ratio: 16 / 9;     /* keeps responsive height */
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;         /* ensures image doesn’t overflow */
+  background: #ccc;         /* fallback bg */
+}
+
+.diagram-placeholder img {
+  width: 100%;              /* stretch full width */
+  height: 100%;             /* stretch full height */
+  object-fit: cover;        /* cover container without distortion */
+  display: block;
 }
 
 /* Mobile */

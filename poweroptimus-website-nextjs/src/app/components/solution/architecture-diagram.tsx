@@ -14,7 +14,11 @@ const ArchitectureDiagram = () => {
 
     <section className="arch-section">
       {/* <h2 className="process-title Header2">Architecture-section</h2> */}
-      <div className="diagram-placeholder Header1sec marTop">&lt; System Architecture Diagram &gt;</div>
+      <div className="diagram-placeholder Header1sec marTop">
+
+        <img src="./system-arch.png" alt="System Architecture" />
+
+      </div>
     </section>
   )
 }

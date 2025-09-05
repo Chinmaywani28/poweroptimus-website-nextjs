@@ -26,7 +26,7 @@ const ProcessDiagram = () => {
   return (
     <section className="process-section">
       <h2 className="Header1sec marTop">Process</h2>
-      <div className="diagram-placeholder Header1sec">&lt; Diagram &gt;</div>
+      <div className="diagram-placeholders Header1sec">&lt; Diagram &gt;</div>
     </section>
   )
 }
