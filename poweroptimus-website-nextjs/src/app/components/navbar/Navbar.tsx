@@ -95,8 +95,12 @@ const Navbar = () => {
           {/* Nav Links */}
           <div className={`navbar-menu ${isMobileMenuOpen ? 'open' : ''}`}>
             <Link href="/solution">{t('Solution')}</Link>
-            <Link href="/key-vertical">{t('Key Verticals')}</Link>
+            <div>|</div>
+            <Link href="/key-vertical">{t('Key Vertical')}</Link>
+            <div>|</div>
             <Link href="/roles">{t('Roles')}</Link>
+            <div>|</div>
+
             {/* <Link href="/resources">{t('Resources')}</Link> */}
 
 
@@ -108,13 +112,14 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link href="/resources/blogs">Blog</Link></li>
                   <li><Link href="/resources/case-study">Case Study</Link></li>
-                  <li><Link href="/resources/blogs">Webinars</Link></li>
+                  <li><Link href="/resources/webinar">Webinar</Link></li>
                   <li><Link href="/resources/video">Video</Link></li>
                   <li><Link href="/resources/brochure">Brochure</Link></li>
                 </ul>
               )}
             </div>
 
+            <div>|</div>
 
             {/* <Link href="/news-and-events">{t('News and Events')}</Link> */}
             <div className="nav-item-with-dropdown" ref={dropdownRefNews}>
