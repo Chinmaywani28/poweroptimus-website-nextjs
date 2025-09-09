@@ -48,7 +48,7 @@ const DataAnalysis = () => {
   return (
     <section className="data-section">
       <h2 className="data-title Header1sec TextBlue noSpace">Data Analysis and Visualization</h2>
-      <div className="data-title Header1sec TextBlue">(Solution Results-Placeholder)</div>
+      {/* <div className="data-title Header1sec TextBlue">(Solution Results-Placeholder)</div> */}
       <p className="data-subtitle body1 TextGray1">
         PowerOptimus combines advanced data analytics and visualization to enhance modern energy monitoring and management systems. It collects data from real-time energy meters and environmental sensors to deliver clear, actionable insights.
         Interactive dashboards reveal energy usage trends, peak loads, and system efficiency, while predictive analytics identify anomalies and support demand forecasting. This helps reduce operational costs, optimize performance, and minimize energy waste.
@@ -63,7 +63,7 @@ const DataAnalysis = () => {
                 <div className="card-img-wrapper">
                   <img src={card.img} alt={`card-${index}`} />
                   <div className="card-overlay">
-                    <p className="body3sec">{card.text}</p>
+                    {/* <p className="body3sec">{card.text}</p> */}
                   </div>
                 </div>
               </div>

@@ -46,7 +46,7 @@ const page = () => {
 
         
 />
-        <VideoGridSection
+        {/* <VideoGridSection
         cards={[
           {
             videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
@@ -83,30 +83,24 @@ const page = () => {
             videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            // linkText: 'Read More',
-            // linkHref: '/blog/power',
+            date: 'January 1, 2025'
           },
           {
             videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            // linkText: 'Read More',
-            // linkHref: '/blog/earth',
+            date: 'January 1, 2025'
           },
           {
             videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            // linkText: 'Read More',
-            // linkHref: '/blog/solar',
+            date: 'January 1, 2025'
           },
         ]}
 
         
-/>
+/> */}
 
         <SolFeatureBtmSection
         heading="Easy to Integrate with Existing Systems"

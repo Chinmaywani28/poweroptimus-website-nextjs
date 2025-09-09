@@ -28,7 +28,7 @@ const page = () => {
     {/* sections */}
       <FacilitySections
         title="Industrial Plants & Factories"
-        text="Data centers require uninterrupted performance and precise control over power usage. With PowerOptimus, you gain complete visibility into energy metrics, thermal loads, cooling efficiency, and backup systems. Our platform ensures balanced energy optimization, allowing your data center to minimize power usage effectiveness (PUE) and avoid equipment strain.The intelligent monitoring layer also supports environmental monitoring for detecting fluctuations in temperature, humidity, or AQI, keeping your critical infrastructure protected and resilient around the clock."
+        text="In energy-intensive environments like industrial plants and factories, operational inefficiencies can lead to substantial cost overruns and increased environmental impact. PowerOptimus delivers advanced energy monitoring systems that offer granular insights into every unit of energy consumed. By tracking critical KPIs such as energy usage, production efficiency, HVAC performance, and compressor operations, facilities can reduce inefficiencies, streamline workflows, and enhance productivity.The platform also supports compliance monitoring and workplace safety by enabling real-time tracking of key operational parameters. This integrated approach empowers industries to take a proactive role in achieving operational efficiency and meeting environmental performance goals."
         imageSrc="./key-vertical-one.png"
         label1="Compressor Management"
         label2="HVAC"
@@ -52,7 +52,7 @@ const page = () => {
       />
 
             <FacilitySections
-        title="Hospitals"
+        title="Hospitals and Healthcare Facilities"
         text="Hospitals and healthcare institutions have a non-negotiable need for reliability, comfort, and compliance. PowerOptimus supports this with real-time tracking of energy, HVAC performance, indoor air quality, and occupancy, ensuring environments are both safe and efficient. In healthcare, uptime is critical. Our energy monitoring systems provide continuous insights to avoid power anomalies that could jeopardize sensitive operations. The system also contributes to improved patient care and enhanced operational outcomes while aligning with broader environmental sustainability mandates."
         imageSrc="./key-vertical-three.png"
         label1="Air Quality Monitoring"
@@ -118,11 +118,11 @@ const page = () => {
       /> */}
 
       <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="Transform Your Energy and Environmental Oversight"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "PowerOptimus is more than a monitoring tool it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

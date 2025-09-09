@@ -46,7 +46,7 @@ const page = () => {
 
         
 />
-        <CardGridSection
+        {/* <CardGridSection
         cards={[
           {
             imageSrc: '../resources-one.png',
@@ -106,7 +106,7 @@ const page = () => {
         ]}
 
         
-/>
+/> */}
 
         <SolFeatureBtmSection
         heading="Easy to Integrate with Existing Systems"

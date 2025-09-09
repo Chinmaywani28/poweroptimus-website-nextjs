@@ -169,7 +169,7 @@ export default function Page() {
 
       {/* <FacilitySection/> */}
       <FacilitySection
-        subtitle="Eanhaced Enviorment Impact"
+        subtitle="Enhanced Enviorment Impact"
         // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="Air Quality Monitoring (IAQ & AQI)
         PowerOpimus continuously tracks indoor air quality to ensure healthy, compliant environments:
@@ -249,7 +249,7 @@ export default function Page() {
         •	Adjust ventilation based on CO₂ sensors (DCV), balancing energy savings and occupant comfort.
         •	Optimize chilled water & cooling water circuits by shutting valves to idle equipment.
         •	Monitor flow, temperature & pressure in real time — isolate high-consumption pumps automatically.
-        
+        • Automated switching & instant alerts for key KPIs like pressure and temperature deviations keep your system running at peak efficiency.
 
         "
         imageSrc="/key-vertical-sec-four.png"
@@ -261,7 +261,7 @@ export default function Page() {
         paragraphs={[
           "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

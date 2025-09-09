@@ -165,11 +165,11 @@ const page = () => {
       />
 
       <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="Ready to Power a Safer, Smarter, and More Sustainable Future?"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "No matter your role, be it facilities, operations, energy, or sustainability, PowerOptimus can help you streamline operations, cut energy costs, and drive meaningful progress toward your sustainability goals. From real-time insights to proactive control, we’re here to support your journey toward operational excellence and environmental responsibility."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />
