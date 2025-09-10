@@ -14,7 +14,7 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Case Study'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} />
+      <HeroReusable headerText={'Explore Real-World Success Stories'} bodyText={'Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations.'} />
 
       <CardGridSection
         cards={[
@@ -109,11 +109,11 @@ const page = () => {
 /> */}
 
         <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="Transform Data into Action That Drives Efficiency, Sustainability, and Growth"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "Don’t just collect data use it. PowerOptimus provides powerful analytics to help you identify excessive utility usage, prevent downtime, and make informed sustainability decisions. It’s more than monitoring; it’s your pathway to smarter, greener operations. Let’s get started together."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

@@ -14,7 +14,7 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} />
+      <HeroReusable headerText={'Explore Blogs'} bodyText={'Your Destination for a wide range of insightful topics, innovative ideas, and thought-provoking articles. Whether you seek to expand your knowledge, gain inspiration, or stay informed on the latest developments, our curated content is designed to engage, enlighten, and add value for people across industries.'} />
 
       <CardGridSection
         cards={[
@@ -109,11 +109,11 @@ const page = () => {
 /> */}
 
         <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="Drive Operational Efficiency and Ensure Long-Term Sustainability"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "PowerOptimus delivers more than monitoring it’s a complete solution for cost savings, resource optimization, and environmental responsibility. Whether your goal is resilience, sustainability, or operational excellence, PowerOptimus helps you achieve it all. Experience the difference."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

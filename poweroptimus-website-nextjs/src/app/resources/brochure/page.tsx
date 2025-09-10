@@ -17,7 +17,7 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Brochure'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} />
+      <HeroReusable headerText={'Discover Smarter Solutions with Us'} bodyText={'Explore how our innovative products and services help businesses optimize operations, improve efficiency, and drive sustainable growth. The brochure provides a comprehensive overview of our solutions, including key features, benefits, and real-world applications. Learn how we empower organizations to make data-driven decisions, reduce costs, and achieve operational excellence whether it’s energy management, digital transformation, or asset optimization.'} />
 
       <BrochureCardSection
         cards={[
@@ -49,11 +49,11 @@ const page = () => {
       />
 
       <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="The Smarter Way to Drive Efficiency and Sustainability"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "Gain more than data gain actionable intelligence. Our platform helps you optimize energy use, reduce downtime, and align with global net-zero goals. Transform utility tracking into a strategic advantage for your business and the environment."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

@@ -14,7 +14,7 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Video'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} />
+      <HeroReusable headerText={'Watch, Learn, and Stay Ahead'} bodyText={'Our video library brings you expert insights, case studies, and practical strategies from industry leaders. Explore sessions on energy optimization, smart operations, predictive maintainence, and digital transformation designed to help you make informed decisions and drive measurable results. Access both live recordings and on-demand webinars anytime, anywhere.'} />
 
       <VideoGridSection
         cards={[
@@ -103,11 +103,11 @@ const page = () => {
 /> */}
 
         <SolFeatureBtmSection
-        heading="Easy to Integrate with Existing Systems"
+        heading="Build Sustainable, Resilient, and Efficient Operations"
         paragraphs={[
-          "PowerOptimus is more than a monitoring tool—it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "Energy monitoring and predictive maintenance come together to help you reduce downtime, extend asset lifespans, and cut emissions. PowerOptimus equips your team with the tools needed to turn sustainability strategies into measurable operational improvements."
         ]}
-        buttonText="Download Documentation"
+        buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

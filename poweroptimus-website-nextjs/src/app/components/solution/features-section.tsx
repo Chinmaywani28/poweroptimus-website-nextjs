@@ -100,7 +100,7 @@ const FeatureSection = () => {
     let features: any = [
       {
         title: 'Utility Energy Monitoring ',
-        desc: 'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, this energy monitoring systems help organizations take corrective actions to reduce wastage and optimize utility consumption, contributing to lower energy bills and improved sustainability. lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem '
+        desc: 'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'
       },
       {
         title: 'Power Quality Monitoring ',
@@ -108,7 +108,7 @@ const FeatureSection = () => {
       },
       {
         title: 'Setpoints Monitoring ',
-        desc: 'Monitoring utility setpoints is vital for maintaining optimal operational parameters. This software alerts teams when setpoints exceed defined thresholds, helping prevent unnecessary energy use and avoidable operational costs. lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem'
+        desc: 'Monitoring utility setpoints is vital for maintaining optimal operational parameters across facilities. This software continuously tracks performance and immediately alerts teams when setpoints exceed defined thresholds, helping prevent unnecessary energy use, equipment stress, and avoidable operational costs. By ensuring systems operate within ideal ranges, organizations can improve efficiency, extend asset life, and strengthen sustainability initiatives.'
       },
       {
         title: 'Idle Equipment Detection ',
@@ -120,15 +120,15 @@ const FeatureSection = () => {
       },
       {
         title: 'Air Quality Monitoring',
-        desc: 'Indoor air quality has a direct impact on employee health and productivity. PowerOptimus integrates with air and humidity sensors to monitor environmental conditions within industrial and healthcare facilities. It provides actionable insights to align indoor air quality with outdoor conditions and maintain a healthy workplace.lorem lorem lorem lorem lorem lorem lorem lorem lorem'
+        desc: 'Indoor air quality has a direct impact on employee health and productivity. PowerOptimus integrates with air and humidity sensors to monitor environmental conditions within industrial and healthcare facilities. It provides actionable insights to align indoor air quality with outdoor conditions, reduce risks from pollutants, and maintain a healthier, more sustainable workplace environment.'
       },
       {
         title: 'CO₂ Percentage Monitoring',
-        desc: 'PowerOptimus measures indoor CO₂ concentrations and dynamically adjusts HVAC operations through Demand-Controlled Ventilation (DCV). This ensures both energy savings and a healthier working environment, demonstrating how comprehensive energy monitoring systems contribute to smarter infrastructure.lorem lorem lorem lorem lorem lorem lorem lorem lorem'
+        desc: 'PowerOptimus measures indoor CO₂ concentrations and dynamically adjusts HVAC operations through Demand-Controlled Ventilation (DCV). By regulating airflow based on occupancy and air quality levels, it ensures energy savings, reduced operational costs, and a healthier indoor environment. This intelligent approach highlights how comprehensive energy monitoring systems not only optimize performance but also contribute to smarter, more sustainable infrastructure.'
       },
       {
         title: 'Hazardous Gas Monitoring',
-        desc: 'In chemical handling and processing environments, hazardous gas emissions pose serious health risks. PowerOptimus integrates gas detection sensors to monitor and alert in real time, ensuring a safer work environment and compliance with occupational health and safety norms lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem.'
+        desc: 'In chemical handling and processing environments, hazardous gas emissions pose serious health and safety risks. PowerOptimus integrates advanced gas detection sensors to continuously monitor air quality, identify leaks, and provide instant alerts. This real-time visibility enables rapid response, minimizes exposure risks for workers, and ensures compliance with strict occupational health and safety standards while supporting a safer, more sustainable workplace.'
       },
       // {
       //   title: 'Predictive Analytics for Energy & Environmental Management',

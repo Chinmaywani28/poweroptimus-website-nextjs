@@ -14,7 +14,7 @@ const page = () => {
         showLink={false}
       /> */}
 
-       <HeroReusable headerText={'News'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} /> 
+       <HeroReusable headerText={'Stay Updated with the Latest Industry Insights'} bodyText={'Our News page brings you the latest updates, announcements, and thought leadership from across the industry. Explore company news, product launches, event highlights, and expert perspectives to stay informed and ahead of the curve. Whether it’s innovations in technology, sustainability initiatives, or market trends, this is your go-to source for timely and relevant information.'} /> 
 
       <NewsAndEventsSection cards={[
         {
