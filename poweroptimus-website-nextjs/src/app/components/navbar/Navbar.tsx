@@ -77,7 +77,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="navbar-brand">
             <img
-              src="/app-icon.png"
+              src="/power-optimus-logo.png"
               alt="Logo"
               className="navbar-logo"
               // onClick={scrollToHero}

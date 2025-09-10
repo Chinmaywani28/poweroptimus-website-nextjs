@@ -1,6 +1,6 @@
 "use client";
+import styles from './solution-hero.module.css';
 import { useTranslation } from 'react-i18next';
-import './solution-hero.css'
 
 type HeroProps = {
  headerText: string,
@@ -16,10 +16,10 @@ const SolutionHero = ({headerText,bodyText}: HeroProps) => {
 
   return (
    <>
-      <div id="hero-section" className="home-container">
-        <div className="home">
+      <div id="hero-section" className={styles.homecontainer}>
+        <div className={styles.home}>
           {/* === Section 1.1 === */}
-          <div className="hero-left-content">
+          <div className={styles.heroleftcontent}>
             <div className="Header1sec TextWhite">
               {headerText}
               {/* Building a Sustainable Future with Smart Energy Solution */}
@@ -31,7 +31,7 @@ const SolutionHero = ({headerText,bodyText}: HeroProps) => {
           </div>
 
           {/* === Section 1.2 === */}
-          <div className="home_sectionHeader_right">
+          <div className={styles.homesectionHeaderright}>
             {/* <img src="/HeaderSVG.svg" alt="Logo" className="header-image" /> */}
           </div>
         </div>
