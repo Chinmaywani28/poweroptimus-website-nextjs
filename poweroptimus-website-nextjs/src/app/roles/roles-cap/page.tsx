@@ -3,6 +3,7 @@ import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable';
 import FacilitySection from '@/app/components/key-verticals-page/facility-sections-two';
 import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section';
+import FacilitySectionsTwo from '@/app/components/key-verticals-page/facility-sections-two';
 
 interface FeatureSectionProps {
   title: string;
@@ -33,142 +34,231 @@ export default function Page() {
       /> */}
 
       <HeroReusable
-        headerText={"Key Capabilities"}
+        headerText={"Transforming Energy Management and Environmental Monitoring with Intelligence"}
         bodyText={
-          "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
+          "Traditional tracking often stops at consumption reports, offering little insight into inefficiencies or long-term sustainability goals. With advanced analytics, real-time monitoring, and intelligent insights, enterprises can optimize energy use, improve asset performance, and strengthen ESG compliance."
         }
       />
 
-      {/* <FacilitySectionsTwo
-        title="PowerOptimus continuously tracks indoor air quality to ensure healthy, compliant environments:"
-        subtitle="Air Quality Monitoring (IAQ & AQI)"
+      <FacilitySectionsTwo
+        title="Ensures fewer breakdowns, lower costs, and higher uptime"
+        subtitle="Predictive Maintenance for Uninterrupted Operations"
         description=""
         imageSrc="../key-vertical-sec-one.png"
         imageLeft={false}
         listItems={[
           {
-            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels.",
+            text: "Analyze energy, vibration, and thermal patterns of critical systems."
           },
           {
-            text: "Particulate & Air Quality Monitoring in Clean Rooms: Ensures pharma & electronics manufacturing meet stringent particulate matter limits using AQI sensors at duct inlets & outlet",
+            text: "Detect early signs of inefficiency or malfunction.",
           },
           {
-            text: "Gas Detection for Chemical Handling: Safeguards worker health by sensing harmful gases, triggering ventilation to maintain air quality standards.",
+            text: "Alert teams before failures occur.",
           },
           {
-            text: "Specialized Applications: ",
-            subItems: [
-              "Controls CO₂ levels in breweries & carbonated environments.",
-              "Optimizes IAQ in large commercial spaces by adjusting HVAC air flow to occupancy.",
-            ],
-          },
-          {
-            text: "BMS Integration: Links with Building Management Systems to highlight excess energy usage, supporting certifications like ISO 14001.",
-          },
+            text: "Extend lifespan of HVAC units, pumps, compressors, and more.",
+          }
         ]}
       />
 
       <FacilitySectionsTwo
-        title="Mitigate risks from toxic gas leaks across industries:"
-        subtitle="Hazardous Gas Monitoring"
+        title="Delivers measurable savings and optimized resource use"
+        subtitle="Energy Strategy that Delivers ROI"
         description=""
         imageSrc="../key-vertical-sec-two.png"
         imageLeft={true}
         listItems={[
           {
-            text: "Chemical Plants: Monitors SO₂, NOx, VOCs and particulate emissions to protect workers and meet regulatory norms.",
+            text: "Identify top energy-consuming assets.",
           },
           {
-            text: "Manufacturing Facilities: Deploys sensors across tubing, valve manifolds, and machinery to ensure safe ambient conditions.",
+            text: "Prioritize quick wins and long-term impact.",
           },
           {
-            text: "Food & Beverage Plants: Keeps CO₂ and organic waste gases in check in breweries, bottling lines, and cold storage.",
+            text: "Track KPIs and efficiency goals.",
           },
           {
-            text: "Pharma Units: Detects hazardous byproducts, preventing exposure and ensuring safe manufacturing",
+            text: "Align energy use with business and sustainability objectives.",
           },
         ]}
       />
 
       <FacilitySectionsTwo
-        title="Maintain optimal temperatures and maximize equipment efficiency:"
-        subtitle="Temperature Monitoring & Boiler Optimization"
+        title="Embeds accountability and amplifies efficiency efforts"
+        subtitle="Employee Awareness & Training"
         description=""
         imageSrc="../key-vertical-sec-three.png"
         imageLeft={false}
         listItems={[
           {
-            text: "Industrial Facilities & Buildings: Alerts users if temperatures exceed set thresholds, preventing costly failures.",
+            text: "Build awareness of energy’s role in daily operations.",
           },
           {
-            text: "Boiler Heat Loss Monitoring: Tracks dry flue gases, fuel moisture, and radiation losses to fine-tune combustion efficiency and cut fuel costs.",
+            text: "Encourage SOPs that minimize waste.",
+          },
+          {
+            text: "Adopt safer practices around equipment.",
+          },
+          {
+            text: "Involve teams in sustainability initiatives.",
           },
         ]}
       />
 
       <FacilitySectionsTwo
-        title="Enhance comfort and minimize wastage"
-        subtitle="Occupancy Monitoring for Smart HVAC Control"
-        description="Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. . Vitae similique totam. chine operations, reducing downtime, and minimizing waste.PowerOptimus improves energy efficiency in production facilities by analyzing energy consumption against committed demand thus optimizing machine operations, reducing downtime"
+        title="Creates a structured path to efficiency and reduced costs"
+        subtitle="Energy Audits & Efficiency Improvements "
+        description=""
         imageSrc="../key-vertical-sec-four.png"
         imageLeft={true}
         listItems={[
           {
-            text: "Healthcare & Commercial Buildings: Occupancy sensors regulate HVAC operation, adapting air flow and temperature to the number of people present.",
+            text: "Detect inefficiencies and hidden cost drivers.",
           },
           {
-            text: "Data-Driven Optimization: Dashboards visualize zone-wise occupancy rates, helping target HVAC operations only where needed.",
+            text: "Benchmark performance against standards.",
+          },
+          {
+            text: "Recommend upgrades or process changes.",
+          },
+          {
+            text: "Enable continuous post-audit monitoring.",
           },
         ]}
       />
 
       <FacilitySectionsTwo
-        title="Smart load-based compressor scheduling reduces energy costs and Scope 2 emissions:"
-        subtitle="Compressor Management for HVAC Networks"
+        title="Prevents waste and ensures KPI compliance"
+        subtitle="Real-Time Inefficiency Detection"
         description=""
         imageSrc="../key-vertical-sec-two.png"
         imageLeft={false}
         listItems={[
-          
-
           {
-            text: "Dynamic Loading",
-            subItems: [
-              "Up to 200 CFM: small compressor operates.",
-              "Up to 500 CFM: large compressor runs.",
-              "Beyond 500 CFM: two large compressors engage.",
-            ],
+            text: "Spot abnormal consumption at machine or site level."
           },
           {
-            text: "Predictive Maintenance: Auto-switching of compressors ensures balanced wear and reliable performance.",
+            text: "Access real-time dashboards and drill-down views.",
           },
           {
-            text: "Live Benchmarking: Real-time kW/CFM analysis highlights efficiency, supporting your sustainability goals.",
-          },
+            text: "Receive instant alerts for corrective action.",
+          }
         ]}
       />
 
       <FacilitySectionsTwo
-        title="Get more from your HVAC systems while lowering kW/TR:"
-        subtitle="Advanced HVAC Controls & Pump Efficiency"
+        title="ROI improvements often visible within months"
+        subtitle="ROI & Cost Optimization"
+        description=""
+        imageSrc="../key-vertical-sec-three.png"
+        imageLeft={true}
+        listItems={[
+          {
+            text: "Reduce energy and operational expenses."
+          },
+          {
+            text: "Extend equipment lifespan."
+          },
+          {
+            text: "Minimize downtime and emergency repairs."
+          },
+          {
+            text: "Stay compliant with regulations to avoid penalties."
+          }
+        ]}
+      />
+
+      <FacilitySectionsTwo
+        title=" Enables evidence-based decision-making"
+        subtitle="Data Analysis & KPI Monitoring"
+        description=""
+        imageSrc="../key-vertical-sec-one.png"
+        imageLeft={false}
+        listItems={[
+          {
+            text: "Visualize metrics in real time."
+          },
+          {
+            text: "Compare performance across systems and sites."
+          },
+          {
+            text: "Automate KPI tracking for operations and efficiency."
+          },
+          {
+            text: "Deliver actionable insights for decision-makers."
+          }
+        ]}
+      />
+
+      <FacilitySectionsTwo
+        title="Strengthens compliance and market positioning"
+        subtitle="CO₂ Monitoring & Sustainability "
+        description=""
+        imageSrc="../key-vertical-sec-three.png"
+        imageLeft={true}
+        listItems={[
+          {
+            text: "Measure direct and indirect emissions."
+          },
+          {
+            text: "Link efficiency gains to carbon reduction."
+          },
+          {
+            text: "Generate ESG-compliant sustainability reports."
+          },
+          {
+            text: "Track progress toward carbon goals."
+          }
+        ]}
+      />
+
+      <FacilitySectionsTwo
+        title="Reduces accidents and enhances reliability"
+        subtitle="Safety Audits & Risk Reduction"
+        description=""
+        imageSrc="../key-vertical-sec-three.png"
+        imageLeft={false}
+        listItems={[
+          {
+            text: "Verify safe operating conditions for energy-intensive systems."
+          },
+          {
+            text: "Identify electrical and mechanical risks."
+          },
+          {
+            text: "Ensure regulatory compliance."
+          },
+          {
+            text: "Improve workplace safety."
+          }
+        ]}
+      />
+
+      <FacilitySectionsTwo
+        title="Targets improvements where they matter most"
+        subtitle="Machine-Level Energy Intensity "
         description=""
         imageSrc="../key-vertical-sec-one.png"
         imageLeft={true}
         listItems={[
           {
-            text: "Adjust ventilation based on CO₂ sensors (DCV), balancing energy savings and occupant comfort"
+            text: "Compare energy use across machines."
           },
           {
-            text: "Optimize chilled water & cooling water circuits by shutting valves to idle equipment."
+            text: "Highlight underperforming assets."
           },
           {
-            text: "Automated switching & instant alerts for key KPIs like pressure and temperature deviations keep your system running at peak efficiency."
+            text: "Optimize scheduling and utilization."
+          },
+          {
+            text: "Allocate energy costs with precision."
           }
         ]}
-      /> */}
+      />
 
       {/* <FacilitySection/> */}
-      <FacilitySection
+      {/* <FacilitySection
         subtitle="ENHANCED ENVIRONMENTAL IMPACT"
         // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="Air Quality Monitoring (IAQ & AQI)
@@ -179,10 +269,10 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
-      />
+      /> */}
 
       {/* Image on Left */}
-      <FacilitySection
+      {/* <FacilitySection
         subtitle="Hazardous Gas Monitoring"
         title="Energy efficiency in production facilities"
         description="Hazardous Gas Monitoring
@@ -211,7 +301,7 @@ export default function Page() {
       />
 
       {/* Image on Left */}
-      <FacilitySection
+      {/* <FacilitySection
         subtitle="Occupancy Monitoring for Smart HVAC Control"
         title="Energy efficiency in production facilities"
         description="Enhance comfort and minimize wastage:
@@ -221,9 +311,9 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
-      />
+      /> */}
 
-      <FacilitySection
+      {/* <FacilitySection
         subtitle="Compressor Management for HVAC Networks"
         // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
         description="
@@ -238,10 +328,10 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
-      />
+      /> */}
 
       {/* Image on Left */}
-      <FacilitySection
+      {/* <FacilitySection
         subtitle="Adv HVAC Controls & Pump Efficiency"
         title="Energy efficiency in production facilities"
         description="
@@ -254,12 +344,12 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
-      />
+      /> */}
 
       <SolFeatureBtmSection
-        heading="Ready to build a safer, sustainable future?"
+        heading="From Operations to Optimization "
         paragraphs={[
-          "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
+          "Drill down energy distribution to the equipment level. Turn raw data into actionable insights. Combine predictive maintenance, smart strategy, and ESG tracking for lower costs, fewer breakdowns, higher efficiency, reduced emissions, and sustainable growth."
         ]}
         buttonText="Download Documentation"
         imageSrc="/integration.png"

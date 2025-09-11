@@ -52,6 +52,7 @@ interface FacilitySectionProps {
   description: string;
   imageSrc: string;
   imageLeft?: boolean; // if true -> image on left
+  listItems?: any
 }
 
 export default function FacilitySection({
@@ -60,16 +61,30 @@ export default function FacilitySection({
   description,
   imageSrc,
   imageLeft = false,
+  listItems
 }: FacilitySectionProps) {
   return (
     <section
-      className={`facility-section-cap ${imageLeft ? 'image-left' : 'image-right'}`}
+      className={`facility-section-cap ${
+        imageLeft ? "image-left" : "image-right"
+      }`}
     >
       {/* Text Card */}
       <div className="facility-card">
-        <div className="facility-subtitle Header1sec TextBlue marBtm">{subtitle}</div>
-        {/* <h2 className="facility-title">{title}</h2> */}
-        <div className="body1sec marTopGlobal">{description}</div>
+        <div className="facility-subtitle Header1sec TextBlue marBtm">
+          {subtitle}
+        </div>
+        
+        {/* <div className="body1sec marTopGlobal">{description}</div> */}
+
+
+        <ul>
+          {(listItems).map((item: any, id: any) => (
+            <li key={id} className="body3sec marTopGlobal">{item.text}</li>
+          ))}
+        </ul>
+
+          <div className="Header3sec inBet">{title}</div>
       </div>
 
       {/* Image */}

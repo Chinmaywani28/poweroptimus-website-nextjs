@@ -179,6 +179,11 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
+        listItems={[
+          {
+            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+          }
+        ]}
       />
 
       {/* Image on Left */}
@@ -194,6 +199,11 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
+        listItems={[
+          {
+            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+          }
+        ]}
       />
 
       <FacilitySection
@@ -208,6 +218,11 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
+        listItems={[
+          {
+            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+          }
+        ]}
       />
 
       {/* Image on Left */}
@@ -221,6 +236,11 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
+        listItems={[
+          {
+            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+          }
+        ]}
       />
 
       <FacilitySection
@@ -238,6 +258,11 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
+        listItems={[
+          {
+            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+          }
+        ]}
       />
 
       {/* Image on Left */}
@@ -254,6 +279,11 @@ export default function Page() {
         "
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
+        listItems={[
+          {
+            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+          }
+        ]}
       />
 
       <SolFeatureBtmSection
