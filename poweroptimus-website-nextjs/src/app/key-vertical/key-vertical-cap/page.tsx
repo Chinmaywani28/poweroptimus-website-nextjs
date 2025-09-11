@@ -169,19 +169,26 @@ export default function Page() {
 
       {/* <FacilitySection/> */}
       <FacilitySection
-        subtitle="Enhanced Enviorment Impact"
-        // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
-        description="Air Quality Monitoring (IAQ & AQI)
-        PowerOpimus continuously tracks indoor air quality to ensure healthy, compliant environments:
-        •	CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels.
-        •	Particulate & Air Quality Monitoring in Clean Rooms.
-    
-        "
+        subtitle="Air Quality Monitoring (IAQ & AQI) "
+        title="Track and control indoor air quality for healthier, compliant spaces"
+        description=""
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
         listItems={[
           {
-            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+            text: "CO₂-based DCV: Real-time fresh air adjustment saves energy and maintains safe levels. "
+          },
+          {
+            text: "Clean Rooms: AQI sensors ensure pharma/electronics meet strict particulate limits."
+          },
+          {
+            text: "Gas Detection: Protects workers by auto-ventilating harmful gases."
+          },
+          {
+            text: "Special Uses: Brewery CO₂ control, large-space IAQ optimization."
+          },
+          {
+            text: "BMS Integration: Highlights energy waste, supports ISO 14001 certification."
           }
         ]}
       />
@@ -189,84 +196,102 @@ export default function Page() {
       {/* Image on Left */}
       <FacilitySection
         subtitle="Hazardous Gas Monitoring"
-        title="Energy efficiency in production facilities"
-        description="Hazardous Gas Monitoring
-        Mitigate risks from toxic gas leaks across industries:
-        •	Chemical Plants: Monitors SO₂, NOx, VOCs and particulate emissions to protect workers and meet regulatory norms.
-        •	Manufacturing Facilities: Deploys sensors across tubing, valve manifolds, and machinery to ensure safe ambient conditions.
-        •	Food & Beverage Plants: Keeps CO₂ and organic waste gases in check in breweries, bottling lines, and cold storage.
-        •	Pharma Units: Detects hazardous byproducts, preventing exposure and ensuring safe manufacturing.
-        "
+        title="Prevent toxic leaks and ensure compliance across industries"
+        description=""
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
         listItems={[
           {
-            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+            text: "Chemicals: Monitors SO₂, NOx, VOCs."
+          },
+          {
+            text: "Manufacturing: Detects leaks across tubing, valves, machinery."
+          },
+          {
+            text: "Food & Beverage: Controls CO₂ in breweries and cold storage."
+          },
+          {
+            text: "Pharma: Detects byproducts to ensure worker safety."
           }
         ]}
       />
 
       <FacilitySection
-        subtitle="Boiler Optimization & Temperature Monitoring"
-        // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
-        description="
-        Maintain optimal temperatures and maximize equipment efficiency:
-        •	Industrial Facilities & Buildings: Alerts users if temperatures exceed set thresholds, preventing costly failures.
-        •	Boiler Heat Loss Monitoring: Tracks dry flue gases, fuel moisture, and radiation losses to fine-tune combustion efficiency and cut fuel costs.
-
-    
-        "
+        subtitle="Keep equipment efficient and safe: "
+        title="Boiler Optimization & Temperature Monitoring "
+        description=""
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
         listItems={[
           {
-            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+            text: "Temperature Alerts: Prevent costly failures."
+          },
+          {
+            text: "Boiler Heat Loss Tracking: Optimize combustion, cut fuel costs."
           }
         ]}
       />
 
       {/* Image on Left */}
       <FacilitySection
-        subtitle="Occupancy Monitoring for Smart HVAC Control"
-        title="Energy efficiency in production facilities"
-        description="Enhance comfort and minimize wastage:
-        •	Healthcare & Commercial Buildings: Occupancy sensors regulate HVAC operation, adapting air flow and temperature to the number of people present.
-        •	Data-Driven Optimization: Dashboards visualize zone-wise occupancy rates, helping target HVAC operations only where needed.
-
-        "
+        subtitle="Occupancy Monitoring for Smart HVAC"
+        title="Smarter comfort, lower waste"
+        description=""
         imageSrc="/key-vertical-sec-four.png"
         imageLeft={true}
         listItems={[
           {
-            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
+            text: "Healthcare & Commercial: HVAC adapts to occupancy."
+          },
+          {
+            text: "Dashboards: Zone-wise visualization for targeted optimization."
           }
         ]}
       />
 
       <FacilitySection
-        subtitle="Compressor Management for HVAC Networks"
-        // title="Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium"
-        description="
-        Smart load-based compressor scheduling reduces energy costs and Scope 2 emissions:
-        •	Dynamic Loading:
-        o	Up to 200 CFM: small compressor operates.
-        o	Up to 500 CFM: large compressor runs.
-        o	Beyond 500 CFM: two large compressors engage.
-        •	Predictive Maintenance: Auto-switching of compressors ensures balanced wear and reliable performance.
-        •	Live Benchmarking: Real-time kW/CFM analysis highlights efficiency, supporting your sustainability goals.
-
-        "
+        subtitle="Compressor Management for HVAC"
+        title="Reduce costs and emissions with load-based scheduling"
+        description=""
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
         listItems={[
           {
-            text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
-          }
+            text: "Dynamic Loading: Compressors auto-adjust by demand (200–500+ CFM)."
+          },
+          {
+            text: "Predictive Maintenance: Balanced wear via auto-switching."
+          },
+          {
+            text: "Live Benchmarking: Real-time kW/CFM efficiency tracking."
+          },
+        ]}
+      />
+
+      <FacilitySection
+        subtitle="Advanced HVAC Controls & Pump Efficiency "
+        title="Boost system efficiency while cutting kW/TR"
+        description=""
+        imageSrc="/key-vertical-sec-three.png"
+        imageLeft={true}
+        listItems={[
+          {
+            text: "CO₂-based Ventilation: Balance comfort and savings."
+          },
+          {
+            text: "Chilled/ Cooling Water Optimization: Auto-shut idle valves."
+          },
+          {
+            text: "Real-time Monitoring: Flow, temp, pressure, pump isolation."
+          },
+          {
+            text: "Automated Alerts: Instant KPI deviation notifications."
+          },
         ]}
       />
 
       {/* Image on Left */}
-      <FacilitySection
+      {/* <FacilitySection
         subtitle="Advanced HVAC Controls & Pump Efficiency"
         title="Energy efficiency in production facilities"
         description="
@@ -284,7 +309,7 @@ export default function Page() {
             text: "CO2-based Demand Control Ventilation (DCV): Adjusts fresh air intake in real time based on occupancy, reducing unnecessary energy use and maintaining safe CO₂ levels."
           }
         ]}
-      />
+      /> */}
 
       <SolFeatureBtmSection
         heading="Ready to build a safer, sustainable future?"
