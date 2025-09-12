@@ -21,7 +21,7 @@ const page = () => {
         showLink={false}
       /> */}
 
-    <HeroReusable headerText={'Optimizing Energy Across Industries'} bodyText={'Explore the diverse sectors we empower with intelligent energy monitoring and management solutions. From industrial plants and data centers to hospitals and commercial buildings, discover how our tailored approaches drive efficiency, reduce costs, and promote sustainability'} />
+    <HeroReusable headerText={'Industries We Serve with PowerOptimus'} bodyText={'PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level.'} />
 
 
 

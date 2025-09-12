@@ -187,17 +187,6 @@ const Footer = () => {
 
           <div>
             <a
-              href="https://x.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer_email_link"
-            >
-              <i className="ri-twitter-x-fill"></i>
-            </a>
-          </div>
-
-          <div>
-            <a
               href="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -206,6 +195,19 @@ const Footer = () => {
               <i className="ri-youtube-fill"></i>
             </a>
           </div>
+
+          <div>
+            {/* <a
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer_email_link"
+            >
+              <i className="ri-twitter-x-fill"></i>
+            </a> */}
+          </div>
+
+          
 
           <div></div>
         </div>
