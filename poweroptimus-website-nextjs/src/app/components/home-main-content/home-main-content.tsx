@@ -18,6 +18,7 @@ import { KeyVertices } from './key-vertices/key-vertices';
 import { KeyVerticesTwo } from './key-vertices two/key-vertices-two';
 import { FormSection } from './form-section/form-section';
 import SolFeatureBtmSection from '../solution/sol-feature-btm-section';
+import SustainableDev from './sustainable-dev';
 
 
 
@@ -32,6 +33,9 @@ const HomeMainContent = () => {
       <Hero headerText={t('BuildingSustainableFuture') } bodyText={t('IntroducingEnergySolution')} />
       {/* slider */}
       
+      <SustainableDev/>
+      
+
       <Slider/>
       {/* why energy efficiency matters the most */}
       <WhyEnergy/>

@@ -1,0 +1,83 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+import "./sustainable-dev.css";
+
+const SustainableDev: React.FC = () => {
+  // Left side thumbnails
+  const leftImages = [
+    "/sus-dev-one.png",
+    "/sus-dev-two.png",
+    "/sus-dev-three.jpg",
+    "/sus-dev-four.jpg",
+    "/sus-dev-five.png",
+    "/sus-dev-six.png",
+    "/sus-dev-seven.png",
+    "/sus-dev-eight.jpg",
+  ];
+
+  // Right side images
+  const rightImages = [
+    "/re-one.png",
+    // "/sus-dev-two.png",
+    // "/sus-dev-three.jpg",
+    // "/sus-dev-four.jpg",
+    // "/sus-dev-five.png",
+    // "/sus-dev-six.png",
+    // "/sus-dev-seven.png",
+    // "/sus-dev-eight.jpg",
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+  // Auto-rotate carousel (only when not hovering)
+  useEffect(() => {
+    if (hoveredIndex !== null) return; // pause carousel on hover
+
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % rightImages.length);
+    }, 3000); // change every 3s
+
+    return () => clearInterval(interval);
+  }, [hoveredIndex, rightImages.length]);
+
+  // Show hovered image OR carousel image
+  const displayIndex = hoveredIndex !== null ? hoveredIndex : activeIndex;
+
+  return (
+    <div id="hero-section" className="home-container">
+      <div className="susHome">
+        {/* LEFT */}
+        <div className="home_sectionHeader_left">
+          <div className="section-title Header1 TextBlue">Sustainable Development Goals</div>
+
+          <div className="goals-grid">
+            {leftImages.map((src, index) => (
+              <div
+                key={index}
+                className="goal-card"
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
+              >
+                <img src={src} alt={`thumb-${index}`} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* RIGHT */}
+        <div className="home_sectionHeader_right">
+          <div className="goal-display">
+            <img
+              src={rightImages[displayIndex]}
+              alt={`right-${displayIndex}`}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SustainableDev;
