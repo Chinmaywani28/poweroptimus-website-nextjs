@@ -1,12 +1,12 @@
 /* ✅ Global fix to include padding in total width */
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* ✅ Prevent entire body from scrolling sideways */
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 /* ✅ Full wrapper */
 .energy-slider-wrapper {

@@ -1,5 +1,6 @@
 "use client"
-import './brochure-card-section.css';
+// import './brochure-card-section.css';
+import styles from './brochure-card-section.module.css';
 import { useRef } from 'react';
 
 // ✅ Type for each card
@@ -35,19 +36,19 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
 
   return (
     <>
-    <div className="energy-slider-wrapper">
+    <div className={styles["energy-slider-wrapper"]}>
       {/* ✅ Slider container for horizontal scroll */}
-      <div className="energy-slider" ref={sliderRef}>
+      <div className={styles["energy-slider"]} ref={sliderRef}>
         {cards.map(card => (
-          <div className="energy-card" key={card.id}>
+          <div className={styles["energy-card"]} key={card.id}>
             {/* ✅ Card image */}
-            <div className="card-image">
+            <div className={styles["card-image"]}>
               <img src={card.image} alt={card.title} />
             </div>
 
 
             {/* ✅ Download button */}
-            <button className="download-btn">
+            <button className={styles["download-btn"]}>
               <span>{card.buttonText || <i className="ri-arrow-down-line"></i> } Download</span> 
             </button>
           </div>
@@ -55,11 +56,11 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
       </div>
 
       {/* ✅ Arrows shown only on mobile/tablet */}
-      <div className="arrow-btn-container">
-        <button className="arrow-btn" onClick={scrollLeft}>
+      <div className={styles["arrow-btn-container"]}>
+        <button className={styles["arrow-btn"]} onClick={scrollLeft}>
           <i className="ri-arrow-left-s-line"></i>
         </button>
-        <button className="arrow-btn" onClick={scrollRight}>
+        <button className={styles["arrow-btn"]} onClick={scrollRight}>
           <i className="ri-arrow-right-s-line"></i>
         </button>
       </div>

@@ -44,7 +44,9 @@
 // }
 
 // components/FacilitySection.tsx
-import './facility-sections-two.css';
+// import './facility-sections-two.module.css';
+import styles from './facility-sections-two.module.css';
+
 
 interface FacilitySectionProps {
   title?: string;
@@ -65,31 +67,35 @@ export default function FacilitySection({
 }: FacilitySectionProps) {
   return (
     <section
-      className={`facility-section-cap ${
-        imageLeft ? "image-left" : "image-right"
+      // className={`facility-section-cap ${
+      //   imageLeft ? "image-left" : "image-right"
+      // }`}
+      className={`${styles["facility-section-cap"]} ${
+        imageLeft ? styles["image-left"] : styles["image-right"]
       }`}
     >
       {/* Text Card */}
-      <div className="facility-card">
+      <div className={styles["facility-card"]}>
         <div className="facility-subtitle Header1sec TextBlue marBtm">
           {subtitle}
         </div>
-        
+
         {/* <div className="body1sec marTopGlobal">{description}</div> */}
 
-
         <ul>
-          {(listItems).map((item: any, id: any) => (
-            <li key={id} className="body3sec marTopGlobal">{item.text}</li>
+          {listItems.map((item: any, id: any) => (
+            <li key={id} className="body3sec marTopGlobal">
+              {item.text}
+            </li>
           ))}
         </ul>
 
-          <div className="Header3sec inBet">{title}</div>
+        <div className="Header3sec inBet">{title}</div>
       </div>
 
       {/* Image */}
-      <div className="facility-image">
-        <img src={imageSrc} alt="facility" />
+      <div className={styles["facility-image"]}>
+        <img src={imageSrc} alt="facility" className={styles["fac-img"]}/>
       </div>
     </section>
   );

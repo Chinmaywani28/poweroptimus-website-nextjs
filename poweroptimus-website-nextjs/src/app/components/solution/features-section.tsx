@@ -116,7 +116,7 @@ const FeatureSection = () => {
       },
       {
         title: 'Industrial Carbon Footprint',
-        desc: 'With growing emphasis on environmental compliance, this solution aids in tracking and reducing Scope 1, 2, and 3 emissions. By analyzing energy efficiency data and carbon outputs, the platform supports your carbon footprint reduction strategy and helps meet corporate sustainability targets. This is where energy management systems meet environmental sustainability.'
+        desc: 'With growing emphasis on environmental compliance, this solution aids in tracking and reducing Scope 1, 2, and 3 emissions. By analyzing energy efficiency data and carbon outputs, the platform supports your carbon footprint reduction strategy and helps meet corporate sustainability targets. This is where energy management systems meet environmental sustai.'
       },
       {
         title: 'Air Quality Monitoring',
