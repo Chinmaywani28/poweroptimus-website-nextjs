@@ -18,6 +18,7 @@ const page = () => {
     {/* <Hero/> */}
     {/* <HeroTwo/> */}
     <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/>
+    {/* changes done in content acc to pragya in solution hero */}
     {/* features */}
     <FeatureSection/>
 
