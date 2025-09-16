@@ -19,13 +19,13 @@ const SustainableDev: React.FC = () => {
   // Right side images
   const rightImages = [
     "/re-one.png",
-    // "/sus-dev-two.png",
-    // "/sus-dev-three.jpg",
-    // "/sus-dev-four.jpg",
-    // "/sus-dev-five.png",
-    // "/sus-dev-six.png",
-    // "/sus-dev-seven.png",
-    // "/sus-dev-eight.jpg",
+    "/re-two.png",
+    "/re-three.png",
+    "/re-four.png",
+    "/re-five.png",
+    "/re-six.png",
+    "/re-seven.png",
+    "/re-eight.png"
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -49,7 +49,7 @@ const SustainableDev: React.FC = () => {
     <div id="hero-section" className="home-container">
       <div className="susHome">
         {/* LEFT */}
-        <div className="home_sectionHeader_left">
+        <div className="sus-home_sectionHeader_left">
           <div className="section-title Header1 TextBlue">Sustainable Development Goals</div>
 
           <div className="goals-grid">
@@ -67,7 +67,7 @@ const SustainableDev: React.FC = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="home_sectionHeader_right">
+        <div className="sus-home_sectionHeader_right">
           <div className="goal-display">
             <img
               src={rightImages[displayIndex]}

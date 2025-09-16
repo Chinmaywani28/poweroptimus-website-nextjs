@@ -16,7 +16,7 @@ const ArchitectureDiagram = () => {
       {/* <h2 className="process-title Header2">Architecture-section</h2> */}
       <div className="diagram-placeholder Header1sec marTop">
 
-        <img src="./system-arch.png" alt="System Architecture" />
+        <img src="/system-arch-two.jpg" alt="System Architecture" />
 
       </div>
     </section>
