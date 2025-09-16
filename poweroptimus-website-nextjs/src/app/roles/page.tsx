@@ -17,7 +17,7 @@ const page = () => {
 
 
       <FacilitySections
-        title="Facility Managers / Administrators"
+        title="Facility Managers"
         text="Facility managers are responsible for the day-to-day efficiency and reliability of building systems. From HVAC to lighting and equipment scheduling, they must balance occupant comfort, energy use, and maintenance tasks. Provides real-time monitoring and control of energy-consuming assets
         Sends proactive alerts for abnormal consumption or equipment failure
         Reduces downtime through predictive insights and maintenance schedules
@@ -28,9 +28,9 @@ const page = () => {
         // listThree="Reduces downtime through predictive insights and maintenance schedules"
         // listFour="Helps maintain optimal working conditions while reducing utility bills"
         imageSrc="./roles-one.png"
-        label1="Real-Time Usage Insights"
-        label2="Predictive Maintenance Alerts"
-        label3="Environmental Impact"
+        label1="Predictive Maintenance"
+        label2="Energy Management strategy"
+        label3="Employee awareness training"
         showList={true}
         tagPath="/roles/roles-cap"
       />
@@ -49,9 +49,9 @@ const page = () => {
         // listThree="Enables load balancing and shift optimization based on usage trends"
         // listFour="Supports energy budgeting, target setting, and performance benchmarking"
         reverse
-        label1="Real-Time Usage Insights"
-        label2="Predictive Maintenance Alerts"
-        label3="Environmental Impact"
+        label1="Efficiency improvements"
+        label2="Data Analysis"
+        label3="Sustainability and ESG analysis"
         showList={true}
         tagPath="/roles/roles-cap"
 
@@ -72,16 +72,16 @@ const page = () => {
         // listThree="Enables benchmarking across departments or locations"
         // listFour="Supports ISO 50001, compliance, and other energy management frameworks"
         imageSrc="./roles-three.png"
-        label1="Real-Time Usage Insights"
-        label2="Predictive Maintenance Alerts"
-        label3="Environmental Impact"
+        label1="Energy Audits"
+        label2="Detects Energy inefficiencies"
+        label3="ROI improvement"
         showList={true}
         tagPath="/roles/roles-cap"
 
       />
 
       <FacilitySections
-        title="CXOs (Chief Executives / C-Suite)"
+        title="CXO"
         text="CXOs are focused on profitability, compliance, and long-term sustainability. They need insights, not just data, to support ESG initiatives and operational transformation.
         Delivers executive dashboards with KPIs across energy, cost, and carbon
         Aids in aligning ESG goals with real-time operational performance
@@ -94,16 +94,16 @@ const page = () => {
         // listFour="Empowers strategic planning through scenario analysis and forecasting"
         imageSrc="./roles-four.png"
         reverse
-        label1="Real-Time Usage Insights"
-        label2="Predictive Maintenance Alerts"
-        label3="Environmental Impact"
+        label1="Data Analysis"
+        label2="ROI improvement"
+        label3="Sustainability and ESG analysis"
         showList={true}
         tagPath="/roles/roles-cap"
 
       />
 
       <FacilitySections
-        title="Sustainability Leaders"
+        title="EHS(Environmental Health & Safety) Heads"
         text="Sustainability leaders track the environmental impact of operations and ensure compliance with internal and external sustainability standards.
         Tracks carbon emissions and energy intensity metrics automatically
         Supports GHG reporting frameworks, ISO 14001 compliance, and other sustainability documentation
@@ -115,9 +115,9 @@ const page = () => {
         // listThree="Enables visibility into sustainability KPIs across sites and teams"
         // listFour="Encourages behavioral change by making progress visible and actionable"
         imageSrc="./roles-five.png"
-        label1="Real-Time Usage Insights"
-        label2="Predictive Maintenance Alerts"
-        label3="Environmental Impact"
+        label1="Co2 Emissions Monitoring"
+        label2="Safety audits"
+        label3="Sustainability and ESG analysis"
         showList={true}
         tagPath="/roles/roles-cap"
 
@@ -137,15 +137,15 @@ const page = () => {
         // listThree="Supports lean manufacturing through energy-aware scheduling"
         // listFour="Minimizes waste while ensuring production targets are met"
         reverse
-        label1="Real-Time Usage Insights"
-        label2="Predictive Maintenance Alerts"
-        label3="Environmental Impact"
+        label1="Machine Energy Intensity"
+        label2="Predictive maintenance"
+        label3="Detects Operation inefficiencies (KPI monitoring)"
         showList={true}
         tagPath="/roles/roles-cap"
 
       />
 
-      <FacilitySections
+      {/* <FacilitySections
         title="Health Inspectors"
         text="Health inspectors oversee the adherence to safety and environmental regulations related to building operations, air quality, and equipment safety.
         Monitors HVAC and indoor environmental quality in real time
@@ -162,7 +162,7 @@ const page = () => {
         label3="Environmental Impact"
         showList={true}
         tagPath="/roles/roles-cap"
-      />
+      /> */}
 
       <SolFeatureBtmSection
         heading="Ready to Power a Safer, Smarter, and More Sustainable Future?"
