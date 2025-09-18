@@ -176,19 +176,16 @@ export default function Page() {
         imageLeft={false}
         listItems={[
           {
-            text: "CO₂-based DCV: Real-time fresh air adjustment saves energy and maintains safe levels. "
+            text: "Real-time CO₂-based DCV for fresh air adjustment & energy savings"
           },
           {
-            text: "Clean Rooms: AQI sensors ensure pharma/electronics meet strict particulate limits."
+            text: "AQI sensors for clean rooms in pharma/electronics"
           },
           {
-            text: "Gas Detection: Protects workers by auto-ventilating harmful gases."
+            text: "Gas detection to auto-vent harmful gases & protect workers"
           },
           {
-            text: "Special Uses: Brewery CO₂ control, large-space IAQ optimization."
-          },
-          {
-            text: "BMS Integration: Highlights energy waste, supports ISO 14001 certification."
+            text: "BMS integration & special uses (breweries, large spaces, ISO 14001 support)"
           }
         ]}
       />
@@ -202,32 +199,38 @@ export default function Page() {
         imageLeft={true}
         listItems={[
           {
-            text: "Chemicals: Monitors SO₂, NOx, VOCs."
+            text: "SO₂, NOx, VOC monitoring in chemical plants"
           },
           {
-            text: "Manufacturing: Detects leaks across tubing, valves, machinery."
+            text: "Leak detection in tubing, valves & machinery"
           },
           {
-            text: "Food & Beverage: Controls CO₂ in breweries and cold storage."
+            text: "CO₂ control in breweries, bottling lines & cold storage"
           },
           {
-            text: "Pharma: Detects byproducts to ensure worker safety."
+            text: "Byproduct detection in pharma units for worker safety"
           }
         ]}
       />
 
       <FacilitySection
-        subtitle="Keep equipment efficient and safe: "
+        subtitle="Keep equipment efficient and safe"
         title="Boiler Optimization & Temperature Monitoring "
         description=""
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={false}
         listItems={[
           {
-            text: "Temperature Alerts: Prevent costly failures."
+            text: "Temperature alerts for equipment protection"
           },
           {
-            text: "Boiler Heat Loss Tracking: Optimize combustion, cut fuel costs."
+            text: "Boiler heat loss tracking (dry flue gases, radiation, fuel moisture)"
+          },
+          {
+            text: "Combustion fine-tuning to improve efficiency"
+          },
+          {
+            text: "Fuel cost reduction through optimized performance"
           }
         ]}
       />
@@ -241,10 +244,16 @@ export default function Page() {
         imageLeft={true}
         listItems={[
           {
-            text: "Healthcare & Commercial: HVAC adapts to occupancy."
+            text: "Healthcare & commercial HVAC adapts to occupancy"
           },
           {
-            text: "Dashboards: Zone-wise visualization for targeted optimization."
+            text: "Sensors regulate airflow & temperature dynamically"
+          },
+          {
+            text: "Dashboards show zone-wise occupancy rates"
+          },
+          {
+            text: "Targeted optimization for reduced waste & better comfort"
           }
         ]}
       />
@@ -257,35 +266,38 @@ export default function Page() {
         imageLeft={false}
         listItems={[
           {
-            text: "Dynamic Loading: Compressors auto-adjust by demand (200–500+ CFM)."
+            text: "Dynamic loading: auto-adjust from small to large compressors"
           },
           {
-            text: "Predictive Maintenance: Balanced wear via auto-switching."
+            text: "Predictive maintenance via auto-switching for balanced wear"
           },
           {
-            text: "Live Benchmarking: Real-time kW/CFM efficiency tracking."
+            text: "Load-based scheduling reduces Scope 2 emissions"
           },
+          {
+            text: "Live benchmarking (real-time kW/CFM analysis) for efficiency"
+          }
         ]}
       />
 
       <FacilitySection
-        subtitle="Advanced HVAC Controls & Pump Efficiency "
+        subtitle="Advanced HVAC Controls & Pump Efficiency"
         title="Boost system efficiency while cutting kW/TR"
         description=""
         imageSrc="/key-vertical-sec-three.png"
         imageLeft={true}
         listItems={[
           {
-            text: "CO₂-based Ventilation: Balance comfort and savings."
+            text: "CO₂-based ventilation for energy & comfort balance"
           },
           {
-            text: "Chilled/ Cooling Water Optimization: Auto-shut idle valves."
+            text: "Chilled/cooling water optimization with auto-shut valves"
           },
           {
-            text: "Real-time Monitoring: Flow, temp, pressure, pump isolation."
+            text: "Real-time monitoring of flow, temp, and pressure"
           },
           {
-            text: "Automated Alerts: Instant KPI deviation notifications."
+            text: "Automated alerts for quick KPI deviation response"
           },
         ]}
       />
@@ -312,7 +324,7 @@ export default function Page() {
       /> */}
 
       <SolFeatureBtmSection
-        heading="Ready to build a safer, sustainable future?"
+        heading="Ready to Build a Safer, Sustainable Future?"
         paragraphs={[
           "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}

@@ -18,10 +18,7 @@ const page = () => {
 
       <FacilitySections
         title="Facility Managers"
-        text="Facility managers are responsible for the day-to-day efficiency and reliability of building systems. From HVAC to lighting and equipment scheduling, they must balance occupant comfort, energy use, and maintenance tasks. Provides real-time monitoring and control of energy-consuming assets
-        Sends proactive alerts for abnormal consumption or equipment failure
-        Reduces downtime through predictive insights and maintenance schedules
-        Helps maintain optimal working conditions while reducing utility bills
+        text="Facility managers are tasked with ensuring the smooth and efficient operation of building systems daily. From managing HVAC, lighting, and equipment schedules to balancing energy consumption with occupant comfort, their role is critical to maintaining reliability and cost control. PowerOptimus supports facility managers by providing real-time monitoring and control of energy-intensive assets, sending proactive alerts for abnormal consumption or equipment failure, and reducing downtime through predictive insights. This ensures that buildings remain comfortable and operationally sound while lowering utility costs and maintenance burdens.
         "
         // listOne="Provides real-time monitoring and control of energy-consuming assets"
         // listTwo="Sends proactive alerts for abnormal consumption or equipment failure"
@@ -37,11 +34,7 @@ const page = () => {
 
       <FacilitySections
         title="Operation Head"
-        text="Operations Heads oversee plant and process performance, striving for operational excellence while managing budgets and resources.
-        Offers facility-wide dashboards for instant visibility into energy usage
-        Correlates energy consumption with process output to identify bottlenecks
-        Enables load balancing and shift optimization based on usage trends
-        Supports energy budgeting, target setting, and performance benchmarking
+        text="Operations heads oversee plant and process performance, where efficiency, cost management, and resource optimization are key to achieving operational excellence. PowerOptimus empowers them with facility-wide dashboards that provide instant visibility into energy usage, helping to correlate energy consumption with process output and identify bottlenecks. Load balancing and shift optimization features enable better resource allocation, while benchmarking and target setting support energy budgeting and long-term performance improvement. This visibility allows operations leaders to enhance productivity without losing sight of energy and cost efficiency.
         "
         imageSrc="./roles-two.png"
         // listOne="Offers facility-wide dashboards for instant visibility into energy usage"
@@ -61,11 +54,7 @@ const page = () => {
 
       <FacilitySections
         title="Energy Managers"
-        text="Energy Managers lead efforts to reduce energy usage, improve efficiency, and achieve sustainability targets. Their role is increasingly data-driven and strategic.
-        Provides granular, circuit-level monitoring and historical data
-        Identifies inefficiencies with trend analysis and consumption patterns
-        Enables benchmarking across departments or locations
-        Supports ISO 50001, compliance, and other energy management frameworks
+        text="Energy managers focus on reducing consumption, improving efficiency, and driving sustainability across operations. Their role has become increasingly strategic and data-driven, requiring tools that provide both depth and clarity. PowerOptimus equips energy managers with granular, circuit-level monitoring and historical data, helping them identify inefficiencies through trend analysis and consumption patterns. The platform also enables benchmarking across different departments or locations, ensuring fair comparisons and actionable insights. By supporting compliance with ISO 50001 and other energy management frameworks, our solutions help energy managers achieve both organizational and regulatory sustainability goals.
         "
         // listOne="Provides granular, circuit-level monitoring and historical data"
         // listTwo="Identifies inefficiencies with trend analysis and consumption patterns"
@@ -82,11 +71,7 @@ const page = () => {
 
       <FacilitySections
         title="CXO"
-        text="CXOs are focused on profitability, compliance, and long-term sustainability. They need insights, not just data, to support ESG initiatives and operational transformation.
-        Delivers executive dashboards with KPIs across energy, cost, and carbon
-        Aids in aligning ESG goals with real-time operational performance
-        Offers ROI projections for energy interventions and capital investments
-        Empowers strategic planning through scenario analysis and forecasting
+        text="For CXOs, the priorities extend beyond day-to-day operations to profitability, compliance, and long-term sustainability. They require insights that connect performance with strategic decision-making, not just raw data. PowerOptimus addresses this by delivering executive dashboards with key performance indicators spanning energy, cost, and carbon impact. The platform enables leaders to align ESG initiatives with real-time operational performance while also providing ROI projections for energy interventions and capital investments. With scenario analysis and forecasting, this solution  empowers executives to make informed strategic decisions that balance profitability, compliance, and environmental responsibility.
         "
         // listOne="Delivers executive dashboards with KPIs across energy, cost, and carbon"
         // listTwo="Aids in aligning ESG goals with real-time operational performance"
@@ -104,11 +89,7 @@ const page = () => {
 
       <FacilitySections
         title="EHS(Environmental Health & Safety) Heads"
-        text="Sustainability leaders track the environmental impact of operations and ensure compliance with internal and external sustainability standards.
-        Tracks carbon emissions and energy intensity metrics automatically
-        Supports GHG reporting frameworks, ISO 14001 compliance, and other sustainability documentation
-        Enables visibility into sustainability KPIs across sites and teams
-        Encourages behavioral change by making progress visible and actionable
+        text="EHS leaders focus on sustainability, compliance, and reducing the environmental footprint of operations. Their responsibilities often extend to tracking emissions, reporting under frameworks like ISO 14001, and ensuring adherence to internal and external sustainability standards. PowerOptimus helps EHS heads by automatically tracking carbon emissions and energy intensity metrics, simplifying GHG reporting and compliance documentation. The platform provides visibility into sustainability KPIs across sites and teams, and it drives behavioural change by making progress transparent and actionable. This not only ensures compliance but also embeds sustainability into the daily culture of operations.
         "
         // listOne="Tracks carbon emissions and energy intensity metrics automatically"
         // listTwo="Supports GHG reporting frameworks, ISO 14001 compliance, and other sustainability documentation"
@@ -125,11 +106,7 @@ const page = () => {
 
       <FacilitySections
         title="Production Managers"
-        text="Production managers focus on throughput, quality, and uptime. They often face trade-offs between operational efficiency and energy consumption.
-        Links machine-level energy use with production metrics
-        Highlights inefficiencies during idle, peak, or off-peak hours
-        Supports lean manufacturing through energy-aware scheduling
-        Minimizes waste while ensuring production targets are met
+        text="Production managers are under constant pressure to maximize throughput, quality, and uptime, often balancing trade-offs between productivity and energy use. PowerOptimus helps them strike this balance by linking machine-level energy data with production metrics, making inefficiencies visible during idle, peak, or off-peak hours. By supporting lean manufacturing through energy-aware scheduling, the platform ensures that processes run with minimal waste and maximum efficiency. This allows production managers to maintain output targets while reducing unnecessary energy expenditure, achieving both operational and sustainability objectives.
         "
         imageSrc="./roles-four.png"
         // listOne="Links machine-level energy use with production metrics"
@@ -139,7 +116,7 @@ const page = () => {
         reverse
         label1="Machine Energy Intensity"
         label2="Predictive maintenance"
-        label3="Detects Operation inefficiencies (KPI monitoring)"
+        label3="Detects Operation inefficiencies"
         showList={true}
         tagPath="/roles/roles-cap"
 
