@@ -1,32 +1,16 @@
-// "use client";
-// import React from 'react';
-// import { useTranslation } from 'react-i18next'; // Import translation hook
-// import './process-diagram.css'; // Import HomePage specific styles
-
-// const ProcessDiagram = () => {
-//   const { t } = useTranslation(); // Initialize translation hook
-  
-//   return (
-//     <section className="process-diagram-section">
-//       <h2 className="process-title">Process</h2>
-//       <div className="diagram-placeholder">
-//         &lt; Diagram &gt;
-//       </div>
-//     </section>
-//   )
-// }
-
-// export default ProcessDiagram
-
-
 import React from 'react'
 import './process-diagram.css'; // Import HomePage specific styles
+
 
 const ProcessDiagram = () => {
   return (
     <section className="process-section">
       <h2 className="Header1sec marTop">Process</h2>
-      <div className="diagram-placeholders Header1sec">&lt; Diagram &gt;</div>
+      <div className="diagram-placeholder Header1sec marTop">
+
+        <img src="/process-diagram-three.jpg" alt="System Architecture" />
+
+      </div>
     </section>
   )
 }
