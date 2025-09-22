@@ -51,7 +51,8 @@
 
 .diagram-placeholder {
   width: 100%;              /* full width of parent */
-  aspect-ratio: 16 / 9;     /* keeps responsive height */
+  /* aspect-ratio: 16 / 9;      */
+  aspect-ratio: 16 / 8;     
   margin-top: 20px;
   border-radius: 10px;
   overflow: hidden;         /* ensures image doesn’t overflow */

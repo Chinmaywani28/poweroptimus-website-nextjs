@@ -9,6 +9,7 @@ import FeatureBtmSection from '../components/key-verticals-page/feature-btm-sect
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 import { WhyPowerOptimusTwo } from '../components/key-verticals-page/why-power-optimus/why-power-optimus-two'
 import HeroReusable from '../components/key-verticals-page/hero-reusable'
+import Hero from '../components/home-main-content/hero'
 
 
 const page = () => {
@@ -21,7 +22,12 @@ const page = () => {
         showLink={false}
       /> */}
 
-    <HeroReusable headerText={'Industries We Serve with PowerOptimus'} bodyText={'PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level.'} />
+    {/* <HeroReusable headerText={'Industries We Serve with PowerOptimus'} bodyText={'PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level.'} /> */}
+
+      <Hero headerText={"Industries We Serve with PowerOptimus"} bodyText={
+          "PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
+      } />
+
 
 
 

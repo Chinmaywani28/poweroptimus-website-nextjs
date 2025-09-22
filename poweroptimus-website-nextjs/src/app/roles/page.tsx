@@ -3,6 +3,7 @@ import KeyverticalTwo from '../components/key-verticals-page/key-vertical-two'
 import FacilitySections from '../components/key-verticals-page/facility-sections'
 import HeroReusable from '../components/key-verticals-page/hero-reusable'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
+import Hero from '../components/home-main-content/hero'
 
 const page = () => {
   return (
@@ -13,7 +14,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} />
+      {/* <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} /> */}
+
+      <Hero headerText={"Empower Every Role to Drive Efficiency and Sustainability"} bodyText={
+          "From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence."
+      } />
 
 
       <FacilitySections

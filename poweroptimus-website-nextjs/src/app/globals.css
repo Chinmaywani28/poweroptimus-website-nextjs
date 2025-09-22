@@ -374,6 +374,10 @@ body {
   margin-bottom: 0;
 }
 
+.marTopSubsecFooter{
+  margin-top: 7px;
+}
+
 
 /* css which not worked on component load end */
 

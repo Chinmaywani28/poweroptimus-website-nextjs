@@ -114,6 +114,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import './Footer.css'
+import Link from 'next/link';
 
 const Footer = () => {
   const { t } = useTranslation(); // Initialize translation hook
@@ -221,7 +222,7 @@ const Footer = () => {
           {/* <div>|</div> */}
           {/* <div>{t('Sitemap')}</div> */}
 
-          <div>Privacy Policy</div>
+          <Link href={"/documentation/policies"}>Privacy Policy</Link>
           <div>|</div>
           <div>Terms and Conditions</div>
           <div>|</div>
