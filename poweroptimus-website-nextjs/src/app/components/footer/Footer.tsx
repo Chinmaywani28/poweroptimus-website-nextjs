@@ -222,13 +222,15 @@ const Footer = () => {
           {/* <div>|</div> */}
           {/* <div>{t('Sitemap')}</div> */}
 
-          <Link href={"/documentation/policies"}>Privacy Policy</Link>
+          <Link href={"/documentation/policies"} style={{ color: "white", textDecoration: "none" }}>Privacy Policy</Link>
           <div>|</div>
-          <Link href={"/documentation/terms-and-condition"}>Terms and Conditions</Link>
+          <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Terms and Conditions</Link>
           <div>|</div>
-          <div>Disclaimer</div>
+          {/* <div>Disclaimer</div> */}
+          <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Disclaimer</Link>
           <div>|</div>
-          <div>Sitemap</div>
+          {/* <div>Sitemap</div> */}
+          <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Sitemap</Link>
         </div>
       </div>
     </div>

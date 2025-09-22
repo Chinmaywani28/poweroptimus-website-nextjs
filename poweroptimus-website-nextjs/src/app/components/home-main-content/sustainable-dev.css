@@ -7,15 +7,15 @@
 }
 
 .susHome {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-right: 0px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   padding-left: 0px;
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
   row-gap: 20px;
-  column-gap: 30px;
+  column-gap: 95px;
   max-width: 2300px;
 }
 
@@ -39,9 +39,10 @@
 
 .goals-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 per row */
+  grid-template-columns: 1fr 1fr; /* 4 per row */
   row-gap: 15px;
   column-gap: 15px;
+  padding: 45px;
 }
 
 .goal-card img {
@@ -65,6 +66,7 @@
 
 /* ---------------- RIGHT ---------------- */
 .sus-home_sectionHeader_right {
+  padding-right: 40px;
   grid-column-start: 8;
   grid-column-end: 14;
   display: flex;

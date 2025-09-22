@@ -8,7 +8,8 @@
 .home {
   margin-top: 90px;
   padding-top: 20px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
+  padding-bottom: 20px;
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */
