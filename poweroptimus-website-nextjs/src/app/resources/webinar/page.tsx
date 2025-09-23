@@ -108,7 +108,7 @@ const page = () => {
         
 /> */}
 
-        <SolFeatureBtmSection
+        {/* <SolFeatureBtmSection
         heading="Ready to Transform and Optimize Your Operation"
         paragraphs={[
           "PowerOptimus transforms energy monitoring into actionable insights, helping organizations improve efficiency, reduce emissions, and extend equipment lifespan. Whether you’re focused on cutting costs or meeting sustainability targets, the platform has you covered. Discover how today."
@@ -116,7 +116,7 @@ const page = () => {
         buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
-      />
+      /> */}
 
     </>
   )

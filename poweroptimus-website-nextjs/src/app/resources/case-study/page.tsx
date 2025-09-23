@@ -108,7 +108,7 @@ const page = () => {
         
 /> */}
 
-        <SolFeatureBtmSection
+        {/* <SolFeatureBtmSection
         heading="Transform Data into Action That Drives Efficiency, Sustainability, and Growth"
         paragraphs={[
           "Don’t just collect data use it. PowerOptimus provides powerful analytics to help you identify excessive utility usage, prevent downtime, and make informed sustainability decisions. It’s more than monitoring; it’s your pathway to smarter, greener operations. Let’s get started together."
@@ -116,7 +116,7 @@ const page = () => {
         buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
-      />
+      /> */}
 
     </>
   )

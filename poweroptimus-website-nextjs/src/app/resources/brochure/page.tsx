@@ -48,7 +48,7 @@ const page = () => {
         ]}
       />
 
-      <SolFeatureBtmSection
+      {/* <SolFeatureBtmSection
         heading="The Smarter Way to Drive Efficiency and Sustainability"
         paragraphs={[
           "Gain more than data gain actionable intelligence. Our platform helps you optimize energy use, reduce downtime, and align with global net-zero goals. Transform utility tracking into a strategic advantage for your business and the environment."
@@ -56,7 +56,7 @@ const page = () => {
         buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
-      />
+      /> */}
       
       
     </>

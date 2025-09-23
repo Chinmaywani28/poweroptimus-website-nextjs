@@ -107,8 +107,8 @@ const page = () => {
 
         
 /> */}
-
-        <SolFeatureBtmSection
+        {/* told to remove this sol bott sec by pragya 23-09-25 in all subpage of resources and news and events */}
+        {/* <SolFeatureBtmSection
         heading="Drive Operational Efficiency and Ensure Long-Term Sustainability"
         paragraphs={[
           "PowerOptimus delivers more than monitoring it’s a complete solution for cost savings, resource optimization, and environmental responsibility. Whether your goal is resilience, sustainability, or operational excellence, PowerOptimus helps you achieve it all. Experience the difference."
@@ -116,7 +116,7 @@ const page = () => {
         buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
-      />
+      /> */}
 
     </>
   )

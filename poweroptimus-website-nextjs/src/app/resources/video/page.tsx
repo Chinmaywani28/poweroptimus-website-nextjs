@@ -102,7 +102,7 @@ const page = () => {
         
 /> */}
 
-        <SolFeatureBtmSection
+        {/* <SolFeatureBtmSection
         heading="Build Sustainable, Resilient, and Efficient Operations"
         paragraphs={[
           "Energy monitoring and predictive maintenance come together to help you reduce downtime, extend asset lifespans, and cut emissions. PowerOptimus equips your team with the tools needed to turn sustainability strategies into measurable operational improvements."
@@ -110,7 +110,7 @@ const page = () => {
         buttonText="Schedule Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
-      />
+      /> */}
     </>
   )
 }
