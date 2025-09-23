@@ -25,65 +25,66 @@ const SustainableDev: React.FC = () => {
 
   // Auto-rotate carousel (only when not hovering)
   useEffect(() => {
-    if (hoveredIndex !== null) return; // pause carousel on hover
+    if (hoveredIndex !== null) return;
 
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % rightImages.length);
-    }, 3000); // change every 3s
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [hoveredIndex, rightImages.length]);
 
-  // Show hovered image OR carousel image
   const displayIndex = hoveredIndex !== null ? hoveredIndex : activeIndex;
 
   return (
-
     <section>
-      
-
       <div id="hero-section" className="home-container">
-      
-      
+        <div className="susHome">
+          <div className="sus-dev-header">
+            <div className="section-title Header1 TextBlue">
+              PowerOptimus Sustainability Goals : Strategic Alignment
+            </div>
+          </div>
 
+          {/* LEFT */}
+          <div className="sus-home_sectionHeader_left">
+            <div className="goals-grid">
+              {leftImages.map((src, index) => (
+                <div
+                  key={index}
+                  className="goal-card"
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                >
+                  <img src={src} alt={`thumb-${index}`} />
+                </div>
+              ))}
+            </div>
+          </div>
 
-      <div className="susHome">
+          {/* RIGHT */}
+          <div className="sus-home_sectionHeader_right">
+            <div className="goal-display">
+              <img
+                src={rightImages[displayIndex]}
+                alt={`right-${displayIndex}`}
+              />
 
-      <div className="sus-dev-header">
-        <div className="section-title Header1 TextBlue">PowerOptimus Sustainability Goals : Strategic Alignment</div>
-      </div>
-
-        {/* LEFT */}
-        <div className="sus-home_sectionHeader_left">
-
-          <div className="goals-grid">
-            {leftImages.map((src, index) => (
-              <div
-                key={index}
-                className="goal-card"
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
-              >
-                <img src={src} alt={`thumb-${index}`} />
+              {/* Circle dots below image */}
+              <div className="dot-icons">
+                {rightImages.map((_, index) => (
+                  <span
+                    key={index}
+                    className={`dot ${index === displayIndex ? "active-dot" : ""}`}
+                    onClick={() => setActiveIndex(index)}
+                  ></span>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* RIGHT */}
-        <div className="sus-home_sectionHeader_right">
-          <div className="goal-display">
-            <img
-              src={rightImages[displayIndex]}
-              alt={`right-${displayIndex}`}
-            />
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
-
-    
   );
 };
 

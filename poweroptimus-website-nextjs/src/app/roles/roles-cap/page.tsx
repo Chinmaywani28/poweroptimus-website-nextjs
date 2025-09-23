@@ -42,7 +42,7 @@ export default function Page() {
 
       <FacilitySectionsTwo
         title="Ensures fewer breakdowns, lower costs, and higher uptime"
-        subtitle="Predictive Maintenance for Uninterrupted Operations"
+        subtitle="Predictive Maintenance for Reliability"
         description=""
         imageSrc="../key-vertical-sec-one.png"
         imageLeft={false}

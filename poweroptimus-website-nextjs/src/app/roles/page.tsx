@@ -75,7 +75,7 @@ const page = () => {
       />
 
       <FacilitySections
-        title="CXO"
+        title="C-Suite Executives (CXOs)"
         text="For CXOs, the priorities extend beyond day-to-day operations to profitability, compliance, and long-term sustainability. They require insights that connect performance with strategic decision-making, not just raw data. PowerOptimus addresses this by delivering executive dashboards with key performance indicators spanning energy, cost, and carbon impact. The platform enables leaders to align ESG initiatives with real-time operational performance while also providing ROI projections for energy interventions and capital investments. With scenario analysis and forecasting, this solution  empowers executives to make informed strategic decisions that balance profitability, compliance, and environmental responsibility.
         "
         // listOne="Delivers executive dashboards with KPIs across energy, cost, and carbon"
