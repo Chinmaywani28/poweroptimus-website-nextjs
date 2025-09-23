@@ -186,7 +186,7 @@ const FeatureSection = () => {
               <div>
               <h3 className="Header3sec alignbodytextwidth" style={{ marginTop: '0px', marginBottom: '0px' }}>{item.title}</h3>
               </div>
-              <p className="body3sec TextGray3">{item.desc}</p>
+              <p className="body3sec TextGray3 hypens">{item.desc}</p>
             </div>
           ))}
         </div>

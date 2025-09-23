@@ -38,10 +38,21 @@ const SustainableDev: React.FC = () => {
   const displayIndex = hoveredIndex !== null ? hoveredIndex : activeIndex;
 
   return (
-    <div id="hero-section" className="home-container">
-          {/* <div className="section-title Header1 TextBlue">Sustainable Development Goals</div> */}
+
+    <section>
       
+
+      <div id="hero-section" className="home-container">
+      
+      
+
+
       <div className="susHome">
+
+      <div className="sus-dev-header">
+        <div className="section-title Header1 TextBlue">PowerOptimus Sustainability Goals : Strategic Alignment</div>
+      </div>
+
         {/* LEFT */}
         <div className="sus-home_sectionHeader_left">
 
@@ -70,6 +81,9 @@ const SustainableDev: React.FC = () => {
         </div>
       </div>
     </div>
+    </section>
+
+    
   );
 };
 

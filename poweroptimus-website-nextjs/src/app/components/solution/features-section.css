@@ -61,6 +61,10 @@
   cursor: pointer;
 }
 
+.hypens{
+  hyphens: auto;
+}
+
 /* MOBILE: 1 card */
 @media (max-width: 600px) {
   .features-grid {
