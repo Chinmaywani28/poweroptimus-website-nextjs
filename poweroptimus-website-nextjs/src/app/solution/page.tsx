@@ -43,7 +43,7 @@ const page = () => {
         paragraphs={[
           "PowerOptimus is designed with interoperability and flexibility at its core, making it simple to integrate with your existing infrastructure whether it’s legacy systems, Building Management Systems(BMS), SCADA, or industrial automation setups. Our solution supports widely-used communication protocols such as Modbus, BACnet, MQTT, and OPC-UA, ensuring seamless data flow from your current energy meters, environmental sensors, and control systems."
         ]}
-        buttonText="Schedule Demo"
+        buttonText="Schedule a Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />

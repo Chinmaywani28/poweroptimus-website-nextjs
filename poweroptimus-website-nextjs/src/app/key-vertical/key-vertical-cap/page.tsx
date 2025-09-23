@@ -328,7 +328,7 @@ export default function Page() {
         paragraphs={[
           "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}
-        buttonText="Schedule Demo"
+        buttonText="Schedule a Demo"
         imageSrc="/integration.png"
         imageAlt="Illustration of integration"
       />
