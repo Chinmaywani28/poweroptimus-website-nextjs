@@ -227,10 +227,10 @@ const Footer = () => {
           <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Terms and Conditions</Link>
           <div>|</div>
           {/* <div>Disclaimer</div> */}
-          <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Disclaimer</Link>
+          <Link href={"/documentation/disclaimer"} style={{ color: "white", textDecoration: "none" }}>Disclaimer</Link>
           <div>|</div>
           {/* <div>Sitemap</div> */}
-          <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Sitemap</Link>
+          <Link href={"/documentation/site"} style={{ color: "white", textDecoration: "none" }}>EULA</Link>
         </div>
       </div>
     </div>

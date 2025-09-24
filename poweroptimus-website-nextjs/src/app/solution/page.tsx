@@ -1,6 +1,6 @@
 import React from 'react'
 import './page.css'
-import Hero from '../components/solution/hero'
+// import Hero from '../components/solution/hero'
 import FeatureSection from '../components/solution/features-section'
 import ProcessStepSection from '../components/solution/process-step-section'
 import ProcessDiagram from '../components/solution/process-diagram'
@@ -11,13 +11,21 @@ import Integration from '../components/solution/integration'
 import HeroTwo from '../components/solution-two/hero-two'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 import SolutionHero from '../components/solution/solution-hero'
+import Hero from '../components/home-main-content/hero'
+
 
 const page = () => {
   return (
     <>
     {/* <Hero/> */}
     {/* <HeroTwo/> */}
-    <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/>
+    {/* <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/> */}
+
+
+    <Hero headerText={"PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring"} bodyText={
+          "PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems."
+      } />
+
     {/* changes done in content acc to pragya in solution hero */}
     {/* features */}
     <FeatureSection/>

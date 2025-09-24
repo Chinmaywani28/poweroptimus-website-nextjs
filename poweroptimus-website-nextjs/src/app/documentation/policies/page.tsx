@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
 
   return (
     <>
-   <br />
+   
     <div className="privacy-section">
 
 <h1><p className="privacy-policy-header"><b><span>Privacy
@@ -32,9 +32,9 @@ California Privacy Rights Act of 2020 (the &quot;CPRA )guidelines. We may
 update this privacy policy from time to time in order to reflect, for example,
 changes to our practices or for other operational, legal or regulatory reasons.</p>
 
-<h2><span style={{fontFamily:"Cambria serif",font:"minor-latin"}}>Interpretation and Definitions</span></h2>
+<h2><span>Interpretation and Definitions</span></h2>
 
-<h3><span style={{fontFamily:"Cambria serif",font:"minor-latin"}}>Interpretation</span></h3>
+<h3><span>Interpretation</span></h3>
 
 <p className="MsoNormal">The words of which the initial letter is capitalized have
 meanings defined under the following conditions. The following definitions
