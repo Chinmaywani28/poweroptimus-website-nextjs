@@ -34,7 +34,7 @@ const page = () => {
     {/* sections */}
       <FacilitySections
         title="Industrial Plants & Factories"
-        text="In energy-intensive environments like industrial plants and factories, operational inefficiencies can lead to substantial cost overruns and increased environmental impact. PowerOptimus delivers advanced energy monitoring systems that offer granular insights into every unit of energy consumed. By tracking critical KPIs such as energy usage, production efficiency, HVAC performance, and compressor operations, facilities can reduce inefficiencies, streamline workflows, and enhance productivity.The platform also supports compliance monitoring and workplace safety by enabling real-time tracking of key operational parameters. This integrated approach empowers industries to take a proactive role in achieving operational efficiency and meeting environmental performance goals."
+        text="In energy-intensive plants, even small inefficiencies can quickly escalate into major cost overruns and higher carbon emissions. Advanced energy monitoring delivers granular visibility into every unit consumed across production lines, HVAC systems, and compressors, enabling facilities to identify waste, optimize workflows, and increase output. By pairing operational KPIs with compliance and safety tracking in real time, industries can move beyond reactive fixes to proactive efficiency, ensuring both profitability and sustainability."
         imageSrc="./key-vertical-one.png"
         label1="Compressor Management"
         label2="HVAC"
@@ -46,7 +46,7 @@ const page = () => {
 
       <FacilitySections
         title="Data Centers"
-        text="Data centers require uninterrupted performance and precise control over power usage. With PowerOptimus, you gain complete visibility into energy metrics, thermal loads, cooling efficiency, and backup systems. Our platform ensures balanced energy optimization, allowing your data center to minimize power usage effectiveness (PUE) and avoid equipment strain.The intelligent monitoring layer also supports environmental monitoring for detecting fluctuations in temperature, humidity, or AQI, keeping your critical infrastructure protected and resilient around the clock."
+        text="Data centers operate under extreme energy and cooling demands where precision is critical. Continuous monitoring of thermal loads, energy use, cooling efficiency, and backup systems ensures balanced optimization, reducing strain on servers and lowering Power Usage Effectiveness (PUE). Real-time alerts on temperature, humidity, and AQI prevent costly outages or performance dips, protecting mission-critical infrastructure and guaranteeing uninterrupted operations with improved energy efficiency."
         imageSrc="./key-vertical-two.png"
         reverse
         label1="HVAC"
@@ -59,7 +59,7 @@ const page = () => {
 
             <FacilitySections
         title="Hospitals and Healthcare Facilities"
-        text="Hospitals and healthcare institutions have a non-negotiable need for reliability, comfort, and compliance. PowerOptimus supports this with real-time tracking of energy, HVAC performance, indoor air quality, and occupancy, ensuring environments are both safe and efficient. In healthcare, uptime is critical. Our energy monitoring systems provide continuous insights to avoid power anomalies that could jeopardize sensitive operations. The system also contributes to improved patient care and enhanced operational outcomes while aligning with broader environmental sustainability mandates."
+        text="Hospitals and healthcare facilities cannot afford downtime—reliability and compliance are non-negotiable. Real-time monitoring of energy, HVAC, indoor air quality, and occupancy creates safe, stable environments while reducing operating costs. Insights into power fluctuations or anomalies help avoid risks that could compromise life-saving equipment. By embedding energy intelligence into daily operations, healthcare providers enhance patient care, ensure regulatory compliance, and contribute to broader sustainability goals."
         imageSrc="./key-vertical-three.png"
         label1="Air Quality Monitoring"
         label2="HVAC"
@@ -71,7 +71,7 @@ const page = () => {
 
             <FacilitySections
         title="Commercial Buildings"
-        text="Modern commercial spaces demand intelligent control over energy use, air quality, and occupancy to enhance comfort, reduce operational costs, and meet green building standards. PowerOptimus delivers tailored solutions for commercial buildings by monitoring KPIs like HVAC performance, energy consumption, air quality index (AQI), and occupancy patterns.These insights allow facilities to make real-time adjustments that optimize comfort and operational efficiency. Our robust energy management systems for commercial applications are not just about reducing bills—they’re about future-proofing your infrastructure and supporting your long-term sustainability goals."
+        text="Modern commercial spaces demand intelligent, adaptive energy management to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping businesses stay competitive while reducing environmental impact and future-proofing infrastructure."
         imageSrc="./key-vertical-four.png"
         reverse
         label1="Hazardous Gas Monitoring"
@@ -84,7 +84,7 @@ const page = () => {
 
       <FacilitySections
         title="Pharmaceuticals and Life Sciences"
-        text="In pharmaceutical manufacturing and lab environments, precise environmental control is critical for product quality and compliance. PowerOptimus enables this with automated environmental monitoring, covering parameters like temperature, humidity, cleanroom air changes, and energy use across lab equipment. With advanced analytics and real-time alerts, your facility can ensure regulatory alignment while also achieving energy optimization across complex lab and production systems."
+        text="In pharmaceuticals and life sciences, environmental precision is directly linked to product quality and compliance. Automated monitoring of temperature, humidity, cleanroom conditions, and lab equipment energy use helps maintain regulatory standards while safeguarding sensitive products. Real-time analytics allow teams to detect deviations instantly, minimizing risks of contamination or non-compliance. At the same time, optimization of utilities across R&D labs and production sites drives efficiency, reduces costs, and supports sustainable innovation."
         imageSrc="./key-vertical-three.png"
         // reverse
         label1="HVAC"
@@ -97,7 +97,7 @@ const page = () => {
 
       <FacilitySections
         title="Food and Beverage Industry"
-        text="The food and beverage industry requires close monitoring of process efficiency and environmental standards. PowerOptimus supports this by providing complete control over energy usage, refrigeration systems, HVAC, and production-related KPIs. By integrating intelligent energy management systems, organizations can reduce energy wastage during food processing, preserve product integrity, and streamline utilities across distributed plants. Our solution also supports sustainable production practices that reduce carbon footprint while maintaining compliance with health and safety standards."
+        text="The food and beverage sector depends on consistent quality, safety, and efficiency. Monitoring refrigeration systems, HVAC, energy use, and production KPIs ensures product integrity while minimizing energy waste and operational costs. With real-time insights, facilities can better manage distributed plants, streamline utilities, and reduce their carbon footprint. This integrated approach not only helps maintain health and safety standards but also aligns operations with growing consumer and regulatory demand for sustainable production practices."
         imageSrc="./key-vertical-one.png"
         reverse
         label1="Boiler Optimization"
