@@ -180,6 +180,11 @@
   color: #333;
 }
 
+.subTitle{
+  font-size: 21px;
+  line-height: 130%;
+  font-weight: 500;
+}
 
 /* ===== Responsive Breakpoints ===== */
 

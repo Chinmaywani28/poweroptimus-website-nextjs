@@ -90,7 +90,7 @@ export default function FacilitySection({
           ))}
         </ul>
 
-        <div className="Header2 inBet">{title}</div>
+        <div className={styles["subTitle"]}>{title}</div>
       </div>
 
       {/* Image */}
