@@ -82,10 +82,10 @@ export const KeyVerticesTwo = () => {
 
         {/* === Right Side: Text Content === */}
         <div className='HomeFeature_Leftss'>
-          <div className='Header1 TextBlue'>
+          <div className='Header2 TextBlue'>
             Key Verticals
           </div>
-          <div className='body1_300'>
+          <div className='body2'>
             PowerOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By harnessing IoT sensors, real-time analytics, and intelligent automation, the platform identifies inefficiencies as they emerge, optimizes load balancing to avoid peak tariffs, and enables renewable energy integration to reduce reliance on the grid.  
           </div>
           <div className='buttonDiv2'>

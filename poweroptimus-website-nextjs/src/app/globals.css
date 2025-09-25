@@ -63,7 +63,7 @@ body {
 
 /* text */
 .Header1{
-  font-size: 40px;
+  font-size: 42px;
   line-height: 130%;
   font-weight: 500;
   /* background-color: red; */
@@ -76,7 +76,7 @@ body {
 }
 
 .body1{
-  font-size: 22px;
+  font-size: 24px;
   line-height: 150%;
   text-align: justify;
 }
@@ -164,12 +164,12 @@ body {
 
 @media (max-width: 1560px) {
   .Header1{
-    font-size: 34px;
+    font-size: 36px;
     line-height: 130%;
     /* background-color: rgb(255, 228, 228); */
   }
   .body1{
-    font-size: 20px;
+    font-size: 23px;
     line-height: 150%;
   }
 
@@ -185,17 +185,17 @@ body {
   }  
   
   .body2{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
   }
   
   .Header3{
-    font-size: 24px;
+    font-size: 26px;
     line-height: 130%;
   }
   
   .body3{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 130%;
   }
   
@@ -241,11 +241,10 @@ body {
 
 /* from second page text */
 /* text */
-.Header1sec{
+/* .Header1sec{
   font-size: 41px;
   line-height: 130%;
   font-weight: 500;
-  /* background-color: red; */
 }
 
 .Header1ABoldsec{
@@ -306,18 +305,15 @@ body {
   font-size: 19px;
   line-height: 150%;
   font-weight: 300;
-}
+} */
 
-@media (max-width: 1560px) {
+/* @media (max-width: 1560px) {
   .Header1sec{
     font-size: 35px;
     line-height: 130%;
-    /* background-color: rgb(255, 228, 228); */
+
   }
-  .body1{
-    font-size: 21px;
-    line-height: 150%;
-  }
+  
 
   .body1_300{
     font-size: 21px;
@@ -345,9 +341,9 @@ body {
     line-height: 130%;
   }
   
-}
+} */
 /* key vertical font-size */
-.body2three{
+/* .body2three{
   font-size: 23px;
   line-height: 150%;
   text-align: justify;
@@ -357,7 +353,7 @@ body {
   font-size: 24px;
   line-height: 150%;
   text-align: justify;
-}
+} */
 
 /* css which not worked on component load start */
 .marTopGlobal{

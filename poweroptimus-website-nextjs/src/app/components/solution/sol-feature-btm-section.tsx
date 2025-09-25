@@ -29,9 +29,9 @@ const SolFeatureBtmSection = ({
       <div className="feature-container">
         {/* Left Side: Text content */}
         <div className="feature-text">
-          <h2 className="Header1sec TextBlue">{heading}</h2>
+          <h2 className="Header2 TextBlue">{heading}</h2>
           {paragraphs.map((para, idx) => (
-            <p className="body1 alignbodytext2" key={idx}>{para}</p>
+            <p className="body2 alignbodytext2" key={idx}>{para}</p>
           ))}
           {/* <button className="download-btn">{buttonText}</button> */}
           <div className='downloadBtnDiv'>

@@ -130,7 +130,7 @@ const Footer = () => {
             </div> */}
           </div>
 
-          <div className="footerAddress body4">
+          <div className="footerAddress body2">
             <div>{t("CompanyAddressLine1")}</div>
             <div>{t("CompanyAddressLine2")}</div>
             <div>{t("CompanyAddressLine3")}</div>
