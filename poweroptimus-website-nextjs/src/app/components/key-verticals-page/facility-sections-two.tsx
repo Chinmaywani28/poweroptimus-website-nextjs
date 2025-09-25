@@ -76,7 +76,7 @@ export default function FacilitySection({
     >
       {/* Text Card */}
       <div className={styles["facility-card"]}>
-        <div className="facility-subtitle Header1sec TextBlue marBtm">
+        <div className="facility-subtitle Header2 TextBlue marBtm">
           {subtitle}
         </div>
 
@@ -84,13 +84,13 @@ export default function FacilitySection({
 
         <ul>
           {listItems.map((item: any, id: any) => (
-            <li key={id} className="body3sec marTopGlobal">
+            <li key={id} className="body2 marTopGlobal">
               {item.text}
             </li>
           ))}
         </ul>
 
-        <div className="Header3sec inBet">{title}</div>
+        <div className="Header2 inBet">{title}</div>
       </div>
 
       {/* Image */}

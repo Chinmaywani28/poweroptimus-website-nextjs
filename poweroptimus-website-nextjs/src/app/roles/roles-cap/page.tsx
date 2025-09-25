@@ -4,6 +4,7 @@ import HeroReusable from '@/app/components/key-verticals-page/hero-reusable';
 import FacilitySection from '@/app/components/key-verticals-page/facility-sections-two';
 import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section';
 import FacilitySectionsTwo from '@/app/components/key-verticals-page/facility-sections-two';
+import Hero from '@/app/components/home-main-content/hero';
 
 interface FeatureSectionProps {
   title: string;
@@ -33,12 +34,16 @@ export default function Page() {
         iconText="←"
       /> */}
 
-      <HeroReusable
+      {/* <HeroReusable
         headerText={"Transforming Energy Management and Environmental Monitoring with Intelligence"}
         bodyText={
           "Traditional tracking often stops at consumption reports, offering little insight into inefficiencies or long-term sustainability goals. With advanced analytics, real-time monitoring, and intelligent insights, enterprises can optimize energy use, improve asset performance, and strengthen ESG compliance."
         }
-      />
+      /> */}
+
+      <Hero headerText={"Transforming Energy Management and Environmental Monitoring with Intelligence"} bodyText={
+          "Traditional tracking often stops at consumption reports, offering little insight into inefficiencies or long-term sustainability goals. With advanced analytics, real-time monitoring, and intelligent insights, enterprises can optimize energy use, improve asset performance, and strengthen ESG compliance."
+      } />
 
       <FacilitySectionsTwo
         title="Ensures fewer breakdowns, lower costs, and higher uptime"

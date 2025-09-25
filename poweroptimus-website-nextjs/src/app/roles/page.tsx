@@ -31,7 +31,7 @@ const page = () => {
         // listFour="Helps maintain optimal working conditions while reducing utility bills"
         imageSrc="./roles-one.png"
         label1="Predictive Maintenance"
-        label2="Energy Management strategy"
+        label2="Energy Management strat"
         label3="Employee awareness training"
         showList={true}
         tagPath="/roles/roles-cap"

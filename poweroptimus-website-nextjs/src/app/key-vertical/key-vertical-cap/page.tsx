@@ -3,6 +3,8 @@ import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable';
 import FacilitySection from '@/app/components/key-verticals-page/facility-sections-two';
 import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section';
+import Hero from '@/app/components/home-main-content/hero';
+
 
 interface FeatureSectionProps {
   title: string;
@@ -32,12 +34,16 @@ export default function Page() {
         iconText="←"
       /> */}
 
-      <HeroReusable
+      {/* <HeroReusable
         headerText={"Key Capabilities"}
         bodyText={
           "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
         }
-      />
+      /> */}
+
+      <Hero headerText={"Key Capabilities"} bodyText={
+          "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
+      } />
 
       {/* <FacilitySectionsTwo
         title="PowerOptimus continuously tracks indoor air quality to ensure healthy, compliant environments:"

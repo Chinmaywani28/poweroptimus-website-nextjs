@@ -24,8 +24,8 @@ const FacilitySections = ({ title, text, imageSrc, reverse,label1,label2,label3,
           <img src={imageSrc} alt={title} />
         </div>
         <div className="facility-text">
-          <div className="Header1sec TextBlue marBtm">{title}</div>
-          <div className="body1sec marTopGlobal">
+          <div className="Header2 TextBlue marBtm">{title}</div>
+          <div className="body2 marTopGlobal">
             {text}
             {/* <ul  className="listStyleGlobal">
               <li>{listOne}</li>
