@@ -88,7 +88,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
         <main className="page-content">
           {/* Left column */}
           <div className="main-column">
-            <div className="page-title Header3sec">{title}</div>
+            <div className="page-title Header1">{title}</div>
 
             {/* <div className="body3sec marTopGlobal">
               Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
@@ -113,7 +113,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
               <p key={index}>{para}</p>
             ))} */}
 
-              <div className="body3sec marTopGlobal">
+              <div className="body2 marTopGlobal">
                 Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
                 consequatur labore est ipsum. Dolores dolore laudantium nam
                 labore dolor iure rerum. Dicta est dicta minus. Autem dicta

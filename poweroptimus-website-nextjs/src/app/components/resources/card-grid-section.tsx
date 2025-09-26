@@ -21,12 +21,12 @@ export const CardGridSection = ({cards}: Props) => {
         {cards.map((card: any, index:any) => (
           <div className="card" key={index}>
             <img src={card.imageSrc} alt={card.title} className="card-image" />
-            <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
-            <div className="body3 marTopGlobal">{card.description}</div>
+            <div className="Header2 TextBlue marTopGlobal">{card.title}</div>
+            <div className="body2 marTopGlobal">{card.description}</div>
             <div className="card-footer marTopGlobal">
-              <span className="body3" style={{color: '#666'} }>{card.date}</span>
-              <Link href={card.linkHref} className="card-link body3">
-                {card.linkText} <span className="body3">→</span>
+              <span className="body2" style={{color: '#666'} }>{card.date}</span>
+              <Link href={card.linkHref} className="card-link body2">
+                {card.linkText} <span className="body2">→</span>
               </Link>
             </div>
           </div>

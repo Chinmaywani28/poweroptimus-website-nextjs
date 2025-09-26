@@ -35,12 +35,11 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
         <header className="hero">
           <div className="Header1 TextBlue">
             Necessitatibus perspiciatis voluptatem officia eos sed ut pariatur
-            debitis soluta. Et est nisi
+            debitis soluta.
           </div>
           <div className="body1 marTopGlobal lead">
             Tenetur dolorem enim amet id architecto ullam ipsum. Excepturi est
-            rem cum. Autem excepturi qui consequatur molestias eaque tempore
-            officia. Sed consequatur facilis
+            rem cum. Autem excepturi qui consequatur molestias
           </div>
         </header>
 
@@ -76,9 +75,9 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
 
 
         <div className="main-column">
-          <div className="page-title Header3">{title}</div>
+          <div className="page-title Header2">{title}</div>
 
-          <div className="body3 marTopGlobal">
+          <div className="body2 marTopGlobal">
             Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut aspernatur quisquam fuga quod distinctio voluptatibus doloribus laborum. Et voluptatem est ratione eum minus quia quas rem. Tempora officia maiores illo iste cumque aut. Molestiae fugiat animi ut et maiores. Et sit architecto. Est doloribus sapiente pariatur nihil reiciendis. Iusto facilis et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure 
           </div>
 
@@ -92,7 +91,7 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
               <p key={index}>{para}</p>
             ))} */}
 
-          <div className="body3 marTopGlobal">
+          <div className="body2 marTopGlobal">
             Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure rerum. Dicta est dicta minus. Autem dicta nesciunt laborum. Ut aspernatur quisquam fuga quod distinctio voluptatibus doloribus laborum. Et voluptatem est ratione eum minus quia quas rem. Tempora officia maiores illo iste cumque aut. Molestiae fugiat animi ut et maiores. Et sit architecto. Est doloribus sapiente pariatur nihil reiciendis. Iusto facilis et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed consequatur labore est ipsum. Dolores dolore laudantium nam labore dolor iure 
           </div>
 
@@ -109,7 +108,7 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
             </div> */}
 
           <div className="share">
-            <div className="body3 ">Share</div>
+            <div className="body2 ">Share</div>
             <div className="share-icons marTopGlobal">
               <span><i className="ri-links-fill"></i></span>
               <span><i className="ri-twitter-x-fill"></i></span>
@@ -118,12 +117,12 @@ export const NewsAndEventsSubSection : React.FC<CaseStudyProps> = ({
           </div>
 
           <div className="other-cases">
-            <div className="body3">Other Blogs</div>
+            <div className="body2">Other Blogs</div>
             <ul>
               <div className="marTopGlobal">
                 {otherCases.map((item, index) => (
-                <li className="body3" key={index}>
-                  <a className="body3" href="#">{item}</a>
+                <li className="body2" key={index}>
+                  <a className="body2" href="#">{item}</a>
                 </li>
               ))}
               </div>

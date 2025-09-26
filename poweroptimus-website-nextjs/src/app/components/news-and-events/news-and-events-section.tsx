@@ -62,10 +62,10 @@ export const NewsAndEventsSection : React.FC<Props> = ({ cards }) => {
       <div className="card-container" ref={scrollRef}>
         {cards.map((item, idx) => (
           <div className="carousel-card" key={idx}>
-            <Link href={item.link} className="Header3sec TextBlue" style={{ textDecoration: "none" }}>{item.title}</Link>
+            <Link href={item.link} className="Header2 TextBlue" style={{ textDecoration: "none" }}>{item.title}</Link>
             <img src={item.image} alt="card" className="carousel-img marTopGlobal" />
-            <div className="body3sec marTopGlobal" style={{color:'#666' }}>{item.date}</div>
-            <div className="body3sec marTopGlobal">{item.description}</div>
+            <div className="body2 marTopGlobal" style={{color:'#666' }}>{item.date}</div>
+            <div className="body2 marTopGlobal">{item.description}</div>
           </div>
         ))}
 

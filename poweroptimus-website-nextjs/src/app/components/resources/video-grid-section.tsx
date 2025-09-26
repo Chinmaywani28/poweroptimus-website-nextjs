@@ -16,7 +16,7 @@ type Props = {
 
 export const VideoGridSection = ({cards}: Props) => {
   return (
-    <section className="card-grid-section">
+    <section className="video-grid-section">
       <div className="card-grid">
         {cards.map((card: any, index:any) => (
           <div className="card" key={index}>
@@ -34,10 +34,10 @@ export const VideoGridSection = ({cards}: Props) => {
               ></iframe>
             </div>
 
-            <div className="Header3sec TextBlue marTopGlobal">{card.title}</div>
-            <div className="body3sec marTopGlobal">{card.description}</div>
+            <div className="Header2 TextBlue marTopGlobal">{card.title}</div>
+            <div className="body2 marTopGlobal">{card.description}</div>
             <div className="card-footer marTopGlobal">
-              <span className="body3sec" style={{color: '#666'} }>{card.date}</span>
+              <span className="body2" style={{color: '#666'} }>{card.date}</span>
               {/* <Link href={card.linkHref} className="card-link body3sec">
                 {card.linkText} <span className="body3sec">→</span>
               </Link> */}

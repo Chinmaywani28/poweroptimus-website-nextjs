@@ -6,7 +6,7 @@ import './data-analysis.css'; // Import HomePage specific styles
 const DataAnalysis = () => {
 
   const cards = [
-    { img: '/data-analysis-one.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-visu-one.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
     { img: '/data-analysis-two.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
     { img: '/data-analysis-third.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
     { img: '/data-analysis-four.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
