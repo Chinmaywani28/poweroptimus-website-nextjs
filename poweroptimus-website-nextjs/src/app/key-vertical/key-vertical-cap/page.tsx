@@ -1,9 +1,12 @@
+"use client"
 import './page.css';
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two';
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable';
 import FacilitySection from '@/app/components/key-verticals-page/facility-sections-two';
 import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section';
 import Hero from '@/app/components/home-main-content/hero';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 
 interface FeatureSectionProps {
@@ -15,6 +18,20 @@ interface FeatureSectionProps {
 }
 
 export default function Page() {
+
+  useEffect(() => {
+    const hash = window.location.hash; // e.g., "#hvac"
+    if (hash) {
+      const id = hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+
+  },[])
+
   return (
     <div>
       {/* keyvertical two */}
@@ -175,6 +192,7 @@ export default function Page() {
 
       {/* <FacilitySection/> */}
       <FacilitySection
+        id="abc"
         subtitle="Air Quality Monitoring (IAQ & AQI) "
         title="Track and control indoor air quality for healthier, compliant spaces"
         description=""
@@ -198,6 +216,7 @@ export default function Page() {
 
       {/* Image on Left */}
       <FacilitySection
+        id="hva"
         subtitle="Hazardous Gas Monitoring"
         title="Prevent toxic leaks and ensure compliance across industries"
         description=""
@@ -220,6 +239,7 @@ export default function Page() {
       />
 
       <FacilitySection
+        id="hvac"
         subtitle="Keep equipment efficient and safe"
         title="Boiler Optimization & Temperature Monitoring "
         description=""
@@ -243,6 +263,7 @@ export default function Page() {
 
       {/* Image on Left */}
       <FacilitySection
+        id="hvac"
         subtitle="Occupancy Monitoring for Smart HVAC"
         title="Smarter comfort, lower waste"
         description=""
@@ -265,6 +286,7 @@ export default function Page() {
       />
 
       <FacilitySection
+        id="hvac"
         subtitle="Compressor Management for HVAC"
         title="Reduce costs and emissions with load-based scheduling"
         description=""
@@ -287,6 +309,7 @@ export default function Page() {
       />
 
       <FacilitySection
+        id="hvac"
         subtitle="Advanced HVAC Controls & Pump Efficiency"
         title="Boost system efficiency while cutting kW/TR"
         description=""

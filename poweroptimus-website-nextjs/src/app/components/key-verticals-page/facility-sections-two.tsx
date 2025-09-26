@@ -49,6 +49,7 @@ import styles from './facility-sections-two.module.css';
 
 
 interface FacilitySectionProps {
+  id: string
   title?: string;
   subtitle: string;
   description: string;
@@ -58,6 +59,7 @@ interface FacilitySectionProps {
 }
 
 export default function FacilitySection({
+  id,
   title,
   subtitle,
   description,
@@ -66,7 +68,7 @@ export default function FacilitySection({
   listItems
 }: FacilitySectionProps) {
   return (
-    <section
+    <section id={id}
       // className={`facility-section-cap ${
       //   imageLeft ? "image-left" : "image-right"
       // }`}
