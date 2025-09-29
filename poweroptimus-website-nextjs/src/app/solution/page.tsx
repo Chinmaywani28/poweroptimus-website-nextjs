@@ -12,6 +12,8 @@ import HeroTwo from '../components/solution-two/hero-two'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 import SolutionHero from '../components/solution/solution-hero'
 import Hero from '../components/home-main-content/hero'
+import FeatureCard from '../components/solution/solution-feature-section'
+import ProcessDiagramTwo from '../components/solution/process-diagram-two'
 
 
 const page = () => {
@@ -28,11 +30,31 @@ const page = () => {
 
     {/* changes done in content acc to pragya in solution hero */}
     {/* features */}
-    <FeatureSection/>
+    {/* <FeatureSection/> */}
+
+    <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
+
+    <FeatureCard title={'Power Quality Monitoring'} description={'Ensure a reliable and efficient power supply by monitoring critical parameters like power factor, harmonics & frequency. These insights help avoid penalties due to poor power quality, prevent excessive energy demand charges,& prolong the lifespan of sensitive equipment. PowerOptimus provides in-depth power quality analysis that is essential for any Energy Management System & environmental sustainability.'} titlePosition={"right"}/>
+
+    <FeatureCard title={'Setpoints Monitoring'} description={'Monitoring utility setpoints is vital for maintaining optimal operational parameters across facilities. This software continuously tracks performance and immediately alerts teams when setpoints exceed defined thresholds, helping prevent unnecessary energy use, equipment stress, and avoidable operational costs. By ensuring systems operate within ideal ranges, organizations can improve efficiency, extend asset life, and strengthen sustainability initiatives.'}/>
+
+    <FeatureCard title={'Idle Equipment Detection'} description={'One of the most overlooked energy drains in industrial environments is equipment running idle. Our solution continuously monitors machine energy consumption versus output and flags idle equipment. It prompts automated actions such as turning off equipment during inactivity, a key feature of next-gen energy management systems. With this data, organizations can act quickly to shut down non-productive equipment, thereby reducing energy waste.'} titlePosition={"right"}/>
+
+    <FeatureCard title={'Industrial Carbon Footprint'} description={'With growing emphasis on environmental compliance, this solution aids in tracking and reducing Scope 1, 2, and 3 emissions. By analyzing energy efficiency data and carbon outputs, the platform supports your carbon footprint reduction strategy and helps meet corporate sustainability targets. This is where energy management systems meet environmental sustainability.'}/>
+
+    <FeatureCard title={'Air Quality Monitoring'} description={'Indoor air quality has a direct impact on employee health and productivity. PowerOptimus integrates with air and humidity sensors to monitor environmental conditions within industrial and healthcare facilities. It provides actionable insights to align indoor air quality with outdoor conditions, reduce risks from pollutants, and maintain a healthier, more sustainable workplace environment.'} titlePosition={"right"}/>
+
+    <FeatureCard title={'CO₂ Percentage Monitoring'} description={'PowerOptimus measures indoor CO₂ concentrations and dynamically adjusts HVAC operations through Demand-Controlled Ventilation (DCV). By regulating airflow based on occupancy and air quality levels, it ensures energy savings, reduced operational costs, and a healthier indoor environment. This intelligent approach highlights how comprehensive energy monitoring systems not only optimize performance but also contribute to smarter, more sustainable infrastructure.'}/>
+
+    <FeatureCard title={'Hazardous Gas Monitoring'} description={'In chemical handling and processing environments, hazardous gas emissions pose serious health and safety risks. PowerOptimus integrates advanced gas detection sensors to continuously monitor air quality, identify leaks, and provide instant alerts. This real-time visibility enables rapid response, minimizes exposure risks for workers, and ensures compliance with strict occupational health and safety standards while supporting a safer, more sustainable workplace.'} titlePosition={"right"}/>
 
     
     {/* process diagram */}
-    <ProcessDiagram/>
+    {/* <ProcessDiagram/> */}
+
+
+    <ProcessDiagramTwo/>
+
     {/* process step */}
     <ProcessStepSection/>
     {/* DeviceSection */}

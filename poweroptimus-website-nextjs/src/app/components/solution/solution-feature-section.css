@@ -1,0 +1,86 @@
+/* Main card container */
+.feature-card {
+  position: relative; /* allows absolute positioning of title tab */
+  border: 2px solid #ddd; /* light border */
+  border-radius: 6px; /* rounded corners */
+  padding: 1.5rem; /* space inside card */
+  margin: 45px 11.5%;
+  background: #fff;
+}
+
+/* Title tab (blue box) */
+.title-tab {
+  position: absolute;
+  top: -18px; /* slightly above the card */
+  /* padding: 0.5rem 1rem; */
+  padding: 5px 1rem;
+  background-color: #f0f4f8; /* blue background */
+  /* color: #fff; */
+  font-weight: bold;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  /* font-size: 1rem; */
+}
+
+/* Title on left */
+.title-tab.left {
+  left: 1rem; /* stick to left */
+}
+
+/* Title on right */
+.title-tab.right {
+  right: 1rem; /* stick to right */
+}
+
+/* Description text */
+.description {
+  /* font-size: 1rem; */
+  line-height: 1.5;
+  /* color: #333; */
+}
+
+/* ------------------- RESPONSIVENESS ------------------- */
+
+/* Mobile (≤600px) */
+@media (max-width: 600px) {
+  .feature-card {
+    padding: 1rem;
+  }
+  .title-tab {
+    /* font-size: 0.9rem; */
+    padding: 0.4rem 0.8rem;
+  }
+  .description {
+    /* font-size: 0.9rem; */
+  }
+}
+
+/* Tablet (601px–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .title-tab {
+    /* font-size: 1rem; */
+  }
+  .description {
+    /* font-size: 1rem; */
+  }
+}
+
+/* Laptop (901px–1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .title-tab {
+    /* font-size: 1rem; */
+  }
+  .description {
+    /* font-size: 1rem; */
+  }
+}
+
+/* Desktop (1201px+) */
+@media (min-width: 1201px) {
+  .title-tab {
+    /* font-size: 1.1rem; */
+  }
+  .description {
+    /* font-size: 1.05rem; */
+  }
+}
