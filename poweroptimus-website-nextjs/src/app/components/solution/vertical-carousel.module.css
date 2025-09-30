@@ -1,0 +1,52 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.carouselTrack {
+  transition: transform 0.4s ease;
+}
+
+.slide {
+  height: 260px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.slideTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slideDesc {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.ctrlBtn {
+  background: #2f80ed;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ctrlBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

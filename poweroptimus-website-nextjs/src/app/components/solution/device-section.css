@@ -1,6 +1,6 @@
 /* === ROOT SECTION === */
 .device-section {
-  padding: 60px 14.5%; /* Equal left-right spacing */
+  padding: 0px 14.5%; /* Equal left-right spacing */
   text-align: center;
 }
 
@@ -25,6 +25,7 @@
 /* === CARD STYLING === */
 .device-card {
   max-width: 300px;
+  /* aspect-ratio: 1 / 1; */
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -57,7 +58,7 @@
 /* === Tablet (601px–900px) === */
 @media (min-width: 601px) and (max-width: 900px) {
   .devices-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 cards */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
@@ -71,6 +72,6 @@
 /* === Desktop (1201px and up) === */
 @media (min-width: 1201px) {
   .devices-container {
-    grid-template-columns: repeat(4, 1fr); /* 4 cards */
+    grid-template-columns: repeat(2, 1fr); /* 4 cards */
   }
 }

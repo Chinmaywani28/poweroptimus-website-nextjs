@@ -6,12 +6,12 @@ import './data-analysis.css'; // Import HomePage specific styles
 const DataAnalysis = () => {
 
   const cards = [
-    { img: '/data-visu-one.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
-    { img: '/data-analysis-two.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
-    { img: '/data-analysis-third.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
-    { img: '/data-analysis-four.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
-    { img: '/data-analysis-five.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
-    { img: '/data-analysis-six.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' }
+    { img: '/data-analysis-two-one.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-two-two.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-two-three.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-two-four.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-two-five.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' },
+    { img: '/data-analysis-two-six.png', text: 'Dolorum voluptates qui doloribus fugiat aut dolores...' }
   ];
 
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -62,9 +62,9 @@ const DataAnalysis = () => {
               <div className="image-card" key={index}>
                 <div className="card-img-wrapper">
                   <img src={card.img} alt={`card-${index}`} />
-                  <div className="card-overlay">
-                    {/* <p className="body3sec">{card.text}</p> */}
-                  </div>
+                  {/* <div className="card-overlay">
+                    <p className="body3sec">{card.text}</p>
+                  </div> */}
                 </div>
               </div>
             ))}

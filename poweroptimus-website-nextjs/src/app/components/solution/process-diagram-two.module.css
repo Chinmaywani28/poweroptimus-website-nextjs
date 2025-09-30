@@ -1,0 +1,169 @@
+/* Main container for left + right layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  /* width: 100%; */
+  padding: 0px 11.5%;
+}
+
+/* Left section */
+.leftSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftImage {
+  width: 100%;
+  max-width: 550px;
+  /* aspect-ratio: 4/3; */
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.iconList {
+  /* margin-top: 20px; */
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
+.iconItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.iconText {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Right section */
+.rightSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px; /* visible height */
+  overflow: hidden;
+}
+
+/* Each carousel item */
+.carouselItem {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(0.6);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+  z-index: 1;
+}
+
+.carouselItem img {
+  /* width: 100%;  */
+  aspect-ratio: 3 / 4;    
+  object-fit: cover;      
+  border-radius: 12px;    
+}
+
+/* Current (center) image */
+.current {
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  z-index: 3;
+}
+
+/* Previous (above) */
+.previous {
+  top: 25%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.8;
+  z-index: 2;
+}
+
+/* Next (below) */
+.next {
+  top: 75%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.8;
+  z-index: 2;
+}
+
+/* Far Previous (further up) */
+.farPrevious {
+  top: 10%;
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Far Next (further down) */
+.farNext {
+  top: 90%;
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* ---------------- Responsive Breakpoints ---------------- */
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftImage {
+    max-width: 280px;
+  }
+  .carousel {
+    height: 300px;
+  }
+  .carouselItem img {
+    width: 200px;
+  }
+}
+
+/* Tablet (601px - 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .carousel {
+    height: 350px;
+  }
+  .carouselItem img {
+    width: 220px;
+  }
+}
+
+/* Laptop (901px - 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .carousel {
+    height: 380px;
+  }
+  .carouselItem img {
+    width: 240px;
+  }
+}
+
+/* Desktop (1201px and above) */
+@media (min-width: 1201px) {
+  .carousel {
+    height: 450px;
+  }
+  .carouselItem img {
+    aspect-ratio: 16 / 9;
+  }
+}

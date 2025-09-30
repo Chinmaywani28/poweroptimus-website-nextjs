@@ -1,0 +1,47 @@
+.imageBlock {
+  text-align: center;
+}
+
+.mainImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background: #2f80ed;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+/* Example custom icons by key */
+.icon-cpu {
+  background: #f2994a;
+}
+.icon-memory {
+  background: #27ae60;
+}
+.icon-disk {
+  background: #eb5757;
+}
+
+.legendLabel {
+  font-size: 14px;
+}
