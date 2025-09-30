@@ -17,12 +17,12 @@ const ProcessDiagramTwo = () => {
 
   // Right section images for vertical carousel
   const images = [
-    "/implementation-diagram-carousel.jpg",
-    "/implementation-diagram-carousel.jpg",
-    "/implementation-diagram-carousel.jpg",
-    "/implementation-diagram-carousel.jpg",
-    "/implementation-diagram-carousel.jpg",
-    "/implementation-diagram-carousel.jpg",
+    "/implementation-diagram-carousel-one.png",
+    "/implementation-diagram-carousel-two.png",
+    "/implementation-diagram-carousel-three.png",
+    "/implementation-diagram-carousel-four.png",
+    "/implementation-diagram-carousel-five.png",
+    "/implementation-diagram-carousel-six.png",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
