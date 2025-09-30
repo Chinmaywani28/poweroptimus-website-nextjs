@@ -1,3 +1,7 @@
+.title{
+  text-align: center;
+}
+
 /* Main container for left + right layout */
 .container {
   display: flex;
@@ -18,7 +22,7 @@
 
 .leftImage {
   width: 100%;
-  max-width: 550px;
+  max-width: 445px;
   /* aspect-ratio: 4/3; */
   aspect-ratio: 1/1;
   object-fit: cover;
@@ -27,7 +31,8 @@
 
 .iconList {
   /* margin-top: 20px; */
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   /* flex-direction: column; */
   gap: 10px;
 }
@@ -42,6 +47,9 @@
 .icon {
   font-size: 1.5rem;
 }
+.icon img{
+  width: 20px;
+}
 
 .iconText {
   font-size: 1rem;
@@ -50,6 +58,7 @@
 
 /* Right section */
 .rightSection {
+  padding-top: 35px;
   flex: 1;
   display: flex;
   justify-content: center;

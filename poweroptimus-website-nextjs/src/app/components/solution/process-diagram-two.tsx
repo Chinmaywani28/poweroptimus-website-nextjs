@@ -7,19 +7,22 @@ const ProcessDiagramTwo = () => {
    // Left section main image + icons
   const leftImage = "/implementation-diagram.jpg"; // replace with your image
   const icons = [
-    { icon: "🔥", text: "Hot Feature" },
-    { icon: "⚡", text: "Fast Speed" },
-    { icon: "🌍", text: "Global Reach" },
+    { icon: "/imple-icon-one.png", text: "IOT Node" },
+    { icon: "/imple-icon-two.png", text: "IOT Gateway" },
+    { icon: "/imple-icon-three.png", text: "Measuring Device" },
+    { icon: "/imple-icon-four.png", text: "Sensor" },
+    { icon: "/imple-icon-four.png", text: "Energy Meter" },
+    { icon: "/imple-icon-four.png", text: "Data Fabric" },
   ];
 
   // Right section images for vertical carousel
   const images = [
-    "/implementation-diagram-carousel.png",
-    "/implementation-diagram-carousel.png",
-    "/implementation-diagram-carousel.png",
-    "/implementation-diagram-carousel.png",
-    "/implementation-diagram-carousel.png",
-    "/implementation-diagram-carousel.png",
+    "/implementation-diagram-carousel.jpg",
+    "/implementation-diagram-carousel.jpg",
+    "/implementation-diagram-carousel.jpg",
+    "/implementation-diagram-carousel.jpg",
+    "/implementation-diagram-carousel.jpg",
+    "/implementation-diagram-carousel.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,23 +33,33 @@ const ProcessDiagramTwo = () => {
   };
 
   // Auto change slide every 3s
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentIndex((prev) => getIndex(prev + 1));
-  //   }, 3000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => getIndex(prev + 1));
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   return(
-    <div className={styles.container}>
+
+    <section>
+
+      <div className={styles.title}>
+        <div className="Header2 TextBlue">Implementation Process</div>
+      </div>
+
+      <div className={styles.container}>
       {/* Left Section */}
+
       <div className={styles.leftSection}>
         <img src={leftImage} alt="Main visual" className={styles.leftImage} />
 
         <div className={styles.iconList}>
           {icons.map((item, i) => (
             <div key={i} className={styles.iconItem}>
-              <span className={styles.icon}>{item.icon}</span>
+              <span className={styles.icon}>
+                  <img src={item.icon} />
+              </span>
               <span className={styles.iconText}>{item.text}</span>
             </div>
           ))}
@@ -79,6 +92,9 @@ const ProcessDiagramTwo = () => {
         </div>
       </div>
     </div>
+    </section>
+
+    
   )
   
 }
