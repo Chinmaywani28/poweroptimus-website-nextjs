@@ -56,7 +56,10 @@ const page = () => {
     <ProcessDiagramTwo/>
 
     {/* process step */}
-    <ProcessStepSection/>
+    {/* <ProcessStepSection/> */}
+
+
+    
     {/* DeviceSection */}
     <DeviceSection/>
     {/* system architecture */}

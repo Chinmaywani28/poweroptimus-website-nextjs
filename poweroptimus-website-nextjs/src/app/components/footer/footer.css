@@ -136,7 +136,7 @@
 
 .footer_bottom_Left{
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4; 
   margin-top: 10px;
@@ -145,8 +145,8 @@
 
 
 .footer_bottom_Middle{
-  grid-column-start: 5;
-  grid-column-end: 9;
+  grid-column-start: 4;
+  grid-column-end: 6;
   grid-row-start: 3;
   grid-row-end: 4; 
   margin-top: 10px;
@@ -159,7 +159,7 @@
 }
 
 .footer_bottom_Right{
-  grid-column-start: 9;
+  grid-column-start: 6;
   grid-column-end: 14;
   grid-row-start: 3;
   grid-row-end: 4; 
@@ -184,7 +184,6 @@
 .socialLinks{
   margin-left: 5px;
 }
-
 
 /* Media Queries for Responsive Design */
 /* For very small devices like phones in portrait mode */

@@ -108,8 +108,8 @@
 
 /* === Main Grid Layout === */
 .HomeFeature_Home {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* margin-top: 80px;
+  margin-bottom: 80px; */
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;

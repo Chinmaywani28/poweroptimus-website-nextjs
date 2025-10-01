@@ -182,7 +182,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-linkedin-box-fill"></i>
+              <i className="ri-linkedin-box-fill footer-icon" style={{ fontSize: "22px"}}></i>
             </a>
           </div>
 
@@ -193,7 +193,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-youtube-fill"></i>
+              <i className="ri-youtube-fill"  style={{ fontSize: "22px"}}></i>
             </a>
           </div>
 
@@ -231,6 +231,9 @@ const Footer = () => {
           <div>|</div>
           {/* <div>Sitemap</div> */}
           <Link href={"/documentation/site"} style={{ color: "white", textDecoration: "none" }}>EULA</Link>
+          <div>|</div>
+          
+          <Link href={"/documentation/site"} style={{ color: "white", textDecoration: "none" }}>Cookies Policy</Link>
         </div>
       </div>
     </div>
