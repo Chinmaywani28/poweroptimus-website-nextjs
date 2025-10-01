@@ -38,7 +38,7 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Operation Head"
+        title="Operations Head"
         text="Operations heads oversee plant and process performance, where efficiency, cost management, and resource optimization are key to achieving operational excellence. PowerOptimus empowers them with facility-wide dashboards that provide instant visibility into energy usage, helping to correlate energy consumption with process output and identify bottlenecks. Load balancing and shift optimization features enable better resource allocation, while benchmarking and target setting support energy budgeting and long-term performance improvement. This visibility allows operations leaders to enhance productivity without losing sight of energy and cost efficiency.
         "
         imageSrc="./roles-two.png"
