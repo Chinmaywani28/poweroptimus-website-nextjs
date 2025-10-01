@@ -49,7 +49,7 @@ import styles from './facility-sections-two.module.css';
 
 
 interface FacilitySectionProps {
-  id: string
+  id?: string
   title?: string;
   subtitle: string;
   description: string;
