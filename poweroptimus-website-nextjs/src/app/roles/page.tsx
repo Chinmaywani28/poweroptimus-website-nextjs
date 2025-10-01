@@ -31,8 +31,8 @@ const page = () => {
         // listFour="Helps maintain optimal working conditions while reducing utility bills"
         imageSrc="./roles-one.png"
         label1="Predictive Maintenance"
-        label2="Energy Management strat"
-        label3="Employee awareness training"
+        label2="Energy Management"
+        label3="Employee Awareness Training"
         showList={true}
         tagPath="/roles/roles-cap"
       />
@@ -47,9 +47,9 @@ const page = () => {
         // listThree="Enables load balancing and shift optimization based on usage trends"
         // listFour="Supports energy budgeting, target setting, and performance benchmarking"
         reverse
-        label1="Efficiency improvements"
+        label1="Efficiency Improvements"
         label2="Data Analysis"
-        label3="Sustainability and ESG analysis"
+        label3="Sustainability and ESG Analysis"
         showList={true}
         tagPath="/roles/roles-cap"
 
@@ -67,8 +67,8 @@ const page = () => {
         // listFour="Supports ISO 50001, compliance, and other energy management frameworks"
         imageSrc="./roles-three.png"
         label1="Energy Audits"
-        label2="Detects Energy inefficiencies"
-        label3="ROI improvement"
+        label2="Detects Operational Inefficiencies"
+        label3="ROI Improvement"
         showList={true}
         tagPath="/roles/roles-cap"
 
@@ -85,8 +85,8 @@ const page = () => {
         imageSrc="./roles-four.png"
         reverse
         label1="Data Analysis"
-        label2="ROI improvement"
-        label3="Sustainability and ESG analysis"
+        label2="ROI Improvement"
+        label3="Sustainability and ESG Analysis"
         showList={true}
         tagPath="/roles/roles-cap"
 
@@ -102,8 +102,8 @@ const page = () => {
         // listFour="Encourages behavioral change by making progress visible and actionable"
         imageSrc="./roles-five.png"
         label1="Co2 Emissions Monitoring"
-        label2="Safety audits"
-        label3="Sustainability and ESG analysis"
+        label2="Safety Audits"
+        label3="Sustainability and ESG Analysis"
         showList={true}
         tagPath="/roles/roles-cap"
 
@@ -120,8 +120,8 @@ const page = () => {
         // listFour="Minimizes waste while ensuring production targets are met"
         reverse
         label1="Machine Energy Intensity"
-        label2="Predictive maintenance"
-        label3="Detects Operation inefficiencies"
+        label2="Predictive Maintenance"
+        label3="Detects Operation Inefficiencies"
         showList={true}
         tagPath="/roles/roles-cap"
 

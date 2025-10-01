@@ -40,7 +40,7 @@ const page = () => {
         label2="HVAC"
         label3="Boiler Optimization"
         showList={false}
-        tagPath="/key-vertical/key-vertical-cap#hvac"
+        tagPath="/key-vertical/key-vertical-cap"
 
       />
 
@@ -53,7 +53,7 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Compressor Management"
         showList={false}
-        tagPath="/key-vertical/key-vertical-cap#abc"
+        tagPath="/key-vertical/key-vertical-cap"
 
       />
 
