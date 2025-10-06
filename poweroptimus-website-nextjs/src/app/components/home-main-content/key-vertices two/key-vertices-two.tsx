@@ -65,11 +65,11 @@ export const KeyVerticesTwo = () => {
               <img src="./ky-vertices-threee.jpg" alt="Chip" />
             </Link>
             <Link href="/robotics">
-              <img src="./ky-vertices-two.jpg" alt="Robotics" />
+              <img src="./Food&Beverage_KeyVerticals_Image.jpg" alt="Robotics" />
             </Link>
             
             <Link href="/medical">
-              <img src="./ky-vertices-two.jpg" alt="Medicalkkk" />
+              <img src="./Pharmaceutical_KeyVerticals_Image.jpg" alt="Medicalkkk" />
             </Link>
             <Link href="/energy">
               <img src="./ky-vertices-four.jpg" alt="Energy" />

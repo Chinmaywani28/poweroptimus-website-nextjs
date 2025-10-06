@@ -357,7 +357,7 @@ export default function Page() {
           "Drill down energy distribution to the equipment level. Turn raw data into actionable insights. Combine predictive maintenance, smart strategy, and ESG tracking for lower costs, fewer breakdowns, higher efficiency, reduced emissions, and sustainable growth."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/integration.png"
+        imageSrc="/solutions-bottom.svg"
         imageAlt="Illustration of integration"
       />
     </div>

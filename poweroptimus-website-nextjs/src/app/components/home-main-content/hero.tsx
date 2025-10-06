@@ -36,7 +36,7 @@ const Hero = ({headerText,bodyText}: HeroProps) => {
 
                 {/* section 1.2 */}
                 <div className="home_sectionHeader_right"> 
-                  <img src="/HeaderSVG.svg" alt="Logo" className="header-image" />
+                  <img src="/Solutions_Header_Vector_Img 1.svg" alt="Logo" className="header-image" />
                 </div>
         </div>
         </div>

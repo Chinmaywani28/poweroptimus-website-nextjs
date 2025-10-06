@@ -358,7 +358,7 @@ export default function Page() {
           "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/integration.png"
+        imageSrc="/solutions-bottom.svg"
         imageAlt="Illustration of integration"
       />
     </div>

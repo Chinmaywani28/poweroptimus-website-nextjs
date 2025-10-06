@@ -152,7 +152,7 @@ const page = () => {
           "No matter your role, be it facilities, operations, energy, or sustainability, PowerOptimus can help you streamline operations, cut energy costs, and drive meaningful progress toward your sustainability goals. From real-time insights to proactive control, we’re here to support your journey toward operational excellence and environmental responsibility."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/integration.png"
+        imageSrc="/solutions-bottom.svg"
         imageAlt="Illustration of integration"
       />
 
