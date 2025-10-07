@@ -90,7 +90,7 @@ export const WhyPowerOptimusTwo = () => {
   <div className="marTopGlobalLocal">
     <div className="card-grid">
     <div className="card">
-      <img src="./why-poweroptimus.png" alt="Factory" className="card-icon" />
+      <img src="./key-vertical-icon-customizable.png" alt="Factory" className="card-icon" />
       <div className="Header3 TextBlue">Customizable to Industry Needs</div>
       <div className="body3 marTopGlobal">
         Whether it’s a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation.
@@ -99,7 +99,7 @@ export const WhyPowerOptimusTwo = () => {
 
     
     <div className="card">
-      <img src="./why-poweroptimus.png" alt="Factory" className="card-icon" />
+      <img src="./key-vertical-icon-scalable.png" alt="Factory" className="card-icon" />
       <div className="Header3 TextBlue">Scalable and Future-Ready</div>
       <div className="body3 marTopGlobal">
         Designed to grow with your business, our platform integrates effortlessly with existing systems, including BIM, IoT devices, and SCADA.
@@ -108,7 +108,7 @@ export const WhyPowerOptimusTwo = () => {
 
     
     <div className="card">
-      <img src="./why-poweroptimus.png" alt="Factory" className="card-icon" />
+      <img src="./key-vertical-icon-actionable.png" alt="Factory" className="card-icon" />
       <div className="Header3 TextBlue">Actionable Insights, Always-On Monitoring</div>
       <div className="body3 marTopGlobal">
         Continuous data visibility across energy, environment, and operations helps you make informed decisions faster.
@@ -117,7 +117,7 @@ export const WhyPowerOptimusTwo = () => {
 
     
     <div className="card">
-      <img src="./why-poweroptimus.png" alt="Factory" className="card-icon" />
+      <img src="./key-vertical-icon-driving.png" alt="Factory" className="card-icon" />
       <div className="Header3 TextBlue">Driving Environmental Responsibility</div>
       <div className="body3 marTopGlobal">
         From toxic gas emission monitoring in factories to AQI tracking in hospitals, PowerOptimus is built to support environmentally conscious operations.

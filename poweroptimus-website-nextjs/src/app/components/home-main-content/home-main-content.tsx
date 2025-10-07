@@ -30,7 +30,9 @@ const HomeMainContent = () => {
   return (
     <>
     <div>
-      <Hero headerText={t('BuildingSustainableFuture') } bodyText={t('IntroducingEnergySolution')} />
+      <Hero headerText={t('BuildingSustainableFuture') } bodyText={t('IntroducingEnergySolution')} 
+        image='/HeaderSVG.svg'
+      />
       {/* slider */}
       
       <SustainableDev/>

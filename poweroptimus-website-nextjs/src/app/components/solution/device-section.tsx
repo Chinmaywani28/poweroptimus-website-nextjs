@@ -11,7 +11,7 @@ const DeviceSection = () => {
         
         <div className="device-card">
           <img
-            src="./device-one.png"
+            src="./node.png"
             alt="Device"
             className="device-image"
           />
@@ -23,7 +23,7 @@ const DeviceSection = () => {
         
         <div className="device-card">
           <img
-            src="./device-one.png"
+            src="./gateways.jpg"
             alt="Device"
             className="device-image"
           />

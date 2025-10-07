@@ -43,7 +43,7 @@ export default function Page() {
 
       <Hero headerText={"Transforming Energy Management and Environmental Monitoring with Intelligence"} bodyText={
           "Traditional tracking often stops at consumption reports, offering little insight into inefficiencies or long-term sustainability goals. With advanced analytics, real-time monitoring, and intelligent insights, enterprises can optimize energy use, improve asset performance, and strengthen ESG compliance."
-      } />
+      } image='/HeaderSVG.svg'/>
 
       <FacilitySectionsTwo
         title="Ensures fewer breakdowns, lower costs, and higher uptime"

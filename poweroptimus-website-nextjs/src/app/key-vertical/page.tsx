@@ -26,7 +26,7 @@ const page = () => {
 
       <Hero headerText={"Industries We Serve with PowerOptimus"} bodyText={
           "PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
-      } />
+      } image='/HeaderSVG.svg' />
 
 
 
@@ -35,7 +35,7 @@ const page = () => {
       <FacilitySections
         title="Industrial Plants & Factories"
         text="In energy-intensive plants, even small inefficiencies can quickly escalate into major cost overruns and higher carbon emissions. Advanced energy monitoring delivers granular visibility into every unit consumed across production lines, HVAC systems, and compressors, enabling facilities to identify waste, optimize workflows, and increase output. By pairing operational KPIs with compliance and safety tracking in real time, industries can move beyond reactive fixes to proactive efficiency, ensuring both profitability and sustainability."
-        imageSrc="./key-vertical-one.png"
+        imageSrc="./key-vertical-industry.jpg"
         label1="Compressor Management"
         label2="HVAC"
         label3="Boiler Optimization"
@@ -47,7 +47,7 @@ const page = () => {
       <FacilitySections
         title="Data Centers"
         text="Data centers operate under extreme energy and cooling demands where precision is critical. Continuous monitoring of thermal loads, energy use, cooling efficiency, and backup systems ensures balanced optimization, reducing strain on servers and lowering Power Usage Effectiveness (PUE). Real-time alerts on temperature, humidity, and AQI prevent costly outages or performance dips, protecting mission-critical infrastructure and guaranteeing uninterrupted operations with improved energy efficiency."
-        imageSrc="./key-vertical-two.png"
+        imageSrc="./key-vertical-data.jpg"
         reverse
         label1="HVAC"
         label2="Energy Monitoring"
@@ -60,7 +60,7 @@ const page = () => {
             <FacilitySections
         title="Hospitals and Healthcare Facilities"
         text="Hospitals and healthcare facilities cannot afford downtime—reliability and compliance are non-negotiable. Real-time monitoring of energy, HVAC, indoor air quality, and occupancy creates safe, stable environments while reducing operating costs. Insights into power fluctuations or anomalies help avoid risks that could compromise life-saving equipment. By embedding energy intelligence into daily operations, healthcare providers enhance patient care, ensure regulatory compliance, and contribute to broader sustainability goals."
-        imageSrc="./key-vertical-three.png"
+        imageSrc="./key-vertical-hospital.jpg"
         label1="Air Quality Monitoring"
         label2="HVAC"
         label3="Boiler Optimization"
@@ -72,7 +72,7 @@ const page = () => {
             <FacilitySections
         title="Commercial Buildings"
         text="Modern commercial spaces demand intelligent, adaptive energy management to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping businesses stay competitive while reducing environmental impact and future-proofing infrastructure."
-        imageSrc="./key-vertical-four.png"
+        imageSrc="./key-vertical-commercial.jpg"
         reverse
         label1="Hazardous Gas Monitoring"
         label2="Occupancy Monitoring"
@@ -85,7 +85,7 @@ const page = () => {
       <FacilitySections
         title="Pharmaceuticals and Life Sciences"
         text="In pharmaceuticals and life sciences, environmental precision is directly linked to product quality and compliance. Automated monitoring of temperature, humidity, cleanroom conditions, and lab equipment energy use helps maintain regulatory standards while safeguarding sensitive products. Real-time analytics allow teams to detect deviations instantly, minimizing risks of contamination or non-compliance. At the same time, optimization of utilities across R&D labs and production sites drives efficiency, reduces costs, and supports sustainable innovation."
-        imageSrc="./key-vertical-three.png"
+        imageSrc="./key-vertical-pharma.jpg"
         // reverse
         label1="HVAC"
         label2="Hazardous Gas Monitoring"
@@ -98,7 +98,7 @@ const page = () => {
       <FacilitySections
         title="Food and Beverage Industry"
         text="The food and beverage sector depends on consistent quality, safety, and efficiency. Monitoring refrigeration systems, HVAC, energy use, and production KPIs ensures product integrity while minimizing energy waste and operational costs. With real-time insights, facilities can better manage distributed plants, streamline utilities, and reduce their carbon footprint. This integrated approach not only helps maintain health and safety standards but also aligns operations with growing consumer and regulatory demand for sustainable production practices."
-        imageSrc="./key-vertical-one.png"
+        imageSrc="./key-vertical-food.jpg"
         reverse
         label1="Boiler Optimization"
         label2="Hazardous Gas Monitoring"

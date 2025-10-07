@@ -26,11 +26,13 @@ const page = () => {
 
     <Hero headerText={"PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring"} bodyText={
           "PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems."
-      } />
+      } image={'Solution_Header_500x500px 2.svg'} />
 
     {/* changes done in content acc to pragya in solution hero */}
     {/* features */}
     {/* <FeatureSection/> */}
+
+    <div className="feature-title Header2 TextBlue">Features Driving Results</div>
 
     <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
 
@@ -77,7 +79,7 @@ const page = () => {
           "PowerOptimus is designed with interoperability and flexibility at its core, making it simple to integrate with your existing infrastructure whether it’s legacy systems, Building Management Systems(BMS), SCADA, or industrial automation setups. Our solution supports widely-used communication protocols such as Modbus, BACnet, MQTT, and OPC-UA, ensuring seamless data flow from your current energy meters, environmental sensors, and control systems."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/solutions-bottom.svg"
+        imageSrc="/Solution_Footer_500x500px.svg"
         imageAlt="Illustration of integration"
       />
 

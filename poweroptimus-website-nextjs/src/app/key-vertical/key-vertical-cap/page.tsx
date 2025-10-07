@@ -60,7 +60,7 @@ export default function Page() {
 
       <Hero headerText={"Key Capabilities"} bodyText={
           "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
-      } />
+      } image='/HeaderSVG.svg'/>
 
       {/* <FacilitySectionsTwo
         title="PowerOptimus continuously tracks indoor air quality to ensure healthy, compliant environments:"
