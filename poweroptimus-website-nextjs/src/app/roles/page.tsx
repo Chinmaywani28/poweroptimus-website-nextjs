@@ -16,14 +16,14 @@ const page = () => {
 
       {/* <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} /> */}
 
-      <Hero headerText={"Empower Every Role to Drive Efficiency and Sustainability"} bodyText={
-          "From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence." 
+      <Hero headerText={"Empower every Role to Drive Efficiency and Sustainability"} bodyText={
+          "From Facility Managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence." 
       } image='/HeaderSVG.svg'/>
 
 
       <FacilitySections
         title="Facility Managers"
-        text="Facility managers are tasked with ensuring the smooth and efficient operation of building systems daily. From managing HVAC, lighting, and equipment schedules to balancing energy consumption with occupant comfort, their role is critical to maintaining reliability and cost control. PowerOptimus supports facility managers by providing real-time monitoring and control of energy-intensive assets, sending proactive alerts for abnormal consumption or equipment failure, and reducing downtime through predictive insights. This ensures that buildings remain comfortable and operationally sound while lowering utility costs and maintenance burdens.
+        text="Facility Managers are tasked with ensuring the smooth and efficient operation of building systems daily. From managing HVAC, lighting, and equipment schedules to balancing energy consumption with occupant comfort, their role is critical to maintaining reliability and cost control. PowerOptimus supports facility managers by providing real-time monitoring and control of energy-intensive assets, sending proactive alerts for abnormal consumption or equipment failure, and reducing downtime through predictive insights. This ensures that buildings remain comfortable and operationally sound while lowering utility costs and maintenance burdens.
         "
         // listOne="Provides real-time monitoring and control of energy-consuming assets"
         // listTwo="Sends proactive alerts for abnormal consumption or equipment failure"
@@ -38,8 +38,8 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Operations Head"
-        text="Operations heads oversee plant and process performance, where efficiency, cost management, and resource optimization are key to achieving operational excellence. PowerOptimus empowers them with facility-wide dashboards that provide instant visibility into energy usage, helping to correlate energy consumption with process output and identify bottlenecks. Load balancing and shift optimization features enable better resource allocation, while benchmarking and target setting support energy budgeting and long-term performance improvement. This visibility allows operations leaders to enhance productivity without losing sight of energy and cost efficiency.
+        title="Operations Heads"
+        text="Operations Heads oversee plant and process performance, where efficiency, cost management, and resource optimization are key to achieving operational excellence. PowerOptimus empowers them with facility-wide dashboards that provide instant visibility into energy usage, helping to correlate energy consumption with process output and identify bottlenecks. Load balancing and shift optimization features enable better resource allocation, while benchmarking and target setting support energy budgeting and long-term performance improvement. This visibility allows operations leaders to enhance productivity without losing sight of energy and cost efficiency.
         "
         imageSrc="./roles-two.png"
         // listOne="Offers facility-wide dashboards for instant visibility into energy usage"
@@ -59,7 +59,7 @@ const page = () => {
 
       <FacilitySections
         title="Energy Managers"
-        text="Energy managers focus on reducing consumption, improving efficiency, and driving sustainability across operations. Their role has become increasingly strategic and data-driven, requiring tools that provide both depth and clarity. PowerOptimus equips energy managers with granular, circuit-level monitoring and historical data, helping them identify inefficiencies through trend analysis and consumption patterns. The platform also enables benchmarking across different departments or locations, ensuring fair comparisons and actionable insights. By supporting compliance with ISO 50001 and other energy management frameworks, our solutions help energy managers achieve both organizational and regulatory sustainability goals.
+        text="Energy Managers focus on reducing consumption, improving efficiency, and driving sustainability across operations. Their role has become increasingly strategic and data-driven, requiring tools that provide both depth and clarity. PowerOptimus equips energy managers with granular, circuit-level monitoring and historical data, helping them identify inefficiencies through trend analysis and consumption patterns. The platform also enables benchmarking across different departments or locations, ensuring fair comparisons and actionable insights. By supporting compliance with ISO 50001 and other energy management frameworks, our solutions help energy managers achieve both organizational and regulatory sustainability goals.
         "
         // listOne="Provides granular, circuit-level monitoring and historical data"
         // listTwo="Identifies inefficiencies with trend analysis and consumption patterns"
@@ -111,7 +111,7 @@ const page = () => {
 
       <FacilitySections
         title="Production Managers"
-        text="Production managers are under constant pressure to maximize throughput, quality, and uptime, often balancing trade-offs between productivity and energy use. PowerOptimus helps them strike this balance by linking machine-level energy data with production metrics, making inefficiencies visible during idle, peak, or off-peak hours. By supporting lean manufacturing through energy-aware scheduling, the platform ensures that processes run with minimal waste and maximum efficiency. This allows production managers to maintain output targets while reducing unnecessary energy expenditure, achieving both operational and sustainability objectives.
+        text="Production Managers are under constant pressure to maximize throughput, quality, and uptime, often balancing trade-offs between productivity and energy use. PowerOptimus helps them strike this balance by linking machine-level energy data with production metrics, making inefficiencies visible during idle, peak, or off-peak hours. By supporting lean manufacturing through energy-aware scheduling, the platform ensures that processes run with minimal waste and maximum efficiency. This allows production managers to maintain output targets while reducing unnecessary energy expenditure, achieving both operational and sustainability objectives.
         "
         imageSrc="./roles-four.png"
         // listOne="Links machine-level energy use with production metrics"
@@ -121,7 +121,7 @@ const page = () => {
         reverse
         label1="Machine Energy Intensity"
         label2="Predictive Maintenance"
-        label3="Detects Operation Inefficiencies"
+        label3="Operation Inefficiencies"
         showList={true}
         tagPath="/roles/roles-cap"
 

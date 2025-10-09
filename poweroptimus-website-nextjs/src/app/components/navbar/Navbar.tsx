@@ -96,7 +96,7 @@ const Navbar = () => {
           <div className={`navbar-menu ${isMobileMenuOpen ? 'open' : ''}`}>
             <Link href="/solution">{t('Solution')}</Link>
             <div>|</div>
-            <Link href="/key-vertical">{t('Key Verticals')}</Link>
+            <Link href="/key-verticals">{t('Key Verticals')}</Link>
             <div>|</div>
             <Link href="/roles">{t('Roles')}</Link>
             <div>|</div>

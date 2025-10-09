@@ -240,7 +240,7 @@ export default function Page() {
 
       <FacilitySection
         id="hvac"
-        subtitle="Keep equipment efficient and safe"
+        subtitle="Keep Equipment Efficient and Safe"
         title="Boiler Optimization & Temperature Monitoring "
         description=""
         imageSrc="/key-vertical-sec-three.png"
