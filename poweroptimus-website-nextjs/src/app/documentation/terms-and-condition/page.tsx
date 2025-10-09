@@ -10,8 +10,11 @@ const TermsAndCondition = () => {
     <>
         <div className="termsAndCondition-section">
 
-<p className="MsoNormal"><b><h1>Terms and
-Conditions</h1><span className="1"><span style={{color: 'black',textDecoration: 'none'}}></span></span></b></p>
+{/* <p className="MsoNormal"><b><h1>Terms and
+Conditions</h1><span className="1"><span style={{color: 'black',textDecoration: 'none'}}></span></span></b></p> */}
+
+<h1><p className="privacy-policy-header"><b><span>Terms and
+Conditions<span className="1"><span></span></span></span> </b></p></h1>
 
 <p className="MsoNormal">January 03, 2025</p>
 
@@ -312,21 +315,21 @@ offensive, upsetting, intended to disgust, threatening, libelous, defamatory,
 obscene or otherwise objectionable. Examples of such objectionable Content
 include, but are not limited to, the following:</p>
 <ul>
-<p className="MsoListBulletCxSpFirst" ><li><span
+<p className="MsoListBulletCxSpFirst" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
-</span></span></span>Unlawful or promoting unlawful activity. </li></p>
+</span></span></span>Unlawful or promoting unlawful activity.</p>
 
-<p className="MsoListBulletCxSpMiddle" ><li><span
+<p className="MsoListBulletCxSpMiddle" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
 </span></span></span>Defamatory, discriminatory, or mean-spirited
 content, including references or commentary about religion, race, sexual
-orientation, gender, national/ethnic origin, or other targeted groups.</li></p>
+orientation, gender, national/ethnic origin, or other targeted groups.</p>
 
-<p className="MsoListBulletCxSpMiddle" ><li><span
+<p className="MsoListBulletCxSpMiddle" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
 </span></span></span>Spam, machine  or randomly  generated,
 constituting unauthorized or unsolicited advertising, chain letters, any other
-form of unauthorized solicitation, or any form of lottery or gambling.</li></p>
+form of unauthorized solicitation, or any form of lottery or gambling.</p>
 
 <li><p className="MsoListBulletCxSpMiddle"><span
 ><span><span >
@@ -336,24 +339,24 @@ disrupt, damage, or limit the functioning of any software, hardware or
 telecommunications equipment or to damage or obtain unauthorized access to any
 data or other information of a third person.</p></li>
 
-<p className="MsoListBulletCxSpMiddle" ><li><span
+<p className="MsoListBulletCxSpMiddle" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
 </span></span></span>Infringing on any proprietary rights of any
 party, including patent, trademark, trade secret, copyright, right of publicity
-or other rights. </li></p>
+or other rights.</p>
 
-<p className="MsoListBulletCxSpMiddle" ><li><span
+<p className="MsoListBulletCxSpMiddle" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
 </span></span></span>Impersonating any person or entity including the
-Company and its employees or representatives. </li></p>
+Company and its employees or representatives.</p>
 
-<p className="MsoListBulletCxSpMiddle" ><li><span
+<p className="MsoListBulletCxSpMiddle" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
-</span></span></span>Violating the privacy of any third person. </li></p>
+</span></span></span>Violating the privacy of any third person.</p>
 
-<p className="MsoListBulletCxSpLast" ><li><span
+<p className="MsoListBulletCxSpLast" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
-</span></span></span>False information and features. </li></p>
+</span></span></span>False information and features.</p>
 </ul>
 <p className="MsoNormal">The Company reserves the right, but not the obligation, to,
 in its sole discretion, determine whether or not any Content is appropriate and
