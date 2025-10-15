@@ -1,3 +1,4 @@
+import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { CardGridSection } from '@/app/components/resources/card-grid-section'
@@ -14,7 +15,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Webinar Hub – Learn, Engage, Transform '} bodyText={'Welcome to our Webinar Hub, your go-to destination for expert insights, industry trends, and practical strategies. From energy optimization and smart asset management to construction quality and digital transformation, our sessions bring together thought leaders, innovators, and practitioners to share knowledge that matters.'} />
+      {/* <HeroReusable headerText={'Webinar Hub – Learn, Engage, Transform '} bodyText={'Welcome to our Webinar Hub, your go-to destination for expert insights, industry trends, and practical strategies. From energy optimization and smart asset management to construction quality and digital transformation, our sessions bring together thought leaders, innovators, and practitioners to share knowledge that matters.'} /> */}
+
+      <Hero headerText={"Webinar Hub – Learn, Engage, Transform"} bodyText={
+          "Welcome to our Webinar Hub, your go-to destination for expert insights, industry trends, and practical strategies. From energy optimization and smart asset management to construction quality and digital transformation, our sessions bring together thought leaders, innovators, and practitioners to share knowledge that matters."
+      } image='/Resource_Webinar_Vector_Image.svg' />
 
       <CardGridSection
         cards={[

@@ -26,7 +26,7 @@ const page = () => {
 
       <Hero headerText={"Industries We Serve with PowerOptimus"} bodyText={
           "PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
-      } image='/HeaderSVG.svg' />
+      } image='/KeyVertical_Header_Vector_Image.svg' />
 
 
 
@@ -129,7 +129,7 @@ const page = () => {
           "PowerOptimus is more than a monitoring tool it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/solutions-bottom.svg"
+        imageSrc="/KeyVertical_Footer_Vector_Image.svg"
         imageAlt="Illustration of integration"
       />
       

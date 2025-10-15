@@ -1,3 +1,4 @@
+import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { NewsAndEventsSection } from '@/app/components/news-and-events/news-and-events-section'
@@ -14,7 +15,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-       <HeroReusable headerText={'Stay Updated with the Latest Industry Insights'} bodyText={'Our News page brings you the latest updates, announcements, and thought leadership from across the industry. Explore company news, product launches, event highlights, and expert perspectives to stay informed and ahead of the curve. Whether it’s innovations in technology, sustainability initiatives, or market trends, this is your go-to source for timely and relevant information.'} /> 
+       {/* <HeroReusable headerText={'Stay Updated with the Latest Industry Insights'} bodyText={'Our News page brings you the latest updates, announcements, and thought leadership from across the industry. Explore company news, product launches, event highlights, and expert perspectives to stay informed and ahead of the curve. Whether it’s innovations in technology, sustainability initiatives, or market trends, this is your go-to source for timely and relevant information.'} />  */}
+
+       <Hero headerText={"Stay Updated with the Latest Industry Insights"} bodyText={
+          "Our News page brings you the latest updates, announcements, and thought leadership from across the industry. Explore company news, product launches, event highlights, and expert perspectives to stay informed and ahead of the curve. Whether it’s innovations in technology, sustainability initiatives, or market trends, this is your go-to source for timely and relevant information."
+      } image='/News&Events_News_Vector_Image.svg' />
 
       <NewsAndEventsSection cards={[
         {

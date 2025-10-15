@@ -1,3 +1,4 @@
+import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { VideoGridSection } from '@/app/components/resources/video-grid-section'
@@ -14,7 +15,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Watch, Learn, and Stay Ahead'} bodyText={'Our video library brings you expert insights, case studies, and practical strategies from industry leaders. Explore sessions on energy optimization, smart operations, predictive maintainence, and digital transformation designed to help you make informed decisions and drive measurable results. Access both live recordings and on-demand webinars anytime, anywhere.'} />
+      {/* <HeroReusable headerText={'Watch, Learn, and Stay Ahead'} bodyText={'Our video library brings you expert insights, case studies, and practical strategies from industry leaders. Explore sessions on energy optimization, smart operations, predictive maintainence, and digital transformation designed to help you make informed decisions and drive measurable results. Access both live recordings and on-demand webinars anytime, anywhere.'} /> */}
+
+      <Hero headerText={"Watch, Learn, and Stay Ahead"} bodyText={
+          "Our video library brings you expert insights, case studies, and practical strategies from industry leaders. Explore sessions on energy optimization, smart operations, predictive maintainence, and digital transformation designed to help you make informed decisions and drive measurable results. Access both live recordings and on-demand webinars anytime, anywhere."
+      } image='/Resources_Videos_Vector_Image.svg' />
 
       <VideoGridSection
         cards={[

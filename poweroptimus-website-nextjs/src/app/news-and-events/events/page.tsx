@@ -1,3 +1,4 @@
+import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { NewsAndEventsSection } from '@/app/components/news-and-events/news-and-events-section'
@@ -14,7 +15,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Stay Connected Stay Ahead'} bodyText={'Our Events page brings you the latest updates on webinars, workshops, conferences, and industry meetups. Explore opportunities to learn from experts, network with peers, and discover innovative solutions that drive efficiency, sustainability, and growth. Whether attending virtually or in person, stay informed and inspired with events designed to keep you at the forefront of your industry.'} /> 
+      {/* <HeroReusable headerText={'Stay Connected Stay Ahead'} bodyText={'Our Events page brings you the latest updates on webinars, workshops, conferences, and industry meetups. Explore opportunities to learn from experts, network with peers, and discover innovative solutions that drive efficiency, sustainability, and growth. Whether attending virtually or in person, stay informed and inspired with events designed to keep you at the forefront of your industry.'} />  */}
+
+      <Hero headerText={"Stay Connected Stay Ahead"} bodyText={
+          "Our Events page brings you the latest updates on webinars, workshops, conferences, and industry meetups. Explore opportunities to learn from experts, network with peers, and discover innovative solutions that drive efficiency, sustainability, and growth. Whether attending virtually or in person, stay informed and inspired with events designed to keep you at the forefront of your industry."
+      } image='/News&Events_Events_Vector_Image.svg' />
 
       <NewsAndEventsSection cards={[
               {

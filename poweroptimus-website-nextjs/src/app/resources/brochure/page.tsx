@@ -1,3 +1,4 @@
+import Hero from '@/app/components/home-main-content/hero';
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable';
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { BrochureCardSection } from '@/app/components/resources/brochure-card-section';
@@ -17,7 +18,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Discover Smarter Solutions with Us'} bodyText={'Explore how our innovative products and services help businesses optimize operations, improve efficiency, and drive sustainable growth. The brochure provides a comprehensive overview of our solutions, including key features, benefits, and real-world applications. Learn how we empower organizations to make data-driven decisions, reduce costs, and achieve operational excellence whether it’s energy management, digital transformation, or asset optimization.'} />
+      {/* <HeroReusable headerText={'Discover Smarter Solutions with Us'} bodyText={'Explore how our innovative products and services help businesses optimize operations, improve efficiency, and drive sustainable growth. The brochure provides a comprehensive overview of our solutions, including key features, benefits, and real-world applications. Learn how we empower organizations to make data-driven decisions, reduce costs, and achieve operational excellence whether it’s energy management, digital transformation, or asset optimization.'} /> */}
+
+      <Hero headerText={"Discover Smarter Solutions with Us"} bodyText={
+          "Explore how our innovative products and services help businesses optimize operations, improve efficiency, and drive sustainable growth. The brochure provides a comprehensive overview of our solutions, including key features, benefits, and real-world applications. Learn how we empower organizations to make data-driven decisions, reduce costs, and achieve operational excellence whether it’s energy management, digital transformation, or asset optimization."
+      } image='/Resources_Brochure_Vector_Image.svg' />
 
       <BrochureCardSection
         cards={[

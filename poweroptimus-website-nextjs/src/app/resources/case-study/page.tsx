@@ -1,3 +1,4 @@
+import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { CardGridSection } from '@/app/components/resources/card-grid-section'
@@ -14,7 +15,11 @@ const page = () => {
         showLink={false}
       /> */}
 
-      <HeroReusable headerText={'Explore Real-World Success Stories'} bodyText={'Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations.'} />
+      {/* <HeroReusable headerText={'Explore Real-World Success Stories'} bodyText={'Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations.'} /> */}
+
+      <Hero headerText={"Explore Real-World Success Stories"} bodyText={
+          "Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations."
+      } image='/Resources_CaseStudy_Vector_Image.svg' />
 
       <CardGridSection
         cards={[
