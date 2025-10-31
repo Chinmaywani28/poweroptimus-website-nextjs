@@ -7,11 +7,11 @@ const ProcessDiagramTwo = () => {
    // Left section main image + icons
   const leftImage = "/implementation-diagram.jpg"; // replace with your image
   const icons = [
-    { icon: "/imple-icon-one.png", text: "IOT Node" },
+    { icon: "/imple-icon-five.png", text: "IOT Node" },
     { icon: "/imple-icon-two.png", text: "IOT Gateway" },
     { icon: "/imple-icon-three.png", text: "Measuring Device" },
-    { icon: "/imple-icon-four.png", text: "Sensor" },
-    { icon: "/imple-icon-four.png", text: "Energy Meter" },
+    { icon: "/imple-icon-six.png", text: "Sensor" },
+    { icon: "/imple-icon-one.png", text: "Energy Meter" },
     { icon: "/imple-icon-four.png", text: "Data Fabric" },
   ];
 

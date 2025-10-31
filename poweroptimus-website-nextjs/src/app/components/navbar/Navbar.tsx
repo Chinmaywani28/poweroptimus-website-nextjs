@@ -75,7 +75,8 @@ const Navbar = () => {
       <div className="navbar-container">
         <nav className="navbar">
           {/* Logo Section */}
-          <div className="navbar-brand">
+          <Link href="/" className="navbar-brand">
+          <div >
             <img
               src="/power-optimus-logo.png"
               alt="Logo"
@@ -84,6 +85,8 @@ const Navbar = () => {
               style={{ cursor: "pointer" }} // Make it clear that it's clickable
             />
           </div>
+          </Link>
+          
 
             {/* Burger Icon */}
           <div className="hamburger" onClick={toggleMobileMenu}>
@@ -119,10 +122,10 @@ const Navbar = () => {
               )}
             </div>
 
-            <div>|</div>
+            {/* <div>|</div> */}
 
             {/* <Link href="/news-and-events">{t('News and Events')}</Link> */}
-            <div className="nav-item-with-dropdown" ref={dropdownRefNews}>
+            {/* <div className="nav-item-with-dropdown" ref={dropdownRefNews}>
               <span onClick={() => setIsDropdownOpenNews(!isDropdownOpenNews)} className="dropdown-toggle">
                 {t('News and Events')}
               </span>
@@ -132,7 +135,7 @@ const Navbar = () => {
                   <li><Link href="/news-and-events/events">Events</Link></li>
                 </ul>
               )}
-            </div>
+            </div> */}
           </div>
 
           <div className="navbarRightSide">
