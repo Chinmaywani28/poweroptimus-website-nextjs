@@ -1,0 +1,69 @@
+/* Desktop & Tablet: Grid 2 columns */
+.wrapper {
+  margin: 40px 11.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* Card style */
+.card {
+  position: relative;
+  border: 2px solid #1e699b;
+  border-radius: 8px;
+  padding: 50px 20px 20px;
+  background: white;
+  /* min-height: 250px; */
+}
+
+/* Top badge */
+.title {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 6px 14px;
+  border: 2px solid #1e699b;
+  border-radius: 6px;
+  width: 70%;
+}
+
+/* ---------- MOBILE MODE ---------- */
+/* Mobile: turn into horizontal scroll carousel */
+@media (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    min-width: 90%;
+    flex: 0 0 90%;
+    scroll-snap-align: center;
+  }
+}
+
+/* Tablet (stack or grid?) you said grid before */
+@media (min-width: 601px) and (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}

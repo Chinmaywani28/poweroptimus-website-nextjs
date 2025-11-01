@@ -14,6 +14,7 @@ import SolutionHero from '../components/solution/solution-hero'
 import Hero from '../components/home-main-content/hero'
 import FeatureCard from '../components/solution/solution-feature-section'
 import ProcessDiagramTwo from '../components/solution/process-diagram-two'
+import FeatureTwo from '../components/solution/feature-two'
 
 
 const page = () => {
@@ -34,7 +35,7 @@ const page = () => {
 
     <div className="feature-title Header2 TextBlue">Features Driving Results</div>
 
-    <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
+    {/* <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
 
     <FeatureCard title={'Power Quality Monitoring'} description={'Ensure a reliable and efficient power supply by monitoring critical parameters like power factor, harmonics & frequency. These insights help avoid penalties due to poor power quality, prevent excessive energy demand charges,& prolong the lifespan of sensitive equipment. PowerOptimus provides in-depth power quality analysis that is essential for any Energy Management System & environmental sustainability.'} titlePosition={"right"}/>
 
@@ -48,7 +49,9 @@ const page = () => {
 
     <FeatureCard title={'CO₂ Percentage Monitoring'} description={'PowerOptimus measures indoor CO₂ concentrations and dynamically adjusts HVAC operations through Demand-Controlled Ventilation (DCV). By regulating airflow based on occupancy and air quality levels, it ensures energy savings, reduced operational costs, and a healthier indoor environment. This intelligent approach highlights how comprehensive energy monitoring systems not only optimize performance but also contribute to smarter, more sustainable infrastructure.'}/>
 
-    <FeatureCard title={'Hazardous Gas Monitoring'} description={'In chemical handling and processing environments, hazardous gas emissions pose serious health and safety risks. PowerOptimus integrates advanced gas detection sensors to continuously monitor air quality, identify leaks, and provide instant alerts. This real-time visibility enables rapid response, minimizes exposure risks for workers, and ensures compliance with strict occupational health and safety standards while supporting a safer, more sustainable workplace.'} titlePosition={"right"}/>
+    <FeatureCard title={'Hazardous Gas Monitoring'} description={'In chemical handling and processing environments, hazardous gas emissions pose serious health and safety risks. PowerOptimus integrates advanced gas detection sensors to continuously monitor air quality, identify leaks, and provide instant alerts. This real-time visibility enables rapid response, minimizes exposure risks for workers, and ensures compliance with strict occupational health and safety standards while supporting a safer, more sustainable workplace.'} titlePosition={"right"}/> */}
+
+    <FeatureTwo/>
 
     
     {/* process diagram */}
