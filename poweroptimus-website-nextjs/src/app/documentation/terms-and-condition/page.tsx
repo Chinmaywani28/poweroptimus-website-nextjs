@@ -16,7 +16,7 @@ Conditions</h1><span className="1"><span style={{color: 'black',textDecoration: 
 <h1><p className="privacy-policy-header"><b><span>Terms and
 Conditions<span className="1"><span></span></span></span> </b></p></h1>
 
-<p className="MsoNormal">January 03, 2025</p>
+<p className="MsoNormal">Nov, 2025</p>
 
 <p className="MsoNormal">Please read these terms and conditions carefully before
 using Our Service.</p>
@@ -57,12 +57,12 @@ Service.</p>
 refers to: India</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Company </b>
-(referred to as either &quot;the Company&quot;, Neilsoft&quot;, &quot;We,
-&quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Neilsoft
+(referred to as either &quot;the Company&quot;, Neil Automation&quot;, &quot;We,
+&quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Neil Automation
 Limited, incorporated under the laws of India having registered office at, SEZ
 - Plot No. 21/2 Rajiv Gandhi Infotech Park Hinjawadi Phase III Pune 411057,
 India and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu
-Vaswani Chowk, Pune- 411001, India. <span lang="EN-IN" >Neilsoft Limited or its affiliates (collectively &quot;Neilsoft
+Vaswani Chowk, Pune- 411001, India. <span lang="EN-IN" >Neil Automation Limited or its affiliates (collectively &quot;Neil Automation
 &quot;) </span>is authorized to distribute the Application and related Services.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Content </b>
@@ -401,7 +401,7 @@ a copyright or other intellectual property infringement of any person.</p>
 one, and You believe that the copyrighted work has been copied in a way that
 constitutes copyright infringement that is taking place through the Service,
 You must submit Your notice in writing to the attention of our copyright agent
-via email at info@PowerOptimus.com and include in Your notice a detailed
+via email at eems@neilautomation.com and include in Your notice a detailed
 description of the alleged infringement.</p>
 
 <p className="MsoNormal">You may be held accountable for damages (including costs and
@@ -409,7 +409,7 @@ attorneys' fees) for misrepresenting that any Content is infringing Your
 copyright.</p>
 
 <p className="MsoNormal">You can contact our copyright agent via email at
-info@PowerOptimus.com. Upon receipt of a notification, the Company will
+eems@neilautomation.com. Upon receipt of a notification, the Company will
 take whatever action, in its sole discretion, it deems appropriate, including
 removal of the challenged content from the Service.</p>
 
@@ -429,7 +429,7 @@ with any product or service without the prior written consent of the Company.</p
 to You. Title to the Application, and all applicable rights in patents,
 copyrights, trade secrets and other intellectual property rights inherent in
 the Application, will remain in Company or third parties from whom Company has
-obtained the right to license the Application. Neilsoft reserves all rights in
+obtained the right to license the Application. Neil Automation reserves all rights in
 the Application not explicitly granted herein.</p>
 
 <h2><span style={{fontFamily:'"Cambria", serif'}}>Your Feedback to Us</span></h2>
@@ -604,7 +604,7 @@ You can contact us:</p>
 <ul><li>
 <p className="MsoListBullet" ><span
 ><span style={{listStyleType: 'none',margin: 0,padding: 0}}><span >
-</span></span></span>By email: <a href="mailto:info@PowerOptimus.com">info@PowerOptimus.com</a></p></li></ul>
+</span></span></span>By email: <a href="mailto:eems@neilautomation.com">eems@neilautomation.com</a></p></li></ul>
 
 </div>
     

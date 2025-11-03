@@ -181,7 +181,7 @@ const HomeMainContent = () => {
       {/* <FormSection/> */}
 
       <SolFeatureBtmSection
-        heading="A Simple and Customizable Solution Designed for Your Needs"
+        heading="A Simple and Customizable Solution Designed for Industries Needs"
         paragraphs={[
           "PowerOptimus allows users to select and customize the sensor data, level of detail, and layout to suit requirements. Manage real-time data, trends, and patterns through a modern web-based user interface that offers effective data visualization techniques. Users can easily set up personalized alerts in just a few simple steps."
         ]}

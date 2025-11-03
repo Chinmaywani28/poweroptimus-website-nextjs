@@ -22,7 +22,7 @@ const Disclaimer = () => {
         </p>
       </h1>
 
-      <p className="MsoNormal">Last updated: January 03, 2025</p>
+      <p className="MsoNormal">Last updated: Nov, 2025</p>
 
       <h2>
         <span>Interpretation and Definitions</span>
@@ -55,15 +55,15 @@ const Disclaimer = () => {
               </span>
             </span>
             <b>Company </b>
-            (referred to as either &quot;the Company&quot;, Neilsoft,
+            (referred to as either &quot;the Company&quot;, Neil Automation,
             &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this
-            Disclaimer) refers to Neilsoft Limited, incorporated under the laws
+            Disclaimer) refers to Neil Automation, incorporated under the laws
             of India having its registered office at, SEZ - Plot No. 21/2 Rajiv
             Gandhi Infotech Park Hinjawadi Phase III Pune 411057, India and
             Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu
             Vaswani Chowk, Pune- 411001, India.{" "}
             <span lang="EN-IN">
-              Neilsoft Limited or its affiliates (collectively &quot;Neilsoft
+              Neil Automation or its affiliates (collectively &quot;Neil Automation
               &quot;){" "}
             </span>
             is authorized to distribute the Application and related Services.
@@ -148,7 +148,7 @@ const Disclaimer = () => {
           distribution to or use by, any person or entity who is a citizen or
           resident of or located in any jurisdiction where such distribution,
           publication, availability or use would be contrary to law or
-          regulation or which would subject Neilsoft or its affiliates any
+          regulation or which would subject Neil Automation or its affiliates any
           registration or licensing requirement within such jurisdiction.
         </span>
       </p>
@@ -158,7 +158,7 @@ const Disclaimer = () => {
           This Site is subject to periodic update and revision. Materials should
           only be considered current as of the date of initial publication
           appearing thereon, without regard to the date on which you may access
-          the information. Neilsoft maintains the right to delete or modify
+          the information. Neil Automation maintains the right to delete or modify
           information on this Site without prior notice.
         </span>
       </p>
@@ -486,8 +486,8 @@ const Disclaimer = () => {
               </span>
             </span>
             By email:{" "}
-            <a href="mailto:info@PowerOptimus.com ">
-              info@PowerOptimus.com
+            <a href="mailto:eems@neilautomation.com">
+              eems@neilautomation.com
             </a>
           </p>
         </li>

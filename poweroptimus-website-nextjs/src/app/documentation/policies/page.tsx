@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
 <h1><p className="privacy-policy-header"><b><span>Privacy
 Policy<span className="1"><span></span></span></span> </b></p></h1>
 
-<p className="MsoNormal" style={{ marginTop: 0, marginBottom: 0 }}>Last updated: January 03, 2025</p>
+<p className="MsoNormal" style={{ marginTop: 0, marginBottom: 0 }}>Last updated: Nov, 2025</p>
 
 
 <p className="MsoNormal">This Privacy Policy describes Our policies and procedures on
@@ -72,12 +72,12 @@ Consumer Privacy Act (the &quot;CCPA&quot;) as amended by the California
 Privacy Rights Act of 2020 (the &quot;CPRA&quot;).</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Company </b>
-(referred to as either &quot;the Company&quot;, Neilsoft, &quot;We&quot;,
-&quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Neilsoft
+(referred to as either &quot;the Company&quot;, Neil Automation, &quot;We&quot;,
+&quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Neil Automation
 Limited, , incorporated under the laws of India having its registered office
 at, SEZ - Plot No. 21/2 Rajiv Gandhi Infotech Park Hinjawadi Phase III Pune
 411057, India and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A,
-Sadhu Vaswani Chowk, Pune- 411001, India. <span lang="EN-IN" >Neilsoft Limited or its affiliates (collectively &quot;Neilsoft
+Sadhu Vaswani Chowk, Pune- 411001, India. <span lang="EN-IN" >Neil Automation or its affiliates (collectively &quot;Neil Automation
 &quot;) </span>is authorized to distribute the Application and related Services</p>
 
 <p className="MsoListParagraphCxSpMiddle">For the purpose of the GDPR, the Company is
@@ -1588,7 +1588,7 @@ the CCPA/CPRA, and if You are a California resident, You can contact Us:</p>
 <ul><li>
 <p className="MsoListBullet" ><span
 style={{fontFamily: '"Symbol", serif'}}><span style={{ margin: 0, padding: 0 }}><span >
-</span></span></span>By email: info@PowerOptimus.com</p></li>
+</span></span></span>By email: eems@neilautomation.com</p></li>
 
 <p className="MsoNormal">Only You, or a person registered with the California
 Secretary of State that You authorize to act on Your behalf, may make a
@@ -1811,7 +1811,7 @@ contact us:</p>
 
 <ul><li>
 <p className="MsoListBullet" ><span style={{fontFamily: '"Symbol", serif'}}><span style={{ margin: 0, padding: 0 }}><span >
-</span></span></span>By email: <a href="mailto:info@PowerOptimus.com">info@PowerOptimus.com</a></p>
+</span></span></span>By email: <a href="mailto:eems@neilautomation.com">eems@neilautomation.com</a></p>
 </li></ul>
 </div>
 

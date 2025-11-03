@@ -177,23 +177,23 @@ const Footer = () => {
         <div className="footer_bottom_Middle TextWhite">
           <div>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/company/poweroptimus/"
               target="_blank"
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-linkedin-box-fill footer-icon" style={{ fontSize: "22px"}}></i>
+              <i className="ri-linkedin-box-fill footer-icon" style={{ fontSize: "26px"}}></i>
             </a>
           </div>
 
           <div>
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/@PowerOptimusNeilAutomation"
               target="_blank"
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-youtube-fill"  style={{ fontSize: "22px"}}></i>
+              <i className="ri-youtube-fill"  style={{ fontSize: "26px"}}></i>
             </a>
           </div>
 

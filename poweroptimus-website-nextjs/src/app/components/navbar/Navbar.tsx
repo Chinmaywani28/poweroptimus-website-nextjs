@@ -6,9 +6,9 @@ import Link from 'next/link'
 const Navbar = () => {
 
   const handleContactClick = () => {
-    const email = 'productsmarketing@neilsoft.com';
+    const emails = 'eems@neilautomation.com';
     const subject = encodeURIComponent('Inquiry from PowerOptimus Website');
-    const mailtoLink = `mailto:${email}?subject=${subject}`;
+    const mailtoLink = `mailto:${emails}?subject=${subject}`;
     window.location.href = mailtoLink;
   };
   const { t } = useTranslation(); // Translation hook

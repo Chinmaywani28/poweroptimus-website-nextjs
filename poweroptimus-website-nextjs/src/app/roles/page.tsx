@@ -4,6 +4,7 @@ import FacilitySections from '../components/key-verticals-page/facility-sections
 import HeroReusable from '../components/key-verticals-page/hero-reusable'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 import Hero from '../components/home-main-content/hero'
+import FacilitySectionsCarousel from '../components/key-verticals-page/facility-sections-carousel'
 
 const page = () => {
   return (
@@ -18,10 +19,10 @@ const page = () => {
 
       <Hero headerText={"Empower every Role to Drive Efficiency and Sustainability"} bodyText={
           "From Facility Managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence." 
-      } image='/HeaderSVG.svg'/>
+      } image='/roles-header-images.svg'/>
 
 
-      <FacilitySections
+      {/* <FacilitySections
         title="Facility Managers"
         text="Facility Managers are tasked with ensuring the smooth and efficient operation of building systems daily. From managing HVAC, lighting, and equipment schedules to balancing energy consumption with occupant comfort, their role is critical to maintaining reliability and cost control. PowerOptimus supports facility managers by providing real-time monitoring and control of energy-intensive assets, sending proactive alerts for abnormal consumption or equipment failure, and reducing downtime through predictive insights. This ensures that buildings remain comfortable and operationally sound while lowering utility costs and maintenance burdens.
         "
@@ -125,7 +126,9 @@ const page = () => {
         showList={true}
         tagPath="/roles/roles-cap"
 
-      />
+      /> */}
+
+      <FacilitySectionsCarousel/>
 
       {/* <FacilitySections
         title="Health Inspectors"
