@@ -60,7 +60,7 @@ export default function Page() {
 
       <Hero headerText={"Key Capabilities"} bodyText={
           "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
-      } image='/HeaderSVG.svg'/>
+      } image='/KeyCapabilities_Header_Vector_Image.svg'/>
 
       {/* <FacilitySectionsTwo
         title="PowerOptimus continuously tracks indoor air quality to ensure healthy, compliant environments:"
@@ -358,7 +358,7 @@ export default function Page() {
           "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/solutions-bottom.svg"
+        imageSrc="/KeyCapabilities_Footer_Vector_Image.svg"
         imageAlt="Illustration of integration"
       />
     </div>

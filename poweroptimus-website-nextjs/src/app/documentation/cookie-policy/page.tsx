@@ -14,7 +14,7 @@ const Eula = () => {
   Cookies Policy
   <span className="1"><span></span></span></span> </b></p></h1>
 
-<p className="MsoNormal" style={{ marginTop: 0, marginBottom: 0 }}>Last updated: January 03, 2025</p>
+<p className="MsoNormal" style={{ marginTop: 0, marginBottom: 0 }}>Last updated: Nov, 2025</p>
 
 
 <p className="MsoNormal">This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used</p>
@@ -40,7 +40,7 @@ plural.</p>
 <p className="MsoNormal">For the purposes of this Cookies Policy:</p>
 
 <p className="MsoListParagraphCxSpFirst"><b>Company</b>
-  (referred to as either "the Company", “Neilsoft”, "We", "Us" or "Our" in this Cookies Policy) refers to Neilsoft Limited, incorporated under the laws of India having its registered office at, SEZ - Plot No. 21/2 Rajiv Gandhi Infotech Park Hinjawadi Phase III Pune 411057, India and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India. Neilsoft Limited or its affiliates (collectively "Neilsoft ") is authorized to use the Cookies.</p>
+  (referred to as either "the Company", “Neil Automation”, "We", "Us" or "Our" in this Cookies Policy) refers to Neil Automation, incorporated under the laws of India having its registered office at, SEZ - Plot No. 21/2 Rajiv Gandhi Infotech Park Hinjawadi Phase III Pune 411057, India and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India. Neil Automation or its affiliates (collectively "Neil Automation ") is authorized to use the Cookies.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Cookies</b>
  means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.</p>
@@ -114,7 +114,7 @@ your browsing history to group You with other users who have similar interests. 
 
 <p className="MsoNormal">For the Safari web browser, please visit this page from Apple: https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac</p>
 
-<h2><span>Does Neilsoft use cookies for marketing and analytics?</span></h2>
+<h2><span>Does Neil Automation use cookies for marketing and analytics?</span></h2>
 
 <p className="MsoNormal">Yes, we may use information collected from our cookies to identify user behavior and to serve content and offers based on your profile, and for the other purposes described below, to the extent legally permissible in certain jurisdictions.</p>
 
@@ -122,7 +122,7 @@ your browsing history to group You with other users who have similar interests. 
 
 <p className="MsoNormal">If we send you a targeted email which includes web beacons, cookies or similar technologies we will know whether you open, read, or delete the message.</p>
 
-<p className="MsoNormal">When you click a link in a marketing e-mail you receive from Neilsoft Limited, we will also use a cookie to log what pages you view and what content you download from our websites, even if you are not registered at or signed into our site.</p>
+<p className="MsoNormal">When you click a link in a marketing e-mail you receive from Neil Automation, we will also use a cookie to log what pages you view and what content you download from our websites, even if you are not registered at or signed into our site.</p>
 
 <p className="MsoNormal">For any other web browser, please visit your web browser's official web pages.</p>
 
@@ -133,7 +133,7 @@ contact us:</p>
 
 <ul><li>
 <p className="MsoListBullet" ><span style={{fontFamily: '"Symbol", serif'}}><span style={{ margin: 0, padding: 0 }}><span >
-</span></span></span>By email: <a href="mailto:info@PowerOptimus.com">info@PowerOptimus.com</a></p>
+</span></span></span>By email: <a href="mailto:eems@neilautomation.com">eems@neilautomation.com</a></p>
 </li></ul>
 </div>
     </div>

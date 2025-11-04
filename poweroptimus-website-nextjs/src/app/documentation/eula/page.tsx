@@ -12,10 +12,10 @@ const Eula = () => {
 
 <h1><p className="privacy-policy-header"><b><span>End User License Agreement (EULA)<span className="1"><span></span></span></span> </b></p></h1>
 
-<p className="MsoNormal" style={{ marginTop: 0, marginBottom: 0 }}>Last updated: January 03, 2025</p>
+<p className="MsoNormal" style={{ marginTop: 0, marginBottom: 0 }}>Last updated: Nov, 2025</p>
 
 
-<p className="MsoNormal">This end user license agreement (the "Agreement") is entered into between Neilsoft Limited incorporated under the laws of India having its Registered office at SEZ - Plot No. 21/2, Rajiv Gandhi Infotech Park, Hinjawadi Phase III, Pune 411057, India, and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India. Neilsoft Limited or its affiliates (collectively "Neilsoft ") (hereinafter referred to as "Neilsoft"). and the customer which has signified its acceptance of the terms and conditions of this Agreement ("Customer"). Neilsoft retains the right to utilize its affiliated companies in pursuing any of its rights and fulfilling any of its obligations under this Agreement. Therefore, the term “Neilsoft” as used herein may also refer to affiliated companies that are directly or indirectly owned or controlled by the ultimate parent company of Neilsoft Limited and who have been authorized by Neilsoft to distribute the Application and related services.
+<p className="MsoNormal">This end user license agreement (the "Agreement") is entered into between Neil Automation incorporated under the laws of India having its Registered office at SEZ - Plot No. 21/2, Rajiv Gandhi Infotech Park, Hinjawadi Phase III, Pune 411057, India, and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India. Neil Automation or its affiliates (collectively "Neil Automation ") (hereinafter referred to as "Neil Automation"). and the customer which has signified its acceptance of the terms and conditions of this Agreement ("Customer"). Neil Automation retains the right to utilize its affiliated companies in pursuing any of its rights and fulfilling any of its obligations under this Agreement. Therefore, the term “Neil Automation” as used herein may also refer to affiliated companies that are directly or indirectly owned or controlled by the ultimate parent company of Neil Automation and who have been authorized by Neil Automation to distribute the Application and related services.
 
 Please read this End-User License Agreement carefully before clicking the "I Agree" button, downloading or using PowerOptimus.</p>
 
@@ -40,8 +40,8 @@ plural.</p>
 <p className="MsoListParagraphCxSpMiddle"><b>Application</b>
 Application means the software program provided by the Company downloaded by Customer to a Device, named PowerOptimus</p>
 
-<p className="MsoListParagraphCxSpMiddle"><b>‘Neilsoft’ / ‘Company’</b>
-‘Neilsoft’ / ‘Company’ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Neilsoft Ltd, having its registered office at SEZ - Plot No. 21/2, Hinjawadi Phase III, Pune – 411057, and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India</p>
+<p className="MsoListParagraphCxSpMiddle"><b>‘Neil Automation’ / ‘Company’</b>
+‘Neil Automation’ / ‘Company’ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Neil Automation, having its registered office at SEZ - Plot No. 21/2, Hinjawadi Phase III, Pune – 411057, and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Content</b>,
 refers to content such as text, images, or other information that can be posted, uploaded, linked to or otherwise made available by Customer, regardless of the form of that content.</p>
@@ -108,13 +108,13 @@ Prohibitions - Customer will not reverse engineer, decompile, translate, disasse
 
 <p className="MsoNormal">Intellectual Property Rights</p>
 
-<p className="MsoNormal">No title to or ownership in the Application is transferred to Customer. Title to the Application, and all applicable rights in patents, copyrights, trade secrets and other intellectual property rights inherent in the Application, will remain in Neilsoft or third parties from whom Neilsoft has obtained the right to license the Application. Neilsoft reserves all rights in the Application not explicitly granted herein</p>
+<p className="MsoNormal">No title to or ownership in the Application is transferred to Customer. Title to the Application, and all applicable rights in patents, copyrights, trade secrets and other intellectual property rights inherent in the Application, will remain in Neil Automation or third parties from whom Neil Automation has obtained the right to license the Application. Neil Automation reserves all rights in the Application not explicitly granted herein</p>
 
 
 <h2><span>Term and Termination</span></h2>
 
 
-<p className="MsoNormal">This Agreement shall remain in effect until terminated by Customer or the Company by removing all copies of the Application and documentation from Customer’s computer systems, destroying them and certifying the destruction to Neilsoft in writing. The Company may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice.</p>
+<p className="MsoNormal">This Agreement shall remain in effect until terminated by Customer or the Company by removing all copies of the Application and documentation from Customer’s computer systems, destroying them and certifying the destruction to Neil Automation in writing. The Company may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice.</p>
 
 <p className="MsoNormal">This Agreement will terminate immediately, without prior notice from the Company, in the event that Customer fail to comply with any provision of this Agreement. Customer may also terminate this Agreement by deleting the Application and all copies thereof from your Device or from your computer.</p>
 
@@ -122,9 +122,9 @@ Prohibitions - Customer will not reverse engineer, decompile, translate, disasse
 
 <p className="MsoNormal">Termination of this Agreement will not limit any of the Company's rights or remedies at law or in equity in case of breach by Customer (during the term of this Agreement) of any of your obligations under the present Agreement.</p>
 
-<p className="MsoNormal">Termination. Customer may terminate this Agreement at any time by removing all copies of the Application and Documentation from Customer’s computer systems, destroying them and certifying the destruction to Neilsoft in writing. Neilsoft will have the right to terminate this Agreement and/or any Limited Term License and/or Perpetual License granted hereunder immediately on notice to Customer if Customer: (a) violates the licenses restrictions of this Agreement, (b) violates the confidentiality restrictions contained in this Agreement, (c) fails to make any payments when due, including any late charges that may have accrued after such payment became due, or (d) files a petition in bankruptcy, has such a petition filed against it, which petition is not discharged within sixty (60 days) days after such filing, makes an assignment for the benefit of creditors, if a receiver, trustee, custodian or similar agent is appointed or takes possession of Customer’s assets, or if Customer ceases doing business in the ordinary course. In addition, Neilsoft will have the right to terminate this Agreement and/or any Limited Term License and/or Perpetual License granted hereunder if Customer breaches any other obligation or provision of this Agreement which breach remains uncured for a period of thirty (30) days after receipt of notice thereof from COMPANY.</p>
+<p className="MsoNormal">Termination. Customer may terminate this Agreement at any time by removing all copies of the Application and Documentation from Customer’s computer systems, destroying them and certifying the destruction to Neil Automation in writing. Neil Automation will have the right to terminate this Agreement and/or any Limited Term License and/or Perpetual License granted hereunder immediately on notice to Customer if Customer: (a) violates the licenses restrictions of this Agreement, (b) violates the confidentiality restrictions contained in this Agreement, (c) fails to make any payments when due, including any late charges that may have accrued after such payment became due, or (d) files a petition in bankruptcy, has such a petition filed against it, which petition is not discharged within sixty (60 days) days after such filing, makes an assignment for the benefit of creditors, if a receiver, trustee, custodian or similar agent is appointed or takes possession of Customer’s assets, or if Customer ceases doing business in the ordinary course. In addition, Neil Automation will have the right to terminate this Agreement and/or any Limited Term License and/or Perpetual License granted hereunder if Customer breaches any other obligation or provision of this Agreement which breach remains uncured for a period of thirty (30) days after receipt of notice thereof from COMPANY.</p>
 
-<p className="MsoNormal">Effect of Termination. Upon termination of this Agreement the licenses granted hereunder and all other provisions of this Agreement (except those specified in this Section) shall be terminated and Customer shall immediately cease using the Application, the Documentation and other Neilsoft confidential information and shall permanently delete all electronic copies thereof from Customer’s systems. Except as specifically set forth in this Agreement all license fees and Maintenance Services fees are non - refundable. Termination or expiration of this Agreement or any license granted hereunder shall not limit either party from pursuing other remedies available to it, including injunctive relief, nor shall such termination relieve Customer’s obligation to pay all fees that have accrued or are otherwise owed by Customer. Any terms or conditions of the Agreement which by their express terms extend beyond the termination or expiration of the Agreement or which by their nature should so extend shall survive and continue in full force and effect after any termination or expiration of this Agreement.</p>
+<p className="MsoNormal">Effect of Termination. Upon termination of this Agreement the licenses granted hereunder and all other provisions of this Agreement (except those specified in this Section) shall be terminated and Customer shall immediately cease using the Application, the Documentation and other Neil Automation confidential information and shall permanently delete all electronic copies thereof from Customer’s systems. Except as specifically set forth in this Agreement all license fees and Maintenance Services fees are non - refundable. Termination or expiration of this Agreement or any license granted hereunder shall not limit either party from pursuing other remedies available to it, including injunctive relief, nor shall such termination relieve Customer’s obligation to pay all fees that have accrued or are otherwise owed by Customer. Any terms or conditions of the Agreement which by their express terms extend beyond the termination or expiration of the Agreement or which by their nature should so extend shall survive and continue in full force and effect after any termination or expiration of this Agreement.</p>
 
 
 <h2><span>Indemnification</span></h2>
@@ -200,7 +200,7 @@ contact us:</p>
 
 <ul><li>
 <p className="MsoListBullet" ><span style={{fontFamily: '"Symbol", serif'}}><span style={{ margin: 0, padding: 0 }}><span >
-</span></span></span>By email: <a href="mailto:info@PowerOptimus.com">info@PowerOptimus.com</a></p>
+</span></span></span>By email: <a href="mailto:eems@neilautomation.com">eems@neilautomation.com</a></p>
 </li></ul>
 </div>
     </div>

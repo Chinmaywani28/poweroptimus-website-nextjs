@@ -5,6 +5,7 @@ import HeroReusable from '../components/key-verticals-page/hero-reusable'
 import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section'
 import Hero from '../components/home-main-content/hero'
 import FacilitySectionsCarousel from '../components/key-verticals-page/facility-sections-carousel'
+import RolesCapCarousel from '../components/key-verticals-page/roles-cap-carousel'
 
 const page = () => {
   return (
@@ -128,7 +129,7 @@ const page = () => {
 
       /> */}
 
-      <FacilitySectionsCarousel/>
+      <RolesCapCarousel/>
 
       {/* <FacilitySections
         title="Health Inspectors"
