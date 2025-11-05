@@ -11,6 +11,7 @@ interface CaseStudyProps {
   showBackLink: boolean
   content: string[]; // paragraphs
   otherCases: string[];
+  textDesc?: React.ReactNode;
 }
 
 export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
@@ -20,7 +21,8 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
   otherCases,
   backNavLink,
   backNavPath,
-  showBackLink
+  showBackLink,
+  textDesc
 })  => {
   
 
@@ -114,17 +116,21 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
             ))} */}
 
               <div className="body2 marTopGlobal">
-                Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
+                {/* Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
                 consequatur labore est ipsum. Dolores dolore laudantium nam
-                labore dolor iure rerum. Dicta est dicta minus. Autem dicta
+                labore dolor iure rerum. Dicta eest dicta minus. Autem dicta
                 nesciunt laborum. Ut aspernatur quisquam fuga quod distinctio
                 voluptatibus doloribus laborum. Et voluptatem est ratione eum
                 minus quia quas rem. Tempora officia maiores illo iste cumque
-                aut. Molestiae fugiat animi ut et maiores. Et sit architecto.
+                aut. Molestiae fugiat animi ut t maiores. Et sit architecto.
                 Est doloribus sapiente pariatur nihil reiciendis. Iusto facilis
                 et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut
                 esse est rerum at. Sed consequatur labore est ipsum. Dolores
-                dolore laudantium nam labore dolor iure
+                dolore laudantium nam labore dolor iure */}
+                {textDesc }
+
+                
+
               </div>
             </article>
           </div>
@@ -147,7 +153,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
               <textarea placeholder="Enter your message" rows={4} required></textarea>
             </label>
             <button type="submit" className="submit-btn">
-              Submit
+              Watch Recording
             </button>
           </form>
             </div>

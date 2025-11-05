@@ -25,28 +25,13 @@ const page = () => {
         cards={[
           {
             imageSrc: '../resources-one.png',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
+            title: 'Connecting Energy Monitoring, Predictive Maintenance, and Sustainability for Resilient Operations',
+            // description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
+            date: '8 Oct 2025',
             linkText: 'Learn More',
             linkHref: '/resources/webinar/webinar-details',
-          },
-          {
-            imageSrc: '../resources-two.png',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            linkText: 'Learn More',
-            linkHref: '/resources/webinar/webinar-details',
-          },
-          {
-            imageSrc: '../resources-three.png',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            linkText: 'Learn More',
-            linkHref: '/resources/webinar/webinar-details',
-          },
+          }
+          
         ]}
 
         

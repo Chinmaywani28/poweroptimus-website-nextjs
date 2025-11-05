@@ -43,7 +43,7 @@ export default function Page() {
 
       <Hero headerText={"Transforming Energy Management and Environmental Monitoring with Intelligence"} bodyText={
           "Traditional tracking often stops at consumption reports, offering little insight into inefficiencies or long-term sustainability goals. With advanced analytics, real-time monitoring, and intelligent insights, enterprises can optimize energy use, improve asset performance, and strengthen ESG compliance."
-      } image='/HeaderSVG.svg'/>
+      } image='/roles-header-new.svg'/>
 
       <FacilitySectionsTwo
         title="Ensures fewer breakdowns, lower costs, and higher uptime"
@@ -357,7 +357,7 @@ export default function Page() {
           "Drill down energy distribution to the equipment level. Turn raw data into actionable insights. Combine predictive maintenance, smart strategy, and ESG tracking for lower costs, fewer breakdowns, higher efficiency, reduced emissions, and sustainable growth."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/solutions-bottom.svg"
+        imageSrc="/roles-footer-new.svg"
         imageAlt="Illustration of integration"
       />
     </div>

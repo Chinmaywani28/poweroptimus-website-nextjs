@@ -30,23 +30,7 @@ const page = () => {
             date: 'January 1, 2025',
             linkText: 'Read More',
             linkHref: '/resources/blogs/blogs-details',
-          },
-          // {
-          //   imageSrc: '../resources-two.png',
-          //   title: 'More productive with an atmosphere',
-          //   description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-          //   date: 'January 1, 2025',
-          //   linkText: 'Read More',
-          //   linkHref: '/resources/blogs/blogs-details',
-          // },
-          // {
-          //   imageSrc: '../resources-three.png',
-          //   title: 'More productive with an atmosphere',
-          //   description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-          //   date: 'January 1, 2025',
-          //   linkText: 'Read More',
-          //   linkHref: '/resources/blogs/blogs-details',
-          // },
+          }
         ]}
 
         

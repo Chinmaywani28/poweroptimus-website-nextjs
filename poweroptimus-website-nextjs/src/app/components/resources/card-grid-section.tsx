@@ -4,7 +4,7 @@ import './card-grid-section.css';
 type CardData = {
   imageSrc: string;
   title: string;
-  description: string;
+  description?: string;
   date: string;
   linkText: string;
   linkHref: string;
@@ -21,7 +21,7 @@ export const CardGridSection = ({cards}: Props) => {
         {cards.map((card: any, index:any) => (
           <div className="card" key={index}>
             <img src={card.imageSrc} alt={card.title} className="card-image" />
-            <div className="Header2 TextBlue marTopGlobal">{card.title}</div>
+            <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
             <div className="body2 marTopGlobal">{card.description}</div>
             <div className="card-footer marTopGlobal">
               <span className="body2" style={{color: '#666'} }>{card.date}</span>

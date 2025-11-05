@@ -1,6 +1,6 @@
 /* === ROOT SECTION === */
 .device-section {
-  padding: 0px 14.5%; /* Equal left-right spacing */
+  padding: 0px 12.5%; /* Equal left-right spacing */
   text-align: center;
 }
 
@@ -24,7 +24,7 @@
 }
 /* === CARD STYLING === */
 .device-card {
-  max-width: 300px;
+  /* max-width: 300px; */
   /* aspect-ratio: 1 / 1; */
   width: 100%;
   margin: 0 auto;

@@ -24,29 +24,13 @@ const page = () => {
       <VideoGridSection
         cards={[
           {
-            videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
+            videoUrl: 'https://youtu.be/FI8Ko4r2C_o',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
             // linkText: 'Read More',
             // linkHref: '/blog/power',
-          },
-          {
-            videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            // linkText: 'Read More',
-            // linkHref: '/blog/earth',
-          },
-          {
-            videoUrl: 'https://www.youtube.com/embed/nAplc9KGBwk?si=wEINBj6dsLeIY9_g',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
-            // linkText: 'Read More',
-            // linkHref: '/blog/solar',
-          },
+          }
         ]}
 
         
