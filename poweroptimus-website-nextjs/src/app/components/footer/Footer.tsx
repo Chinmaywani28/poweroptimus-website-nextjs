@@ -182,7 +182,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-linkedin-box-fill footer-icon" style={{ fontSize: "26px"}}></i>
+              <i className="ri-linkedin-box-fill footer-icon" style={{ fontSize: "28px"}}></i>
             </a>
           </div>
 
@@ -193,7 +193,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-youtube-fill"  style={{ fontSize: "26px"}}></i>
+              <i className="ri-youtube-fill"  style={{ fontSize: "28px"}}></i>
             </a>
           </div>
 

@@ -148,6 +148,23 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
               Email
               <input type="email" placeholder="Enter your email" required />
             </label>
+            
+            <label className="body3sec">
+              Phone no
+              <input type="text" placeholder="Enter your name" required />
+            </label>
+            <label className="body3sec">
+              Job Title
+              <input type="email" placeholder="Enter your email" required />
+            </label>
+            <label className="body3sec">
+              Country
+              <input type="email" placeholder="Enter your email" required />
+            </label>
+            <label className="body3sec">
+              City
+              <input type="email" placeholder="Enter your email" required />
+            </label>
             <label className="body3sec">
               Message
               <textarea placeholder="Enter your message" rows={4} required></textarea>

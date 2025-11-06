@@ -23,7 +23,7 @@ export const CardGridSection = ({cards}: Props) => {
             <img src={card.imageSrc} alt={card.title} className="card-image" />
             <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
             <div className="body2 marTopGlobal">{card.description}</div>
-            <div className="card-footer marTopGlobal">
+            <div className="card-footer">
               <span className="body2" style={{color: '#666'} }>{card.date}</span>
               <Link href={card.linkHref} className="card-link body2">
                 {card.linkText} <span className="body2">→</span>
