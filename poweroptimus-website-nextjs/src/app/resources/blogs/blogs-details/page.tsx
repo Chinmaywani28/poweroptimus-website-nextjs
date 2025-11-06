@@ -11,7 +11,7 @@ const page = () => {
      
     
       <NewsAndEventsSubSection 
-      title="Necessitatibus perspiciatis voluptatem officia eos sed ut pariatur debitis"
+      title=""
       imageSrc="/blogs-img.jpg"
       content={[
         "Consequatur molestias sequi tempore officia. Sed consequatur facilis...",

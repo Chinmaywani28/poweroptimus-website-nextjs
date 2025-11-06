@@ -238,6 +238,54 @@ export default function Page() {
         ]}
       />
 
+      {/* Image on right */}
+      <FacilitySection
+        id="hva"
+        subtitle="Sustainability & Compliance Automation"
+        title="Simplify sustainability compliance with automated tracking"
+        description=""
+        imageSrc="/key-vertical-sec-four.png"
+        imageLeft={false}
+        listItems={[
+          {
+            text: "Automated tracking of energy, emissions & IAQ KPIs for ESG reporting"
+          },
+          {
+            text: "Supports certification goals like LEED, WELL, IGBC & ISO 50001"
+          },
+          {
+            text: "Smart alerts for deviation from sustainability benchmarks"
+          },
+          {
+            text: "Digital documentation for audits & regulatory compliance"
+          }
+        ]}
+      />
+
+      {/* Image on Left */}
+      <FacilitySection
+        id="hva"
+        subtitle="Hazardous Gas Monitoring"
+        title="Prevent toxic leaks and ensure compliance across industries"
+        description=""
+        imageSrc="/key-vertical-sec-four.png"
+        imageLeft={true}
+        listItems={[
+          {
+            text: "SO₂, NOx, VOC monitoring in chemical plants"
+          },
+          {
+            text: "Leak detection in tubing, valves & machinery"
+          },
+          {
+            text: "CO₂ control in breweries, bottling lines & cold storage"
+          },
+          {
+            text: "Byproduct detection in pharma units for worker safety"
+          }
+        ]}
+      />
+
       <FacilitySection
         id="hvac"
         subtitle="Keep Equipment Efficient and Safe"

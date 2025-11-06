@@ -81,14 +81,18 @@ export const KeyVerticesTwo = () => {
         </div>
 
         {/* === Right Side: Text Content === */}
-        <div className='HomeFeature_Leftss'>
+        <div className='HomeFeature_Leftsss'>
           <div className='Header2 TextBlue'>
             Key Verticals
           </div>
           <div className='body2'>
-            PowerOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By harnessing IoT sensors, real-time analytics, and intelligent automation, the platform identifies inefficiencies as they emerge, optimizes load balancing to avoid peak tariffs, and enables renewable energy integration to reduce reliance on the grid.  
+            {/* PowerOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By harnessing IoT sensors, real-time analytics, and intelligent automation, the platform identifies inefficiencies as they emerge, optimizes load balancing to avoid peak tariffs, and enables renewable energy integration to reduce reliance on the grid.   */}
+            <p>PowerOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By harnessing IoT sensors, real-time analytics, and intelligent automation, the platform identifies inefficiencies as they emerge, optimizes load balancing to avoid peak tariffs, and enables renewable energy integration to reduce reliance on the grid.</p>
+            <p>
+              Beyond monitoring, PowerOptimus empowers organizations to take proactive control of their energy strategy. Through advanced visualization dashboards and predictive analytics, facility teams can forecast energy trends, assess the impact of operational changes, and implement automated responses to maintain optimal performance.
+            </p>
           </div>
-          <div className='buttonDiv2'>
+          <div>
             <button className="know-more-button3">Know More</button>
           </div>
         </div>

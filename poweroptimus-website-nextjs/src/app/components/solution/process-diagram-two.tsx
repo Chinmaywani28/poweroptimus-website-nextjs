@@ -26,6 +26,7 @@ const ProcessDiagramTwo = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
   // Helper to wrap index
   const getIndex = (index: number) => {
@@ -34,11 +35,14 @@ const ProcessDiagramTwo = () => {
 
   // Auto change slide every 3s
   useEffect(() => {
+    if(isPaused){
+      return
+    }
     const interval = setInterval(() => {
       setCurrentIndex((prev) => getIndex(prev + 1));
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [isPaused]);
 
   return(
 
@@ -67,7 +71,10 @@ const ProcessDiagramTwo = () => {
       </div>
 
       {/* Right Section - Vertical Carousel */}
-      <div className={styles.rightSection}>
+      <div className={styles.rightSection}
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+      >
         <div className={styles.carousel}>
           {images.map((image, index) => {
             let position = "";

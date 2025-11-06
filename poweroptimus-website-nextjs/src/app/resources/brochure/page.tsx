@@ -32,12 +32,12 @@ const page = () => {
             content: 'Track energy usage in real time.',
             image: '../resources-brochure.png',
           },
-          {
-            id: 2,
-            title: 'Wind Turbines',
-            content: 'Automated alerts and analysis.',
-            image: '../resources-brochure.png',
-          },
+          // {
+          //   id: 2,
+          //   title: 'Wind Turbines',
+          //   content: 'Automated alerts and analysis.',
+          //   image: '../resources-brochure.png',
+          // },
           // {
           //   id: 3,
           //   title: 'Solar Optimization',

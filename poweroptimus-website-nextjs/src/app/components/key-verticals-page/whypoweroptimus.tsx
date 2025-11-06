@@ -92,7 +92,7 @@ const WhyPowerOptimus = () => {
           <ul className="why-list body2 alignbodytext2">
             <li><strong>Customizable to Industry Needs:</strong> Whether it's a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation</li>
             <li><strong>Scalable and Future-Ready:</strong> Designed to grow with your business, our platform integrates effortlessly with existing systems, including BIM, IoT devices, and SCADA.</li>
-            <li><strong>Actionable Insights, Always-On Monitoring:</strong> Continuous data visibility across energy, environment, and operations helps you make informed decisions faster.</li>
+            <li><strong>Data-Driven Visibility for Smarter Operations:</strong> Continuous data visibility across energy, environment, and operations helps you make informed decisions faster.</li>
             <li><strong>Driving Environmental Responsibility:</strong> From toxic gas emission monitoring in factories to AQI tracking in hospitals, PowerOptimus is built to support environmentally conscious operations.</li>
           </ul>
         </div>

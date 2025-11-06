@@ -25,8 +25,8 @@ const page = () => {
         cards={[
           {
             imageSrc: '../resources-one.png',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
+            title: 'Driving Energy Efficiency, ESG Compliance, and Sustainability',
+            description: '',
             date: 'January 1, 2025',
             linkText: 'Read More',
             linkHref: '/resources/blogs/blogs-details',
