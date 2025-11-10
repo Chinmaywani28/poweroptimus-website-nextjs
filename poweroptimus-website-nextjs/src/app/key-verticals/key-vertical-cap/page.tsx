@@ -60,7 +60,7 @@ export default function Page() {
 
       <Hero headerText={"Key Capabilities"} bodyText={
           "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
-      } image='/KeyCapabilities_Header_Vector_Image.svg'/>
+      } image='/Key Capabilities Header Vector Image Final.svg'/>
 
       {/* <FacilitySectionsTwo
         title="PowerOptimus continuously tracks indoor air quality to ensure healthy, compliant environments:"
@@ -196,7 +196,7 @@ export default function Page() {
         subtitle="Air Quality Monitoring (IAQ & AQI) "
         title="Track and control indoor air quality for healthier, compliant spaces"
         description=""
-        imageSrc="/key-vertical-sec-three.png"
+        imageSrc="/Air Quality Monitoring (IAQ & AQI)- Key Cpabilities.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -220,7 +220,7 @@ export default function Page() {
         subtitle="Hazardous Gas Monitoring"
         title="Prevent toxic leaks and ensure compliance across industries"
         description=""
-        imageSrc="/key-vertical-sec-four.png"
+        imageSrc="/Hazardous Gas Monitoring - Key Cpabilities.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -244,7 +244,7 @@ export default function Page() {
         subtitle="Sustainability & Compliance Automation"
         title="Simplify sustainability compliance with automated tracking"
         description=""
-        imageSrc="/key-vertical-sec-four.png"
+        imageSrc="/Sustainability & Compliance Automation- Key Cpabilities.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -291,7 +291,7 @@ export default function Page() {
         subtitle="Keep Equipment Efficient and Safe"
         title="Boiler Optimization & Temperature Monitoring "
         description=""
-        imageSrc="/key-vertical-sec-three.png"
+        imageSrc="/Keep Equipment Efficient and Safe- Key Cpabilities.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -315,7 +315,7 @@ export default function Page() {
         subtitle="Occupancy Monitoring for Smart HVAC"
         title="Smarter comfort, lower waste"
         description=""
-        imageSrc="/key-vertical-sec-four.png"
+        imageSrc="/Occupancy Monitoring for Smart HVAC- Key Cpabilities.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -338,7 +338,7 @@ export default function Page() {
         subtitle="Compressor Management for HVAC"
         title="Reduce costs and emissions with load-based scheduling"
         description=""
-        imageSrc="/key-vertical-sec-three.png"
+        imageSrc="/Compressor Management for HVAC - Key Cpabilities.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -361,7 +361,7 @@ export default function Page() {
         subtitle="Advanced HVAC Controls & Pump Efficiency"
         title="Boost system efficiency while cutting kW/TR"
         description=""
-        imageSrc="/key-vertical-sec-three.png"
+        imageSrc="/Advanced HVAC Controls & Pump Efficiency - Key Cpabilities.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -406,7 +406,7 @@ export default function Page() {
           "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/KeyCapabilities_Footer_Vector_Image.svg"
+        imageSrc="/Key Capabilities Footer Vector Image1.svg"
         imageAlt="Illustration of integration"
       />
     </div>

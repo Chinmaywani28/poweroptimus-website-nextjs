@@ -50,7 +50,7 @@ export default function Page() {
         title="Ensures fewer breakdowns, lower costs, and higher uptime"
         subtitle="Predictive Maintenance for Reliability"
         description=""
-        imageSrc="../key-vertical-sec-one.png"
+        imageSrc="../Predictive Maintenance for Reliability - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -73,7 +73,7 @@ export default function Page() {
         title="Delivers measurable savings and optimized resource use"
         subtitle="Energy Strategy that Delivers ROI"
         description=""
-        imageSrc="../key-vertical-sec-two.png"
+        imageSrc="../Energy Strategy that Delivers ROI - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -96,7 +96,7 @@ export default function Page() {
         title="Embeds accountability and amplifies efficiency efforts"
         subtitle="Employee Awareness & Training"
         description=""
-        imageSrc="../key-vertical-sec-three.png"
+        imageSrc="../Employee Awareness & Training - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -119,7 +119,7 @@ export default function Page() {
         title="Creates a structured path to efficiency and reduced costs"
         subtitle="Energy Audits & Efficiency Improvements "
         description=""
-        imageSrc="../key-vertical-sec-four.png"
+        imageSrc="../Energy Audits & Efficiency Improvements - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -142,7 +142,7 @@ export default function Page() {
         title="Prevents waste and ensures KPI compliance"
         subtitle="Real-Time Inefficiency Detection"
         description=""
-        imageSrc="../key-vertical-sec-two.png"
+        imageSrc="../Real-Time Inefficiency Detection - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -162,7 +162,7 @@ export default function Page() {
         title="ROI improvements often visible within months"
         subtitle="ROI & Cost Optimization"
         description=""
-        imageSrc="../key-vertical-sec-three.png"
+        imageSrc="../ROI & Cost Optimization - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -185,7 +185,7 @@ export default function Page() {
         title=" Enables evidence-based decision-making"
         subtitle="Data Analysis & KPI Monitoring"
         description=""
-        imageSrc="../key-vertical-sec-one.png"
+        imageSrc="../Data Analysis & KPI Monitoring - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -208,7 +208,7 @@ export default function Page() {
         title="Strengthens compliance and market positioning"
         subtitle="CO₂ Monitoring & Sustainability "
         description=""
-        imageSrc="../key-vertical-sec-three.png"
+        imageSrc="../CO₂ Monitoring & Sustainability - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -231,7 +231,7 @@ export default function Page() {
         title="Reduces accidents and enhances reliability"
         subtitle="Safety Audits & Risk Reduction"
         description=""
-        imageSrc="../key-vertical-sec-three.png"
+        imageSrc="../Safety Audits & Risk Reduction - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -254,7 +254,7 @@ export default function Page() {
         title="Targets improvements where they matter most"
         subtitle="Machine-Level Energy Intensity "
         description=""
-        imageSrc="../key-vertical-sec-one.png"
+        imageSrc="../Machine-Level Energy Intensity - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -367,7 +367,7 @@ export default function Page() {
           "Drill down energy distribution to the equipment level. Turn raw data into actionable insights. Combine predictive maintenance, smart strategy, and ESG tracking for lower costs, fewer breakdowns, higher efficiency, reduced emissions, and sustainable growth."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/roles-footer-new.svg"
+        imageSrc="/Roles Operations to Optimization 1.svg"
         imageAlt="Illustration of integration"
       />
     </div>
