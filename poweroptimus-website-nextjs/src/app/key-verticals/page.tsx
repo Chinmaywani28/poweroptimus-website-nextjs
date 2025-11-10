@@ -40,8 +40,9 @@ const page = () => {
         label2="HVAC"
         label3="Boiler Optimization"
         showList={false}
-        tagPath="/key-verticals/key-vertical-cap"
-
+        tagPath1="/key-verticals/key-vertical-cap/#compress"
+        tagPath2="/key-verticals/key-vertical-cap/#adv"
+        tagPath3="/key-verticals/key-vertical-cap/#keep"
       />
 
       <FacilitySections
@@ -53,7 +54,9 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Compressor Management"
         showList={false}
-        tagPath="/key-verticals/key-vertical-cap"
+        tagPath1="/key-verticals/key-vertical-cap/#hvagas"
+        tagPath2="/key-verticals/key-vertical-cap/#air"
+        tagPath3="/key-verticals/key-vertical-cap/#compress"
 
       />
 
@@ -65,7 +68,9 @@ const page = () => {
         label2="HVAC"
         label3="Boiler Optimization"
         showList={false}
-        tagPath="/key-verticals/key-vertical-cap"
+        tagPath1="/key-verticals/key-vertical-cap/#air"
+        tagPath2="/key-verticals/key-vertical-cap/#adv"
+        tagPath3="/key-verticals/key-vertical-cap/#keep"
 
       />
 
@@ -78,7 +83,9 @@ const page = () => {
         label2="Occupancy Monitoring"
         label3="HVAC"
          showList={false}
-        tagPath="/key-verticals/key-vertical-cap"
+        tagPath1="/key-verticals/key-vertical-cap/#haz"
+        tagPath2="/key-verticals/key-vertical-cap/#occu"
+        tagPath3="/key-verticals/key-vertical-cap/#adv"
 
       />
 
@@ -91,7 +98,9 @@ const page = () => {
         label2="Hazardous Gas Monitoring"
         label3="Air Quality Monitoring"
         showList={false}
-        tagPath="/key-verticals/key-vertical-cap"
+        tagPath1="/key-verticals/key-vertical-cap/#adv"
+        tagPath2="/key-verticals/key-vertical-cap/#haz"
+        tagPath3="/key-verticals/key-vertical-cap/#air"
 
       />
 
@@ -104,7 +113,9 @@ const page = () => {
         label2="Hazardous Gas Monitoring"
         label3="HVAC"
         showList={false}
-        tagPath="/key-verticals/key-vertical-cap"
+        tagPath1="/key-verticals/key-vertical-cap/#keep"
+        tagPath2="/key-verticals/key-vertical-cap/#haz"
+        tagPath3="/key-verticals/key-vertical-cap/#adv"
 
       />
 

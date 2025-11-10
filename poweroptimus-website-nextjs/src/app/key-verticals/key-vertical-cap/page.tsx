@@ -192,7 +192,7 @@ export default function Page() {
 
       {/* <FacilitySection/> */}
       <FacilitySection
-        id="abc"
+        id="air"
         subtitle="Air Quality Monitoring (IAQ & AQI) "
         title="Track and control indoor air quality for healthier, compliant spaces"
         description=""
@@ -216,7 +216,7 @@ export default function Page() {
 
       {/* Image on Left */}
       <FacilitySection
-        id="hva"
+        id="haz"
         subtitle="Hazardous Gas Monitoring"
         title="Prevent toxic leaks and ensure compliance across industries"
         description=""
@@ -240,7 +240,7 @@ export default function Page() {
 
       {/* Image on right */}
       <FacilitySection
-        id="hva"
+        id="sus"
         subtitle="Sustainability & Compliance Automation"
         title="Simplify sustainability compliance with automated tracking"
         description=""
@@ -264,7 +264,7 @@ export default function Page() {
 
       {/* Image on Left */}
       <FacilitySection
-        id="hva"
+        id="hvagas"
         subtitle="Hazardous Gas Monitoring"
         title="Prevent toxic leaks and ensure compliance across industries"
         description=""
@@ -287,7 +287,7 @@ export default function Page() {
       />
 
       <FacilitySection
-        id="hvac"
+        id="keep"
         subtitle="Keep Equipment Efficient and Safe"
         title="Boiler Optimization & Temperature Monitoring "
         description=""
@@ -311,7 +311,7 @@ export default function Page() {
 
       {/* Image on Left */}
       <FacilitySection
-        id="hvac"
+        id="occu"
         subtitle="Occupancy Monitoring for Smart HVAC"
         title="Smarter comfort, lower waste"
         description=""
@@ -334,7 +334,7 @@ export default function Page() {
       />
 
       <FacilitySection
-        id="hvac"
+        id="compress"
         subtitle="Compressor Management for HVAC"
         title="Reduce costs and emissions with load-based scheduling"
         description=""
@@ -357,7 +357,7 @@ export default function Page() {
       />
 
       <FacilitySection
-        id="hvac"
+        id="adv"
         subtitle="Advanced HVAC Controls & Pump Efficiency"
         title="Boost system efficiency while cutting kW/TR"
         description=""
