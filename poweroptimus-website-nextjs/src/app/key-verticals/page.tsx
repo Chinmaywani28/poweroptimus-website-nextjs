@@ -24,7 +24,7 @@ const page = () => {
 
     {/* <HeroReusable headerText={'Industries We Serve with PowerOptimus'} bodyText={'PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level.'} /> */}
 
-      <Hero headerText={"Industries We Serve with PowerOptimus"} bodyText={
+      <Hero headerText={"Industries we serve with PowerOptimus"} bodyText={
           "PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
       } image='/KeyVertical_Header_Vector_Image.svg' />
 

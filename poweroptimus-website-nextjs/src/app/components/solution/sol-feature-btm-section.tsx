@@ -21,6 +21,13 @@ const SolFeatureBtmSection = ({
   imageAlt,
 }: FeatureSectionProps) => {
 
+  const handleContactClick = () => {
+    const emails = 'eems@neilautomation.com';
+    const subject = encodeURIComponent('Inquiry from PowerOptimus Website');
+    const mailtoLink = `mailto:${emails}?subject=${subject}`;
+    window.location.href = mailtoLink;
+  };
+
   const { t } = useTranslation(); // Initialize translation hook
 
   return (
@@ -35,7 +42,7 @@ const SolFeatureBtmSection = ({
           ))}
           {/* <button className="download-btn">{buttonText}</button> */}
           <div className='downloadBtnDiv'>
-            <button className="donwloadBtn">{buttonText}</button>
+            <button onClick={handleContactClick} className="donwloadBtn">{buttonText}</button>
           </div>
         </div>
 

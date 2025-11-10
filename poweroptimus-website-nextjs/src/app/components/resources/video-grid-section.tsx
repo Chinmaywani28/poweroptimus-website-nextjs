@@ -4,7 +4,7 @@ import './video-grid-section.css';
 type CardData = {
   videoUrl?: string;
   title: string;
-  description: string;
+  description?: string;
   date: string;
   // linkText: string;
   // linkHref: string;
@@ -34,9 +34,9 @@ export const VideoGridSection = ({cards}: Props) => {
               ></iframe>
             </div>
 
-            <div className="Header2 TextBlue marTopGlobal">{card.title}</div>
+            <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
             <div className="body2 marTopGlobal">{card.description}</div>
-            <div className="card-footer marTopGlobal">
+            <div className="card-footer">
               <span className="body2" style={{color: '#666'} }>{card.date}</span>
               {/* <Link href={card.linkHref} className="card-link body3sec">
                 {card.linkText} <span className="body3sec">→</span>

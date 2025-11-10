@@ -15,14 +15,14 @@ const ProcessDiagramTwo = () => {
   ];
 
   // Right section images for vertical carousel
-  const images = [
-    "/imple-carousel-sample.jpg",
-    "/imple-carousel-sample.jpg",
-    "/imple-carousel-sample.jpg",
-    "/imple-carousel-sample.jpg",
-    "/imple-carousel-sample.jpg",
-    "/imple-carousel-sample.jpg",
-  ];
+  // const images = [
+  //   "/imple-carousel-sample.jpg",
+  //   "/imple-carousel-sample.jpg",
+  //   "/imple-carousel-sample.jpg",
+  //   "/imple-carousel-sample.jpg",
+  //   "/imple-carousel-sample.jpg",
+  //   "/imple-carousel-sample.jpg",
+  // ];
 
   // const images = [
   //   "/imple-header.png",
@@ -33,6 +33,14 @@ const ProcessDiagramTwo = () => {
   //   "/imple-header.png",
   // ];
 
+  const images = [
+    "Implementation Process-1.png",
+    "Implementation Process-2.png",
+    "Implementation Process-3.png",
+    "Implementation Process-4.png",
+    "Implementation Process-5.png",
+    "Implementation Process-6.png",
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -63,33 +71,42 @@ const ProcessDiagramTwo = () => {
           {/*  */}
           <div className={styles.containerStart}>
             {/* Box 1 */}
-            <div className={styles.box}>
-              <div className={styles.text}>
+            <div >
+              {/* <div className={styles.text}>
                 <h3>Building Information Modeling (BIM) and Design Data</h3>
               </div>
-              {/* Placeholder for icon */}
+              
               <div>
                 <img src="/im-one.svg" alt="" />
+              </div> */}
+              <div>
+                <img src="/Implementation Process- BIM.png" alt="" />
               </div>
             </div>
 
             {/* Box 2 */}
-            <div className={styles.box}>
-              <div className={styles.text}>
+            <div >
+              {/* <div className={styles.text}>
                 <h3>Equipment and Asset Specifications</h3>
               </div>
               <div>
                 <img src="/im-two.svg" alt="" />
+              </div> */}
+              <div>
+                <img src="/Implementation Process- BIM.png" alt="" />
               </div>
             </div>
 
             {/* Box 3 */}
-            <div className={styles.box}>
-              <div className={styles.text}>
+            <div >
+              {/* <div className={styles.text}>
                 <h3>Environmental & Sustainability Goals (ESG)</h3>
               </div>
               <div>
                 <img src="/im-three.svg" alt="" />
+              </div> */}
+              <div>
+                <img src="/Implementation Process- BIM.png" alt="" />
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ const page = () => {
             imageSrc: '../resources-one.png',
             title: 'Driving Energy Efficiency, Environmental Monitoring, and Sustainability with Smart Energy Management',
             description: '',
-            date: 'January 1, 2025',
+            date: 'Nov, 2025',
             linkText: 'Read More',
             linkHref: '/resources/blogs/blogs-details',
           }

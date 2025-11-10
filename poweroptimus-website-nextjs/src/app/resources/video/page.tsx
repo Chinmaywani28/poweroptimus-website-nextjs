@@ -24,10 +24,10 @@ const page = () => {
       <VideoGridSection
         cards={[
           {
-            videoUrl: 'https://youtu.be/FI8Ko4r2C_o',
-            title: 'More productive with an atmosphere',
-            description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'January 1, 2025',
+            videoUrl: 'https://www.youtube.com/embed/A05DUg57S7k',
+            title: 'PowerOptimus - Energy Management and Environmental Monitoring System',
+            // description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
+            date: 'Nov, 2025',
             // linkText: 'Read More',
             // linkHref: '/blog/power',
           }

@@ -1,4 +1,4 @@
-/* Desktop & Tablet: Grid 2 columns */
+/* ---------- Base Wrapper ---------- */
 .wrapper {
   margin: 40px 11.5%;
   display: grid;
@@ -6,31 +6,43 @@
   gap: 30px;
 }
 
-/* Card style */
+/* ---------- Card Styling ---------- */
 .card {
   position: relative;
   border: 2px solid #1e699b;
   border-radius: 8px;
   padding: 50px 20px 20px;
   background: white;
-  /* min-height: 250px; */
 }
 
-/* Top badge */
+/* ---------- Common Title Badge ---------- */
 .title {
   position: absolute;
   top: -18px;
-  left: 50%;
-  transform: translateX(-50%);
   background: white;
   padding: 6px 14px;
   border: 2px solid #1e699b;
   border-radius: 6px;
-  width: 70%;
+  /* width: 70%; */
+  text-align: center;
 }
 
-/* ---------- MOBILE MODE ---------- */
-/* Mobile: turn into horizontal scroll carousel */
+/* ---------- Dynamic Title Alignment ---------- */
+/* Title on LEFT */
+.titleLeft {
+  left: 20px; /* small left padding */
+  transform: none; /* remove center transform */
+  text-align: left;
+}
+
+/* Title on RIGHT */
+.titleRight {
+  right: 20px; /* small right padding */
+  transform: none; /* remove center transform */
+  text-align: right;
+}
+
+/* ---------- Mobile (Horizontal Scroll) ---------- */
 @media (max-width: 600px) {
   .wrapper {
     display: flex;
@@ -45,23 +57,27 @@
     flex: 0 0 90%;
     scroll-snap-align: center;
   }
+
+  .title {
+    width: 80%;
+  }
 }
 
-/* Tablet (stack or grid?) you said grid before */
+/* ---------- Tablet ---------- */
 @media (min-width: 601px) and (max-width: 900px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* Laptop */
+/* ---------- Laptop ---------- */
 @media (min-width: 901px) and (max-width: 1200px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* Desktop */
+/* ---------- Desktop ---------- */
 @media (min-width: 1201px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;

@@ -49,8 +49,16 @@
 "use client";
 import Link from 'next/link';
 import './key-vertices-two.css';
+import { useRouter } from "next/navigation";
 
 export const KeyVerticesTwo = () => {
+
+  const router = useRouter();
+
+  const handleNavigate = () => {
+    router.push("/key-verticals");
+  };
+
   return (
     <div className='HomeFeature_container'>
       <div className='HomeFeature_Home'>
@@ -93,7 +101,7 @@ export const KeyVerticesTwo = () => {
             </p>
           </div>
           <div>
-            <button className="know-more-button3">Know More</button>
+            <button onClick={handleNavigate} className="know-more-button3">Know More</button>
           </div>
         </div>
 

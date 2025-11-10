@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import './navbar.css'
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link'
+import { useRouter } from "next/navigation";
 const Navbar = () => {
 
   const handleContactClick = () => {
@@ -114,7 +115,7 @@ const Navbar = () => {
               {isDropdownOpen && (
                 <ul className="dropdown-menu">
                   <li><Link href="/resources/blogs">Blog</Link></li>
-                  <li><Link href="/resources/case-study">Case Study</Link></li>
+                  {/* <li><Link href="/resources/case-study">Case Study</Link></li> */}
                   <li><Link href="/resources/webinar">Webinar</Link></li>
                   <li><Link href="/resources/video">Video</Link></li>
                   <li><Link href="/resources/brochure">Brochure</Link></li>

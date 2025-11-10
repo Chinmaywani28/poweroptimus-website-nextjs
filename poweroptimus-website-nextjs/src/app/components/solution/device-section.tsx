@@ -10,7 +10,7 @@ const DeviceSection = () => {
       <div className="devices-container"> 
         <div className="device-card">
           <img
-            src="./gateway-svg.svg"
+            src="./Gateway-news.svg"
             alt="Device"
             className="device-image"
           />
@@ -23,7 +23,7 @@ const DeviceSection = () => {
 
         <div className="device-card">
           <img
-            src="./node-svg.svg"
+            src="./node-news.svg"
             alt="Device"
             className="device-image"
           />

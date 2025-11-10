@@ -154,7 +154,7 @@ const Footer = () => {
 
         
         <div className="footerLink1 TextWhite Header3">
-          <div className="newsletter-title Header1ABold">Newsletter</div>
+          {/* <div className="newsletter-title Header1ABold">Newsletter</div>
           <div className="newsletter-text footerAddress body4">
             Subscribe to our newsletters to receive latest news and updates
           </div>
@@ -163,7 +163,7 @@ const Footer = () => {
             className="newsletter-input"
             placeholder="Enter your Email"
           />
-          <button className="newsletter-button">Subscribe Now</button>
+          <button className="newsletter-button">Subscribe Now</button> */}
         </div>
       
 

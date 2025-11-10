@@ -8,7 +8,7 @@ import { NewsAndEventsSubSectionNew } from '@/app/components/news-and-events/new
 const page = () => {
   return (
     <>
-      {/* <NewsAndEventsSubSection 
+      <NewsAndEventsSubSection 
       title=""
       imageSrc="/blogs-img.jpg"
       content={[
@@ -20,9 +20,9 @@ const page = () => {
         "Another case study title...",
         "Yet another case study title..."
       ]}
-      /> */}
+      />
 
-      {/* <NewsAndEventsSubSectionNew
+      <NewsAndEventsSubSectionNew
         title=""
         imageSrc="/blogs-img.jpg"
         content={[
@@ -40,7 +40,7 @@ const page = () => {
             </div>
 
         }
-      /> */}
+      />
     </>
   );
 }
