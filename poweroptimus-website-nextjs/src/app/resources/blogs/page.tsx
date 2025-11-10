@@ -25,7 +25,7 @@ const page = () => {
         cards={[
           {
             imageSrc: '../resources-one.png',
-            title: 'Driving Energy Efficiency, ESG Compliance, and Sustainability',
+            title: 'Driving Energy Efficiency, Environmental Monitoring, and Sustainability with Smart Energy Management',
             description: '',
             date: 'January 1, 2025',
             linkText: 'Read More',

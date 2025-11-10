@@ -129,7 +129,7 @@ const page = () => {
           "PowerOptimus is more than a monitoring tool it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/KeyVertical_Footer_Vector_Image.svg"
+        imageSrc="/key-vertical-new.svg"
         imageAlt="Illustration of integration"
       />
       

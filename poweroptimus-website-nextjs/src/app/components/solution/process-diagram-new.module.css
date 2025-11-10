@@ -1,0 +1,271 @@
+/* ---------- Title ---------- */
+.title {
+  text-align: center;
+}
+
+/* ---------- Main Container ---------- */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 0px 10%;
+}
+
+/* ---------- Left Column (3 Boxes) ---------- */
+.boxColumn {
+  flex: 0.8; /* slightly smaller than others */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.placeholderBox {
+  background: linear-gradient(135deg, #b2f7c0, #76e3a6);
+  border-radius: 10px;
+  padding: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #004c1a;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Center Section (Image + Icons) ---------- */
+.leftSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftImage {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.iconList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.iconItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon img {
+  width: 20px;
+}
+
+.iconText {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* ---------- Right Section (Vertical Carousel) ---------- */
+.rightSection {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.carouselItem {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(0.6);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+  z-index: 1;
+}
+
+.carouselItem img {
+  /* aspect-ratio: 3/4; */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* --- Carousel states --- */
+.current {
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  z-index: 3;
+}
+.previous {
+  top: 25%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.8;
+}
+.next {
+  top: 75%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.8;
+}
+.farPrevious {
+  top: 10%;
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0.5;
+}
+.farNext {
+  top: 90%;
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0.5;
+}
+
+/* ---------- Responsive Breakpoints ---------- */
+
+/* Mobile (max 600px) */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxColumn {
+    width: 100%;
+  }
+  .leftImage {
+    max-width: 280px;
+  }
+  .carousel {
+    height: 300px;
+  }
+  .carouselItem img {
+    width: 200px;
+  }
+}
+
+/* Tablet (601–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    gap: 20px;
+  }
+  .carousel {
+    height: 350px;
+  }
+}
+
+/* Laptop (901–1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .container {
+    gap: 25px;
+  }
+  .carousel {
+    height: 380px;
+  }
+}
+
+/* Desktop (1201px+) */
+@media (min-width: 1201px) {
+  .container {
+    gap: 30px;
+  }
+  .carousel {
+    height: 450px;
+  }
+}
+
+
+
+/*  */
+  /* Container holding all boxes */
+.containerStart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Each colored box */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #77b9ff, #4dd091);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Text section */
+.text h3 {
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Placeholder where you'll add the icon later */
+.iconPlaceholder {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+/* ---------- RESPONSIVENESS ---------- */
+
+/* Mobile (≤600px) */
+@media (max-width: 600px) {
+  .box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .text h3 {
+    font-size: 0.95rem;
+  }
+
+  .iconPlaceholder {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Tablet (601–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .text h3 {
+    font-size: 1rem;
+  }
+
+  .iconPlaceholder {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Laptop (901–1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .text h3 {
+    font-size: 1.05rem;
+  }
+}
+
+/* Desktop (≥1201px) */
+@media (min-width: 1201px) {
+  .text h3 {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/*  */

@@ -15,6 +15,7 @@ import Hero from '../components/home-main-content/hero'
 import FeatureCard from '../components/solution/solution-feature-section'
 import ProcessDiagramTwo from '../components/solution/process-diagram-two'
 import FeatureTwo from '../components/solution/feature-two'
+import ProcessDiagramThree from '../components/solution/process-diagram-new'
 
 
 const page = () => {
@@ -58,7 +59,8 @@ const page = () => {
     {/* <ProcessDiagram/> */}
 
 
-    <ProcessDiagramTwo/>
+    {/* <ProcessDiagramTwo/> */}
+    <ProcessDiagramThree/>
 
     {/* process step */}
     {/* <ProcessStepSection/> */}
