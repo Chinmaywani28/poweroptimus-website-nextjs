@@ -46,6 +46,7 @@ export default function Page() {
       } image='/roles-header-new.svg'/>
 
       <FacilitySectionsTwo
+        id="ensure"
         title="Ensures fewer breakdowns, lower costs, and higher uptime"
         subtitle="Predictive Maintenance for Reliability"
         description=""
@@ -68,6 +69,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="ensure"
         title="Delivers measurable savings and optimized resource use"
         subtitle="Energy Strategy that Delivers ROI"
         description=""
@@ -90,6 +92,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="embeds"
         title="Embeds accountability and amplifies efficiency efforts"
         subtitle="Employee Awareness & Training"
         description=""
@@ -112,6 +115,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="create"
         title="Creates a structured path to efficiency and reduced costs"
         subtitle="Energy Audits & Efficiency Improvements "
         description=""
@@ -134,6 +138,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="prevent"
         title="Prevents waste and ensures KPI compliance"
         subtitle="Real-Time Inefficiency Detection"
         description=""
@@ -153,6 +158,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="roi"
         title="ROI improvements often visible within months"
         subtitle="ROI & Cost Optimization"
         description=""
@@ -175,6 +181,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="enable"
         title=" Enables evidence-based decision-making"
         subtitle="Data Analysis & KPI Monitoring"
         description=""
@@ -197,6 +204,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="strengthens"
         title="Strengthens compliance and market positioning"
         subtitle="CO₂ Monitoring & Sustainability "
         description=""
@@ -219,6 +227,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="reduce"
         title="Reduces accidents and enhances reliability"
         subtitle="Safety Audits & Risk Reduction"
         description=""
@@ -241,6 +250,7 @@ export default function Page() {
       />
 
       <FacilitySectionsTwo
+        id="targets"
         title="Targets improvements where they matter most"
         subtitle="Machine-Level Energy Intensity "
         description=""
