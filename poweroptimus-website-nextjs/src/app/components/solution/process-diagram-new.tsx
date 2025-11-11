@@ -93,7 +93,7 @@ const ProcessDiagramTwo = () => {
                 <img src="/im-two.svg" alt="" />
               </div> */}
               <div>
-                <img src="/Implementation Process- BIM.png" alt="" />
+                <img src="/Implementation Process- Equipment & Asset.png" alt="" />
               </div>
             </div>
 
@@ -106,7 +106,7 @@ const ProcessDiagramTwo = () => {
                 <img src="/im-three.svg" alt="" />
               </div> */}
               <div>
-                <img src="/Implementation Process- BIM.png" alt="" />
+                <img src="/Implementation Process- ESG.png" alt="" />
               </div>
             </div>
           </div>

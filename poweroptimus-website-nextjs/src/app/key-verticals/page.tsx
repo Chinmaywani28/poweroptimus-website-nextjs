@@ -54,7 +54,7 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Compressor Management"
         showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#hvagas"
+        tagPath1="/key-verticals/key-vertical-cap/#adv"
         tagPath2="/key-verticals/key-vertical-cap/#air"
         tagPath3="/key-verticals/key-vertical-cap/#compress"
 

@@ -263,7 +263,7 @@ export default function Page() {
       />
 
       {/* Image on Left */}
-      <FacilitySection
+      {/* <FacilitySection
         id="hvagas"
         subtitle="Hazardous Gas Monitoring"
         title="Prevent toxic leaks and ensure compliance across industries"
@@ -284,12 +284,12 @@ export default function Page() {
             text: "Byproduct detection in pharma units for worker safety"
           }
         ]}
-      />
+      /> */}
 
       <FacilitySection
         id="keep"
-        subtitle="Keep Equipment Efficient and Safe"
-        title="Boiler Optimization & Temperature Monitoring "
+        subtitle="Boiler Optimization & Temperature Monitoring"
+        title="Keep Equipment Efficient and Safe"
         description=""
         imageSrc="/Keep Equipment Efficient and Safe- Key Cpabilities.jpg"
         imageLeft={false}
