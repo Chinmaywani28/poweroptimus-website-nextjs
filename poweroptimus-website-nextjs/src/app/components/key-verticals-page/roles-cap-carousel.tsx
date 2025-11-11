@@ -59,8 +59,8 @@ const RolesCapCarousel = ( ) => {
       label2: 'Safety Audits',
       label3: 'Sustainability and ESG Analysis',
       tagPath1: '/roles/roles-cap/#strengthens',
-      tagPath2: '/roles/roles-cap/#roi',
-      tagPath3: '/roles/roles-cap/#enable'
+      tagPath2: '/roles/roles-cap/#reduce',
+      tagPath3: '/roles/roles-cap/#strengthens'
     },
     {
       img: "/Production manager  Image.jpg",
@@ -69,9 +69,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Machine Energy Intensity',
       label2: 'Predictive Maintenance',
       label3: 'Operation Inefficiencies',
-      tagPath1: '/roles/roles-cap/#strengthens',
-      tagPath2: '/roles/roles-cap/#roi',
-      tagPath3: '/roles/roles-cap/#enable'
+      tagPath1: '/roles/roles-cap/#targets',
+      tagPath2: '/roles/roles-cap/#ensure',
+      tagPath3: '/roles/roles-cap/#create'
     },
     {
       img: "/Health Inspectors Image.jpg",
@@ -84,9 +84,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Real-Time Usage Insights',
       label2: 'Predictive Maintenance Alerts',
       label3: 'Environmental Impact',
-      tagPath1: '/roles/roles-cap/#strengthens',
-      tagPath2: '/roles/roles-cap/#roi',
-      tagPath3: '/roles/roles-cap/#enable'
+      tagPath1: '/roles/roles-cap/#prevent',
+      tagPath2: '/roles/roles-cap/#ensure',
+      tagPath3: '/roles/roles-cap/#strengthens'
     }
   ];
   
