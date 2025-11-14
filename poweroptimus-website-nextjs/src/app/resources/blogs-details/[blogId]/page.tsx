@@ -1,11 +1,51 @@
+"use client"
 import Link from 'next/link'
-import React from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import './page.css'
 import { NewsAndEventsSubSection } from '@/app/components/news-and-events/news-and-events-subsec'
 import { NewsAndEventsSubSectionNew } from '@/app/components/news-and-events/news-and-events-subsec-new'
+import { getBlogByUrlId, getBlogs } from '@/app/services/blogService'
+import { useParams } from 'next/navigation'
 
 
 const page = () => {
+  
+  const [selectedBlog, setSelectedBlog] = useState<any>(null);
+  const params = useParams();
+  const blogId = Array.isArray(params.blogId) ? params.blogId[0] : params.blogId;
+
+  useEffect(() => {
+    loadSingleBlog()
+
+    if (selectedBlog?.metaTitle) {
+      document.title = `${selectedBlog.metaTitle} Blogs | ConstructMonitor`;
+    }
+    
+    // loadBlogs()
+
+  }, []);
+  
+  // const loadBlogs = useCallback(async () => {
+  //   const list = await getBlogByUrlId(blogId as string);
+  //   // setBlogList(list);
+
+  //   console.log('blogparti::',list)
+
+  // }, [blogId]);
+
+
+  
+  const loadSingleBlog = useCallback(async () => {
+    const blog: any = await getBlogByUrlId(blogId as string);
+    setSelectedBlog(blog);
+  }, [blogId]);
+
+  console.log('loadSingleBlog',loadSingleBlog)
+  console.log('nkhi',selectedBlog)
+
+
+  
+
   return (
     <>
       {/* <NewsAndEventsSubSection 
@@ -54,7 +94,8 @@ const page = () => {
         {/* Hero section */}
         <header className="hero">
           <div className="Header1 TextBlue">
-            Driving Energy Efficiency, Environmental Monitoring, and Sustainability with Smart Energy Management 
+            {/* Driving Energy Efficiency, Environmental Monitoring, and Sustainability with Smart Energy Management  */}
+
           </div>
           {/* <div className="body1 marTopGlobal lead">
             Tenetur dolorem enim amet id architecto ullam ipsum. Excepturi est

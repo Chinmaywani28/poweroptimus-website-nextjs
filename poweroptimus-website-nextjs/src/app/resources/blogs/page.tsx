@@ -1,12 +1,46 @@
+"use client"
 import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
 import { CardGridSection } from '@/app/components/resources/card-grid-section'
 import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section'
-import React from 'react'
+import { getBlogs } from '@/app/services/blogService'
+import React, { useCallback, useEffect, useState } from 'react'
 
 
 const page = () => {
+
+  const [blogs, setBlogs] = useState<any[]>([]);
+  
+  
+  const loadBlogs = useCallback(async () => {
+    const BlogList = await getBlogs({});
+
+    console.log("blogList,,", BlogList);
+
+    if(BlogList?.length){
+      setBlogs(BlogList);
+    }
+
+  }, []);
+
+  
+
+  useEffect(() => {
+        loadBlogs();
+    }, [loadBlogs])
+
+     const cards = blogs.map((b: any) => ({
+       imageSrc: b.image || "/default-blog.png",
+       title: b.title,
+       description: b.metaDescription || "",
+       date: b.date || "",
+       linkText: "Read More",
+       linkHref: `/resources/blogs-details/${b.urlId}`,
+     }));
+    
+     console.log('ckdf',cards)
+
   return (
     <>
       {/* <KeyverticalTwo
@@ -29,12 +63,14 @@ const page = () => {
             description: '',
             date: 'Nov, 2025',
             linkText: 'Read More',
-            linkHref: '/resources/blogs/blogs-details',
+            linkHref: `/resources/blogs-details`,
           }
-        ]}
+        ]}/>
+
+        <CardGridSection
+        cards={cards}/>
 
         
-/>
         {/* <CardGridSection
         cards={[
           {
