@@ -8,7 +8,7 @@ import { CaseStudySubSection } from '@/app/components/news-and-events/case-study
 const page = () => {
   return (
     <>
-      <CaseStudySubSection
+      {/* <CaseStudySubSection
         title="Connecting Energy Monitoring, Predictive Maintenance, and Sustainability for Resilient Operations"
         imageSrc="/webinar-img.jpg"
         content={[
@@ -44,7 +44,10 @@ const page = () => {
 
                   <p><b>Expert Perspectives:</b> Hear from professionals leveraging AI, IoT, and data analytics to transform operations—making them smarter, greener, and more durable.</p>
                 </div>}
-      />
+      /> */}
+
+        
+
     </>
   );
 }

@@ -34,7 +34,7 @@ const page = () => {
        imageSrc: b.image || "/default-blog.png",
        title: b.title,
        description: b.metaDescription || "",
-       date: b.date || "",
+       date: b.date || "Nov 25",
        linkText: "Read More",
        linkHref: `/resources/blogs-details/${b.urlId}`,
      }));
@@ -55,7 +55,7 @@ const page = () => {
           "Your destination for a wide range of insightful topics, innovative ideas, and thought-provoking articles. Whether you seek to expand your knowledge, gain inspiration, or stay informed on the latest developments, our curated content is designed to engage, enlighten, and add value for people across industries."
       } image='/Resources_Blogs_Vector_Image.svg' />
 
-      <CardGridSection
+      {/* <CardGridSection
         cards={[
           {
             imageSrc: '../resources-one.png',
@@ -65,7 +65,7 @@ const page = () => {
             linkText: 'Read More',
             linkHref: `/resources/blogs-details`,
           }
-        ]}/>
+        ]}/> */}
 
         <CardGridSection
         cards={cards}/>
