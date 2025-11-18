@@ -12,6 +12,7 @@ interface CaseStudyProps {
   content: string[]; // paragraphs
   otherCases: string[];
   textDesc?: React.ReactNode;
+  htmlContent?: any
 }
 
 export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
@@ -22,7 +23,8 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
   backNavLink,
   backNavPath,
   showBackLink,
-  textDesc
+  textDesc,
+  htmlContent
 })  => {
   
 
@@ -115,7 +117,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
               <p key={index}>{para}</p>
             ))} */}
 
-              <div className="body2 marTopGlobal">
+              <div  dangerouslySetInnerHTML={{ __html: htmlContent }} className="body2 marTopGlobal">
                 {/* Et voluptatem eveniet explicabo vitae. Ut esse est rerum at. Sed
                 consequatur labore est ipsum. Dolores dolore laudantium nam
                 labore dolor iure rerum. Dicta eest dicta minus. Autem dicta
@@ -127,7 +129,8 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
                 et quisquam laborum. Et voluptatem eveniet explicabo vitae. Ut
                 esse est rerum at. Sed consequatur labore est ipsum. Dolores
                 dolore laudantium nam labore dolor iure */}
-                {textDesc }
+                {/* {textDesc } */}
+               
 
                 
 
