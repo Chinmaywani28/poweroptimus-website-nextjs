@@ -111,13 +111,47 @@
 // export default Footer;
 
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import './Footer.css'
 import Link from 'next/link';
+import { NewsLetter } from './newsletter';
+import { toast } from 'react-toastify';
+import { isValidEmail } from '@/app/services/UtilityService';
+import { addSubcriber, getActiveSubscribersByEmail } from '@/app/services/SubscriberService';
+
 
 const Footer = () => {
   const { t } = useTranslation(); // Initialize translation hook
+  const [email, setEmail] = useState<string>("");
+
+
+  const subscribeNow = async () => {
+    const id = toast.loading(t("messages.pleaseWait"));
+
+    if (!email || !isValidEmail(email)) {
+      toast.update(id, { render: t("messages.provideValidEmail"), type: "warning", isLoading: false, autoClose: 3000 });
+      return;
+    }
+
+    const subscribers = await getActiveSubscribersByEmail(email);
+    if (!subscribers.empty) {
+      toast.update(id, { render: "you Have Already Subscribed", type: "warning", isLoading: false, autoClose: 3000 });
+      return;
+    }
+
+    await addSubcriber(email);
+    toast.update(id, { render: "Subscribed to newsletter", type: "success", isLoading: false, autoClose: 3000 });
+    setEmail("");
+
+
+  }
+
+
+
+
+
+
 
   return (
     <div className="footer-container">
@@ -154,16 +188,18 @@ const Footer = () => {
 
         
         <div className="footerLink1 TextWhite Header3">
-          {/* <div className="newsletter-title Header1ABold">Newsletter</div>
+          <div className="newsletter-title Header1ABold">Newsletter</div>
           <div className="newsletter-text footerAddress body4">
             Subscribe to our newsletters to receive latest news and updates
           </div>
-          <input
+          {/* <input
             type="email"
             className="newsletter-input"
             placeholder="Enter your Email"
-          />
-          <button className="newsletter-button">Subscribe Now</button> */}
+          /> */}
+
+          <input type='text' value={email} onChange={e => setEmail(e.target.value)} className='newsletter-input' name='' id='' aria-describedby='helpId' placeholder="Enter your Email"/>
+          <button className="newsletter-button" onClick={subscribeNow}>Subscribe Now</button>
         </div>
       
 

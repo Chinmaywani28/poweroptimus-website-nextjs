@@ -4,6 +4,7 @@ import "./globals.css";
 import I18nProvider from "./i18n/i18n.Provider";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import { ToastContainer } from 'react-toastify';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,6 +62,8 @@ export default function RootLayout({
           </LayoutWrapper> */}
           <Navbar />
           <main>{children}</main>
+        <ToastContainer position="top-right" autoClose={3000} aria-label={undefined} />
+
           <Footer />
         </I18nProvider>
 
