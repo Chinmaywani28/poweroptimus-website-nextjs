@@ -1,6 +1,9 @@
 {
   "projects": {
     "default": "poweroptimus-stage",
-    "staging": "poweroptimus-stage"
-  }
+    "staging": "poweroptimus-stage",
+    "stage": "poweroptimus-stage"
+  },
+  "targets": {},
+  "etags": {}
 }
