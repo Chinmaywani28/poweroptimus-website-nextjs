@@ -1,13 +1,38 @@
 {
-  "hosting": {
-    "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false
-
-  }
+  "targets": {
+    "poweroptimus-stage": {
+      "hosting": {
+        "stage": [
+          "poweroptimus-stage"
+        ]
+      }
+    },
+    "poweroptimus-prod": {
+      "hosting": {
+        "prod": [
+          "poweroptimus-prod"
+        ]
+      }
+    }
+  },
+  "hosting": [
+    {
+      "target": "stage",
+      "public": "out",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "prod",
+      "public": "out",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
 }

@@ -2,8 +2,24 @@
   "projects": {
     "default": "poweroptimus-stage",
     "staging": "poweroptimus-stage",
-    "stage": "poweroptimus-stage"
+    "stage": "poweroptimus-stage",
+    "prod": "poweroptimus-prod"
   },
-  "targets": {},
+  "targets": {
+    "poweroptimus-stage": {
+      "hosting": {
+        "stage": [
+          "poweroptimus-stage"
+        ]
+      }
+    },
+    "poweroptimus-prod": {
+      "hosting": {
+        "prod": [
+          "poweroptimus-prod"
+        ]
+      }
+    }
+  },
   "etags": {}
 }
