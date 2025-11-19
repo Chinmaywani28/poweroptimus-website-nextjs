@@ -118,7 +118,7 @@ const ProcessDiagramTwo = () => {
         <div className={styles.leftSection}>
           <img src={leftImage} alt="Main visual" className={styles.leftImage} />
 
-          <div className={styles.iconList}>
+          {/* <div className={styles.iconList}>
             {icons.map((item, i) => (
               <div key={i} className={styles.iconItem}>
                 <span className={styles.icon}>
@@ -127,7 +127,7 @@ const ProcessDiagramTwo = () => {
                 <span className={styles.iconText}>{item.text}</span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* ===== Right Section (Vertical Carousel) ===== */}
@@ -162,7 +162,22 @@ const ProcessDiagramTwo = () => {
             })}
           </div>
         </div>
+
+       
       </div>
+
+       <div>
+          <div className={styles.iconList}>
+            {icons.map((item, i) => (
+              <div key={i} className={styles.iconItem}>
+                <span className={styles.icon}>
+                  <img src={item.icon} />
+                </span>
+                <span className={styles.iconText}>{item.text}</span>
+              </div>
+            ))}
+          </div>
+        </div>
     </section>
   );
 };

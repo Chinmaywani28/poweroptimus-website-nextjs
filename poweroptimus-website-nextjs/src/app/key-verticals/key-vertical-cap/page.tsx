@@ -19,18 +19,52 @@ interface FeatureSectionProps {
 
 export default function Page() {
 
+  // useEffect(() => {
+  //   const hash = window.location.hash; // e.g., "#hvac"
+  //   if (hash) {
+  //     const id = hash.replace("#", "");
+  //     const el = document.getElementById(id);
+  //     if (el) {
+  //       el.scrollIntoView({ behavior: "smooth" });
+  //     }
+  //   }
+
+
+  // },[])
+
   useEffect(() => {
-    const hash = window.location.hash; // e.g., "#hvac"
-    if (hash) {
+    const scrollToHash = () => {
+      const hash = window.location.hash; // example: #adv
+      if (!hash) return;
+
       const id = hash.replace("#", "");
-      const el = document.getElementById(id);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      }
-    }
+
+      const tryScroll = () => {
+        const el = document.getElementById(id);
+
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        } else {
+          // Retry because component may not be rendered yet
+          setTimeout(tryScroll, 200);
+        }
+      };
+
+      tryScroll();
+    };
+
+    // Run on first load
+    scrollToHash();
+
+    // Run when hash changes inside the site
+    window.addEventListener("hashchange", scrollToHash);
+
+    return () => {
+      window.removeEventListener("hashchange", scrollToHash);
+    };
+  }, []);
 
 
-  },[])
 
   return (
     <div>
