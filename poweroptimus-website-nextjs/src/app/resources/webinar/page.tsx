@@ -37,7 +37,7 @@ const page = () => {
          description: b.metaDescription || "",
          date: b.date || "Nov 25",
          linkText: "Read More",
-         linkHref: `/resources/webinar-details/${b.urlId}`,
+         linkHref: ``,
        }));
       
        console.log('ckdf',cards)

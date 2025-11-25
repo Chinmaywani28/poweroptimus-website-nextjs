@@ -10,16 +10,16 @@ export const KeyVertices = () => {
       <div className="image-grid">
         {/* Replace these with real <Image /> or <img src=... /> in Next.js */}
         <Link href="/industry">
-          <img src="./key-vertices-one.jpg" alt="Industry" />
+          <img src="/key-vertices-one.jpg" alt="Industry" />
         </Link>
         <Link href="/robotics">
-          <img src="./key-vertices-two.jpg" alt="Robotics" />
+          <img src="/key-vertices-two.jpg" alt="Robotics" />
         </Link>
         <Link href="/chip">
-          <img src="./key-vertices-one.jpg" alt="Chip" />
+          <img src="/key-vertices-one.jpg" alt="Chip" />
         </Link>
         <Link href="/medical">
-          <img src="./key-vertices-two.jpg" alt="Medical" />
+          <img src="/key-vertices-two.jpg" alt="Medical" />
         </Link>
       </div>
       <div className="content">

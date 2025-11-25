@@ -50,7 +50,7 @@ export default function Page() {
         title="Ensures fewer breakdowns, lower costs, and higher uptime"
         subtitle="Predictive Maintenance for Reliability"
         description=""
-        imageSrc="../Predictive Maintenance for Reliability - Roles Under Page.jpg"
+        imageSrc="/Predictive Maintenance for Reliability - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -73,7 +73,7 @@ export default function Page() {
         title="Delivers measurable savings and optimized resource use"
         subtitle="Energy Strategy that Delivers ROI"
         description=""
-        imageSrc="../Energy Strategy that Delivers ROI - Roles Under Page.jpg"
+        imageSrc="/Energy Strategy that Delivers ROI - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -96,7 +96,7 @@ export default function Page() {
         title="Embeds accountability and amplifies efficiency efforts"
         subtitle="Employee Awareness & Training"
         description=""
-        imageSrc="../Employee Awareness & Training - Roles Under Page.jpg"
+        imageSrc="/Employee Awareness & Training - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -119,7 +119,7 @@ export default function Page() {
         title="Creates a structured path to efficiency and reduced costs"
         subtitle="Energy Audits & Efficiency Improvements "
         description=""
-        imageSrc="../Energy Audits & Efficiency Improvements - Roles Under Page.jpg"
+        imageSrc="/Energy Audits & Efficiency Improvements - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -142,7 +142,7 @@ export default function Page() {
         title="Prevents waste and ensures KPI compliance"
         subtitle="Real-Time Inefficiency Detection"
         description=""
-        imageSrc="../Real-Time Inefficiency Detection - Roles Under Page.jpg"
+        imageSrc="/Real-Time Inefficiency Detection - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -162,7 +162,7 @@ export default function Page() {
         title="ROI improvements often visible within months"
         subtitle="ROI & Cost Optimization"
         description=""
-        imageSrc="../ROI & Cost Optimization - Roles Under Page.jpg"
+        imageSrc="/ROI & Cost Optimization - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -185,7 +185,7 @@ export default function Page() {
         title=" Enables evidence-based decision-making"
         subtitle="Data Analysis & KPI Monitoring"
         description=""
-        imageSrc="../Data Analysis & KPI Monitoring - Roles Under Page.jpg"
+        imageSrc="/Data Analysis & KPI Monitoring - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -208,7 +208,7 @@ export default function Page() {
         title="Strengthens compliance and market positioning"
         subtitle="CO₂ Monitoring & Sustainability "
         description=""
-        imageSrc="../CO₂ Monitoring & Sustainability - Roles Under Page.jpg"
+        imageSrc="/CO₂ Monitoring & Sustainability - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {
@@ -231,7 +231,7 @@ export default function Page() {
         title="Reduces accidents and enhances reliability"
         subtitle="Safety Audits & Risk Reduction"
         description=""
-        imageSrc="../Safety Audits & Risk Reduction - Roles Under Page.jpg"
+        imageSrc="/Safety Audits & Risk Reduction - Roles Under Page.jpg"
         imageLeft={false}
         listItems={[
           {
@@ -254,7 +254,7 @@ export default function Page() {
         title="Targets improvements where they matter most"
         subtitle="Machine-Level Energy Intensity "
         description=""
-        imageSrc="../Machine-Level Energy Intensity - Roles Under Page.jpg"
+        imageSrc="/Machine-Level Energy Intensity - Roles Under Page.jpg"
         imageLeft={true}
         listItems={[
           {

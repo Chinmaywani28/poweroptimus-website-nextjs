@@ -24,21 +24,21 @@ const page = () => {
       <NewsAndEventsSection cards={[
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta',
-          image: '../news-one.png',
+          image: '/news-one.png',
           date: 'January 2, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
           link: '/news-and-events/news/news-details'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta',
-          image: '../news-two.png',
+          image: '/news-two.png',
           date: 'January 3, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
           link: '/news-and-events/news/news-details'
         },
         {
           title: 'antium nam labore dolor iure rerum. Dicta est dicta',
-          image: '../news-three.png',
+          image: '/news-three.png',
           date: 'January 4, 2025',
           description: 'prove air quality and decr Vitae incidunt omnis suscipit omnis natus non. Facilis non omnis id iure qui quaerat voluptate aliquam. Quis totam voluptatem maiores at explicabo architecto sed voluptatem laudantium. Vitae similique totam....',
           link: '/news-and-events/news/news-details'

@@ -67,23 +67,23 @@ export const KeyVerticesTwo = () => {
         <div className='left-img-masonry-container'>
           <div className="left-img-masonry">
             <Link href="/industry">
-              <img src="./key-vertices-one.jpg" alt="Industry" />
+              <img src="/key-vertices-one.jpg" alt="Industry" />
             </Link>
             <Link href="/chip">
-              <img src="./ky-vertices-threee.jpg" alt="Chip" />
+              <img src="/ky-vertices-threee.jpg" alt="Chip" />
             </Link>
             <Link href="/robotics">
-              <img src="./Food&Beverage_KeyVerticals_Image.jpg" alt="Robotics" />
+              <img src="/Food&Beverage_KeyVerticals_Image.jpg" alt="Robotics" />
             </Link>
             
             <Link href="/medical">
-              <img src="./Pharmaceutical_KeyVerticals_Image.jpg" alt="Medicalkkk" />
+              <img src="/Pharmaceutical_KeyVerticals_Image.jpg" alt="Medicalkkk" />
             </Link>
             <Link href="/energy">
-              <img src="./ky-vertices-four.jpg" alt="Energy" />
+              <img src="/ky-vertices-four.jpg" alt="Energy" />
             </Link>
             <Link href="/ai">
-              <img src="./key-vertical-six.jpg" alt="AI" />
+              <img src="/key-vertical-six.jpg" alt="AI" />
             </Link>
           </div>
         </div>

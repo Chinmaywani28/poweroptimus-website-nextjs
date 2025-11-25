@@ -9,7 +9,7 @@ type CardData = {
   description?: string;
   date: string;
   linkText: string;
-  linkHref: string;
+  linkHref?: string;
 };
 
 type Props = {

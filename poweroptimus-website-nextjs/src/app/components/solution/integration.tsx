@@ -14,7 +14,7 @@ const Integration = () => {
       </div>
       <div className="integration-image-wrapper">
         <img
-          src="./integration.png"
+          src="/integration.png"
           alt="Integration Visual"
           className="integration-image"
         />

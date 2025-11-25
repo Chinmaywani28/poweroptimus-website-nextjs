@@ -1,38 +1,16 @@
 {
-  "targets": {
-    "poweroptimus-stage": {
-      "hosting": {
-        "stage": [
-          "poweroptimus-stage"
-        ]
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
-    },
-    "poweroptimus-prod": {
-      "hosting": {
-        "prod": [
-          "poweroptimus-prod"
-        ]
-      }
-    }
-  },
-  "hosting": [
-    {
-      "target": "stage",
-      "public": "out",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    },
-    {
-      "target": "prod",
-      "public": "out",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    }
-  ]
+    ]
+  }
 }

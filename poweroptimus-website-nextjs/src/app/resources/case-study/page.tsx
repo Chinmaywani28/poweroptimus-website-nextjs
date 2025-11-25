@@ -24,7 +24,7 @@ const page = () => {
       <CardGridSection
         cards={[
           {
-            imageSrc: '../resources-case-study-one.png',
+            imageSrc: '/resources-case-study-one.png',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
@@ -32,7 +32,7 @@ const page = () => {
             linkHref: '/resources/case-study/case-study-details',
           },
           {
-            imageSrc: '../resources-case-study-two.png',
+            imageSrc: '/resources-case-study-two.png',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',
@@ -40,7 +40,7 @@ const page = () => {
             linkHref: '/resources/case-study/case-study-details',
           },
           {
-            imageSrc: '../resources-case-study-three.png',
+            imageSrc: '/resources-case-study-three.png',
             title: 'More productive with an atmosphere',
             description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'January 1, 2025',

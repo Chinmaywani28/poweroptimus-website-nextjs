@@ -30,7 +30,7 @@ const page = () => {
             id: 1,
             title: 'Solar Optimization',
             content: 'Track energy usage in real time.',
-            image: '../resources-brochure.png',
+            image: '/resources-brochure.png',
           },
           // {
           //   id: 2,
