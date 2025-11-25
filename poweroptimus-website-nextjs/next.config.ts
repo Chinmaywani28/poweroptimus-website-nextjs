@@ -12,7 +12,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",              // ⭐ REQUIRED for static hosting
-  // trailingSlash: true,           // ⭐ Firebase Hosting needs trailing slash
+  trailingSlash: true,           // ⭐ Firebase Hosting needs trailing slash
   // images: {
   //   unoptimized: true,           // REQUIRED for export when using <Image />
   // },

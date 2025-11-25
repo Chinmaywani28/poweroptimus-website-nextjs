@@ -34,12 +34,12 @@ const ProcessDiagramTwo = () => {
   // ];
 
   const images = [
-    "Implementation Process-1.png",
-    "Implementation Process-2.png",
-    "Implementation Process-3.png",
-    "Implementation Process-4.png",
-    "Implementation Process-5.png",
-    "Implementation Process-6.png",
+    "/Implementation Process-1.png",
+    "/Implementation Process-2.png",
+    "/Implementation Process-3.png",
+    "/Implementation Process-4.png",
+    "/Implementation Process-5.png",
+    "/Implementation Process-6.png",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
