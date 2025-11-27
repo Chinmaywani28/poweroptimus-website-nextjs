@@ -11,11 +11,12 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",              // ⭐ REQUIRED for static hosting
-  trailingSlash: true,           // ⭐ Firebase Hosting needs trailing slash
-  // images: {
-  //   unoptimized: true,           // REQUIRED for export when using <Image />
-  // },
+  // output: "export",              // ⭐ REQUIRED for static hosting
+  output: "standalone",
+  // trailingSlash: true,           // ⭐ Firebase Hosting needs trailing slash
+  images: {
+    unoptimized: true,           // REQUIRED for export when using <Image />
+  },
   // experimental: {
   //   typedRoutes: false,
   // },
