@@ -14,9 +14,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Employee Awareness Training',
       label2: 'Energy Management',
       label3: 'Predictive Maintenance',
-      tagPath1: '/roles/roles-cap/#embeds',
-      tagPath2: '/roles/roles-cap/#create',
-      tagPath3: '/roles/roles-cap/#ensure'
+      tagPath1: '/roles/responsibilities/#employee-awareness',
+      tagPath2: '/roles/responsibilities/#energy-audits',
+      tagPath3: '/roles/responsibilities/#predictive-maintenance'
     },
     {
       img: "/Operation Heads  Image.jpg",
@@ -25,9 +25,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Sustainability and ESG Analysis',
       label2: 'Data Analysis',
       label3: 'Efficiency Improvements',
-      tagPath1: '/roles/roles-cap/#strengthens',
-      tagPath2: '/roles/roles-cap/#enable',
-      tagPath3: '/roles/roles-cap/#create'
+      tagPath1: '/roles/responsibilities/#co2-monitoring',
+      tagPath2: '/roles/responsibilities/#data-analysis',
+      tagPath3: '/roles/responsibilities/#energy-audits'
     },
     {
       img: "/Energy managers Image.jpg",
@@ -36,9 +36,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Detects Operational Inefficiencies',
       label2: 'Energy Audits',
       label3: 'ROI Improvement',
-      tagPath1: '/roles/roles-cap/#prevent',
-      tagPath2: '/roles/roles-cap/#create',
-      tagPath3: '/roles/roles-cap/#roi'
+      tagPath1: '/roles/responsibilities/#real-time',
+      tagPath2: '/roles/responsibilities/#energy-audits',
+      tagPath3: '/roles/responsibilities/#roi'
     },
     {
       img: "/C-Executives Image.jpg",
@@ -47,9 +47,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Sustainability and ESG Analysis',
       label2: 'ROI Improvement',
       label3: 'Data Analysis',
-      tagPath1: '/roles/roles-cap/#strengthens',
-      tagPath2: '/roles/roles-cap/#roi',
-      tagPath3: '/roles/roles-cap/#enable'
+      tagPath1: '/roles/responsibilities/#co2-monitoring',
+      tagPath2: '/roles/responsibilities/#roi',
+      tagPath3: '/roles/responsibilities/#data-analysis'
     },
     {
       img: "/EHS Image.jpg",
@@ -58,9 +58,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Co2 Emissions Monitoring',
       label2: 'Safety Audits',
       label3: 'Sustainability and ESG Analysis',
-      tagPath1: '/roles/roles-cap/#strengthens',
-      tagPath2: '/roles/roles-cap/#reduce',
-      tagPath3: '/roles/roles-cap/#strengthens'
+      tagPath1: '/roles/responsibilities/#co2-monitoring',
+      tagPath2: '/roles/responsibilities/#safety-audits',
+      tagPath3: '/roles/responsibilities/#co2-monitoring'
     },
     {
       img: "/Production manager  Image.jpg",
@@ -69,9 +69,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Machine Energy Intensity',
       label2: 'Predictive Maintenance',
       label3: 'Operation Inefficiencies',
-      tagPath1: '/roles/roles-cap/#targets',
-      tagPath2: '/roles/roles-cap/#ensure',
-      tagPath3: '/roles/roles-cap/#create'
+      tagPath1: '/roles/responsibilities/#machine-levels',
+      tagPath2: '/roles/responsibilities/#predictive-maintenance',
+      tagPath3: '/roles/responsibilities/#energy-audits'
     },
     {
       img: "/Health Inspectors Image.jpg",
@@ -84,9 +84,9 @@ const RolesCapCarousel = ( ) => {
       label1: 'Real-Time Usage Insights',
       label2: 'Predictive Maintenance Alerts',
       label3: 'Environmental Impact',
-      tagPath1: '/roles/roles-cap/#prevent',
-      tagPath2: '/roles/roles-cap/#ensure',
-      tagPath3: '/roles/roles-cap/#strengthens'
+      tagPath1: '/roles/responsibilities/#real-time',
+      tagPath2: '/roles/responsibilities/#predictive-maintenance',
+      tagPath3: '/roles/responsibilities/#co2-monitoring'
     }
   ];
   

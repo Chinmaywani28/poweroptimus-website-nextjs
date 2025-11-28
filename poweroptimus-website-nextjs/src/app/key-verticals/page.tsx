@@ -40,9 +40,9 @@ const page = () => {
         label2="HVAC"
         label3="Boiler Optimization"
         showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#compress"
-        tagPath2="/key-verticals/key-vertical-cap/#adv"
-        tagPath3="/key-verticals/key-vertical-cap/#keep"
+        tagPath1="/key-verticals/capabilities/#compressor-management"
+        tagPath2="/key-verticals/capabilities/#advanced-hvac"
+        tagPath3="/key-verticals/capabilities/#boiler-optimization"
       />
 
       <FacilitySections
@@ -54,9 +54,9 @@ const page = () => {
         label2="Energy Monitoring"
         label3="Compressor Management"
         showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#adv"
-        tagPath2="/key-verticals/key-vertical-cap/#air"
-        tagPath3="/key-verticals/key-vertical-cap/#compress"
+        tagPath1="/key-verticals/capabilities/#advanced-hvac"
+        tagPath2="/key-verticals/capabilities/#air-quality"
+        tagPath3="/key-verticals/capabilities/#compressor-management"
 
       />
 
@@ -68,9 +68,9 @@ const page = () => {
         label2="HVAC"
         label3="Boiler Optimization"
         showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#air"
-        tagPath2="/key-verticals/key-vertical-cap/#adv"
-        tagPath3="/key-verticals/key-vertical-cap/#keep"
+        tagPath1="/key-verticals/capabilities/#air-quality"
+        tagPath2="/key-verticals/capabilities/#advanced-hvac"
+        tagPath3="/key-verticals/capabilities/#boiler-optimization"
 
       />
 
@@ -83,9 +83,9 @@ const page = () => {
         label2="Occupancy Monitoring"
         label3="HVAC"
          showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#haz"
-        tagPath2="/key-verticals/key-vertical-cap/#occu"
-        tagPath3="/key-verticals/key-vertical-cap/#adv"
+        tagPath1="/key-verticals/capabilities/#hazardous-gas"
+        tagPath2="/key-verticals/capabilities/#occu"
+        tagPath3="/key-verticals/capabilities/#advanced-hvac"
 
       />
 
@@ -98,9 +98,9 @@ const page = () => {
         label2="Hazardous Gas Monitoring"
         label3="Air Quality Monitoring"
         showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#adv"
-        tagPath2="/key-verticals/key-vertical-cap/#haz"
-        tagPath3="/key-verticals/key-vertical-cap/#air"
+        tagPath1="/key-verticals/capabilities/#advanced-hvac"
+        tagPath2="/key-verticals/capabilities/#hazardous-gas"
+        tagPath3="/key-verticals/capabilities/#air-quality"
 
       />
 
@@ -113,9 +113,9 @@ const page = () => {
         label2="Hazardous Gas Monitoring"
         label3="HVAC"
         showList={false}
-        tagPath1="/key-verticals/key-vertical-cap/#keep"
-        tagPath2="/key-verticals/key-vertical-cap/#haz"
-        tagPath3="/key-verticals/key-vertical-cap/#adv"
+        tagPath1="/key-verticals/capabilities/#boiler-optimization"
+        tagPath2="/key-verticals/capabilities/#hazardous-gas"
+        tagPath3="/key-verticals/capabilities/#advanced-hvac"
 
       />
 

@@ -93,10 +93,10 @@
       "namedRegex": "^/key\\-verticals(?:/)?$"
     },
     {
-      "page": "/key-verticals/key-vertical-cap",
-      "regex": "^/key\\-verticals/key\\-vertical\\-cap(?:/)?$",
+      "page": "/key-verticals/capabilities",
+      "regex": "^/key\\-verticals/capabilities(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/key\\-verticals/key\\-vertical\\-cap(?:/)?$"
+      "namedRegex": "^/key\\-verticals/capabilities(?:/)?$"
     },
     {
       "page": "/news-and-events/events",
@@ -165,10 +165,10 @@
       "namedRegex": "^/roles(?:/)?$"
     },
     {
-      "page": "/roles/roles-cap",
-      "regex": "^/roles/roles\\-cap(?:/)?$",
+      "page": "/roles/responsibilities",
+      "regex": "^/roles/responsibilities(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/roles/roles\\-cap(?:/)?$"
+      "namedRegex": "^/roles/responsibilities(?:/)?$"
     },
     {
       "page": "/solution",
