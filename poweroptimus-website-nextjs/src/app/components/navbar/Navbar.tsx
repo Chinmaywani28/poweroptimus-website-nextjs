@@ -114,11 +114,11 @@ const Navbar = () => {
               </span>
               {isDropdownOpen && (
                 <ul className="dropdown-menu">
-                  <li><Link href="/resources/blogs">Blog</Link></li>
+                  <li><Link href="/resources/blogs">Blogs</Link></li>
                   {/* <li><Link href="/resources/case-study">Case Study</Link></li> */}
-                  <li><Link href="/resources/webinar">Webinar</Link></li>
-                  <li><Link href="/resources/video">Video</Link></li>
-                  <li><Link href="/resources/brochure">Brochure</Link></li>
+                  <li><Link href="/resources/webinar">Webinars</Link></li>
+                  <li><Link href="/resources/video">Videos</Link></li>
+                  <li><Link href="/resources/brochure">Brochures</Link></li>
                 </ul>
               )}
             </div>

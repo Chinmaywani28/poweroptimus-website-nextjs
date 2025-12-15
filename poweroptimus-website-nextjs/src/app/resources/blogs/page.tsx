@@ -53,7 +53,7 @@ const page = () => {
 
       <Hero headerText={"Explore Blogs"} bodyText={
           "Your destination for a wide range of insightful topics, innovative ideas, and thought-provoking articles. Whether you seek to expand your knowledge, gain inspiration, or stay informed on the latest developments, our curated content is designed to engage, enlighten, and add value for people across industries."
-      } image='/Resources_Blogs_Vector_Image.svg' />
+      } image='/Resource_Blogs_Header_Vector_Image.svg' />
 
       {/* <CardGridSection
         cards={[

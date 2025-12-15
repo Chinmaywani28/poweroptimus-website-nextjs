@@ -55,7 +55,9 @@ export default function RootLayout({
     
     <html lang="en">
       <body>
-
+        <head>
+          <meta name="p:domain_verify" content="dd0368ec4340b715ce66fe9c9f63103f"/>
+        </head>
         <I18nProvider>
           {/* <LayoutWrapper>
             {children}

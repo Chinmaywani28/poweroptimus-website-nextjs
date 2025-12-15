@@ -132,7 +132,7 @@
   width: 100%;
 }
 
-.left-img-masonry a {
+.left-img-masonry div {
   break-inside: avoid;
   display: block;
   margin-bottom: 24px;

@@ -19,7 +19,7 @@ const page = () => {
 
       <Hero headerText={"Watch, Learn, and Stay Ahead"} bodyText={
           "Our video library brings you expert insights, case studies, and practical strategies from industry leaders. Explore sessions on energy optimization, smart operations, predictive maintainence, and digital transformation designed to help you make informed decisions and drive measurable results. Access both live recordings and on-demand webinars anytime, anywhere."
-      } image='/Resources_Videos_Vector_Image.svg' />
+      } image='/Resource_Videos_Header_Vector_Image.svg' />
 
       <VideoGridSection
         cards={[

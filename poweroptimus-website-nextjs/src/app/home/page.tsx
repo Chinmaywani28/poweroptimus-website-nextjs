@@ -20,8 +20,6 @@
 // export default Homepage;
 
 
-
-
 "use client"
 import Navbar from '../components/navbar/Navbar';
 import HomeMainContent from '../components/home-main-content/home-main-content'

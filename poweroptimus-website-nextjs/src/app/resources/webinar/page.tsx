@@ -59,7 +59,7 @@ const page = () => {
 
       <Hero headerText={"Webinar Hub – Learn, Engage, Transform"} bodyText={
           "Welcome to our Webinar Hub, your go-to destination for expert insights, industry trends, and practical strategies. From energy optimization and smart asset management to construction quality and digital transformation, our sessions bring together thought leaders, innovators, and practitioners to share knowledge that matters."
-      } image='/Resource_Webinar_Vector_Image.svg' />
+      } image='/Resource_Webinar_Header_Vector_Image.svg' />
 
       {/* <CardGridSection
         cards={[

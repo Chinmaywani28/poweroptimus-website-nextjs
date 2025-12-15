@@ -66,25 +66,25 @@ export const KeyVerticesTwo = () => {
         {/* === Left Side: Masonry-style image grid === */}
         <div className='left-img-masonry-container'>
           <div className="left-img-masonry">
-            <Link href="/industry">
+            <div >
               <img src="/key-vertices-one.jpg" alt="Industry" />
-            </Link>
-            <Link href="/chip">
+            </div>
+            <div >
               <img src="/ky-vertices-threee.jpg" alt="Chip" />
-            </Link>
-            <Link href="/robotics">
+            </div>
+            <div >
               <img src="/Food&Beverage_KeyVerticals_Image.jpg" alt="Robotics" />
-            </Link>
+            </div>
             
-            <Link href="/medical">
+            <div >
               <img src="/Pharmaceutical_KeyVerticals_Image.jpg" alt="Medicalkkk" />
-            </Link>
-            <Link href="/energy">
+            </div>
+            <div >
               <img src="/ky-vertices-four.jpg" alt="Energy" />
-            </Link>
-            <Link href="/ai">
+            </div>
+            <div >
               <img src="/key-vertical-six.jpg" alt="AI" />
-            </Link>
+            </div>
           </div>
         </div>
 

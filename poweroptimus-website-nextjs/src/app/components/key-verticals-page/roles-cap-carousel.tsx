@@ -30,7 +30,7 @@ const RolesCapCarousel = ( ) => {
       tagPath3: '/roles/responsibilities/#energy-audits'
     },
     {
-      img: "/Energy managers Image.jpg",
+      img: "/Energy Managers.jpg",
       title: "Energy Managers",
       text: `Energy Managers focus on reducing consumption, improving efficiency, and driving sustainability across operations. Their role has become increasingly strategic and data-driven, requiring tools that provide both depth and clarity. PowerOptimus equips energy managers with granular, circuit-level monitoring and historical data, helping them identify inefficiencies through trend analysis and consumption patterns. The platform also enables benchmarking across different departments or locations, ensuring fair comparisons and actionable insights. By supporting compliance with ISO 50001 and other energy management frameworks, our solutions help energy managers achieve both organizational and regulatory sustainability goals.`,
       label1: 'Detects Operational Inefficiencies',
@@ -52,7 +52,7 @@ const RolesCapCarousel = ( ) => {
       tagPath3: '/roles/responsibilities/#data-analysis'
     },
     {
-      img: "/EHS Image.jpg",
+      img: "/EHS Heads.jpg",
       title: "EHS(Environmental Health & Safety) Heads",
       text: `EHS leaders focus on sustainability, compliance, and reducing the environmental footprint of operations. Their responsibilities often extend to tracking emissions, reporting under frameworks like ISO 14001, and ensuring adherence to internal and external sustainability standards. PowerOptimus helps EHS heads by automatically tracking carbon emissions and energy intensity metrics, simplifying GHG reporting and compliance documentation. The platform provides visibility into sustainability KPIs across sites and teams, and it drives behavioural change by making progress transparent and actionable. This not only ensures compliance but also embeds sustainability into the daily culture of operations.`,
       label1: 'Co2 Emissions Monitoring',
@@ -63,7 +63,7 @@ const RolesCapCarousel = ( ) => {
       tagPath3: '/roles/responsibilities/#co2-monitoring'
     },
     {
-      img: "/Production manager  Image.jpg",
+      img: "/Production Managers.jpg",
       title: "Production Managers",
       text: `Production Managers are under constant pressure to maximize throughput, quality, and uptime, often balancing trade-offs between productivity and energy use. PowerOptimus helps them strike this balance by linking machine-level energy data with production metrics, making inefficiencies visible during idle, peak, or off-peak hours. By supporting lean manufacturing through energy-aware scheduling, the platform ensures that processes run with minimal waste and maximum efficiency. This allows production managers to maintain output targets while reducing unnecessary energy expenditure, achieving both operational and sustainability objectives.`,
       label1: 'Machine Energy Intensity',

@@ -1,3 +1,20 @@
+// export const metadata = {
+//   title: "Solutions | powerJiOptimus",
+//   description: "See how Construct Monitor solves real construction management problems.",
+//   openGraph: {
+//     title: "Solutions | Construct Monitor",
+//     description: "Smart, real-time construction monitoring and project insights.",
+//     url: "https://constructmonitor.online/solution",
+//     images: ["/og-solution.png"],
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//   },
+// };
+
+
+
+
 import React from 'react'
 import './page.css'
 // import Hero from '../components/solution/hero'

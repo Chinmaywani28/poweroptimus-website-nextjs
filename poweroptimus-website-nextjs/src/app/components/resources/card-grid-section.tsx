@@ -28,7 +28,7 @@ export const CardGridSection = ({cards}: Props) => {
             <div className="body2 marTopGlobal">{card.description}</div>
             <div className={styles["card-footer"]}>
               <span className="body2" style={{color: '#666'} }>{card.date}</span>
-              <Link href={card.linkHref} className={`${styles["card-link"]} body2`}>
+              <Link href={card.linkHref} className={`${styles["card-link"]} body2`} target="_blank">
                 {card.linkText} <span className="body2">→</span>
               </Link>
             </div>
@@ -37,6 +37,25 @@ export const CardGridSection = ({cards}: Props) => {
       </div>
     </section>
 
+
+    // <section
+    // className={styles["card-grid-section"]}>
+    //   <Link href={card.linkHref} className={styles["card-grid"]}>
+    //     {cards.map((card: any, index:any) => (
+    //       <div className={styles["card"]} key={index}>
+    //         <img src={card.imageSrc} alt={card.title} className={styles["card-image"]}/>
+    //         <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
+    //         <div className="body2 marTopGlobal">{card.description}</div>
+    //         <div className={styles["card-footer"]}>
+    //           <span className="body2" style={{color: '#666'} }>{card.date}</span>
+    //           <Link href={card.linkHref} className={`${styles["card-link"]} body2`} target="_blank">
+    //             {card.linkText} <span className="body2">→</span>
+    //           </Link>
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </Link>
+    // </section>
 
 
   );
