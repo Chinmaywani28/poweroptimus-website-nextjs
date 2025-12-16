@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://poweroptimus.com
+
+# Sitemaps
+Sitemap: https://poweroptimus.com/sitemap.xml
