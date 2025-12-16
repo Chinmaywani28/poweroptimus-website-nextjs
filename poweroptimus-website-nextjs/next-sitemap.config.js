@@ -11,6 +11,8 @@ module.exports = {
     const staticRoutes = [
       // "/",
       "/solution",
+      "/key-verticals",
+      "/key-verticals/capabilities/#air-quality",
       "/key-verticals/capabilities/#hazardous-gas",
       "/key-verticals/capabilities/#sustainability",
       "/key-verticals/capabilities/#boiler-optimization",
