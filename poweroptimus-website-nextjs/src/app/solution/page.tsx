@@ -43,7 +43,7 @@ const page = () => {
     {/* <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/> */}
 
 
-    <Hero headerText={"PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring"} bodyText={
+    <Hero headerText={"PowerOptimus – A Smart Energy Management and Environmental Monitoring Solution"} bodyText={
           "PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems."
       } image={'/Solution_Header_500x500px 2.svg'} />
 

@@ -104,7 +104,7 @@ const FeatureSection = () => {
       },
       {
         title: 'Power Quality Monitoring ',
-        desc: 'Ensure a reliable and efficient power supply by monitoring critical parameters like power factor, harmonics & frequency. These insights help avoid penalties due to poor power quality, prevent excessive energy demand charges,& prolong the lifespan of sensitive equipment. PowerOptimus provides in-depth power quality analysis that is essential for any Energy Management System & environmental sustainability.'
+        desc: 'Ensure a reliable and efficient power supply by monitoring critical parameters like power factor, harmonics & frequency. These insights help avoid penalties due to poor power quality, prevent excessive energy demand charges,& prolong the lifespan of sensitive equipment. PowerOptimus provides in-depth power quality analysis that is essential for any energy management solution & environmental sustainability.'
       },
       {
         title: 'Setpoints Monitoring ',

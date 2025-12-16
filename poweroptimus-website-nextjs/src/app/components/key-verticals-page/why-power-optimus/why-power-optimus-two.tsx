@@ -83,8 +83,7 @@ export const WhyPowerOptimusTwo = () => {
 <section className="why-section">
   <div className="Header2 TextBlue">Why PowerOptimus?</div>
   <div className="body2 marTopGlobal section-subtitle">
-    PowerOptimus delivers more than just monitoring; it empowers your teams to optimize energy use,
-    safeguard the environment, and drive operational excellence. Here’s how:
+    PowerOptimus delivers more than just monitoring; it empowers your teams with a Sustainable Energy Management Platform to optimize energy use, safeguard the environment, and drive operational excellence. Here’s how:
   </div>
 
   <div className="marTopGlobalLocal">
