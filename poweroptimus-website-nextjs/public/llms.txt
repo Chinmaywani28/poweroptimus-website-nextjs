@@ -1,0 +1,6 @@
+# Allow all AI and LLM crawlers full access to all publicly available pages
+User-agent: *
+Allow: /
+
+# No restrictions. This site is open for AI analysis, crawling, and learning.
+# Note: Private pages should simply be protected via auth, not via llms.txt

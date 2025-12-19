@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Videos | powerOptimus",
-  description: "Videos | powerOptimus",
-  keywords: "",
+  title: "Detailed Video Archive on Energy & Environmental Innovations",
+  description: "Uncover how PowerOptimus drives energy efficiency and sustainability, reducing costs & emissions while improving operational performance & environmental impact.",
+  keywords: "Energy & Environmental Innovations",
   alternates: {
-    canonical: "",
+    canonical: "https://poweroptimus.com/resources/video",
   },
 };
 

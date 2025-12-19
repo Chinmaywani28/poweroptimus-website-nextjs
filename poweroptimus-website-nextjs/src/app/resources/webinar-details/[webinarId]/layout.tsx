@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Webinar-details | powerOptimus",
-  description: "Webinar-details | powerOptimus",
-  keywords: "",
+  title: "Connecting Energy Monitoring, Predictive Maintenance & Sustainability",
+  description: "Transform your enterprise with integrated energy and environmental technology - reducing costs, boosting resilience, and meeting sustainability targets.",
+  keywords: ["Connecting Energy Monitoring","Predictive Maintenance & Sustainability"],
   alternates: {
-    canonical: "",
+    canonical: "https://poweroptimus.com/resources/webinar-details/Connecting-Energy-Monitoring-Predictive-Maintenance-and-Sustainability-for-Resilient-Operations",
   },
 };
 

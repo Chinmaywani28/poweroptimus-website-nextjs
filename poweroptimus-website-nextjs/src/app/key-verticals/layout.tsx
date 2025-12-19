@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "key-verticals | powerOptimus",
-  description: "key-verticals | powerOptimus",
-  keywords: "",
+  title: "Sustainable Energy Management Platform for Industries | PowerOptimus",
+  description: "Discover how our sustainable energy management platform empowers organizations to boost operational efficiency and achieve lasting results today.",
+  keywords: "sustainable energy management platform",
   alternates: {
-    canonical: "",
+    canonical: "https://poweroptimus.com/key-verticals"
   },
 };
 

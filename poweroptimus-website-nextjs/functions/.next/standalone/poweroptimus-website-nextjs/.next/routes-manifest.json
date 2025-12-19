@@ -176,6 +176,12 @@
       "namedRegex": "^/roles/responsibilities(?:/)?$"
     },
     {
+      "page": "/sitemap",
+      "regex": "^/sitemap(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap(?:/)?$"
+    },
+    {
       "page": "/solution",
       "regex": "^/solution(?:/)?$",
       "routeKeys": {},
