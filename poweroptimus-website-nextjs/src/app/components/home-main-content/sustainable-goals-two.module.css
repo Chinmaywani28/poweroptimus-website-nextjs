@@ -1,0 +1,92 @@
+/* Section wrapper */
+.section {
+  padding: 40px 20px;
+  background-color: #f5f6f8;
+}
+
+.sectionName{
+  padding: 0px 11.5%
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  padding: 0px 11.5%;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+}
+
+/* Card */
+.card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 60px;
+  border: 2px solid #0b5ed7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  /* border: 2px solid transparent; */
+}
+
+/* Active card (blue border like screenshot) */
+/* .activeCard {
+  border-color: #1a73e8;
+} */
+
+/* Title */
+.title {
+  color: #0b5ed7;
+  /* font-size: 20px; */
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Description text */
+.description {
+  /* font-size: 15px; */
+  line-height: 1.6;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+/* Impact line */
+.impact {
+  /* font-size: 14px; */
+  color: #333333;
+}
+
+.impact span {
+  font-weight: 700;
+}
+
+/* -------------------- */
+/* RESPONSIVE BREAKPOINTS */
+/* -------------------- */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

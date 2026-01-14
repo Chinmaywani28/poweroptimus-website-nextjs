@@ -134,10 +134,10 @@
       "namedRegex": "^/resources/blogs(?:/)?$"
     },
     {
-      "page": "/resources/brochure",
-      "regex": "^/resources/brochure(?:/)?$",
+      "page": "/resources/brochures",
+      "regex": "^/resources/brochures(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/resources/brochure(?:/)?$"
+      "namedRegex": "^/resources/brochures(?:/)?$"
     },
     {
       "page": "/resources/case-study",
@@ -152,16 +152,16 @@
       "namedRegex": "^/resources/case\\-study/case\\-study\\-details(?:/)?$"
     },
     {
-      "page": "/resources/video",
-      "regex": "^/resources/video(?:/)?$",
+      "page": "/resources/videos",
+      "regex": "^/resources/videos(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/resources/video(?:/)?$"
+      "namedRegex": "^/resources/videos(?:/)?$"
     },
     {
-      "page": "/resources/webinar",
-      "regex": "^/resources/webinar(?:/)?$",
+      "page": "/resources/webinars",
+      "regex": "^/resources/webinars(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/resources/webinar(?:/)?$"
+      "namedRegex": "^/resources/webinars(?:/)?$"
     },
     {
       "page": "/roles",

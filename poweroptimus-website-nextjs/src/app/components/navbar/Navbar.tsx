@@ -116,9 +116,9 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link href="/resources/blogs">Blogs</Link></li>
                   {/* <li><Link href="/resources/case-study">Case Study</Link></li> */}
-                  <li><Link href="/resources/webinar">Webinars</Link></li>
-                  <li><Link href="/resources/video">Videos</Link></li>
-                  <li><Link href="/resources/brochure">Brochures</Link></li>
+                  <li><Link href="/resources/webinars">Webinars</Link></li>
+                  <li><Link href="/resources/videos">Videos</Link></li>
+                  <li><Link href="/resources/brochures">Brochures</Link></li>
                 </ul>
               )}
             </div>

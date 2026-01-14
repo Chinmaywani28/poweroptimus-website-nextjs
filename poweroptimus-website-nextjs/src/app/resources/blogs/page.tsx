@@ -31,8 +31,9 @@ const page = () => {
     }, [loadBlogs])
 
      const cards = blogs.map((b: any) => ({
-       imageSrc: b.image || "/default-blog.png",
-       title: b.title,
+      //  imageSrc: b.image || "/default-blog.png",
+      imageSrc: "/resource-blog-image.jpg",
+      title: b.title,
        description: b.metaDescription || "",
        date: b.date || "Nov 25",
        linkText: "Read More",

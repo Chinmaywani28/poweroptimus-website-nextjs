@@ -19,6 +19,9 @@ import { KeyVerticesTwo } from './key-vertices two/key-vertices-two';
 import { FormSection } from './form-section/form-section';
 import SolFeatureBtmSection from '../solution/sol-feature-btm-section';
 import SustainableDev from './sustainable-dev';
+import SustainableGoals from './sustainable-goals';
+import SustainableGoalsTwo from './sustainable-goals-two';
+import SustainableGoalsThree from './sustainable-goals-three';
 
 
 
@@ -36,6 +39,12 @@ const HomeMainContent = () => {
       {/* slider */}
       
       <SustainableDev/>
+
+      <SustainableGoals/>
+      {/* <SustainableGoalsTwo/> */}
+      {/* <SustainableGoalsThree/> */}
+
+
       
 
       <Slider/>

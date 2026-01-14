@@ -171,10 +171,10 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
-// Validate ../../src/app/resources/brochure/page.tsx
+// Validate ../../src/app/resources/brochures/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/resources/brochure">> = Specific
-  const handler = {} as typeof import("../../src/app/resources/brochure/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/resources/brochures">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/brochures/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -198,10 +198,10 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
-// Validate ../../src/app/resources/video/page.tsx
+// Validate ../../src/app/resources/videos/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/resources/video">> = Specific
-  const handler = {} as typeof import("../../src/app/resources/video/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/resources/videos">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/videos/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -216,10 +216,10 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
-// Validate ../../src/app/resources/webinar/page.tsx
+// Validate ../../src/app/resources/webinars/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/resources/webinar">> = Specific
-  const handler = {} as typeof import("../../src/app/resources/webinar/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/resources/webinars">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/webinars/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -312,19 +312,19 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
-// Validate ../../src/app/resources/brochure/layout.tsx
+// Validate ../../src/app/resources/brochures/layout.tsx
 {
-  type __IsExpected<Specific extends LayoutConfig<"/resources/brochure">> = Specific
-  const handler = {} as typeof import("../../src/app/resources/brochure/layout.js")
+  type __IsExpected<Specific extends LayoutConfig<"/resources/brochures">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/brochures/layout.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../src/app/resources/video/layout.tsx
+// Validate ../../src/app/resources/videos/layout.tsx
 {
-  type __IsExpected<Specific extends LayoutConfig<"/resources/video">> = Specific
-  const handler = {} as typeof import("../../src/app/resources/video/layout.js")
+  type __IsExpected<Specific extends LayoutConfig<"/resources/videos">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/videos/layout.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -339,10 +339,10 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
-// Validate ../../src/app/resources/webinar/layout.tsx
+// Validate ../../src/app/resources/webinars/layout.tsx
 {
-  type __IsExpected<Specific extends LayoutConfig<"/resources/webinar">> = Specific
-  const handler = {} as typeof import("../../src/app/resources/webinar/layout.js")
+  type __IsExpected<Specific extends LayoutConfig<"/resources/webinars">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/webinars/layout.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

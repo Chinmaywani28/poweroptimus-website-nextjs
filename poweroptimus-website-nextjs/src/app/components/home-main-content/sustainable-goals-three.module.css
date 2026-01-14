@@ -1,0 +1,131 @@
+/* Main section */
+.section {
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+/* Grid layout */
+.grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  gap: 24px;
+}
+
+/* Individual card */
+.card {
+  border: 3px solid #004c97;
+  border-radius: 40px;
+  padding: 24px;
+  background: #fff;
+}
+
+/* Card title */
+.card h3 {
+  color: #004c97;
+  margin-bottom: 12px;
+}
+
+/* Impact text */
+.impact {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/* Center SDG container */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SDG circle */
+.circle {
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: #004c97;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================= */
+/* MOBILE (≤600px) */
+/* ========================= */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========================= */
+/* TABLET (601–900px) */
+/* ========================= */
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .center {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ========================= */
+/* LAPTOP (901–1200px) */
+/* ========================= */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .center {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ========================= */
+/* DESKTOP (1201px+) */
+/* ========================= */
+/* ========================= */
+/* DESKTOP (1201px+) */
+/* ========================= */
+@media (min-width: 1201px) {
+  .grid {
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+  }
+
+  /* Position cards */
+  .grid > .card:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .grid > .card:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .grid > .center {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .grid > .card:nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .grid > .card:nth-child(5) {
+    grid-column: 3;
+    grid-row: 3;
+  }
+}
+

@@ -18,29 +18,9 @@ type Props = {
 
 export const CardGridSection = ({cards}: Props) => {
   return (
-    <section
-    className={styles["card-grid-section"]}>
-      <div className={styles["card-grid"]}>
-        {cards.map((card: any, index:any) => (
-          <div className={styles["card"]} key={index}>
-            <img src={card.imageSrc} alt={card.title} className={styles["card-image"]}/>
-            <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
-            <div className="body2 marTopGlobal">{card.description}</div>
-            <div className={styles["card-footer"]}>
-              <span className="body2" style={{color: '#666'} }>{card.date}</span>
-              <Link href={card.linkHref} className={`${styles["card-link"]} body2`} target="_blank">
-                {card.linkText} <span className="body2">→</span>
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-
-
     // <section
     // className={styles["card-grid-section"]}>
-    //   <Link href={card.linkHref} className={styles["card-grid"]}>
+    //   <div className={styles["card-grid"]}>
     //     {cards.map((card: any, index:any) => (
     //       <div className={styles["card"]} key={index}>
     //         <img src={card.imageSrc} alt={card.title} className={styles["card-image"]}/>
@@ -54,8 +34,46 @@ export const CardGridSection = ({cards}: Props) => {
     //         </div>
     //       </div>
     //     ))}
-    //   </Link>
+    //   </div>
     // </section>
+
+
+    <section
+    className={styles["card-grid-section"]}>
+
+    {cards.map((card: any, index:any) => (
+
+        <div className={styles["card-grid"]} key={index}>
+          <Link href={card.linkHref} target="_blank" style={{ textDecoration: "none" }}>
+
+
+          <div className={styles["card"]} key={index}>
+
+
+            <img src={card.imageSrc} alt={card.title} className={styles["card-image"]}/>
+            <div className="Header3 TextBlue marTopGlobal">{card.title}</div>
+            <div className="body2 marTopGlobal">{card.description}</div>
+            <div className={styles["card-footer"]}>
+              <span className="body2" style={{color: '#666'} }>{card.date}</span>
+              <div  className={`${styles["card-link"]} body2`}>
+                 {card.linkText} <span className="body2">→</span>
+             </div>
+            </div>
+            
+          </div>
+
+
+      </Link>
+        </div>
+        
+
+          
+
+
+        ))}
+
+      
+    </section>
 
 
   );
