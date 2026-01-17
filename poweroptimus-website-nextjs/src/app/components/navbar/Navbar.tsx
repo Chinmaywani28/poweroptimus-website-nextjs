@@ -115,7 +115,7 @@ const Navbar = () => {
               {isDropdownOpen && (
                 <ul className="dropdown-menu">
                   <li><Link href="/resources/blogs">Blogs</Link></li>
-                  {/* <li><Link href="/resources/case-study">Case Study</Link></li> */}
+                  <li><Link href="/resources/case-study">Case Study</Link></li>
                   <li><Link href="/resources/webinars">Webinars</Link></li>
                   <li><Link href="/resources/videos">Videos</Link></li>
                   <li><Link href="/resources/brochures">Brochures</Link></li>

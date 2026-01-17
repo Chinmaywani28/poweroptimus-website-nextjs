@@ -5,6 +5,7 @@ import I18nProvider from "./i18n/i18n.Provider";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import { ToastContainer } from 'react-toastify';
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,6 +58,16 @@ export default function RootLayout({
     <html lang="en">
       <head>
           <meta name="p:domain_verify" content="dd0368ec4340b715ce66fe9c9f63103f"/>
+          <meta
+          name="google-site-verification"
+          content="google3a2fc1f778abbb3c"
+        />
+          <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-W7LVCGBG0F"
+          strategy="afterInteractive"
+        />
+
+
         </head>
       <body>
         

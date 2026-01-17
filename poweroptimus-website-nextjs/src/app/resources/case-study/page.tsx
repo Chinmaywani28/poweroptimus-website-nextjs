@@ -1,6 +1,7 @@
 import Hero from '@/app/components/home-main-content/hero'
 import HeroReusable from '@/app/components/key-verticals-page/hero-reusable'
 import KeyverticalTwo from '@/app/components/key-verticals-page/key-vertical-two'
+import { BrochureCardSection } from '@/app/components/resources/brochure-card-section'
 import { CardGridSection } from '@/app/components/resources/card-grid-section'
 import SolFeatureBtmSection from '@/app/components/solution/sol-feature-btm-section'
 import React from 'react'
@@ -21,7 +22,22 @@ const page = () => {
           "Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations."
       } image='/Resources_CaseStudy_Vector_Image.svg' />
 
-      <CardGridSection
+
+      <BrochureCardSection
+              cards={[
+                {
+                  id: 1,
+                  title: 'Solar Optimization',
+                  content: 'Track energy usage in real time.',
+                  image: '/resources-brochure.png',
+                  link: 'https://poweroptimus.com/PowerOptimus-case-study.pdf'
+                },
+                
+              ]}
+            />
+
+
+      {/* <CardGridSection
         cards={[
           {
             imageSrc: '/resources-case-study-one.png',
@@ -50,7 +66,7 @@ const page = () => {
         ]}
 
         
-/>
+/> */}
         {/* <CardGridSection
         cards={[
           {

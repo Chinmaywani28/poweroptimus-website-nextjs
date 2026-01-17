@@ -10,6 +10,7 @@ interface CardData {
   content: string;
   image: string;
   buttonText?: string;
+  link: string;
 }
 
 // ✅ Component props
@@ -50,7 +51,7 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
             {/* ✅ Download button */}
             <button className={styles["download-btn"]} >
               <span>{card.buttonText || <i className="ri-arrow-down-line"></i> }
-              <a href="https://poweroptimus-stage.web.app/powerOptimus-brochure.pdf" download style={{ textDecoration: 'none', color: 'green'  }}>Download</a> </span> 
+              <a href={card.link} download style={{ textDecoration: 'none', color: 'green'  }}>Download</a> </span> 
             </button>
           </div>
         ))}
