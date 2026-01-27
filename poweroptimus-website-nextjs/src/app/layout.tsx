@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "Energy Management System & Environmental Monitoring Systems ",
   description: "PowerOptimus is a data-driven energy management & environmental monitoring system which provides real-time insights to improve efficiency and sustainability.",
   keywords: ["energy management system","environmental monitoring system"],
+  alternates: {
+    canonical: "https://poweroptimus.com",
+  },
   icons: {
     icon: "/faviconn.ico", // or "/favicon.png" or "/icon.svg"
   },
@@ -58,10 +61,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
           <meta name="p:domain_verify" content="dd0368ec4340b715ce66fe9c9f63103f"/>
-          <meta
+          {/* <meta
           name="google-site-verification"
           content="google3a2fc1f778abbb3c"
-        />
+        /> */}
+
+        <meta name="google-site-verification" content="5oPMjQENzouBRZgBrbM9rUKDThrGQ6reWFaA-ZbEolQ" />
           <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-W7LVCGBG0F"
           strategy="afterInteractive"
