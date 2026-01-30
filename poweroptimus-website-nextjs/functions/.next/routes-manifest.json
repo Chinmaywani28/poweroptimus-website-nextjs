@@ -50,34 +50,22 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/documentation/cookie-policy",
-      "regex": "^/documentation/cookie\\-policy(?:/)?$",
+      "page": "/cookie-policy",
+      "regex": "^/cookie\\-policy(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/documentation/cookie\\-policy(?:/)?$"
+      "namedRegex": "^/cookie\\-policy(?:/)?$"
     },
     {
-      "page": "/documentation/disclaimer",
-      "regex": "^/documentation/disclaimer(?:/)?$",
+      "page": "/disclaimer",
+      "regex": "^/disclaimer(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/documentation/disclaimer(?:/)?$"
+      "namedRegex": "^/disclaimer(?:/)?$"
     },
     {
-      "page": "/documentation/eula",
-      "regex": "^/documentation/eula(?:/)?$",
+      "page": "/eula",
+      "regex": "^/eula(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/documentation/eula(?:/)?$"
-    },
-    {
-      "page": "/documentation/policies",
-      "regex": "^/documentation/policies(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/documentation/policies(?:/)?$"
-    },
-    {
-      "page": "/documentation/terms-and-condition",
-      "regex": "^/documentation/terms\\-and\\-condition(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/documentation/terms\\-and\\-condition(?:/)?$"
+      "namedRegex": "^/eula(?:/)?$"
     },
     {
       "page": "/favicon.ico",
@@ -126,6 +114,12 @@
       "regex": "^/news\\-and\\-events/news/news\\-details(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/news\\-and\\-events/news/news\\-details(?:/)?$"
+    },
+    {
+      "page": "/policies",
+      "regex": "^/policies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/policies(?:/)?$"
     },
     {
       "page": "/resources/blogs",
@@ -186,6 +180,12 @@
       "regex": "^/solution(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/solution(?:/)?$"
+    },
+    {
+      "page": "/terms-and-condition",
+      "regex": "^/terms\\-and\\-condition(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-and\\-condition(?:/)?$"
     }
   ],
   "dataRoutes": [],

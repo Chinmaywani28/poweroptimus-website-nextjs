@@ -258,18 +258,18 @@ const Footer = () => {
           {/* <div>|</div> */}
           {/* <div>{t('Sitemap')}</div> */}
 
-          <Link href={"/documentation/policies"} style={{ color: "white", textDecoration: "none" }}>Privacy Policy</Link>
+          <Link href={"/policies"} style={{ color: "white", textDecoration: "none" }}>Privacy Policy</Link>
           <div>|</div>
-          <Link href={"/documentation/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Terms and Conditions</Link>
+          <Link href={"/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Terms and Conditions</Link>
           <div>|</div>
           {/* <div>Disclaimer</div> */}
-          <Link href={"/documentation/disclaimer"} style={{ color: "white", textDecoration: "none" }}>Disclaimer</Link>
+          <Link href={"/disclaimer"} style={{ color: "white", textDecoration: "none" }}>Disclaimer</Link>
           <div>|</div>
           {/* <div>Sitemap</div> */}
-          <Link href={"/documentation/eula"} style={{ color: "white", textDecoration: "none" }}>EULA</Link>
+          <Link href={"/eula"} style={{ color: "white", textDecoration: "none" }}>EULA</Link>
           <div>|</div>
           
-          <Link href={"/documentation/cookie-policy"} style={{ color: "white", textDecoration: "none" }}>Cookies Policy</Link>
+          <Link href={"/cookie-policy"} style={{ color: "white", textDecoration: "none" }}>Cookies Policy</Link>
         </div>
       </div>
     </div>
