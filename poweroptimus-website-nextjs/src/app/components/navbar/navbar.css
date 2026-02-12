@@ -11,8 +11,10 @@
 /* Base styles for all screens */
 .navbar {
   position: fixed;
-  padding-top: 25px;
-  padding-bottom: 20px;
+  /* padding-top: 25px; */
+  padding-top: 10px;
+  /* padding-bottom: 20px; */
+  padding-bottom: 10px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.7); /* Black background with opacity */
   display: grid;
@@ -194,7 +196,8 @@ border-radius: 1px
 @media (max-width: 1560px) {
   .navbar-logo {
     /* height: 40px; */
-    height: 45px;
+    /* height: 45px; */
+    height: 75px;
   }
 
 }

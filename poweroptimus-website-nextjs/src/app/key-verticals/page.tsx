@@ -39,8 +39,8 @@ const page = () => {
 
     {/* <HeroReusable headerText={'Industries We Serve with PowerOptimus'} bodyText={'PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level.'} /> */}
 
-      <Hero headerText={"Industries We Serve with PowerOptimus – A Sustainable Energy Management Platform"} bodyText={
-          "PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
+      <Hero headerText={"Industries We Serve with EnvirOptimus – A Sustainable Energy Management Platform"} bodyText={
+          "EnvirOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
       } image='/KeyVerticals_Header-Vector-Image.svg' />
 
 
@@ -152,7 +152,7 @@ const page = () => {
       <SolFeatureBtmSection
         heading="Transform your Energy and Environmental Oversight"
         paragraphs={[
-          "PowerOptimus is more than a sustainable energy management platform, it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, PowerOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "EnvirOptimus is more than a sustainable energy management platform, it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, EnvirOptimus empowers organizations to optimize operations and uphold high-performance standards."
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/key-vertical-new.svg"

@@ -17,7 +17,7 @@ const Eula = () => {
 
 <p className="MsoNormal">This end user license agreement (the "Agreement") is entered into between Neil Automation incorporated under the laws of India having its Registered office at SEZ - Plot No. 21/2, Rajiv Gandhi Infotech Park, Hinjawadi Phase III, Pune 411057, India, and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India. Neil Automation or its affiliates (collectively "Neil Automation ") (hereinafter referred to as "Neil Automation"). and the customer which has signified its acceptance of the terms and conditions of this Agreement ("Customer"). Neil Automation retains the right to utilize its affiliated companies in pursuing any of its rights and fulfilling any of its obligations under this Agreement. Therefore, the term “Neil Automation” as used herein may also refer to affiliated companies that are directly or indirectly owned or controlled by the ultimate parent company of Neil Automation and who have been authorized by Neil Automation to distribute the Application and related services.
 
-Please read this End-User License Agreement carefully before clicking the "I Agree" button, downloading or using PowerOptimus.</p>
+Please read this End-User License Agreement carefully before clicking the "I Agree" button, downloading or using EnvirOptimus.</p>
 
 
 
@@ -38,7 +38,7 @@ plural.</p>
  means this End-User License Agreement that forms the entire agreement between Customer and the Company regarding the use of the Application.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Application</b>
-Application means the software program provided by the Company downloaded by Customer to a Device, named PowerOptimus</p>
+Application means the software program provided by the Company downloaded by Customer to a Device, named EnvirOptimus</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>‘Neil Automation’ / ‘Company’</b>
 ‘Neil Automation’ / ‘Company’ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Neil Automation, having its registered office at SEZ - Plot No. 21/2, Hinjawadi Phase III, Pune – 411057, and Corporate office at Pride Parmar Galaxy, 8th Floor, 10/10+A, Sadhu Vaswani Chowk, Pune- 411001, India</p>

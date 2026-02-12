@@ -56,7 +56,7 @@ shares, equity interest or other securities entitled to vote for election of
 directors or other managing authority.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Application </b>
-refers to PowerOptimus, the software program provided by the Company.</p>
+refers to EnvirOptimus, the software program provided by the Company.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Business </b>,
 for the purpose of CCPA/CPRA, refers to the Company as the legal entity that
@@ -164,8 +164,8 @@ the Service or from the Service infrastructure itself (for example, the
 duration of a page visit).</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Website </b>
-refers to PowerOptimus, accessible from <a
-href="https://www.PowerOptimus.com/">https://www.PowerOptimus.com/</a>
+refers to EnvirOptimus, accessible from <a
+href="https://www.EnvirOptimus.com/">https://www.EnvirOptimus.com/</a>
 </p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>You </b>

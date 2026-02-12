@@ -93,7 +93,7 @@ export default function Page() {
       /> */}
 
       <Hero headerText={"Key Capabilities"} bodyText={
-          "Explore how PowerOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
+          "Explore how EnvirOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
       } image='/Key Capabilities Header Vector Image Final.svg'/>
 
       {/* <FacilitySectionsTwo
@@ -437,7 +437,7 @@ export default function Page() {
       <SolFeatureBtmSection
         heading="Ready to Build a Safer, Sustainable Future?"
         paragraphs={[
-          "Partner with PowerOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
+          "Partner with EnvirOptimus to transform the way you manage energy, environment, and operations. From improving air quality and safety to driving down energy costs and emissions, we’re here to help you achieve your sustainability goals, smarter and faster."
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/Key Capabilities Footer Vector Image1.svg"

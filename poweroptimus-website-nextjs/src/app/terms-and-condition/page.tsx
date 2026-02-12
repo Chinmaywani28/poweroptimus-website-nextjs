@@ -36,7 +36,7 @@ plural.</p>
 
 <p className="MsoListParagraphCxSpFirst"><b>Application </b>
 means the software program provided by the Company downloaded by You on any
-electronic device, named PowerOptimus</p>
+electronic device, named EnvirOptimus</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Application
 Store</b> means the digital distribution service operated and developed by
@@ -105,8 +105,8 @@ information, products or services) provided by a third-party that may be
 displayed, included or made available by the Service.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Website </b>
-refers to PowerOptimus, accessible from <a
-href="https://www.PowerOptimus.com/">https://www.PowerOptimus.com/</a>
+refers to EnvirOptimus, accessible from <a
+href="https://www.EnvirOptimus.com/">https://www.EnvirOptimus.com/</a>
 </p>
 
 <p className="MsoListParagraphCxSpLast"><b>You </b>

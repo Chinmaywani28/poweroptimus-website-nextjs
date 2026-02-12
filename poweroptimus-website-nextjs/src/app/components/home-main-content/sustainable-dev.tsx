@@ -42,7 +42,7 @@ const SustainableDev: React.FC = () => {
         <div className="susHome">
           <div className="sus-dev-header">
             <div className="section-title Header1 TextBlue">
-              PowerOptimus for Sustainability Goals : Strategic Alignment
+              EnvirOptimus for Sustainability Goals : Strategic Alignment
             </div>
           </div>
 

@@ -81,9 +81,9 @@ export const WhyPowerOptimusTwo = () => {
 
     
 <section className="why-section">
-  <div className="Header2 TextBlue">Why PowerOptimus?</div>
+  <div className="Header2 TextBlue">Why EnvirOptimus?</div>
   <div className="body2 marTopGlobal section-subtitle">
-    PowerOptimus delivers more than just monitoring; it empowers your teams with a Sustainable Energy Management Platform to optimize energy use, safeguard the environment, and drive operational excellence. Here’s how:
+    EnvirOptimus delivers more than just monitoring; it empowers your teams with a Sustainable Energy Management Platform to optimize energy use, safeguard the environment, and drive operational excellence. Here’s how:
   </div>
 
   <div className="marTopGlobalLocal">
@@ -92,7 +92,7 @@ export const WhyPowerOptimusTwo = () => {
       <img src="/key-vertical-icon-customizable.png" alt="Factory" className="card-icon" />
       <div className="Header3 TextBlue">Customizable to Industry Needs</div>
       <div className="body3 marTopGlobal">
-        Whether it’s a factory, hospital, or high-rise, PowerOptimus adapts to the unique KPIs that matter most to your operation.
+        Whether it’s a factory, hospital, or high-rise, EnvirOptimus adapts to the unique KPIs that matter most to your operation.
       </div>
     </div>
 
@@ -119,7 +119,7 @@ export const WhyPowerOptimusTwo = () => {
       <img src="/key-vertical-icon-driving.png" alt="Factory" className="card-icon" />
       <div className="Header3 TextBlue">Driving Environmental Responsibility</div>
       <div className="body3 marTopGlobal">
-        From toxic gas emission monitoring in factories to AQI tracking in hospitals, PowerOptimus is built to support environmentally conscious operations.
+        From toxic gas emission monitoring in factories to AQI tracking in hospitals, EnvirOptimus is built to support environmentally conscious operations.
       </div>
     </div>
   </div>

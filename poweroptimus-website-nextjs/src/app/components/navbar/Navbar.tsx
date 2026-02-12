@@ -79,7 +79,7 @@ const Navbar = () => {
           <Link href="/" className="navbar-brand">
           <div >
             <img
-              src="/power-optimus-logo.png"
+              src="/enviroptimus.jpg"
               alt="Logo"
               className="navbar-logo"
               // onClick={scrollToHero}

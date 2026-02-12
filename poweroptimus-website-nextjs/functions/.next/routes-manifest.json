@@ -122,6 +122,12 @@
       "namedRegex": "^/policies(?:/)?$"
     },
     {
+      "page": "/request-demo",
+      "regex": "^/request\\-demo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/request\\-demo(?:/)?$"
+    },
+    {
       "page": "/resources/blogs",
       "regex": "^/resources/blogs(?:/)?$",
       "routeKeys": {},

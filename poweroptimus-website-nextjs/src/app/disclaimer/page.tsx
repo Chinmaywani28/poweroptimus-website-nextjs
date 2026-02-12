@@ -110,13 +110,13 @@ const Disclaimer = () => {
               </span>
             </span>
             <b>Website </b>
-            refers to PowerOptimus, accessible from{" "}
-            <a href="https://www.PowerOptimus.com/">
-              https://www.PowerOptimus.com/
+            refers to EnvirOptimus, accessible from{" "}
+            <a href="https://www.EnvirOptimus.com/">
+              https://www.EnvirOptimus.com/
             </a>
             and{" "}
-            <a href="https://www.PowerOptimus.com/">
-              https://www.PowerOptimus.com/
+            <a href="https://www.EnvirOptimus.com/">
+              https://www.EnvirOptimus.com/
             </a>
           </p>
         </li>
@@ -132,7 +132,7 @@ const Disclaimer = () => {
             </span>
             <b>Application </b>
             means the software program provided by the Company downloaded by You
-            on any electronic device named PowerOptimus.
+            on any electronic device named EnvirOptimus.
           </p>
         </li>
       </ul>

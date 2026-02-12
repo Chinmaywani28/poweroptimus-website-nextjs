@@ -25,7 +25,7 @@ const page = () => {
         cards={[
           {
             videoUrl: 'https://www.youtube.com/embed/A05DUg57S7k',
-            title: 'PowerOptimus - Energy Management and Environmental Monitoring System',
+            title: 'EnvirOptimus - Energy Management and Environmental Monitoring System',
             // description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
             date: 'Nov, 2025',
             // linkText: 'Read More',

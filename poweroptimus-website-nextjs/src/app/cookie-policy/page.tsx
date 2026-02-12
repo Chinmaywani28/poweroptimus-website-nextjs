@@ -46,7 +46,7 @@ plural.</p>
  means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.</p>
 
 <p className="MsoListParagraphCxSpMiddle"><b>Website</b>
- refers to PowerOptimus, accessible from <a href="https://www.PowerOptimus.com/">https://www.PowerOptimus.com/</a></p>
+ refers to EnvirOptimus, accessible from <a href="https://www.EnvirOptimus.com/">https://www.EnvirOptimus.com/</a></p>
 
 <h3><span style={{}}>The use of the Cookies</span></h3>
 
