@@ -6,7 +6,8 @@
   background: rgb(255, 255, 255);
 }
 .WhyEnergyhome {
-  padding-top: 10px;
+  /* padding-top: 10px; */
+  padding-top: 20px;
   padding-bottom: 50px;
   display: grid;
   width: 100%;

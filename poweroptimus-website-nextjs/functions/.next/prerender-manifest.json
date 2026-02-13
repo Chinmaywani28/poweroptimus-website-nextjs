@@ -30,30 +30,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/resources/blogs": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/resources/blogs",
-      "dataRoute": "/resources/blogs.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/request-demo": {
       "experimentalBypassFor": [
         {
@@ -78,7 +54,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/resources/brochures": {
+    "/resources/blogs": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -91,8 +67,33 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/resources/brochures",
-      "dataRoute": "/resources/brochures.rsc",
+      "srcRoute": "/resources/blogs",
+      "dataRoute": "/resources/blogs.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_not-found": {
+      "initialStatus": 404,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -126,7 +127,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/resources/webinars": {
+    "/resources/brochures": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -139,56 +140,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/resources/webinars",
-      "dataRoute": "/resources/webinars.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/roles": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/roles",
-      "dataRoute": "/roles.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/sitemap": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/sitemap",
-      "dataRoute": "/sitemap.rsc",
+      "srcRoute": "/resources/brochures",
+      "dataRoute": "/resources/brochures.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -222,7 +175,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/key-verticals": {
+    "/sitemap": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -235,8 +188,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/key-verticals",
-      "dataRoute": "/key-verticals.rsc",
+      "srcRoute": "/sitemap",
+      "dataRoute": "/sitemap.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/resources/webinars": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/resources/webinars",
+      "dataRoute": "/resources/webinars.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/resources/case-study/case-study-details": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/resources/case-study/case-study-details",
+      "dataRoute": "/resources/case-study/case-study-details.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -270,6 +271,102 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/roles": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/roles",
+      "dataRoute": "/roles.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/resources/case-study": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/resources/case-study",
+      "dataRoute": "/resources/case-study.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/news-and-events/news": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/news-and-events/news",
+      "dataRoute": "/news-and-events/news.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/key-verticals": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/key-verticals",
+      "dataRoute": "/key-verticals.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/solution": {
       "experimentalBypassFor": [
         {
@@ -285,31 +382,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/solution",
       "dataRoute": "/solution.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/_not-found": {
-      "initialStatus": 404,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/_not-found",
-      "dataRoute": "/_not-found.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -367,7 +439,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/disclaimer": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -380,104 +452,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/disclaimer",
-      "dataRoute": "/disclaimer.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/news-and-events/events/events-details": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/news-and-events/events/events-details",
-      "dataRoute": "/news-and-events/events/events-details.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/news-and-events/news": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/news-and-events/news",
-      "dataRoute": "/news-and-events/news.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/home": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/home",
-      "dataRoute": "/home.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/eula": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/eula",
-      "dataRoute": "/eula.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -511,7 +487,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/resources/case-study": {
+    "/eula": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -524,8 +500,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/resources/case-study",
-      "dataRoute": "/resources/case-study.rsc",
+      "srcRoute": "/eula",
+      "dataRoute": "/eula.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -535,7 +511,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/news-and-events/events": {
+    "/home": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -548,8 +524,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/news-and-events/events",
-      "dataRoute": "/news-and-events/events.rsc",
+      "srcRoute": "/home",
+      "dataRoute": "/home.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -559,7 +535,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/resources/case-study/case-study-details": {
+    "/news-and-events/events/events-details": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -572,8 +548,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/resources/case-study/case-study-details",
-      "dataRoute": "/resources/case-study/case-study-details.rsc",
+      "srcRoute": "/news-and-events/events/events-details",
+      "dataRoute": "/news-and-events/events/events-details.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -607,7 +583,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
+    "/news-and-events/events": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -620,8 +596,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "srcRoute": "/news-and-events/events",
+      "dataRoute": "/news-and-events/events.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/disclaimer": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/disclaimer",
+      "dataRoute": "/disclaimer.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",

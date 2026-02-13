@@ -78,8 +78,16 @@ const Navbar = () => {
           {/* Logo Section */}
           <Link href="/" className="navbar-brand">
           <div >
-            <img
+            {/* <img
               src="/enviroptimus.jpg"
+              alt="Logo"
+              className="navbar-logo"
+              // onClick={scrollToHero}
+              style={{ cursor: "pointer" }} // Make it clear that it's clickable
+            /> */}
+
+            <img
+              src="/EnvirOptimus Logo withoutBg.svg"
               alt="Logo"
               className="navbar-logo"
               // onClick={scrollToHero}

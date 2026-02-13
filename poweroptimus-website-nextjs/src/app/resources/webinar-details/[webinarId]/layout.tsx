@@ -3,7 +3,7 @@ export const metadata = {
   description: "Transform your enterprise with integrated energy and environmental technology - reducing costs, boosting resilience, and meeting sustainability targets.",
   keywords: ["Connecting Energy Monitoring","Predictive Maintenance & Sustainability"],
   alternates: {
-    canonical: "https://poweroptimus.com/resources/webinar-details/Connecting-Energy-Monitoring-Predictive-Maintenance-and-Sustainability-for-Resilient-Operations",
+    canonical: "https://enviroptimus.com/resources/webinar-details/Connecting-Energy-Monitoring-Predictive-Maintenance-and-Sustainability-for-Resilient-Operations",
   },
 };
 

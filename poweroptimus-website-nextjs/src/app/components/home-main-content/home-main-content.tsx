@@ -47,7 +47,7 @@ const HomeMainContent = () => {
 
       
 
-      <Slider/>
+      {/* <Slider/> */}
       {/* why energy efficiency matters the most */}
       <WhyEnergy/>
 

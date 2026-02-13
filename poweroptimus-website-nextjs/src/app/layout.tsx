@@ -19,10 +19,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Energy Management System & Environmental Monitoring Systems ",
-  description: "PowerOptimus is a data-driven energy management & environmental monitoring system which provides real-time insights to improve efficiency and sustainability.",
+  description: "EnvirOptimus is a data-driven energy management & environmental monitoring system which provides real-time insights to improve efficiency and sustainability.",
   keywords: ["energy management system","environmental monitoring system"],
   alternates: {
-    canonical: "https://poweroptimus.com",
+    canonical: "https://enviroptimus.com",
   },
   icons: {
     icon: "/faviconn.ico", // or "/favicon.png" or "/icon.svg"

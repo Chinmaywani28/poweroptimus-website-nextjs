@@ -33,13 +33,22 @@ const ProcessDiagramTwo = () => {
   //   "/imple-header.png",
   // ];
 
+  // const images = [
+  //   "/Implementation Process-1.png",
+  //   "/Implementation Process-2.png",
+  //   "/Implementation Process-3.png",
+  //   "/Implementation Process-4.png",
+  //   "/Implementation Process-5.png",
+  //   "/Implementation Process-6.png",
+  // ];
+
   const images = [
-    "/Implementation Process-1.png",
-    "/Implementation Process-2.png",
-    "/Implementation Process-3.png",
-    "/Implementation Process-4.png",
-    "/Implementation Process-5.png",
-    "/Implementation Process-6.png",
+    "/Implementation Process-one.png",
+    "/Implementation Process-two.png",
+    "/Implementation Process-three.png",
+    "/Implementation Process-four.png",
+    "/Implementation Process-five.png",
+    "/Implementation Process-six.png",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -9,8 +9,14 @@ const DeviceSection = () => {
       <h2 className="Header2">Device (Hardware)</h2>
       <div className="devices-container"> 
         <div className="device-card">
-          <img
+          {/* <img
             src="/Gateway-news.svg"
+            alt="Device"
+            className="device-image"
+          /> */}
+
+          <img
+            src="Gateway_Img1.svg"
             alt="Device"
             className="device-image"
           />
@@ -22,8 +28,14 @@ const DeviceSection = () => {
 
 
         <div className="device-card">
-          <img
+          {/* <img
             src="/node-news.svg"
+            alt="Device"
+            className="device-image"
+          /> */}
+
+          <img
+            src="/Node_Img1.svg"
             alt="Device"
             className="device-image"
           />
