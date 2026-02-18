@@ -47,6 +47,24 @@ const page = () => {
 
 
     {/* sections */}
+
+
+      <FacilitySections
+        title="Buildings"
+        // text="Modern Commercial spaces demand intelligent, adaptive energy management to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping businesses stay competitive while reducing environmental impact and future-proofing infrastructure."
+        text="Modern buildings — including commercial offices, malls, convention centers, and auditoriums demand an intelligent, adaptive environment and energy management system to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping organizations stay competitive while reducing environmental impact and future-proofing infrastructure."
+        imageSrc="/Commercial Buildings - Key Verticals.jpg"
+        reverse
+        label1="Hazardous Gas Monitoring"
+        label2="Occupancy Monitoring"
+        label3="HVAC"
+         showList={false}
+        tagPath1="/key-verticals/capabilities/#hazardous-gas"
+        tagPath2="/key-verticals/capabilities/#occu"
+        tagPath3="/key-verticals/capabilities/#advanced-hvac"
+
+      />
+
       <FacilitySections
         title="Industrial Plants & Factories"
         text="In energy-intensive plants, even small inefficiencies can quickly escalate into major cost overruns and higher carbon emissions. Advanced energy monitoring delivers granular visibility into every unit consumed across production lines, HVAC systems, and compressors, enabling facilities to identify waste, optimize workflows, and increase output. By pairing operational KPIs with real-time compliance and safety tracking, a Sustainable Energy Management Platform enables industries to move beyond reactive fixes to proactive efficiency ensuring both profitability and sustainability."
@@ -61,8 +79,9 @@ const page = () => {
       />
 
       <FacilitySections
-        title="Data Centers"
-        text="Data Centers operate under extreme energy and cooling demands where precision is critical. Continuous monitoring of thermal loads, energy use, cooling efficiency, and backup systems ensures balanced optimization, reducing strain on servers and lowering Power Usage Effectiveness (PUE). Real-time alerts on temperature, humidity, and AQI prevent costly outages or performance dips, protecting mission-critical infrastructure and guaranteeing uninterrupted operations with improved energy efficiency."
+        title="Large Infrastructure"
+        // text="Data Centers operate under extreme energy and cooling demands where precision is critical. Continuous monitoring of thermal loads, energy use, cooling efficiency, and backup systems ensures balanced optimization, reducing strain on servers and lowering Power Usage Effectiveness (PUE). Real-time alerts on temperature, humidity, and AQI prevent costly outages or performance dips, protecting mission-critical infrastructure and guaranteeing uninterrupted operations with improved energy efficiency."
+        text="Facilities such as data centers, airports, and transport hubs require structured energy and environmental management to meet high-power demand and comply with regulatory requirements. Common challenges include power-quality fluctuations, cooling inefficiencies, peak-demand penalties, emissions-tracking gaps, and limited visibility across distributed assets. An Environment & Energy Management System (EEMS) addresses these issues through granular, real-time monitoring and analytics, enabling load optimization, improved cooling performance, carbon management, and compliance reporting — supporting efficient and stable operations."
         imageSrc="/Data Center - Key Verticals 1.jpg"
         reverse
         label1="HVAC"
@@ -89,26 +108,13 @@ const page = () => {
 
       />
 
-            <FacilitySections
-        title="Commercial Buildings"
-        text="Modern Commercial spaces demand intelligent, adaptive energy management to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping businesses stay competitive while reducing environmental impact and future-proofing infrastructure."
-        imageSrc="/Commercial Buildings - Key Verticals.jpg"
-        reverse
-        label1="Hazardous Gas Monitoring"
-        label2="Occupancy Monitoring"
-        label3="HVAC"
-         showList={false}
-        tagPath1="/key-verticals/capabilities/#hazardous-gas"
-        tagPath2="/key-verticals/capabilities/#occu"
-        tagPath3="/key-verticals/capabilities/#advanced-hvac"
-
-      />
+            
 
       <FacilitySections
         title="Pharmaceuticals and Life Sciences"
         text="In Pharmaceuticals and Life Sciences, environmental precision is directly linked to product quality and compliance. Automated monitoring of temperature, humidity, cleanroom conditions, and lab equipment energy use helps maintain regulatory standards while safeguarding sensitive products. Real-time analytics allow teams to detect deviations instantly, minimizing risks of contamination or non-compliance. At the same time, optimization of utilities across R&D labs and production sites drives efficiency, reduces costs, and supports sustainable innovation."
         imageSrc="/Pharmaceuticals & Life Science - Key Verticals.jpg"
-        // reverse
+        reverse
         label1="HVAC"
         label2="Hazardous Gas Monitoring"
         label3="Air Quality Monitoring"
@@ -123,7 +129,7 @@ const page = () => {
         title="Food and Beverage Industry"
         text="The Food and Beverage sector depends on consistent quality, safety, and efficiency. Monitoring refrigeration systems, HVAC, energy use, and production KPIs ensures product integrity while minimizing energy waste and operational costs. With real-time insights, facilities can better manage distributed plants, streamline utilities, and reduce their carbon footprint. This integrated approach not only helps maintain health and safety standards but also aligns operations with growing consumer and regulatory demand for sustainable production practices."
         imageSrc="/Food & Beverages - Key Verticals.jpg"
-        reverse
+        // reverse
         label1="Boiler Optimization"
         label2="Hazardous Gas Monitoring"
         label3="HVAC"
@@ -150,9 +156,9 @@ const page = () => {
       /> */}
 
       <SolFeatureBtmSection
-        heading="Transform your Energy and Environmental Oversight"
+        heading="Transform your Environmental and Energy Oversight"
         paragraphs={[
-          "EnvirOptimus is more than a sustainable energy management platform, it is a strategic platform designed to help organizations gain complete control over energy and environmental performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, EnvirOptimus empowers organizations to optimize operations and uphold high-performance standards."
+          "EnvirOptimus is more than a sustainable energy management platform, it is a strategic platform designed to help organizations gain complete control over environmental and energy performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, EnvirOptimus empowers organizations to optimize operations and uphold high-performance standards."
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/key-vertical-new.svg"

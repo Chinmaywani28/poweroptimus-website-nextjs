@@ -18,7 +18,7 @@ const page = () => {
 
       {/* <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} /> */}
 
-      <Hero headerText={"Empower every Role to Drive Efficiency and Sustainability"} bodyText={
+      <Hero headerText={"Empower every Role to Drive Sustainability and Efficiency"} bodyText={
           "From Facility Managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, EnvirOptimus delivers tailored insights and tools for every stakeholder as an environmental monitoring software for industrial facilities. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting." 
       } image='/roles-header-images.svg'/>
 

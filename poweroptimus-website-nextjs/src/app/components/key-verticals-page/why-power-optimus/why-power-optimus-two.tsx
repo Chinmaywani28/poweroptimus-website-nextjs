@@ -122,6 +122,24 @@ export const WhyPowerOptimusTwo = () => {
         From toxic gas emission monitoring in factories to AQI tracking in hospitals, EnvirOptimus is built to support environmentally conscious operations.
       </div>
     </div>
+
+    {/* next 2 */}
+    <div className="card">
+      <img src="/key-vertical-icon-actionable.png" alt="Factory" className="card-icon" />
+      <div className="Header3 TextBlue">Acts as a BAS/BMS or Intelligent Extension</div>
+      <div className="body3 marTopGlobal">
+        EnvirOptimus can function as a full BAS/BMS or integrate with your existing system filling performance gaps while extending advanced analytics, energy optimization, and environmental monitoring capabilities.
+      </div>
+    </div>
+
+    
+    <div className="card">
+      <img src="/key-vertical-icon-driving.png" alt="Factory" className="card-icon" />
+      <div className="Header3 TextBlue">Digital Twin–Enabled Intelligence</div>
+      <div className="body3 marTopGlobal">
+        Transforms live operational data into interactive 3D insights for predictive analysis, scenario planning, and smarter decision-making.
+      </div>
+    </div>
   </div>
   </div>
   

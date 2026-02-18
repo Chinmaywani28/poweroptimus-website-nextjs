@@ -50,10 +50,12 @@ const DataAnalysis = () => {
       <h2 className="data-title Header2 TextBlue noSpace">Data Analysis and Visualization</h2>
       {/* <div className="data-title Header1sec TextBlue">(Solution Results-Placeholder)</div> */}
       <p className="data-subtitle body2 TextGray1">
-        EnvirOptimus combines advanced data analytics and visualization to enhance modern energy management solution.
+        {/* EnvirOptimus combines advanced data analytics and visualization to enhance modern energy management solution.
        It collects data from real-time energy meters and environmental sensors to deliver clear, actionable insights.
         Interactive dashboards reveal energy usage trends, peak loads, and system efficiency, while predictive analytics identify anomalies and support demand forecasting. This helps reduce operational costs, optimize performance, and minimize energy waste.
-        Designed with sustainability in mind, EnvirOptimus – an environmental monitoring solution tracks emissions, air quality, and resource use, empowering organizations to lower their carbon footprint and stay compliant with environmental standards.
+        Designed with sustainability in mind, EnvirOptimus – an environmental monitoring solution tracks emissions, air quality, and resource use, empowering organizations to lower their carbon footprint and stay compliant with environmental standards. */}
+        EnvirOptimus integrates seamlessly with Digital Twin platforms to transform real-time energy and environmental data into immersive 3D visual intelligence. By synchronizing data from meters, sensors, and building systems with a digital replica of the facility, it enables interactive visualization, heat mapping, and contextual performance monitoring across assets and zones.
+        This integration supports advanced simulations and “what-if” scenario analysis, allowing organizations to predict demand, identify inefficiencies, assess carbon impact, and optimize operations before implementing changes in the physical environment turning monitoring into proactive performance management.
       </p>
 
       <div className="image-card-section">
