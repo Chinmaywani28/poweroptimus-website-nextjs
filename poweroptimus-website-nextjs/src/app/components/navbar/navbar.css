@@ -16,7 +16,9 @@
   /* padding-bottom: 20px; */
   padding-bottom: 10px;
   backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.7); /* Black background with opacity */
+  /* background: rgba(255, 255, 255, 0.7);  */
+  background: white; 
+  /* done to white */
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; /* 14 grid columns */

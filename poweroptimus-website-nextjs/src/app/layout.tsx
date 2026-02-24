@@ -67,11 +67,20 @@ export default function RootLayout({
         /> */}
 
         <meta name="google-site-verification" content="5oPMjQENzouBRZgBrbM9rUKDThrGQ6reWFaA-ZbEolQ" />
+
+        {/* both script added for Google Analytics data collection */}
           <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-W7LVCGBG0F"
           strategy="afterInteractive"
         />
-
+          <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W7LVCGBG0F');
+          `}
+        </Script>
 
         </head>
       <body>
