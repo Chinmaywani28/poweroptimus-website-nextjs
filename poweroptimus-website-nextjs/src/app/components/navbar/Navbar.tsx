@@ -6,12 +6,16 @@ import Link from 'next/link'
 import { useRouter } from "next/navigation";
 const Navbar = () => {
 
+  const router = useRouter();
+
   const handleContactClick = () => {
-    const emails = 'eems@neilautomation.com';
-    const subject = encodeURIComponent('Inquiry from PowerOptimus Website');
-    const mailtoLink = `mailto:${emails}?subject=${subject}`;
-    window.location.href = mailtoLink;
+    // const emails = 'eems@neilautomation.com';
+    // const subject = encodeURIComponent('Inquiry from PowerOptimus Website');
+    // const mailtoLink = `mailto:${emails}?subject=${subject}`;
+    // window.location.href = mailtoLink;
+    router.push("/contact-us");
   };
+  
   const { t } = useTranslation(); // Translation hook
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -87,7 +91,7 @@ const Navbar = () => {
             /> */}
 
             <img
-              src="/EnvirOptimus Logo withoutBg.svg"
+              src="/EnvirOptimus_Logo_WithoutBG-SVG 1.svg"
               alt="Logo"
               className="navbar-logo"
               // onClick={scrollToHero}

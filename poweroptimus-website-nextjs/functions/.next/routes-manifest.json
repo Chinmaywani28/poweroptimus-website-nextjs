@@ -50,6 +50,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/contact-us",
+      "regex": "^/contact\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact\\-us(?:/)?$"
+    },
+    {
       "page": "/cookie-policy",
       "regex": "^/cookie\\-policy(?:/)?$",
       "routeKeys": {},
@@ -120,12 +126,6 @@
       "regex": "^/policies(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/policies(?:/)?$"
-    },
-    {
-      "page": "/request-demo",
-      "regex": "^/request\\-demo(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/request\\-demo(?:/)?$"
     },
     {
       "page": "/resources/blogs",

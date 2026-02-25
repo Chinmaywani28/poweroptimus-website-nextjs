@@ -3,6 +3,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'; // Import translation hook
 import './sol-feature-btm-section.css'; // Import HomePage specific styles
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 
 
 type FeatureSectionProps = {
@@ -21,11 +22,17 @@ const SolFeatureBtmSection = ({
   imageAlt,
 }: FeatureSectionProps) => {
 
+  const router = useRouter();
+  
+
   const handleContactClick = () => {
-    const emails = 'eems@neilautomation.com';
-    const subject = encodeURIComponent('Inquiry from PowerOptimus Website');
-    const mailtoLink = `mailto:${emails}?subject=${subject}`;
-    window.location.href = mailtoLink;
+    // const emails = 'eems@neilautomation.com';
+    // const subject = encodeURIComponent('Inquiry from PowerOptimus Website');
+    // const mailtoLink = `mailto:${emails}?subject=${subject}`;
+    // window.location.href = mailtoLink;
+
+    router.push("/contact-us");
+
   };
 
   const { t } = useTranslation(); // Initialize translation hook

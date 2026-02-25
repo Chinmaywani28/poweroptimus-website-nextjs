@@ -15,11 +15,12 @@ const DeviceSection = () => {
             className="device-image"
           /> */}
 
-          <img
-            src="Gateway_Img1.svg"
+            <img
+            src="/Gateway_Image.svg"
             alt="Device"
             className="device-image"
           />
+          
           <h3 className="device-title Header2 downMargin TextBlue">Gateway</h3>
           <p className="device-desc body2 TextGray3">
             Gateways act as bridges between field devices (like sensors and meters) and the cloud platform. They collect data from various nodes and devices using protocols like Modbus, BACnet, or LoRaWAN, and transmit it to the cloud or local servers for analytics and visualization. Gateways are essential for ensuring seamlessly.
@@ -35,7 +36,7 @@ const DeviceSection = () => {
           /> */}
 
           <img
-            src="/Node_Img1.svg"
+            src="/Node_Image.svg"
             alt="Device"
             className="device-image"
           />
