@@ -257,6 +257,10 @@ const Footer = () => {
           {/* <div>{t('Disclaimer')}</div> */}
           {/* <div>|</div> */}
           {/* <div>{t('Sitemap')}</div> */}
+          <Link href={"/faq"} style={{ color: "white", textDecoration: "none" }}>FAQ</Link>
+
+          <div>|</div>
+            
 
           <Link href={"/policies"} style={{ color: "white", textDecoration: "none" }}>Privacy Policy</Link>
           <div>|</div>

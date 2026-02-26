@@ -31,7 +31,7 @@ const page = () => {
             title: 'Solar Optimization',
             content: 'Track energy usage in real time.',
             image: '/resources-brochure.png',
-            link: 'https://poweroptimus-stage.web.app/powerOptimus-brochure.pdf'
+            link: 'https://poweroptimus.com/EnvirOptimus-brochure.pdf'
           },
           // {
           //   id: 2,

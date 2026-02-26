@@ -30,7 +30,7 @@ const page = () => {
                   title: 'Solar Optimization',
                   content: 'Track energy usage in real time.',
                   image: '/resources-brochure.png',
-                  link: 'https://poweroptimus.com/PowerOptimus-case-study.pdf'
+                  link: 'https://poweroptimus.com/casestudy.pdf'
                 },
                 
               ]}
