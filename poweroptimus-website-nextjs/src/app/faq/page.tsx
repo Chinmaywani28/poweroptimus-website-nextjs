@@ -3,7 +3,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import './page.css'
 
-const PrivacyPolicy = () => {
+const Faq = () => {
   const { t } = useTranslation(); // Initialize translation hook
 
   return (
@@ -15,4 +15,4 @@ const PrivacyPolicy = () => {
   );
 }
 
-export default PrivacyPolicy
+export default Faq

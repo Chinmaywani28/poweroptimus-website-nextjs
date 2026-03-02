@@ -207,7 +207,7 @@ const Footer = () => {
         <div className="separateLine_footer"></div>
 
         <div className="footer_bottom_Left TextWhite">
-          © 2025 Neilsoft Ltd. {t("AllRightsReserved")}
+          © 2026 Neilsoft Ltd. {t("AllRightsReserved")}
         </div>
 
         <div className="footer_bottom_Middle TextWhite">

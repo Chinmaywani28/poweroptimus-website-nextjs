@@ -23,11 +23,19 @@ const page = () => {
 
       <VideoGridSection
         cards={[
+          // {
+          //   videoUrl: 'https://www.youtube.com/embed/A05DUg57S7k',
+          //   title: 'EnvirOptimus - Energy Management and Environmental Monitoring System',
+          //   // description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
+          //   date: 'Nov, 2025',
+          //   // linkText: 'Read More',
+          //   // linkHref: '/blog/power',
+          // },
           {
-            videoUrl: 'https://www.youtube.com/embed/A05DUg57S7k',
+            videoUrl: 'https://www.youtube.com/embed/WrFonQop5QY?si=qC4bEQxUCfbknGXn',
             title: 'EnvirOptimus - Energy Management and Environmental Monitoring System',
             // description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
-            date: 'Nov, 2025',
+            date: 'Mar, 2026',
             // linkText: 'Read More',
             // linkHref: '/blog/power',
           }
