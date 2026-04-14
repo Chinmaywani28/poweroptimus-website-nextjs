@@ -2,7 +2,7 @@
   "projects": {
     "default": "poweroptimus-dev",
     "prod": "poweroptimus-prod",
-    "stage": "poweroptimus-dev"
+    "stage": "poweroptimus-stage"
   },
   "targets": {},
   "etags": {}

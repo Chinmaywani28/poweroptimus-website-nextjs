@@ -19,7 +19,7 @@ const page = () => {
       {/* <HeroReusable headerText={'Explore Real-World Success Stories'} bodyText={'Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations.'} /> */}
 
       <Hero headerText={"Explore Real-World Success Stories"} bodyText={
-          "Discover how industry leaders are driving innovation, efficiency, and sustainability through practical solutions. Our case studies provide in-depth insights into challenges, strategies, and measurable results, helping you learn from real-world implementations."
+          "Discover how industry leaders drive innovation, efficiency, and sustainability through real-world solutions featuring key challenges, strategies, and measurable results."
       } image='/Resources_CaseStudy_Vector_Image.svg' />
 
 

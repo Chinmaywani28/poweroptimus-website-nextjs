@@ -88,14 +88,14 @@ export const WhyPowerOptimusTwo = () => {
 
   <div className="marTopGlobalLocal">
     <div className="card-grid">
+    
     <div className="card">
-      <img src="/key-vertical-icon-customizable.png" alt="Factory" className="card-icon" />
-      <div className="Header3 TextBlue">Customizable to Industry Needs</div>
+      <img src="/Digital Twin_ KeyVerticals_WithoutBG.png" alt="Factory" className="card-icon" />
+      <div className="Header3 TextBlue">Digital Twin–Enabled Intelligence</div>
       <div className="body3 marTopGlobal">
-        Whether it’s a factory, hospital, or high-rise, EnvirOptimus adapts to the unique KPIs that matter most to your operation.
+        Transforms live operational data into interactive 3D insights for predictive analysis, scenario planning, and smarter decision-making.
       </div>
     </div>
-
     
     <div className="card">
       <img src="/key-vertical-icon-scalable.png" alt="Factory" className="card-icon" />
@@ -133,11 +133,14 @@ export const WhyPowerOptimusTwo = () => {
     </div>
 
     
+    
+
+
     <div className="card">
-      <img src="/Digital Twin_ KeyVerticals_WithoutBG.png" alt="Factory" className="card-icon" />
-      <div className="Header3 TextBlue">Digital Twin–Enabled Intelligence</div>
+      <img src="/key-vertical-icon-customizable.png" alt="Factory" className="card-icon" />
+      <div className="Header3 TextBlue">Customizable to Industry Needs</div>
       <div className="body3 marTopGlobal">
-        Transforms live operational data into interactive 3D insights for predictive analysis, scenario planning, and smarter decision-making.
+        Whether it’s a factory, hospital, or high-rise, EnvirOptimus adapts to the unique KPIs that matter most to your operation.
       </div>
     </div>
   </div>

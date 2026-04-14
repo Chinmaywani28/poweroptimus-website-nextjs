@@ -131,113 +131,123 @@ const WhyEnergy = () => {
       <div className="WhyEnergyhome">
         <div className="HeaderWhyEnergy">
           <div className="Header2 TextBlue">
-            {t('WhyEnergyEfficiencyMatters')}
+            {t("WhyEnergyEfficiencyMatters")}
           </div>
+          {/* <div className="body2 alignbodytext2">
+            {t("WhyEnergyEfficiencyDescription")}
+          </div> */}
+
           <div className="body2 alignbodytext2">
-            {t('WhyEnergyEfficiencyDescription')}
+            As organizations face higher energy consumption, regulatory
+            pressure, and sustainability expectations, traditional monitoring
+            approaches are no longer sufficient. A data-driven Environment and
+            Energy Management Solution provides centralized visibility,
+            real-time analytics, and performance intelligence to control costs,
+            ensure compliance, improve asset reliability, and support long-term
+            sustainability goals.
           </div>
         </div>
 
-       
+        <div className="HeaderWhyEnergytwo body2 alignbodytext2">
+          <ul>
+            <li>
+              Increased demand for energy across facilities and infrastructure
+            </li>
+            <li>Rising energy cost</li>
+            <li>Net Zero goals</li>
+            <li>Highly regulated energy and environmental norms</li>
+            <li>Excess operational data but limited actionable visibility</li>
+            <li>Increasing need for uptime and operational continuity</li>
+            <li>Challenges in monitoring and controlling distributed assets</li>
+          </ul>
+        </div>
+
         <div className="WhyEnergy_3inputs11">
           <div className="WhyEnergy_1">
             <div className="WhyEnergyImage">
               <img src="icon1.svg" alt="Logo" className="header-image" />
             </div>
             <div className="Header3 alignbodytextwidth">
-            {t('WhyEnergyPoint1Title')}
+              {t("WhyEnergyPoint1Title")}
             </div>
             <div className="body3 alignbodytext TextGray3">
-            {t('WhyEnergyPoint1Description')}
+              {t("WhyEnergyPoint1Description")}
             </div>
           </div>
         </div>
 
         <div className="WhyEnergy_3inputs12">
           <div className="WhyEnergy_1">
-
             <div className="WhyEnergyImage">
               <img src="icon2.svg" alt="Logo" className="header-image" />
             </div>
             <div className="Header3 alignbodytextwidth">
-            {t('WhyEnergyPoint2Title')}
+              {t("WhyEnergyPoint2Title")}
             </div>
             <div className="body3 alignbodytext TextGray3">
-            {t('WhyEnergyPoint2Description')}
+              {t("WhyEnergyPoint2Description")}
             </div>
-
           </div>
         </div>
 
         <div className="WhyEnergy_3inputs13">
           <div className="WhyEnergy_1">
-
             <div className="WhyEnergyImage">
               <img src="icon3.svg" alt="Logo" className="header-image" />
             </div>
             <div className="Header3 alignbodytextwidth">
-            {t('WhyEnergyPoint3Title')}
+              {t("WhyEnergyPoint3Title")}
             </div>
             <div className="body3 alignbodytext TextGray3">
-            {t('WhyEnergyPoint3Description')}
+              {t("WhyEnergyPoint3Description")}
             </div>
-
           </div>
         </div>
 
         <div className="WhyEnergy_3inputs21">
           <div className="WhyEnergy_1">
-
             <div className="WhyEnergyImage">
               <img src="icon4.svg" alt="Logo" className="header-image" />
             </div>
             <div className="Header3 alignbodytextwidth">
-            {t('WhyEnergyPoint4Title')}
+              {t("WhyEnergyPoint4Title")}
             </div>
             <div className="body3 alignbodytext TextGray3">
-            {t('WhyEnergyPoint4Description')}
+              {t("WhyEnergyPoint4Description")}
             </div>
-
           </div>
         </div>
 
         <div className="WhyEnergy_3inputs22">
           <div className="WhyEnergy_1">
-
             <div className="WhyEnergyImage">
               <img src="icon5.svg" alt="Logo" className="header-image" />
             </div>
             <div className="Header3 alignbodytextwidth">
-            {t('WhyEnergyPoint5Title')}
+              {t("WhyEnergyPoint5Title")}
             </div>
             <div className="body3 alignbodytext TextGray3">
-            {t('WhyEnergyPoint5Description')}
+              {t("WhyEnergyPoint5Description")}
             </div>
-
           </div>
         </div>
 
         <div className="WhyEnergy_3inputs23">
           <div className="WhyEnergy_1">
-
             <div className="WhyEnergyImage">
               <img src="icon6.svg" alt="Logo" className="header-image" />
             </div>
             <div className="Header3 alignbodytextwidth">
-            {t('WhyEnergyPoint6Title')}
+              {t("WhyEnergyPoint6Title")}
             </div>
             <div className="body3 alignbodytext TextGray3">
-            {t('WhyEnergyPoint6Description')}
+              {t("WhyEnergyPoint6Description")}
             </div>
-
           </div>
         </div>
-
-
-
       </div>
     </div>
-  )
+  );
 }
 
 export default WhyEnergy

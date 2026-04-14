@@ -30,6 +30,17 @@
   gap: 10px;
 }
 
+.HeaderWhyEnergytwo{
+  grid-column-start: 3;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 10px;
+}
+
 .alignbodytext2{
   text-align: justify;
   /* width: 150px; */

@@ -1,0 +1,163 @@
+/* ====================================
+   VIDEO HERO SECTION
+==================================== */
+
+.videoHero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  margin-top: 80px;
+  background: #f0f4f8;
+
+  height: 76vh;
+}
+
+/* VIDEO BACKGROUND */
+
+.videoHeroVideo {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   display: block;
+}
+
+/* DARK OVERLAY */
+
+.videoOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  z-index: 1;
+}
+
+/* ====================================
+   🔥 GRID CONTAINER (LIKE HERO)
+==================================== */
+
+.videoGridContainer {
+  position: relative;
+  z-index: 2; /* above video */
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  height: 100%;
+}
+
+/* SAME GRID AS YOUR HERO */
+
+.videoGrid {
+  display: grid;
+  width: 100%;
+  max-width: 2300px;
+
+  grid-template-columns: 2fr repeat(12, 1fr) 2fr;
+  column-gap: 30px;
+
+  align-items: center;
+}
+
+/* LEFT TEXT AREA (same columns as hero) */
+
+.videoLeft {
+  padding-top: 30px;
+  grid-column: 2 / 7;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* TEXT COLOR */
+
+.textWhite {
+  color: white;
+}
+
+/* BUTTON */
+
+.heroBtn {
+  width: 35%;
+  padding: 14px 28px;
+  background: #00AEEF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+/* ====================================
+   MOBILE (≤600px)
+==================================== */
+
+@media (max-width: 600px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+    height: auto;
+  }
+
+  .videoGrid {
+    grid-template-columns: 10px repeat(12, 1fr) 10px;
+    column-gap: 10px;
+  }
+
+  .videoLeft {
+    grid-column: 2 / 14;
+    gap: 12px;
+  }
+
+  .videoLeft h1 {
+    font-size: 24px;
+  }
+}
+
+/* ====================================
+   TABLET (601–900px)
+==================================== */
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+    height: auto;
+  }
+
+  .videoLeft {
+    grid-column: 2 / 10;
+  }
+
+  .videoLeft h1 {
+    font-size: 32px;
+  }
+}
+
+/* ====================================
+   LAPTOP (901–1200px)
+==================================== */
+
+@media (min-width: 901px) and (max-width: 1200px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+    height: auto;
+  }
+}
+
+/* ====================================
+   DESKTOP (1201px+)
+==================================== */
+
+@media (min-width: 1201px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+    /* height: auto; */
+  }
+}

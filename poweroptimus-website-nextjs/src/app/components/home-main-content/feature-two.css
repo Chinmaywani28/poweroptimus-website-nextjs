@@ -1,0 +1,130 @@
+.marTopBot{
+  margin: 0px 11.5%;
+}
+
+.featWidth{
+  width: 100%;
+}
+
+.featureHe{
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.img-mar{
+  margin-top: 15px;
+}
+
+
+
+
+ /* ===============================
+   MAIN WRAPPER
+================================= */
+.twin-wrapper {
+  width: 100%;
+  /* padding: 60px 20px; */
+}
+
+/* ===============================
+   IMAGE CONTAINER
+================================= */
+.twin-image-container {
+  position: relative; /* IMPORTANT */
+  /* width: 100%; */
+  /* max-width: 1000px;
+  margin: auto; */
+  /* max-width: 1175px; */
+  margin: 0px 11.5%;
+}
+
+/* ===============================
+   IMAGE
+================================= */
+.twin-image-container img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: contain;
+}
+
+/* ===============================
+   COMMON TEXT STYLE
+================================= */
+.text {
+  position: absolute;
+  /* max-width: 180px; */
+  max-width: 228px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* ===============================
+   POSITIONING (DESKTOP BASE)
+   Adjust these values to match lines
+================================= */
+
+/* LEFT SIDE */
+.text-1 { top: 25%; left: 18%; }
+.text-2 { top: 35%; left: 6%; }
+.text-3 { top: 48%; left: 2%; }
+.text-7 { top: 59%; left: 1%; }
+
+/* RIGHT SIDE */
+.text-4 { top: 24%; right: 7%; }
+.text-5 { top: 38%; right: 4%; }
+.text-6 { top: 67%; right: 6%; }
+
+
+
+/* ===============================
+   MOBILE (<=600px)
+================================= */
+@media (max-width: 600px) {
+  .text {
+    position: static; /* remove absolute */
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .twin-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* ===============================
+   TABLET (601px - 900px)
+================================= */
+@media (min-width: 601px) and (max-width: 900px) {
+  .text {
+    font-size: 13px;
+  }
+
+  .text-1 { left: -10%; }
+  .text-2 { left: -12%; }
+  .text-3 { left: -10%; }
+
+  .text-4 { right: -10%; }
+  .text-5 { right: -12%; }
+  .text-6 { right: -10%; }
+}
+
+/* ===============================
+   LAPTOP (901px - 1200px)
+================================= */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .text {
+    font-size: 14px;
+  }
+}
+
+/* ===============================
+   DESKTOP (1201px+)
+================================= */
+@media (min-width: 1201px) {
+  .text {
+    font-size: 15px;
+  }
+}
+

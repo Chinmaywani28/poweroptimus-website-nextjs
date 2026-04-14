@@ -22,6 +22,13 @@ import SustainableDev from './sustainable-dev';
 import SustainableGoals from './sustainable-goals';
 import SustainableGoalsTwo from './sustainable-goals-two';
 import SustainableGoalsThree from './sustainable-goals-three';
+import SolutionDescription from '../solution/solution-description';
+import FeatureTwo from './feature-two';
+import HomeVideo from './home-video';
+import FeatureThree from './feature-three';
+import FeatureVideoAnimation from './feature-video-animation';
+import VideoOverlay from './feature-video-animation-two';
+import HomeVideoTwo from './home-video-two';
 
 
 
@@ -33,19 +40,39 @@ const HomeMainContent = () => {
   return (
     <>
     <div>
-      <Hero headerText={t('BuildingSustainableFuture') } bodyText={t('IntroducingEnergySolution')} 
+
+      {/* <HomeVideo/> */}
+
+      <HomeVideoTwo/>
+
+
+      {/* <Hero headerText={t('BuildingSustainableFuture') } bodyText={t('IntroducingEnergySolution')} 
         image='/HeaderSVG.svg'
-      />
+      /> */}
       {/* slider */}
+
+
+      {/* description section */}
+    <SolutionDescription bodyText={'EnvirOptimus is an Environment and Energy Management solution that combines BIM, Building Management System (BMS), and data analytics to create a digital twin enabling proactive and efficient facility management. It is designed to monitor, analyze, manage, and optimize energy consumption and environmental health with data-driven precision. By leveraging advanced hardware, real-time visibility, and predictive analytics, it empowers organizations to enhance energy efficiency, improve operational performance, and ensure sustainable environmental health.'}/>
       
+
+      {/* <FeatureTwo/> */}
+      {/* <FeatureVideoAnimation/> */}
+      <VideoOverlay/>
+
+      {/* pg content */}
+      <FeatureThree/>
+
+
+      {/* <FeatureThree/> */}
+
+
+
       <SustainableDev/>
 
-      <SustainableGoals/>
+      {/* <SustainableGoals/> */}
       {/* <SustainableGoalsTwo/> */}
       {/* <SustainableGoalsThree/> */}
-
-
-      
 
       {/* <Slider/> */}
       {/* why energy efficiency matters the most */}
@@ -189,13 +216,24 @@ const HomeMainContent = () => {
 
       {/* <FormSection/> */}
 
-      <SolFeatureBtmSection
+      {/* <SolFeatureBtmSection
         heading="A Simple and Customizable Solution Designed for Industries Needs"
         paragraphs={[
           "EnvirOptimus allows users to select and customize the sensor data, level of detail, and layout to suit requirements. Manage real-time data, trends, and patterns through a modern web-based user interface that offers effective data visualization techniques. Users can easily set up personalized alerts in just a few simple steps."
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/HomePage_Footer_Vector_Image.svg"
+        imageAlt="Illustration of integration"
+      /> */}
+
+      <SolFeatureBtmSection
+        heading="Take the Next Step Toward Smarter Operations"
+        paragraphs={[
+          "From monitoring to optimization, EnvirOptimus empowers you to manage environment, energy, and performance in one unified platform scalable for every stage of your journey."
+        ]}
+        buttonText="Schedule a Demo"
+        // imageSrc="/HomePage_Footer_Vector_Image.svg"
+        imageSrc="/home-page-footer-one.jpg"
         imageAlt="Illustration of integration"
       />
 

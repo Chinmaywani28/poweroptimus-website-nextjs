@@ -52,8 +52,8 @@ const page = () => {
 
       {/* <HeroReusable headerText={'Explore Blogs'} bodyText={'Your destination for a wide range of insightful topics, innovative ideas, and thought-provoking articles. Whether you seek to expand your knowledge, gain inspiration, or stay informed on the latest developments, our curated content is designed to engage, enlighten, and add value for people across industries.'} /> */}
 
-      <Hero headerText={"Explore Blogs on Energy & Environmental Trends"} bodyText={
-          "Your destination for a wide range of insightful topics, innovative ideas, and thought-provoking articles on Energy & Environmental Trends. Whether you seek to expand your knowledge, gain inspiration, or stay informed on the latest developments, our curated content is designed to engage, enlighten, and add value for people across industries."
+      <Hero headerText={"Explore Blogs on Environmental & Energy Trends"} bodyText={
+          "Your hub for insights, ideas, and trends in environment and energy, curated to inform, inspire, and keep you ahead across industries, while keeping you updated on innovations, technologies, and best practices shaping a more sustainable future."
       } image='/Resource_Blogs_Header_Vector_Image.svg' />
 
       {/* <CardGridSection

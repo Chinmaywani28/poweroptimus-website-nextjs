@@ -66,7 +66,7 @@ export const KeyVerticesTwo = () => {
         {/* === Left Side: Masonry-style image grid === */}
         <div className='left-img-masonry-container'>
           <div className="left-img-masonry">
-            <div >
+            {/* <div >
               <img src="/key-vertices-one.jpg" alt="Industry" />
             </div>
             <div >
@@ -78,13 +78,33 @@ export const KeyVerticesTwo = () => {
             
             <div >
               <img src="/Pharmaceutical_KeyVerticals_Image.jpg" alt="Medicalkkk" />
+            </div> */}
+
+            <div >
+              <img src="/Home Page- Key Verticals- Data Center.jpg" alt="Industry" />
             </div>
             <div >
+              <img src="/Home Page- Key Verticals- Building.jpg" alt="Chip" />
+            </div>
+            <div >
+              <img src="/Home Page- Key Verticals- Food & Beverages.jpg" alt="Robotics" />
+            </div>
+            
+            <div >
+              <img src="/Home Page- Key Verticals- Manufacturing.jpg" alt="Medicalkkk" />
+            </div>
+
+
+
+
+
+            {/* till here new */}
+            {/* <div >
               <img src="/ky-vertices-four.jpg" alt="Energy" />
             </div>
             <div >
               <img src="/key-vertical-six.jpg" alt="AI" />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -93,8 +113,7 @@ export const KeyVerticesTwo = () => {
           <div className='Header2 TextBlue'>
             Key Verticals
           </div>
-          <div className='body2'>
-            {/* PowerOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By harnessing IoT sensors, real-time analytics, and intelligent automation, the platform identifies inefficiencies as they emerge, optimizes load balancing to avoid peak tariffs, and enables renewable energy integration to reduce reliance on the grid.   */}
+          {/* <div className='body2'>
             <p>EnvirOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. as a comprehensive Energy Management System (EMS) and Environmental Monitoring System. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By using IoT sensors, real-time analytics, and automation, the platform detects inefficiencies early, optimizes load to avoid peak tariffs, and supports renewable energy integration.</p>
             <p>
               Beyond monitoring, EnvirOptimus empowers organizations to take proactive control of their energy strategy. Through advanced visualization dashboards and predictive analytics, facility teams can forecast energy trends, assess the impact of operational changes, and implement automated responses to maintain optimal performance.
@@ -102,7 +121,23 @@ export const KeyVerticesTwo = () => {
           </div>
           <div>
             <button onClick={handleNavigate} className="know-more-button3">Know More</button>
-          </div>
+          </div> */}
+
+            <div className='body2'>
+              EnvirOptimus is designed for high-energy-demand sectors, including commercial buildings (malls, auditoriums, and office spaces), industrial plants and manufacturing facilities, and large infrastructure such as data centers, airports, and transport hubs.
+
+              <div style={{ marginTop: "20px" }}>
+                <b>How EnvirOptimus helps:</b> 
+              </div>
+
+              <ul style={{ marginTop: "0px" }}>
+                <li>Environmental monitoring and compliance</li>
+                <li>Energy optimization and peak demand management</li>
+                <li>Real-time IoT-based analytics</li>
+                <li>Carbon tracking and sustainability reporting</li>
+                <li>Predictive insights and automation</li>
+              </ul>
+            </div>
         </div>
 
       </div>

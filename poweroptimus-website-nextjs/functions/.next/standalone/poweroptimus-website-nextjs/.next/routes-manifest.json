@@ -128,10 +128,10 @@
       "namedRegex": "^/news\\-and\\-events/news/news\\-details(?:/)?$"
     },
     {
-      "page": "/policies",
-      "regex": "^/policies(?:/)?$",
+      "page": "/privacy-policies",
+      "regex": "^/privacy\\-policies(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/policies(?:/)?$"
+      "namedRegex": "^/privacy\\-policies(?:/)?$"
     },
     {
       "page": "/resources/blogs",

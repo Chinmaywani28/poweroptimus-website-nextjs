@@ -25,6 +25,10 @@ import SolFeatureBtmSection from '../components/solution/sol-feature-btm-section
 import { WhyPowerOptimusTwo } from '../components/key-verticals-page/why-power-optimus/why-power-optimus-two'
 import HeroReusable from '../components/key-verticals-page/hero-reusable'
 import Hero from '../components/home-main-content/hero'
+import SolutionDescription from '../components/solution/solution-description'
+import KeyVerticalHero from '../components/home-main-content/key-vertical-hero'
+import HomeVideoTwo from '../components/home-main-content/home-video-two'
+import HomeImageThree from '../components/home-main-content/home-image-three'
 
 
 const page = () => {
@@ -39,17 +43,106 @@ const page = () => {
 
     {/* <HeroReusable headerText={'Industries We Serve with PowerOptimus'} bodyText={'PowerOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level.'} /> */}
 
-      <Hero headerText={"Industries We Serve with EnvirOptimus – A Sustainable Energy Management Platform"} bodyText={
+      {/* <Hero headerText={"Industries We Serve with EnvirOptimus – A Sustainable Energy Management Platform"} bodyText={
           "EnvirOptimus is a next-generation platform designed to empower organizations across diverse industries to achieve operational efficiency, sustainability, and compliance. With deep domain integration and real-time intelligence, it helps monitor, manage, and optimize energy and environmental performance at every level."
-      } image='/KeyVerticals_Header-Vector-Image.svg' />
+      } image='/KeyVerticals_Header-Vector-Image.svg' /> */}
 
+        {/* start commented for new image */}
+      {/* <Hero headerText={"Industries We Serve with EnvirOptimus – A Sustainable Energy Management Platform"} bodyText={
+          "Empowering industries with sustainable energy optimization, environmental intelligence, and performance-driven operational efficiency through EnvirOptimus."
+      } image='/KeyVerticals_Header-Vector-Image.svg' /> */}
+        {/* end commented for new image */}
+
+    {/* <KeyVerticalHero image={'/key-ver-five.png'}/> */}
+    {/* <KeyVerticalHero image={'/keuy.jpg'}/> */}
+
+    <HomeImageThree/>
 
 
 
     {/* sections */}
 
+      {/* description section */}
+    <SolutionDescription bodyText={'EnvirOptimus is an advanced environment and energy management platform built to support organizations across multiple industries in improving efficiency, meeting sustainability objectives, and maintaining regulatory compliance. By integrating seamlessly with operational systems, it enables comprehensive monitoring, control, and optimization of energy usage and environmental performance across facilities.'}/>
 
       <FacilitySections
+        title="Buildings"
+        subTitle='Modern Buildings such as Commercial Offices, Malls, Convention Centers & Auditoriums, Hospitals'
+        text="Deliver Indoor Environmental Quality (IEQ) optimization, HVAC performance efficiency, and ESG-aligned energy management through continuous environmental and operational monitoring. ISO 45001 Certification, SDG"
+        textArr={['Improved indoor air quality (AQI, CO₂, ventilation effectiveness)',
+          'Enhanced occupant comfort and thermal balance',
+          'Reduced HVAC energy consumption',
+          'Lower peak demand and utility costs',
+          'Support for green building certifications and ESG goals',
+          'Ensuring the uptime of your asset'
+        ]}
+        subTitleTwo='Modern buildings must maintain healthy indoor environments despite fluctuating occupancy and rising energy costs. EnvirOptimus enables continuous monitoring of air quality, temperature, humidity, ventilation performance, and emissions, ensuring comfort, compliance, and efficient building operations.'
+        // imageSrc="/key-vertical-five.jpg"
+        imageSrc="/Key Verticals- Buildings (1).jpg"
+        
+        reverse
+        label1="Hazardous Gas   Monitoring"
+        label2="Occupancy Monitoring"
+        label3="HVAC"
+         showList={false}
+        tagPath1="/key-verticals/capabilities/#hazardous-gas"
+        tagPath2="/key-verticals/capabilities/#occu"
+        tagPath3="/key-verticals/capabilities/#advanced-hvac"
+
+      />
+
+      <FacilitySections
+        title="Industrial Plants & Factories"
+        subTitle='Automobile, Heavy Engineering, General Engineering, OEM, Chemical, Food and Beverages, Cement, Metal and Mineral, Pharma, Cold Storage'
+        text="Enable emissions control through corrective actions, process-level energy optimization, and regulatory compliance, achieved through asset-level monitoring, KPI Mapping, and environmental performance analytics. We enable HAZOP study, ISO 14001 Certification, ISO 50001 Certification, ISO 45001 Certification"
+        textArr={['Continuous emissions tracking and regulatory reporting',
+          'Correlation of energy usage with production KPIs',
+          'Reduced process energy waste',
+          'Improved resource efficiency and waste reduction',
+          'Lower compliance and operational risk'
+        ]}
+        subTitleTwo='Industrial facilities face strict environmental regulations and energy-intensive production cycles. EnvirOptimus provides asset- and process-level environmental and energy visibility, helping industries control emissions, optimize production efficiency, and maintain regulatory adherence.'
+        // imageSrc="/Key Verticals- Industrial Plants and Factories.jpg"
+        imageSrc="/Key Verticals- Industrial Plants and Factory.jpg"
+        // reverse
+        label1="Compressor Management"
+        label2="HVAC"
+        label3="Boiler Optimization"
+         showList={false}
+        tagPath1="/key-verticals/capabilities/#hazardous-gas"
+        tagPath2="/key-verticals/capabilities/#occu"
+        tagPath3="/key-verticals/capabilities/#advanced-hvac"
+
+      />
+
+
+      <FacilitySections
+        title="Large Critical Infrastructure"
+        subTitle='Data Centers, Airports & Transport Hubs'
+        text="Ensure power reliability, thermal management optimization, and environmental compliance across high-density, distributed infrastructure environments. Real-time PUE (Power Usage Effectiveness) , Peak-demand penalty avoidance."
+        textArr={['Structured environmental monitoring and reporting',
+          'Cooling and thermal optimization',
+          'Improved power load visibility and reliability',
+          'Reduced operational disruptions',
+          'Controlled carbon and environmental impact'
+        ]}
+        subTitleTwo='Large infrastructure assets require continuous environmental oversight alongside energy management. EnvirOptimus centralizes visibility across distributed systems, enabling operators to optimize cooling, balance loads, and manage compliance without compromising stability.'
+        // imageSrc="/Key Verticals- Large Critical Infrastructure.jpg"
+        imageSrc="/Key Verticals- Large Critical Infrast.jpg"
+        reverse
+        label1="HVAC"
+        label2="Energy Monitoring"
+        label3="Compressor Management"
+         showList={false}
+        tagPath1="/key-verticals/capabilities/#hazardous-gas"
+        tagPath2="/key-verticals/capabilities/#occu"
+        tagPath3="/key-verticals/capabilities/#advanced-hvac"
+
+      />
+
+      
+
+      {/* <FacilitySections
         title="Buildings"
         // text="Modern Commercial spaces demand intelligent, adaptive energy management to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping businesses stay competitive while reducing environmental impact and future-proofing infrastructure."
         text="Modern buildings — including commercial offices, malls, convention centers, and auditoriums demand an intelligent, adaptive environment and energy management system to balance comfort, costs, and compliance. By continuously tracking HVAC performance, power consumption, AQI, and occupancy patterns, facilities can make real-time adjustments that improve comfort, reduce energy bills, and extend asset life. These insights also support green building certifications and long-term sustainability initiatives, helping organizations stay competitive while reducing environmental impact and future-proofing infrastructure."
@@ -138,7 +231,7 @@ const page = () => {
         tagPath2="/key-verticals/capabilities/#hazardous-gas"
         tagPath3="/key-verticals/capabilities/#advanced-hvac"
 
-      />
+      /> */}
 
       
 
@@ -155,13 +248,24 @@ const page = () => {
         imageAlt="Illustration of integration"
       /> */}
 
-      <SolFeatureBtmSection
+      {/* <SolFeatureBtmSection
         heading="Transform your Environmental and Energy Oversight"
         paragraphs={[
           "EnvirOptimus is more than a sustainable energy management platform, it is a strategic platform designed to help organizations gain complete control over environmental and energy performance. With integrated energy monitoring systems, smart dashboards, and real-time analytics, EnvirOptimus empowers organizations to optimize operations and uphold high-performance standards."
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/key-vertical-new.svg"
+        imageAlt="Illustration of integration"
+      /> */}
+
+      <SolFeatureBtmSection
+        heading="Is Your Facility Optimized for Energy and Sustainability?"
+        paragraphs={[
+          "From advanced analytics and air quality monitoring to performance metrics across assets, EnvirOptimus gives you the clarity to reduce waste, control costs, and strengthen compliance all within one unified platform."
+        ]}
+        buttonText="Schedule a Demo"
+        // imageSrc="/key-vertical-new.svg"
+        imageSrc="/Key Verticals Footer.jpg"
         imageAlt="Illustration of integration"
       />
       

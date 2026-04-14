@@ -1,0 +1,86 @@
+.facility-section {
+  padding: 40px 54px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  margin: 40px 11.5%;
+  max-width: 1380px;
+}
+
+/* MAIN FLEX */
+.facility-content {
+  display: flex;
+  align-items: stretch; /* ✅ KEY: match heights */
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* REVERSE */
+.facility-content.reverse {
+  flex-direction: row-reverse;
+}
+
+/* IMAGE SIDE */
+.facility-image {
+  flex: 1;            /* ✅ takes half width */
+  display: flex;      /* ✅ allows child to stretch */
+}
+
+/* IMAGE FIX (MOST IMPORTANT) */
+.facility-image img {
+  width: 100%;        /* ✅ full width */
+  height: 100%;       /* ✅ match text height */
+  object-fit: cover;  /* ✅ no distortion */
+  display: block;     /* ✅ remove inline gap */
+}
+
+/* TEXT SIDE */
+.facility-text {
+  flex: 1;            /* ✅ takes other half */
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.marBtm{
+  margin-bottom: 0;
+}
+
+.listStyleGlobal{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.tags span {
+  background-color: #d4f4d4;
+  color: #1b5e20;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .facility-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .facility-image img {
+    height: auto; /* ✅ don't force height on mobile */
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {}
+
+/* Desktop */
+@media (min-width: 1201px) {}

@@ -8,7 +8,8 @@ const RolesCapCarousel = ( ) => {
 
   const slides = [
     {
-      img: "/roles-new-one.jpg",
+      // img: "/roles-new-one.jpg",
+      img: "/roles-new-two.jpg",
       title: "Facility Managers",
       text: `Facility Managers are tasked with ensuring the smooth and efficient operation of building systems daily. From managing HVAC, lighting, and equipment schedules to balancing energy consumption with occupant comfort, their role is critical to maintaining reliability and cost control. EnvirOptimus supports facility managers by providing real-time monitoring and control of energy-intensive assets, sending proactive alerts for abnormal consumption or equipment failure, and reducing downtime through predictive insights. This ensures that buildings remain comfortable and operationally sound while lowering utility costs and maintenance burdens.`,
       label1: 'Employee Awareness Training',
@@ -63,7 +64,7 @@ const RolesCapCarousel = ( ) => {
       tagPath3: '/roles/responsibilities/#co2-monitoring'
     },
     {
-      img: "/Production Managers.jpg",
+      img: "/prod-manager.png",
       title: "Production Managers",
       text: `Production Managers are under constant pressure to maximize throughput, quality, and uptime, often balancing trade-offs between productivity and energy use. EnvirOptimus helps them strike this balance by linking machine-level energy data with production metrics, making inefficiencies visible during idle, peak, or off-peak hours. By supporting lean manufacturing through energy-aware scheduling, the platform ensures that processes run with minimal waste and maximum efficiency. This allows production managers to maintain output targets while reducing unnecessary energy expenditure, achieving both operational and sustainability objectives.`,
       label1: 'Machine Energy Intensity',
@@ -74,7 +75,7 @@ const RolesCapCarousel = ( ) => {
       tagPath3: '/roles/responsibilities/#energy-audits'
     },
     {
-      img: "/Health Inspectors Image.jpg",
+      img: "/health-inspe.jpg",
       title: "Health Inspectors",
       text: `Health inspectors oversee the adherence to safety and environmental regulations related to building operations, air quality, and equipment safety.
         Monitors HVAC and indoor environmental quality in real time

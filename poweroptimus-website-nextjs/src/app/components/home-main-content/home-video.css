@@ -1,0 +1,154 @@
+/* ====================================
+   VIDEO HERO SECTION
+==================================== */
+
+/* .videoHero {
+  position: relative; 
+  width: 100%;
+  overflow: hidden;
+} */
+
+.videoHero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  /* MATCH WITH OTHER HERO */
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f0f4f8;
+
+  height: 76vh; /* 🔥 SAME AS OTHER HERO */
+}
+
+/* Background Video */
+
+/* .videoHeroVideo {
+  width: 100%;
+  height: 100%;
+  display: block;
+} */
+
+.videoHeroVideo {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Optional dark overlay */
+
+.videoOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35); /* dark layer for readability */
+}
+
+/* Text + Button container */
+
+.videoContent {
+  position: absolute;
+  bottom: 60px;
+  left: 11.5%;
+  z-index: 2;
+  max-width: 665px;
+}
+
+/* Heading */
+
+.videoContent h1 {
+  color: white;
+  /* font-size: 48px; */
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.textWhite{
+  color: white;
+}
+
+/* Button */
+
+.heroBtn {
+  padding: 14px 28px;
+  background: #00AEEF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+
+/* ====================================
+   MOBILE
+==================================== */
+
+@media (max-width: 600px) {
+
+  .videoHero {
+    aspect-ratio: 16/9; /* maintain video shape */
+  }
+
+  .videoContent {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+
+  .videoContent h1 {
+    font-size: 24px;
+  }
+
+}
+
+
+/* ====================================
+   TABLET
+==================================== */
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+  }
+
+  .videoContent {
+    bottom: 40px;
+    left: 40px;
+  }
+
+  .videoContent h1 {
+    font-size: 32px;
+  }
+
+}
+
+
+/* ====================================
+   LAPTOP
+==================================== */
+
+@media (min-width: 901px) and (max-width: 1200px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+  }
+
+}
+
+
+/* ====================================
+   DESKTOP
+==================================== */
+
+@media (min-width: 1201px) {
+
+  .videoHero {
+    aspect-ratio: 16/9;
+  }
+
+}

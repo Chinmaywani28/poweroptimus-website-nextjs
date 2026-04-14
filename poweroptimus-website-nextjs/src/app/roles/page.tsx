@@ -18,8 +18,13 @@ const page = () => {
 
       {/* <HeroReusable headerText={'Empower Every Role to Drive Efficiency and Sustainability'} bodyText={'From facility managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, PowerOptimus delivers tailored insights and tools for every stakeholder. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting so you can build safer, smarter, and more sustainable operations with confidence.'} /> */}
 
-      <Hero headerText={"Empower every Role to Drive Sustainability and Efficiency"} bodyText={
+      {/* <Hero headerText={"Empower every Role to Drive Sustainability and Efficiency"} bodyText={
           "From Facility Managers ensuring day-to-day reliability to CXOs shaping long-term ESG strategies, EnvirOptimus delivers tailored insights and tools for every stakeholder as an environmental monitoring software for industrial facilities. Whether your focus is cutting costs, enhancing operational performance, or advancing sustainability targets, our platform equips you with real-time data, predictive intelligence, and transparent reporting." 
+      } image='/roles-header-images.svg'/> */}
+
+
+      <Hero headerText={"Empower every Role to Drive Sustainability and Efficiency"} bodyText={
+          "From facility managers to CXOs, EnvirOptimus enables cost, performance, and sustainability goals with real-time data, predictive insights, and transparent reporting." 
       } image='/roles-header-images.svg'/>
 
 
@@ -153,7 +158,7 @@ const page = () => {
       <SolFeatureBtmSection
         heading="Ready to Power a Safer, Smarter, and More Sustainable Future?"
         paragraphs={[
-          "No matter your role, be it facilities, operations, energy, or sustainability, EnvirOptimus can help you streamline operations, cut energy costs, and drive meaningful progress toward your sustainability goals. From real-time insights to proactive control, we’re here to support your journey toward operational excellence and environmental responsibility with environmental monitoring software for industrial facilities."
+          "No matter what your role, EnvirOptimus helps you optimize operations, reduce energy costs, and achieve sustainability goals with real-time insights and proactive intelligence."
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/Roles_Footer_Vector_Image.svg"

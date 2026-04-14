@@ -33,6 +33,7 @@ import FeatureCard from '../components/solution/solution-feature-section'
 import ProcessDiagramTwo from '../components/solution/process-diagram-two'
 import FeatureTwo from '../components/solution/feature-two'
 import ProcessDiagramThree from '../components/solution/process-diagram-new'
+import SolutionDescription from '../components/solution/solution-description'
 
 
 const page = () => {
@@ -43,15 +44,20 @@ const page = () => {
     {/* <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/> */}
 
 
-    <Hero headerText={"EnvirOptimus – A Smart Energy Management and Environmental Monitoring Solution"} bodyText={
-          "EnvirOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems."
-      } image={'/Solution_Header_500x500px 2.svg'} />
+    <Hero headerText={"EnvirOptimus – A Smart Environmental and Energy Management Solution"} bodyText={
+          "A unified solution for managing assets and utilities to enable Digital Twin–driven operations, optimize performance, ensure compliance, and support sustainability goals."
+      } image={'/Group 825462.svg'} />
+
+      {/* old Solution_Header_500x500px 2.svg */}
 
     {/* changes done in content acc to pragya in solution hero */}
     {/* features */}
     {/* <FeatureSection/> */}
 
-    <div className="feature-title Header2 TextBlue">Features Driving Results</div>
+    {/* description section */}
+    <SolutionDescription bodyText={'EnvirOptimus is a scalable Environment and Energy Management Solution built to improve energy efficiency, lower operating costs, and meet sustainability targets. By combining advanced energy monitoring with environmental performance management, it enables organizations to enhance operational control, ensure compliance, and drive measurable sustainability outcomes.'}/>
+
+    <div className="feature-title Header1 TextBlue">Features Driving Results</div>
 
     {/* <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
 
@@ -95,7 +101,7 @@ const page = () => {
     <DataAnalysis/>
     {/* integration */}
     {/* <Integration/> */}
-    <SolFeatureBtmSection
+    {/* <SolFeatureBtmSection
         heading="Easy to Integrate with Existing Systems"
         paragraphs={[
           "EnvirOptimus is designed with interoperability and flexibility at its core, making it simple to integrate with your existing infrastructure whether it’s legacy systems, Building Management Systems(BMS), SCADA, or industrial automation setups. Our solution supports widely-used communication protocols such as Modbus, BACnet, MQTT, and OPC-UA, ensuring seamless data flow from your current energy meters, environmental sensors, and control systems."
@@ -103,7 +109,19 @@ const page = () => {
         buttonText="Schedule a Demo"
         imageSrc="/Solution_Footer_500x500px.svg"
         imageAlt="Illustration of integration"
+      /> */}
+
+      <SolFeatureBtmSection
+        heading="Connect today and take control of your energy and environmental performance."
+        paragraphs={[
+          "Ready to unify your existing BMS, SCADA, or industrial automation systems? EnvirOptimus integrates effortlessly using industry-standard protocols so you can start optimizing without replacing existing infrastructure."
+        ]}
+        buttonText="Schedule a Demo"
+        // imageSrc="/Solution_Footer_500x500px.svg"
+        imageSrc="/Solutions_Footer_Image.jpg"
+        imageAlt="Illustration of integration"
       />
+
 
     </>
     

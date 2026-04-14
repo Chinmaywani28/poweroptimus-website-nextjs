@@ -1,0 +1,105 @@
+.marTopBot{
+  margin: 0px 11.5%;
+}
+
+.featWidth{
+  width: 100%;
+}
+
+.featureHe{
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.img-mar{
+  margin-top: 15px;
+}
+
+/* ===============================
+   MAIN SECTION
+================================= */
+.twin-section {
+  width: 100%;
+  padding: 60px 20px;
+}
+
+/* ===============================
+   GRID LAYOUT (3 COLUMNS)
+================================= */
+.twin-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr; /* left - image - right */
+  align-items: center;
+  gap: 40px;
+}
+
+/* ===============================
+   LEFT & RIGHT CONTENT
+================================= */
+.twin-left,
+.twin-right {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 20px; /* spacing between paragraphs */
+}
+
+.twin-left p,
+.twin-right p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ===============================
+   IMAGE STYLING
+================================= */
+.twin-image img {
+  width: 100%;
+  aspect-ratio: 16/10; /* maintain shape */
+  object-fit: contain;
+}
+
+/* ===============================
+   MOBILE (<=600px)
+================================= */
+@media (max-width: 600px) {
+  .twin-container {
+    grid-template-columns: 1fr; /* stack everything */
+  }
+
+  .twin-left,
+  .twin-right {
+    text-align: center;
+  }
+}
+
+/* ===============================
+   TABLET (601px - 900px)
+================================= */
+@media (min-width: 601px) and (max-width: 900px) {
+  .twin-container {
+    grid-template-columns: 1fr; /* stack */
+  }
+
+  .twin-left,
+  .twin-right {
+    text-align: center;
+  }
+}
+
+/* ===============================
+   LAPTOP (901px - 1200px)
+================================= */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .twin-container {
+    grid-template-columns: 1fr 1.2fr 1fr;
+  }
+}
+
+/* ===============================
+   DESKTOP (1201px+)
+================================= */
+@media (min-width: 1201px) {
+  .twin-container {
+    grid-template-columns: 1fr 1.5fr 1fr;
+  }
+}

@@ -21,7 +21,7 @@ const page = () => {
       {/* <HeroReusable headerText={'Discover Smarter Solutions with Us'} bodyText={'Explore how our innovative products and services help businesses optimize operations, improve efficiency, and drive sustainable growth. The brochure provides a comprehensive overview of our solutions, including key features, benefits, and real-world applications. Learn how we empower organizations to make data-driven decisions, reduce costs, and achieve operational excellence whether it’s energy management, digital transformation, or asset optimization.'} /> */}
 
       <Hero headerText={"Discover Smarter Solutions with Us"} bodyText={
-          "Explore how our innovative products and services help businesses optimize operations, improve efficiency, and drive sustainable growth. The brochure provides a comprehensive overview of our solutions, including key features, benefits, and real-world applications. Learn how we empower organizations to make data-driven decisions, reduce costs, and achieve operational excellence whether it’s energy management, digital transformation, or asset optimization."
+          "Explore how our solutions optimize operations, improve efficiency, and drive sustainable growth, featuring key benefits, use cases, and insights to enable data-driven decisions and operational excellence."
       } image='/Resource_Brouchure_Header_Vector_Image.svg' />
 
       <BrochureCardSection

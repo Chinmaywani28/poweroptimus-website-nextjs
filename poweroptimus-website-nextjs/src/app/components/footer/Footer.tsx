@@ -186,23 +186,54 @@ const Footer = () => {
           </div>
         </div>
 
-        
         <div className="footerLink1 TextWhite Header3">
-          <div className="newsletter-title Header1ABold">Newsletter</div>
+          {/* <div className="newsletter-title Header1ABold">Newsletter</div>
           <div className="newsletter-text footerAddress body4">
             Subscribe to our newsletters to receive latest news and updates
-          </div>
+          </div> */}
           {/* <input
             type="email"
             className="newsletter-input"
             placeholder="Enter your Email"
           /> */}
 
-          <input type='text' value={email} onChange={e => setEmail(e.target.value)} className='newsletter-input' name='' id='' aria-describedby='helpId' placeholder="Enter your Email"/>
-          <button className="newsletter-button" onClick={subscribeNow}>Subscribe Now</button>
-        </div>
-      
+          {/* <input type='text' value={email} onChange={e => setEmail(e.target.value)} className='newsletter-input' name='' id='' aria-describedby='helpId' placeholder="Enter your Email"/>
+          <button className="newsletter-button" onClick={subscribeNow}>Subscribe Now</button> */}
 
+          {/* sitemap start */}
+          <div className="footer-sitemap">
+            {/* Column 1 */}
+            <div className="sitemap-column">
+              
+              <Link href="/solution">Solution</Link>
+              <Link href="/key-verticals">Key Verticals</Link>
+              <Link href="/roles">Roles</Link>
+              {/* <Link href="/resources/blogs">Resources</Link> */}
+            </div>
+
+            {/* Column 2 */}
+            <div className="sitemap-column">
+              
+              <Link href="/resources/blogs">Resources</Link>
+              <Link href="/key-verticals/capabilities#advanced-hvac">Capabilities</Link>
+              {/* <Link href="/">Roles</Link> */}
+              <Link href="/roles/responsibilities#energy-audits">Responsibilities</Link>
+              
+            </div>
+
+            {/* Column 3 */}
+            <div className="sitemap-column">
+             
+              <Link href="/resources/blogs">Blog</Link>
+              <Link href="/resources/case-study">Case Studies</Link>
+              <Link href="/resources/webinars">Webinars</Link>
+              <Link href="/resources/videos">Videos</Link>
+              <Link href="/resources/brochures">Brochure</Link>
+            </div>
+          </div>
+
+          {/* sitemap end */}
+        </div>
 
         <div className="separateLine_footer"></div>
 
@@ -218,7 +249,10 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-linkedin-box-fill footer-icon" style={{ fontSize: "28px"}}></i>
+              <i
+                className="ri-linkedin-box-fill footer-icon"
+                style={{ fontSize: "28px" }}
+              ></i>
             </a>
           </div>
 
@@ -229,7 +263,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_email_link"
             >
-              <i className="ri-youtube-fill"  style={{ fontSize: "28px"}}></i>
+              <i className="ri-youtube-fill" style={{ fontSize: "28px" }}></i>
             </a>
           </div>
 
@@ -244,8 +278,6 @@ const Footer = () => {
             </a> */}
           </div>
 
-          
-
           <div></div>
         </div>
 
@@ -257,23 +289,52 @@ const Footer = () => {
           {/* <div>{t('Disclaimer')}</div> */}
           {/* <div>|</div> */}
           {/* <div>{t('Sitemap')}</div> */}
-          <Link href={"/faq"} style={{ color: "white", textDecoration: "none" }}>FAQ</Link>
+          <Link
+            href={"/faq"}
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            FAQ
+          </Link>
 
           <div>|</div>
-            
 
-          <Link href={"/policies"} style={{ color: "white", textDecoration: "none" }}>Privacy Policy</Link>
+          <Link
+            href={"/privacy-policies"}
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Privacy Policy
+          </Link>
           <div>|</div>
-          <Link href={"/terms-and-condition"} style={{ color: "white", textDecoration: "none" }}>Terms and Conditions</Link>
+          <Link
+            href={"/terms-and-condition"}
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Terms and Conditions
+          </Link>
           <div>|</div>
           {/* <div>Disclaimer</div> */}
-          <Link href={"/disclaimer"} style={{ color: "white", textDecoration: "none" }}>Disclaimer</Link>
+          <Link
+            href={"/disclaimer"}
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Disclaimer
+          </Link>
           <div>|</div>
           {/* <div>Sitemap</div> */}
-          <Link href={"/eula"} style={{ color: "white", textDecoration: "none" }}>EULA</Link>
+          <Link
+            href={"/eula"}
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            EULA
+          </Link>
           <div>|</div>
-          
-          <Link href={"/cookie-policy"} style={{ color: "white", textDecoration: "none" }}>Cookies Policy</Link>
+
+          <Link
+            href={"/cookie-policy"}
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Cookies Policy
+          </Link>
         </div>
       </div>
     </div>

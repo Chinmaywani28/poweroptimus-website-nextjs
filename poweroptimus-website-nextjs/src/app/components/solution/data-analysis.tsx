@@ -54,7 +54,7 @@ const DataAnalysis = () => {
        It collects data from real-time energy meters and environmental sensors to deliver clear, actionable insights.
         Interactive dashboards reveal energy usage trends, peak loads, and system efficiency, while predictive analytics identify anomalies and support demand forecasting. This helps reduce operational costs, optimize performance, and minimize energy waste.
         Designed with sustainability in mind, EnvirOptimus – an environmental monitoring solution tracks emissions, air quality, and resource use, empowering organizations to lower their carbon footprint and stay compliant with environmental standards. */}
-        EnvirOptimus integrates seamlessly with Digital Twin platforms to transform real-time energy and environmental data into immersive 3D visual intelligence. By synchronizing data from meters, sensors, and building systems with a digital replica of the facility, it enables interactive visualization, heat mapping, and contextual performance monitoring across assets and zones.
+        EnvirOptimus integrates seamlessly with Digital Twin platforms to transform real-time energy and environmental data into immersive 3D visual intelligence. By synchronizing data from meters, sensors, and building systems with a digital replica of the facility, it enables interactive visualization, heat mapping, and contextual performance monitoring across assets and zones. <br />
         This integration supports advanced simulations and “what-if” scenario analysis, allowing organizations to predict demand, identify inefficiencies, assess carbon impact, and optimize operations before implementing changes in the physical environment turning monitoring into proactive performance management.
       </p>
 

@@ -58,8 +58,8 @@ const page = () => {
 
       {/* <HeroReusable headerText={'Webinar Hub – Learn, Engage, Transform '} bodyText={'Welcome to our Webinar Hub, your go-to destination for expert insights, industry trends, and practical strategies. From energy optimization and smart asset management to construction quality and digital transformation, our sessions bring together thought leaders, innovators, and practitioners to share knowledge that matters.'} /> */}
 
-      <Hero headerText={"Webinar Hub – Learn, Engage, Transform Your Energy and Environmental Operations"} bodyText={
-          "Welcome to our Webinar Hub, your go-to destination for expert insights, industry trends, and practical strategies to strengthen your energy and environmental operations. From energy optimization and smart asset management to construction quality and digital transformation, our sessions bring together thought leaders, innovators, and practitioners to share knowledge that matters."
+      <Hero headerText={"Webinar Hub – Learn, Engage, Transform"} bodyText={
+          "Your destination for expert insights, industry trends, and practical strategies to enhance energy and environmental operations, covering optimization, smart asset management, and digital transformation."
       } image='/Resource_Webinar_Header_Vector_Image.svg' />
 
       {/* <CardGridSection

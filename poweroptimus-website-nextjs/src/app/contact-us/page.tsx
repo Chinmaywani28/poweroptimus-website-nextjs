@@ -140,7 +140,7 @@ const RequestDemo = () => {
               <option value="">Select Interest</option>
               <option value="Enviorment Management">Enviorment Management</option>
               <option value="Energy Management">Energy Management</option>
-              <option value="Digital Management">Digital Management</option>
+              <option value="Digital Twin">Digital Twin</option>
 
             </select>
             </div>
