@@ -35,8 +35,8 @@ import HomeVideoTwo from './home-video-two';
 const HomeMainContent = () => {
 
   const { t } = useTranslation(); // Initialize translation hook
-  
 
+  
   return (
     <>
     <div>

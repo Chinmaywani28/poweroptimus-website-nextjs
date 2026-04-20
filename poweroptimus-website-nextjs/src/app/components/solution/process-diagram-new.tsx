@@ -67,7 +67,9 @@ const ProcessDiagramTwo = () => {
   return (
     <section>
       <div className={styles.title}>
-        <div className="Header2 TextBlue">Implementation Process</div>
+        {/* <div className="Header2 TextBlue">Implementation Process</div> */}
+        <div className="Header2 TextBlue">Digital Twin Golive Process</div>
+
       </div>
 
       <div className={styles.container}>

@@ -34,6 +34,7 @@ import ProcessDiagramTwo from '../components/solution/process-diagram-two'
 import FeatureTwo from '../components/solution/feature-two'
 import ProcessDiagramThree from '../components/solution/process-diagram-new'
 import SolutionDescription from '../components/solution/solution-description'
+import HeroWithVideo from '../components/home-main-content/hero-with-video'
 
 
 const page = () => {
@@ -44,9 +45,9 @@ const page = () => {
     {/* <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/> */}
 
 
-    <Hero headerText={"EnvirOptimus – A Smart Environmental and Energy Management Solution"} bodyText={
+    <HeroWithVideo headerText={"EnvirOptimus – A Smart Environmental and Energy Management Solution"} bodyText={
           "A unified solution for managing assets and utilities to enable Digital Twin–driven operations, optimize performance, ensure compliance, and support sustainability goals."
-      } image={'/Group 825462.svg'} />
+      } video={'/videos/Revised_EnvirOptimus_Motion Graphic-Digital Twin.mp4'} />
 
       {/* old Solution_Header_500x500px 2.svg */}
 
@@ -57,7 +58,7 @@ const page = () => {
     {/* description section */}
     <SolutionDescription bodyText={'EnvirOptimus is a scalable Environment and Energy Management Solution built to improve energy efficiency, lower operating costs, and meet sustainability targets. By combining advanced energy monitoring with environmental performance management, it enables organizations to enhance operational control, ensure compliance, and drive measurable sustainability outcomes.'}/>
 
-    <div className="feature-title Header1 TextBlue">Features Driving Results</div>
+    <div className="feature-title Header1TwoDD TextBlue">Features Driving Results</div>
 
     {/* <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
 

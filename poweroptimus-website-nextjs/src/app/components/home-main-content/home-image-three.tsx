@@ -21,35 +21,41 @@ const HomeImageThree: React.FC = () => {
 
       {/* ✅ IMAGE BACKGROUND (replaced video) */}
       <img
-        src="/key-ver-five.png"  // 🔥 replace with your image path
+        src="/key_verticalsss.jpg"  // 🔥 replace with your image path
         alt="Hero Background"
         className="videoHeroVideo"
       />
 
+      {/* <img
+        src="/KeyVerticals_Header2.jpg"  // 🔥 replace with your image path
+        alt="Hero Background"
+        className="videoHeroVideo"
+      /> */}
+
       {/* Overlay */}
-      <div className="videoOverlay"></div>
+      {/* <div className="videoOverlay"></div> */}
 
       {/* 🔥 NEW GRID CONTENT (same like hero) */}
-      {/* <div className="videoGridContainer">
+      <div className="videoGridContainer">
         <div className="videoGrid">
 
           
           <div className="videoLeft">
-            <h1 className="Header1 textWhite">
-              Data-driven Environment and Energy Management Solution
+            <h1 className="Header1 TextWhite">
+              Industries We Serve with EnvirOptimus – A Sustainable Energy Management Platform
             </h1>
 
-            <div className="body1 textWhite">
-              Transforms real-time operational and environmental data into actionable insights for efficiency, compliance, and sustainable performance.
+            <div className="body1 TextWhite">
+              Empowering industries with sustainable energy optimization, environmental intelligence, and performance-driven operational efficiency through EnvirOptimus.
             </div>
 
-            <button className="heroBtn">
+            {/* <button className="heroBtn">
               Watch Video
-            </button>
+            </button> */}
           </div>
 
         </div>
-      </div> */}
+      </div>
 
     </section>
 

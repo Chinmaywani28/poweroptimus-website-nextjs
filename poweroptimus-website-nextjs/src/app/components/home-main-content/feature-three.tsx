@@ -7,7 +7,7 @@ const FeatureThree: React.FC = () => {
 
   return (
     <div className="marTopBot">
-      <div className="Header3 featureHe">
+      <div className="Header2 featureHe TextBlue">
         From Design to Intelligence: Why EEMS Is the Core of Sustainable
         Building Performance
       </div>
@@ -50,7 +50,7 @@ const FeatureThree: React.FC = () => {
           foundation with 3D models, asset specifications, and lifecycle
           documentation, but it is not operational.
         </div>
-        <div>
+        <div className="marTopGlobal">
           <b>
             The Physical Facility executes real-world operations and generates
             energy and environmental data.

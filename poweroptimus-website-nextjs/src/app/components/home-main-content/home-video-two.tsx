@@ -1,8 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import "./home-video-two.css";
 
 const HomeVideoTwo: React.FC = () => {
+
+  const NavToYoutube = () => {
+    window.open("https://youtu.be/WrFonQop5QY?si=l4NMsj5KNjL-lEQ2")
+  }
+  const [isOpen, setIsOpen] = useState(false);
   
 
   return (
@@ -36,13 +41,46 @@ const HomeVideoTwo: React.FC = () => {
               Transforms real-time operational and environmental data into actionable insights for efficiency, compliance, and sustainable performance.
             </div>
 
-            <button className="heroBtn">
+            <button onClick={() => setIsOpen(true)} className="heroBtn">
               Watch Video
             </button>
+
+            {/* Modal */}
+            {isOpen && (
+              <div className="modalOverlay">
+                
+                <div className="modalContent">
+                  
+                  {/* Close Button */}
+                  <span className="closeBtn" onClick={() => setIsOpen(false)}>
+                    ✖
+                  </span>
+
+                  {/* YouTube Video */}
+                  {/* <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://youtu.be/WrFonQop5QY?si=l4NMsj5KNjL-lEQ2"
+                    title="YouTube video"
+                    allowFullScreen
+                  ></iframe> */}
+
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WrFonQop5QY?si=-Z4rJbDN-WZA-u0P" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+
+                </div>
+              </div>
+            )}
+
+
+
+
+
           </div>
 
         </div>
       </div>
+
+      
 
     </section>
 

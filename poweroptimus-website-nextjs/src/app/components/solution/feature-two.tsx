@@ -32,7 +32,7 @@ const cards = [
       'Optimization of utility consumption across facilities',
       'Reduction in energy bills and operational costs',
       'Improved resource efficiency and sustainability performance',
-      'Enhanced operational resilience'
+      // 'Enhanced operational resilience'
     ], titleLeft: true },
     { title: "Power Quality Monitoring", textArr: [
       'Monitoring of power factor, harmonics, and frequency',

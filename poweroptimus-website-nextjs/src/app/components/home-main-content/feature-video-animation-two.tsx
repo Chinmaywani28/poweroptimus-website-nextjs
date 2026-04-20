@@ -64,7 +64,7 @@ const VideoOverlay = () => {
       {/* 🎥 Video */}
       <video
         ref={videoRef}
-        src="/videos/enviro-home-video.mp4"
+        src="/videos/Final_With Text-Latest_Neil Automation website Motion Graphic-07.mp4"
         autoPlay
         muted
         // loop
@@ -73,7 +73,7 @@ const VideoOverlay = () => {
       />
 
       {/* 📝 Overlay Text */}
-      {visibleTexts.map((item) => (
+      {/* {visibleTexts.map((item) => (
         <div
           key={item.id}
           className={`overlay-text ${item.side}`}
@@ -81,7 +81,7 @@ const VideoOverlay = () => {
         >
           {item.text}
         </div>
-      ))}
+      ))} */}
     </section>
   );
 };

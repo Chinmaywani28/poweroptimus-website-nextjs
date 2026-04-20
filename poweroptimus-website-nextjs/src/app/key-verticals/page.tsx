@@ -76,7 +76,8 @@ const page = () => {
           'Support for green building certifications and ESG goals',
           'Ensuring the uptime of your asset'
         ]}
-        subTitleTwo='Modern buildings must maintain healthy indoor environments despite fluctuating occupancy and rising energy costs. EnvirOptimus enables continuous monitoring of air quality, temperature, humidity, ventilation performance, and emissions, ensuring comfort, compliance, and efficient building operations.'
+        subTitleTwo='Modern buildings must maintain healthy indoor environments despite fluctuating occupancy and rising energy costs. EnvirOptimus enables continuous monitoring of air quality, temperature, humidity, ventilation performance, and emissions, ensuring comfort, compliance, and efficient building operations.
+        lorem also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.'
         // imageSrc="/key-vertical-five.jpg"
         imageSrc="/Key Verticals- Buildings (1).jpg"
         
@@ -94,14 +95,14 @@ const page = () => {
       <FacilitySections
         title="Industrial Plants & Factories"
         subTitle='Automobile, Heavy Engineering, General Engineering, OEM, Chemical, Food and Beverages, Cement, Metal and Mineral, Pharma, Cold Storage'
-        text="Enable emissions control through corrective actions, process-level energy optimization, and regulatory compliance, achieved through asset-level monitoring, KPI Mapping, and environmental performance analytics. We enable HAZOP study, ISO 14001 Certification, ISO 50001 Certification, ISO 45001 Certification"
+        text="Enable emissions control through corrective actions, process-level energy optimization, and regulatory compliance, achieved through asset-level monitoring, KPI Mapping, and environmental performance analytics. We enable HAZOP study, ISO 14001 Certification, ISO 50001 Certification, ISO 45001 Certification."
         textArr={['Continuous emissions tracking and regulatory reporting',
           'Correlation of energy usage with production KPIs',
           'Reduced process energy waste',
           'Improved resource efficiency and waste reduction',
           'Lower compliance and operational risk'
         ]}
-        subTitleTwo='Industrial facilities face strict environmental regulations and energy-intensive production cycles. EnvirOptimus provides asset- and process-level environmental and energy visibility, helping industries control emissions, optimize production efficiency, and maintain regulatory adherence.'
+        subTitleTwo='Industrial facilities face strict environmental regulations and energy-intensive production cycles. EnvirOptimus provides asset- and process-level environmental and energy visibility, helping industries control emissions, optimize production efficiency, and maintain regulatory adherence. lorem also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.'
         // imageSrc="/Key Verticals- Industrial Plants and Factories.jpg"
         imageSrc="/Key Verticals- Industrial Plants and Factory.jpg"
         // reverse
@@ -126,7 +127,8 @@ const page = () => {
           'Reduced operational disruptions',
           'Controlled carbon and environmental impact'
         ]}
-        subTitleTwo='Large infrastructure assets require continuous environmental oversight alongside energy management. EnvirOptimus centralizes visibility across distributed systems, enabling operators to optimize cooling, balance loads, and manage compliance without compromising stability.'
+        subTitleTwo='Large infrastructure assets require continuous environmental oversight alongside energy management. EnvirOptimus centralizes visibility across distributed systems, enabling operators to optimize cooling, balance loads, and manage compliance without compromising stability. 
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy ever since when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.'
         // imageSrc="/Key Verticals- Large Critical Infrastructure.jpg"
         imageSrc="/Key Verticals- Large Critical Infrast.jpg"
         reverse
