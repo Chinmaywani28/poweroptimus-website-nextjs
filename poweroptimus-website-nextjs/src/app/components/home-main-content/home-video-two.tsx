@@ -34,11 +34,12 @@ const HomeVideoTwo: React.FC = () => {
           {/* LEFT TEXT SECTION */}
           <div className="videoLeft">
             <h1 className="Header1 textWhite">
-              Data-driven Environment and Energy Management Solution
+              {/* Data-driven Environment and Energy Management Solution */}
+              An Unified Digital Twin solution for Environment & Energy Management.
             </h1>
 
             <div className="body1 textWhite">
-              Transforms real-time operational and environmental data into actionable insights for efficiency, compliance, and sustainable performance.
+              Transform real-time operational and environmental data into actionable insights for efficiency, compliance, and sustainable performance.
             </div>
 
             <button onClick={() => setIsOpen(true)} className="heroBtn">

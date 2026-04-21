@@ -29,6 +29,8 @@ import FeatureThree from './feature-three';
 import FeatureVideoAnimation from './feature-video-animation';
 import VideoOverlay from './feature-video-animation-two';
 import HomeVideoTwo from './home-video-two';
+import ImageBgOverlay from './image-bg';
+import ImageOver from './image-over';
 
 
 
@@ -58,7 +60,10 @@ const HomeMainContent = () => {
 
       {/* <FeatureTwo/> */}
       {/* <FeatureVideoAnimation/> */}
-      <VideoOverlay/>
+      {/* <VideoOverlay/> this is VideoOverlay is component for video animation */}
+
+      <ImageOver/>
+
 
       {/* pg content */}
       <FeatureThree/>

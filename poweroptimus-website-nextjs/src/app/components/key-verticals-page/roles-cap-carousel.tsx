@@ -17,7 +17,8 @@ const RolesCapCarousel = ( ) => {
       label3: 'Predictive Maintenance',
       tagPath1: '/roles/responsibilities/#employee-awareness',
       tagPath2: '/roles/responsibilities/#energy-audits',
-      tagPath3: '/roles/responsibilities/#predictive-maintenance'
+      tagPath3: '/roles/responsibilities/#predictive-maintenance',
+      cheForm: false
     },
     {
       // img: "/Operation Heads  Image.jpg",
@@ -29,7 +30,9 @@ const RolesCapCarousel = ( ) => {
       label3: 'Efficiency Improvements',
       tagPath1: '/roles/responsibilities/#co2-monitoring',
       tagPath2: '/roles/responsibilities/#data-analysis',
-      tagPath3: '/roles/responsibilities/#energy-audits'
+      tagPath3: '/roles/responsibilities/#energy-audits',
+      cheForm: false
+
     },
     {
       // img: "/Energy Managers.jpg",
@@ -41,7 +44,8 @@ const RolesCapCarousel = ( ) => {
       label3: 'ROI Improvement',
       tagPath1: '/roles/responsibilities/#real-time',
       tagPath2: '/roles/responsibilities/#energy-audits',
-      tagPath3: '/roles/responsibilities/#roi'
+      tagPath3: '/roles/responsibilities/#roi',
+      cheForm: false
     },
     {
       // img: "/C-Executives Image.jpg",
@@ -53,7 +57,9 @@ const RolesCapCarousel = ( ) => {
       label3: 'Data Analysis',
       tagPath1: '/roles/responsibilities/#co2-monitoring',
       tagPath2: '/roles/responsibilities/#roi',
-      tagPath3: '/roles/responsibilities/#data-analysis'
+      tagPath3: '/roles/responsibilities/#data-analysis',
+      cheForm: false
+
     },
     {
       // img: "/EHS Heads.jpg",
@@ -65,7 +71,9 @@ const RolesCapCarousel = ( ) => {
       label3: 'Sustainability and ESG Analysis',
       tagPath1: '/roles/responsibilities/#co2-monitoring',
       tagPath2: '/roles/responsibilities/#safety-audits',
-      tagPath3: '/roles/responsibilities/#co2-monitoring'
+      tagPath3: '/roles/responsibilities/#co2-monitoring',
+      cheForm: true
+
     },
     {
       // img: "/prod-manager.png",
@@ -77,7 +85,9 @@ const RolesCapCarousel = ( ) => {
       label3: 'Operation Inefficiencies',
       tagPath1: '/roles/responsibilities/#machine-levels',
       tagPath2: '/roles/responsibilities/#predictive-maintenance',
-      tagPath3: '/roles/responsibilities/#energy-audits'
+      tagPath3: '/roles/responsibilities/#energy-audits',
+      cheForm: false
+
     },
     // {
     //   img: "/health-inspe.jpg",
@@ -137,7 +147,18 @@ const RolesCapCarousel = ( ) => {
               <div className="tags marTopGlobal">
 
                 <Link href={slide.tagPath1} style={{ textDecoration: "none" }}>
-                <span className="body2sec">{slide.label1}</span></Link>
+
+               
+                {
+                  slide.cheForm ? 
+                  
+                  <span className="body2sec"><>CO<sub>2</sub> Emissions Monitoring</> </span>
+                  
+                  : 
+                   <span className="body2sec">{slide.label1}</span>
+                }
+                </Link>
+                
                 <Link href={slide.tagPath2} style={{ textDecoration: "none" }}>  
                 <span className="body2sec">{slide.label2}</span>
                 

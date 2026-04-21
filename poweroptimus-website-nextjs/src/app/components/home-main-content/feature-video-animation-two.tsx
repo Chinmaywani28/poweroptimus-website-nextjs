@@ -72,6 +72,11 @@ const VideoOverlay = () => {
         className="video"
       />
 
+      {/* right now this image has been added */}
+      {/* <img src="/video-animationss.png" alt="Logo" className="header-image" /> */}
+
+
+
       {/* 📝 Overlay Text */}
       {/* {visibleTexts.map((item) => (
         <div
