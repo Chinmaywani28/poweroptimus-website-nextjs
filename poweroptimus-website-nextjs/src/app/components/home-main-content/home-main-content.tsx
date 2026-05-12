@@ -60,9 +60,10 @@ const HomeMainContent = () => {
 
       {/* <FeatureTwo/> */}
       {/* <FeatureVideoAnimation/> */}
-      {/* <VideoOverlay/> this is VideoOverlay is component for video animation */}
+      <VideoOverlay/> 
+      {/* this is VideoOverlay is component for video animation */}
 
-      <ImageOver/>
+      {/* <ImageOver/> */}
 
 
       {/* pg content */}
@@ -73,7 +74,9 @@ const HomeMainContent = () => {
 
 
 
-      <SustainableDev/>
+      {/* <SustainableDev/> */}
+      {/* <SustainableDev/> moved to solution page dd said */}
+
 
       {/* <SustainableGoals/> */}
       {/* <SustainableGoalsTwo/> */}

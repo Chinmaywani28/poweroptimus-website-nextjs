@@ -30,8 +30,8 @@ const page = () => {
             id: 1,
             title: 'Solar Optimization',
             content: 'Track energy usage in real time.',
-            image: '/resources-brochure.png',
-            link: 'https://poweroptimus.com/EnvirOptimus-brochure.pdf'
+            image: '/Brochure_Image.jpg',
+            link: 'https://poweroptimus.com/EnvirOptimus Brochure _justified-India.pdf'
           },
           // {
           //   id: 2,

@@ -40,7 +40,8 @@ const page = () => {
     <>
       <CaseStudySubSection
         title={selectedBlog?.title}
-        imageSrc="/webinar-img.jpg"
+        imageSrc={'/webinar-img.jpg'}
+        // ,'/EnvirOptimus_Infographic_1.jpg'
         content={[
           "Consequatur molestias sequi tempore officia. Sed consequatur facilis...",
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",

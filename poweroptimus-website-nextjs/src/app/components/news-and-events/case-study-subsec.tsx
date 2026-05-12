@@ -110,6 +110,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
 
             <div className="marTopGlobal">
               <img src={imageSrc} alt="Case study" className="main-image" />
+              
             </div>
 
             <article className="content">

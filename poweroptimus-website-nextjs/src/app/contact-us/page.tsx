@@ -63,7 +63,8 @@ const RequestDemo = () => {
         {/* LEFT IMAGE */}
         <div className="image-panel">
           <Image
-            src="./powerOptimus-demo.webp" // put image in public folder
+            // src="./powerOptimus-demo.webp" // put image in public folder
+            src="./Signup_Page_Image.png" // put image in public folder
             alt="Construction demo"
             fill
             priority
@@ -86,13 +87,6 @@ const RequestDemo = () => {
                 type="text"
                 placeholder="Name*"
                 value={formData.name}
-                onChange={handleChange}
-              />
-              <input
-                name="phone"
-                type="tel"
-                placeholder="Phone*"
-                value={formData.phone}
                 onChange={handleChange}
               />
               <input
@@ -123,6 +117,27 @@ const RequestDemo = () => {
                 value={formData.country}
                 onChange={handleChange}
               />
+              <input
+                name="phone"
+                type="tel"
+                placeholder="Phone*"
+                value={formData.phone}
+                onChange={handleChange}
+              />
+              
+              <select
+              name="areaOfInterest"
+              value={formData.areaOfInterest}
+              onChange={handleChange}
+            >
+              <option value="">Select Interest</option>
+              <option value="Enviorment Management">Enviormental Monitoring</option>
+              <option value="Energy Management">Energy Management</option>
+              <option value="Digital Twin">Digital Twin</option>
+
+            </select>
+              
+              
 
               <input
               type="text"
@@ -132,17 +147,7 @@ const RequestDemo = () => {
               onChange={handleChange}
             />
 
-            <select
-              name="areaOfInterest"
-              value={formData.areaOfInterest}
-              onChange={handleChange}
-            >
-              <option value="">Select Interest</option>
-              <option value="Enviorment Management">Enviorment Management</option>
-              <option value="Energy Management">Energy Management</option>
-              <option value="Digital Twin">Digital Twin</option>
-
-            </select>
+            
             </div>
 
             

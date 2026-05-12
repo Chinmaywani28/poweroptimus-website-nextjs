@@ -77,7 +77,7 @@ const page = () => {
           'Ensuring the uptime of your asset'
         ]}
         subTitleTwo='Modern buildings must maintain healthy indoor environments despite fluctuating occupancy and rising energy costs. EnvirOptimus enables continuous monitoring of air quality, temperature, humidity, ventilation performance, and emissions, ensuring comfort, compliance, and efficient building operations.
-        lorem also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.'
+        Advanced analytics further enable proactive decision-making, optimizing performance and reducing operational risks while maintaining consistent indoor environmental quality across diverse building types.'
         // imageSrc="/key-vertical-five.jpg"
         imageSrc="/Key Verticals- Buildings (1).jpg"
         
@@ -102,7 +102,7 @@ const page = () => {
           'Improved resource efficiency and waste reduction',
           'Lower compliance and operational risk'
         ]}
-        subTitleTwo='Industrial facilities face strict environmental regulations and energy-intensive production cycles. EnvirOptimus provides asset- and process-level environmental and energy visibility, helping industries control emissions, optimize production efficiency, and maintain regulatory adherence. lorem also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.'
+        subTitleTwo='Industrial facilities face strict environmental regulations and energy-intensive production cycles. EnvirOptimus provides asset- and process-level environmental and energy visibility, helping industries control emissions, optimize production efficiency, and maintain regulatory adherence. This evolution marked a significant shift towards digitized workflows and standardized documentation, laying the foundation for modern industrial communication and data-driven decision-making.'
         // imageSrc="/Key Verticals- Industrial Plants and Factories.jpg"
         imageSrc="/Key Verticals- Industrial Plants and Factory.jpg"
         // reverse
@@ -128,7 +128,7 @@ const page = () => {
           'Controlled carbon and environmental impact'
         ]}
         subTitleTwo='Large infrastructure assets require continuous environmental oversight alongside energy management. EnvirOptimus centralizes visibility across distributed systems, enabling operators to optimize cooling, balance loads, and manage compliance without compromising stability. 
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy ever since when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.'
+        Modern infrastructure environments generate vast volumes of operational and environmental data that must be continuously monitored, analyzed, and acted upon in real time. By integrating diverse systems into a unified platform, organizations can gain actionable insights, improve efficiency, and maintain operational resilience. This approach supports proactive decision-making, enhances system performance, and ensures long-term sustainability while adapting to evolving regulatory and operational demands.'
         // imageSrc="/Key Verticals- Large Critical Infrastructure.jpg"
         imageSrc="/Key Verticals- Large Critical Infrast.jpg"
         reverse

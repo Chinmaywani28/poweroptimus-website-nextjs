@@ -25,8 +25,8 @@ const page = () => {
 
       <Hero headerText={"Empower every Role to Drive Sustainability and Efficiency"} bodyText={
           "From facility managers to CXOs, EnvirOptimus enables cost, performance, and sustainability goals with real-time data, predictive insights, and transparent reporting." 
-      } image='/roles-header-images.svg'/>
-
+      } image='/Roles_Header_Image.png'/>
+   {/* image='/roles-header-images.svg' roles header old image */}
 
       {/* <FacilitySections
         title="Facility Managers"
@@ -161,7 +161,8 @@ const page = () => {
           "No matter what your role, EnvirOptimus helps you optimize operations, reduce energy costs, and achieve sustainability goals with real-time insights and proactive intelligence."
         ]}
         buttonText="Schedule a Demo"
-        imageSrc="/Roles_Footer_Vector_Image.svg"
+        // imageSrc="/Roles_Footer_Vector_Image.svg"
+        imageSrc="/Roles_Footer_Image_16_9.png"
         imageAlt="Illustration of integration"
       />
 

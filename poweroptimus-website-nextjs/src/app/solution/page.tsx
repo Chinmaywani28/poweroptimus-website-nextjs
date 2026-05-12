@@ -35,6 +35,7 @@ import FeatureTwo from '../components/solution/feature-two'
 import ProcessDiagramThree from '../components/solution/process-diagram-new'
 import SolutionDescription from '../components/solution/solution-description'
 import HeroWithVideo from '../components/home-main-content/hero-with-video'
+import SustainableDev from '../components/home-main-content/sustainable-dev'
 
 
 const page = () => {
@@ -47,7 +48,7 @@ const page = () => {
 
     <HeroWithVideo headerText={"EnvirOptimus – A Smart Environmental and Energy Management Solution"} bodyText={
           "A unified solution for managing assets and utilities to enable Digital Twin–driven operations, optimize performance, ensure compliance, and support sustainability goals."
-      } video={'/videos/Revised_EnvirOptimus_Motion Graphic-Digital Twin.mp4'} />
+      } video={'/videos/Revised_EnvirOptimus_Motion Graphic-Digital Twin_V9.mp4'} />
 
       {/* old Solution_Header_500x500px 2.svg */}
 
@@ -84,7 +85,12 @@ const page = () => {
 
 
     {/* <ProcessDiagramTwo/> */}
-    <ProcessDiagramThree/>
+
+    {/* <ProcessDiagramThree/> */} 
+    {/* ProcessDiagramThree commented and on this place we're giving sus dev section */}
+
+      <SustainableDev/>
+
 
     {/* process step */}
     {/* <ProcessStepSection/> */}

@@ -64,7 +64,7 @@ const VideoOverlay = () => {
       {/* 🎥 Video */}
       <video
         ref={videoRef}
-        src="/videos/Final_With Text-Latest_Neil Automation website Motion Graphic-07.mp4"
+        src="/videos/Final_With Text-Latest_Neil Automation website Motion Graphic-10.mp4"
         autoPlay
         muted
         // loop

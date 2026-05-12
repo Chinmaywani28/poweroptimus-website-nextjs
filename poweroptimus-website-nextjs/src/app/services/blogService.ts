@@ -57,6 +57,7 @@ export async function getBlogs(params: { limit?: number, skipId?: string }) {
 }
 
 export async function getBlogByUrlId(urlId:string) {
+    console.log("aldgl",urlId )
     // debugger;
     const snapshot = await getDocs(query(collection(db, "blogs"), where("urlId", "==", urlId)));
     const blogList = snapshot.docs.map((doc) => {

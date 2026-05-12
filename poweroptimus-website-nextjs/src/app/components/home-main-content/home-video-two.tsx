@@ -35,7 +35,7 @@ const HomeVideoTwo: React.FC = () => {
           <div className="videoLeft">
             <h1 className="Header1 textWhite">
               {/* Data-driven Environment and Energy Management Solution */}
-              An Unified Digital Twin solution for Environment & Energy Management.
+              A Unified Digital Twin solution for Environment & Energy Management.
             </h1>
 
             <div className="body1 textWhite">
