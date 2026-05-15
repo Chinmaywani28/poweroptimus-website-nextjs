@@ -6,12 +6,17 @@ import { NewsAndEventsSubSection } from '@/app/components/news-and-events/news-a
 import { CaseStudySubSection } from '@/app/components/news-and-events/case-study-subsec'
 import { useParams } from 'next/navigation'
 import { getWebinarByUrlId } from '@/app/services/blogService'
+import { savewatchRecRequest } from '@/app/services/demoService'
+import { toast } from 'react-toastify';
+
 
 
 const page = () => {
 
   const [selectedBlog, setSelectedBlog] = useState<any>(null);
     const params = useParams();
+
+    const [resetFormTrigger, setResetFormTrigger] = useState(false);
 
     const webinarId = Array.isArray(params.webinarId) ? params.webinarId[0] : params.webinarId;
     
@@ -24,6 +29,51 @@ const page = () => {
 
     console.log("loadSingleWebinar", loadSingleWebinar);
     console.log("nkhi", selectedBlog);
+
+
+    const handleFormSubmit = async (data: any) => {
+    console.log("Received from child:", data);
+
+      // if (data) {
+        await savewatchRecRequest(data);
+      // }
+
+
+       const id = toast.loading('Loading');
+    
+        toast.update(id, {
+          render: "Submitted",
+          type: "success",
+          isLoading: false,
+          autoClose: 3000,
+        });
+
+        // ✅ trigger reset
+        setResetFormTrigger(prev => !prev);
+
+
+    }; 
+
+    //  const handleSubmit = async (e: any) => {
+    //     e.preventDefault();
+    
+    //     console.log("formmdatta", formData);
+    
+    //     if(formData){
+    
+    //       await saveDemoRequest(formData);
+    //     }
+    
+    //     const id = toast.loading('Loading');
+    
+    //     toast.update(id, {
+    //       render: "Submitted",
+    //       type: "success",
+    //       isLoading: false,
+    //       autoClose: 3000,
+    //     });
+    //     setFormData(formValues);
+    //   };
 
 
     
@@ -39,8 +89,22 @@ const page = () => {
   return (
     <>
       <CaseStudySubSection
+        webinarId=''
+        sendWatchRecData={handleFormSubmit}
         title={selectedBlog?.title}
-        imageSrc={'/webinar-img.jpg'}
+        resetFormTrigger={resetFormTrigger}
+        images={
+          [
+  {
+    title: "Connecting Energy Monitoring, Predictive Maintenance, and Sustainability for Resilient Operations",
+    image: "/webinar-parish.jpg"
+  },
+  {
+    title: "Webinar Digital Twin Maturity Model: From BIM to Intelligent Operations",
+    image: "/EnvirOptimus_Infographic_1.jpg"
+  }
+]
+        }
         // ,'/EnvirOptimus_Infographic_1.jpg'
         content={[
           "Consequatur molestias sequi tempore officia. Sed consequatur facilis...",

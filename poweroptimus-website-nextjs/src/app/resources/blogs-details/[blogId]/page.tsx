@@ -30,91 +30,164 @@ const page = () => {
 
   return (
     <>
-      <section className="container">
-        {/* Back link */}
-        <nav className="topbar">
-          <Link href="/blogs" className="back-link">
-            {/* <span className="arrow">←</span>
-            <span>All Blogs</span> */}
-          </Link>
-        </nav>
+      {/* Blog Details Section */}
+<section className="blog-details-section">
+  <div className="blog-layout">
 
-        {/* Hero section */}
-        <header className="hero">
-          <div className="Header1 TextBlue">
+    {/* LEFT COLUMN */}
+    <div className="main-column">
 
-            {selectedBlog?.title}
-          </div>
-        </header>
+      {/* Title */}
+      <header className="hero">
+        <div className="Header1 TextBlue">
+          {selectedBlog?.title}
+        </div>
+      </header>
 
-        {/* Image + meta */}
-        <section className="media">
-          <div className="image-wrap">
-            <img
-              src="/blogs-img.jpg"
-              alt="Workers in a factory"
-              loading="lazy"
-            />
-          </div>
-          <div className="body3 marTopGlobal">{ selectedBlog?.updatedOnStr}</div>
-        </section>
+      {/* Image */}
+      <section className="media marTopGlobal">
+        <div className="image-wrap">
+          <img
+            src="/blogs-img.jpg"
+            alt="Blog Image"
+            loading="lazy"
+          />
+        </div>
+
+        <div className="body3 marTopGlobal">
+          {selectedBlog?.date}
+        </div>
       </section>
 
-      {/* down section */}
-      <section className="case-study-section">
-        {/* <Link href={linkPath} className="breadcrumb body3sec">
-                {linkText} <span className="body3sec">→</span>
-              </Link> */}
+      {/* Blog Content */}
+      <div className="blog-text marTopGlobal">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: selectedBlog?.content ?? "",
+          }}
+        />
+      </div>
+    </div>
 
-        {/* Header */}
-        {/* <header className="page-header marTopGlobal">
-        <div className="page-title Header3sec">{title}</div>
-        <button className="download-btn">⬇ Download Full Case Study</button>
-      </header> */}
+    {/* RIGHT COLUMN */}
+    <aside className="sidebar">
 
-        {/* Main grid */}
-        <main className="page-content marTopGlobal">
-          {/* Left column */}
+      <div className="share">
+        <div className="body2">Share</div>
 
-          <div className="main-column blog-text">
-            <div
-              dangerouslySetInnerHTML={{
-                __html: selectedBlog?.content ?? "",
-              }}
-            />
-          </div>
+        <div className="share-icons marTopGlobal">
+          {/* <span><i className="ri-links-fill"></i></span>
+          <span><i className="ri-twitter-x-fill"></i></span>
+          <span><i className="ri-facebook-fill"></i></span> */}
+            <span>
+              <a
+              href="https://www.youtube.com/@EnvirOptimusNeilAutomation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
+              <i className="ri-youtube-fill" style={{ fontSize: "26px" }}></i>
+            </a>
+              </span>
 
-          {/* Right column (sidebar) */}
-          <aside className="sidebar">
-            {/* <div>
-        <button className="download-btn">⬇ Download Full Case Study</button>
+            <span>
+              <a
+              href="https://www.linkedin.com/company/enviroptimus/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
+              <i
+                className="ri-linkedin-box-fill footer-icon"
+                style={{ fontSize: "26px" }}
+              ></i>
+            </a>
+            </span>
+            
+        </div>
 
-            </div> */}
+        
+      </div>
 
-            <div className="share">
-            <div className="body2 ">Share</div>
-            <div className="share-icons marTopGlobal">
-              <span><i className="ri-links-fill"></i></span>
-              <span><i className="ri-twitter-x-fill"></i></span>
-              <span><i className="ri-facebook-fill"></i></span>
-            </div>
-          </div>
+      {/* <div>
+          abc
+        </div> */}
 
-            <div className="other-cases">
-              {/* <div className="body2">Other Blogs</div> */}
-              <ul>
-                {/* <div className="marTopGlobal">
-                {otherCases.map((item, index) => (
-                <li className="body2" key={index}>
-                  <a className="body2" href="#">{item}</a>
-                </li>
-              ))}
-              </div> */}
-              </ul>
-            </div>
-          </aside>
-        </main>
-      </section>
+        <div className="recent-blogs">
+
+  <div className="recent-title">
+    Our Recent Blogs
+  </div>
+
+  <div className="recent-blog-list">
+
+    <div>
+         <a href="https://enviroptimus.com/resources/blogs-details/Driving-Energy-Efficiency-Environmental-Monitoring-and-Sustainability-with-Smart-Energy-Management" className="recent-blog-item">
+      <span className="arrow-icon">
+        <i className="ri-arrow-right-s-line"></i>
+      </span>
+
+      <span className="blog-name">
+        {/* The Role of Technology in Driving Lean Construction Success */}
+        Driving Energy Efficiency, Environmental Monitoring, and Sustainability with Smart Energy Management
+      </span>
+    </a>
+    </div>
+   
+        <div>
+          <a href="https://enviroptimus.com/resources/blogs-details/dont-Let-Your-Digital-Twin-Be-Just-a-Replica-Bring-It-to-Life" className="recent-blog-item">
+      <span className="arrow-icon">
+        <i className="ri-arrow-right-s-line"></i>
+      </span>
+
+      <span className="blog-name">
+        Dont Let Your Digital Twin Be Just a Replica - Bring It to Life
+      </span>
+    </a>
+        </div>
+
+    
+    <div className="recent-title">
+    Our Recent Videos
+  </div>
+
+
+      <div>
+        <a href="https://www.youtube.com/watch?v=WrFonQop5QY" className="recent-blog-item">
+      <span className="arrow-icon">
+        <i className="ri-arrow-right-s-line"></i>
+      </span>
+
+      <span className="blog-name">
+        EnvirOptimus - Energy Management and Environmental Monitoring System
+      </span>
+    </a>
+      </div>
+    
+      {/* <div>
+        <a href="#" className="recent-blog-item">
+      <span className="arrow-icon">
+        <i className="ri-arrow-right-s-line"></i>
+      </span>
+
+      <span className="blog-name">
+        How Digital Quality Tracking Drives Faster Handover & Reduces Defects
+      </span>
+    </a>
+      </div> */}
+    
+
+  </div>
+
+</div>
+
+    </aside>
+
+  </div>
+</section>
+
+
+      
 
       {/* <SolFeatureBtmSection
         heading="Easy to Integrate with Existing Systems"

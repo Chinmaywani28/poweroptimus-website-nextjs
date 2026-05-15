@@ -244,7 +244,7 @@ const Footer = () => {
         <div className="footer_bottom_Middle TextWhite">
           <div>
             <a
-              href="https://www.linkedin.com/company/poweroptimus/"
+              href="https://www.linkedin.com/company/enviroptimus/"
               target="_blank"
               rel="noopener noreferrer"
               className="footer_email_link"
@@ -258,7 +258,7 @@ const Footer = () => {
 
           <div>
             <a
-              href="https://www.youtube.com/@PowerOptimusNeilAutomation"
+              href="https://www.youtube.com/@EnvirOptimusNeilAutomation"
               target="_blank"
               rel="noopener noreferrer"
               className="footer_email_link"

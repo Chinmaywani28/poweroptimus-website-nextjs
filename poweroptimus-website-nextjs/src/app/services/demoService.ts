@@ -10,3 +10,12 @@ export const saveDemoRequest = (payload: any) =>
         createdOn: Timestamp.now()
     });
 
+export const savewatchRecRequest = (payload: any) => {
+    // console.log('adsnfadsf', ...payload)
+    addDoc(collection(db, 'recording-requests'), {
+        ...payload,
+        completed: false,
+        createdOn: Timestamp.now()
+    });
+}
+    

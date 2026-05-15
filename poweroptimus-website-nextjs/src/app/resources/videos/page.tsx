@@ -38,6 +38,15 @@ const page = () => {
             date: 'Mar, 2026',
             // linkText: 'Read More',
             // linkHref: '/blog/power',
+          },
+
+          {
+            videoUrl: 'https://www.youtube.com/embed/7Yeq8sITxgs?si=8TiAiLxrfe_rF_gc',
+            title: 'EnvirOptimus : Digital Twin-Enabled Intelligent Operations Platform',
+            // description: 'An atmosphere of greenery can increase productivity in the workplace. Studies show that plants improve air quality and decrease stress...',
+            date: 'May, 2026',
+            // linkText: 'Read More',
+            // linkHref: '/blog/power',
           }
         ]}
 

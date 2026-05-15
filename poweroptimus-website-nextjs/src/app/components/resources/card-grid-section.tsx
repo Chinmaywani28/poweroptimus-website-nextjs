@@ -4,7 +4,7 @@ import styles from './card-grid-section.module.css';
 
 
 type CardData = {
-  imageSrc: string;
+  imageSrc: string[];
   title: string;
   description?: string;
   date: string;

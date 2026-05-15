@@ -10,9 +10,9 @@ const page = () => {
         
      
     
-      <CaseStudySubSection 
+      {/* <CaseStudySubSection 
         title="Necessitatibus perspiciatis voluptatem officia eos sed ut pariatur debitis"
-        imageSrc="/blogs-img.jpg"
+        images="/blogs-img.jpg"
         content={[
           "Consequatur molestias sequi tempore officia. Sed consequatur facilis...",
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
@@ -23,7 +23,7 @@ const page = () => {
           "Yet another case study title..."
         ]}
         backNavLink="Case Study"
-        backNavPath="/resources/case-study" showBackLink={true}      />
+        backNavPath="/resources/case-study" showBackLink={true}      /> */}
 
 
 

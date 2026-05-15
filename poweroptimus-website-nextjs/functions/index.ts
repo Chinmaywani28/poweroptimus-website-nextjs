@@ -33,11 +33,11 @@ export const nextServerFunction = onRequest(
 
 // email send functionality for contact-us form
 // 📧 Sender details
-const senderName = "EnviorOptimus";
+const senderName = "EnvirOptimus";
 const senderEmail = "info@constructmonitor.online";
 
 // 📨 Admin emails
-const adminEmails = ["chinmay.wani@neilsoft.com","chinmaywaniss@gmail.com"];
+const adminEmails = ["chinmay.wani@neilsoft.com","chinmaywaniss@gmail.com","pragya.gupta@neilsoft.com","dhananjay.dixit@neilsoft.com"];
 
 // 🚀 SMTP transporter (same style as your old code)
 const transporter = createTransport({
@@ -92,8 +92,15 @@ export const onCreateContactRequest = onDocumentCreated(
       subject: "Thanks for contacting us",
       html: `
         <h3>Hi ${name} 👋</h3>
-        <p>We received your message.</p>
-        <p>Our team will contact you soon.</p>
+        <p>Thank you for contacting us.</p>
+        <p>We’ve received your enquiry, and our team is reviewing it. We’ll get back to you shortly with the relevant details.</p>
+        <p>Looking forward to connecting with you.</p>
+
+    <br />
+    <br />
+
+        <p>Best Regards,</p>
+        <p>EnvirOptimus Team</p>
       `,
     };
 
@@ -107,3 +114,110 @@ export const onCreateContactRequest = onDocumentCreated(
       logger.error("Error sending email", error);
     }
   })
+
+// watch recording
+// 🔥 Trigger on Firestore
+export const onCreateRecordingRequest = onDocumentCreated(
+  "recording-requests/{docId}",
+  async (event) => {
+
+    const snapshot = event.data;
+
+    if (!snapshot) {
+      logger.info("No data found");
+      return;
+    }
+
+    const data = snapshot.data();
+
+    const name = data?.name;
+    const email = data?.email;
+
+    // ✅ this comes from form / firestore
+    const webinarType = data?.webinarType;
+
+    if (!email) {
+      logger.error("No email found");
+      return;
+    }
+
+    // ✅ Static webinar links
+    const recordingLinks: any = {
+
+      "connecting energy monitoring, predictive maintenance, and sustainability for resilient operations":
+        "https://www.youtube.com/watch?v=FI8Ko4r2C_o&t=1981s",
+
+      'dont let your digital twin be just a replica - bring it to life':
+        "https://www.youtube.com/watch?v=taQjEQWaPaE&t=1s",
+
+      // sustainability:
+      //   "https://your-domain.com/recording-link-3",
+    };
+
+    // ✅ match link based on string
+    const recordingLink =
+      recordingLinks[webinarType?.toLowerCase()];
+
+    if (!recordingLink) {
+      logger.error("No matching recording link found");
+      logger.info("webinarType =>", webinarType);
+      logger.info("recordingLink =>", recordingLink);
+      return;
+    }
+
+    // 📩 Email to ADMIN
+    const adminMail = {
+      from: `${senderName} <${senderEmail}>`,
+      to: adminEmails,
+      subject: "New Recording Request",
+      html: `
+        <h3>New Recording Request</h3>
+
+        <p><b>Name:</b> ${name}</p>
+        <p><b>Email:</b> ${email}</p>
+        <p><b>Selected Webinar:</b> ${webinarType}</p>
+      `,
+    };
+
+    // 📩 Email to USER
+    const userMail = {
+      from: `${senderName} <${senderEmail}>`,
+      to: email,
+      subject: "Your Webinar Recording Link",
+      html: `
+        <h3>Hi ${name} 👋</h3>
+
+        <p>Thank you for your interest.</p>
+
+        <p>
+          You can watch the webinar recording
+          using the link below:
+        </p>
+
+        <p>
+          <a href="${recordingLink}" target="_blank">
+            Watch Recording
+          </a>
+        </p>
+
+        <br />
+        <br />
+
+        <p>Best Regards,</p>
+        <p>EnvirOptimus Team</p>
+      `,
+    };
+
+    try {
+
+      await transporter.sendMail(adminMail);
+      await transporter.sendMail(userMail);
+
+      logger.info("Recording emails sent successfully ✅");
+
+    } catch (error) {
+
+      logger.error("Error sending email", error);
+    }
+  }
+);
