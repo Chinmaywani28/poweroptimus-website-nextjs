@@ -36,7 +36,7 @@
 .HeaderWhyEnergytwo{
   /* grid-column-start: 3; */
   grid-column-start: 2;
-  grid-column-end: 13;
+  grid-column-end: 14;
   grid-row-start: 2;
   grid-row-end: 3;
   display: flex;
@@ -44,6 +44,28 @@
   align-items: center;
   gap: 10px;
 }
+
+/* start for left text and right image */
+.HeaderWhyEnergytwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Left text | Right image */
+  align-items: center;
+  gap: 40px;
+}
+
+.HeaderWhyEnergytwo ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.HeaderWhyEnergytwo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+/* end for left text and right image */
+
 
 .alignbodytext2{
   text-align: justify;

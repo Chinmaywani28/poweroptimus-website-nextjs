@@ -141,14 +141,17 @@ export const onCreateRecordingRequest = onDocumentCreated(
       return;
     }
 
-    // ✅ Static webinar links
+    // ✅ Static webinar links(copy title from db and paste in keys of object(recordingLinks)) (2nd not working)
     const recordingLinks: any = {
 
       "connecting energy monitoring, predictive maintenance, and sustainability for resilient operations":
         "https://www.youtube.com/watch?v=FI8Ko4r2C_o&t=1981s",
 
-      'dont let your digital twin be just a replica - bring it to life':
+      'webinar digital twin maturity model: from bim to intelligent operations':
         "https://www.youtube.com/watch?v=taQjEQWaPaE&t=1s",
+
+      'beyond monitoring: the digital twin mandate for data centers webinar':
+        "https://www.youtube.com/watch?v=C2xvgR_53po",
 
       // sustainability:
       //   "https://your-domain.com/recording-link-3",
@@ -169,7 +172,7 @@ export const onCreateRecordingRequest = onDocumentCreated(
     const adminMail = {
       from: `${senderName} <${senderEmail}>`,
       to: adminEmails,
-      subject: "New Recording Request",
+      subject: `New Webinar link is requested: ${webinarType}`,
       html: `
         <h3>New Recording Request</h3>
 

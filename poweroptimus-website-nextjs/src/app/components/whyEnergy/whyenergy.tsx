@@ -160,6 +160,10 @@ const WhyEnergy = () => {
             <li>Increasing need for uptime and operational continuity</li>
             <li>Challenges in monitoring and controlling distributed assets</li>
           </ul>
+
+          <div>
+            <img src="/Homepage_Why Environment and Energy Efficiency Matter More Than Ever1.png" alt="home" />
+          </div>
         </div>
 
         <div className="WhyEnergy_3inputs11">

@@ -21,7 +21,7 @@ const HomeImageThree: React.FC = () => {
 
       {/* ✅ IMAGE BACKGROUND (replaced video) */}
       <img
-        src="/key_verticalsss.jpg"  // 🔥 replace with your image path
+        src="/Key Verticals Header Image.jpg"  // 🔥 replace with your image path
         alt="Hero Background"
         className="videoHeroVideo"
       />

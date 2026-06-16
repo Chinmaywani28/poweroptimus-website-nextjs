@@ -102,6 +102,10 @@ const page = () => {
   {
     title: "Webinar Digital Twin Maturity Model: From BIM to Intelligent Operations",
     image: "/EnvirOptimus_Infographic_1.jpg"
+  },
+  {
+    title: "Beyond Monitoring: The Digital Twin Mandate for Data Centers Webinar",
+    image: "/DataCenter_Webinar_Underpage_Image.jpg"
   }
 ]
         }

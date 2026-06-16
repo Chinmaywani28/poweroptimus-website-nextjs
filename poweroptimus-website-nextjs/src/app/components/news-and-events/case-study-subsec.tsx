@@ -50,7 +50,27 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
   resetFormTrigger
 })  => {
 
+  const isOrganizationEmail = (email: string) => {
+  const blockedDomains = [
+    "gmail.com",
+    "yahoo.com",
+    "hotmail.com",
+    "outlook.com",
+    "live.com",
+    "msn.com",
+    "aol.com",
+    "icloud.com",
+    "protonmail.com",
+    "zoho.com",
+    "mail.com",
+    "gmx.com",
+    "rediffmail.com"
+  ];
 
+  const domain = email.split("@")[1]?.toLowerCase();
+
+  return domain && !blockedDomains.includes(domain);
+};
  
  
   // const [formData, setFormData] = useState<FormDataType>({
@@ -99,6 +119,7 @@ export const CaseStudySubSection : React.FC<CaseStudyProps> = ({
   message: "",
   webinarType: "",
 });
+  const [emailError, setEmailError] = useState("");
 
 useEffect(() => {
   setFormData({
@@ -127,6 +148,10 @@ useEffect(() => {
     ...formData,
     [e.target.name]: e.target.value,
   });
+
+    if (e.target.name === "email") {
+     setEmailError("");
+    }
 };
 
   
@@ -135,6 +160,14 @@ useEffect(() => {
     e.preventDefault();
 
     console.log(formData);
+
+     if (!isOrganizationEmail(formData.email)) {
+    setEmailError(
+      "Please enter a valid organization email address."
+    );
+    return;
+  }
+    setEmailError("")
 
     // ✅ send data to parent
     sendWatchRecData(formData);
@@ -234,7 +267,7 @@ useEffect(() => {
               {/* <img src={imageSrc} alt="Case study" className="main-image" /> */}
               <img
                 src={matchedImage?.image || "/default-image.jpg"}
-                alt="Case study"
+                alt="Webinar-image"
                 className="main-image"
               />
             </div>
@@ -275,11 +308,18 @@ useEffect(() => {
                 onChange={handleChange} required />
                 </label>
                 <label className="body3sec">
-                  Email
-                  <input type="email" name="email" placeholder="Enter your email" 
+                  Organization email
+                  <input type="email" name="email" placeholder="Enter your organization email" 
                   value={formData.email}
                   onChange={handleChange} required />
                 </label>
+
+                {emailError && (
+                  <p style={{ color: "red", fontSize: "12px", marginTop: "4px" }}>
+                    {emailError}
+                  </p>
+                )}
+
 
                 <label className="body3sec">
                   Phone no

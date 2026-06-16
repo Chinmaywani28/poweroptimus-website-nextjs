@@ -29,6 +29,7 @@ import SolutionDescription from '../components/solution/solution-description'
 import KeyVerticalHero from '../components/home-main-content/key-vertical-hero'
 import HomeVideoTwo from '../components/home-main-content/home-video-two'
 import HomeImageThree from '../components/home-main-content/home-image-three'
+import KeyVerticalBanner from '../components/home-main-content/key-vertical-banner'
 
 
 const page = () => {
@@ -56,7 +57,10 @@ const page = () => {
     {/* <KeyVerticalHero image={'/key-ver-five.png'}/> */}
     {/* <KeyVerticalHero image={'/keuy.jpg'}/> */}
 
-    <HomeImageThree/>
+    {/* <HomeImageThree/> */}
+
+    <KeyVerticalBanner/>
+
 
 
 

@@ -80,18 +80,31 @@ export const KeyVerticesTwo = () => {
               <img src="/Pharmaceutical_KeyVerticals_Image.jpg" alt="Medicalkkk" />
             </div> */}
 
+              {/* before it was only like this
+              <div>
+                <img src="/Home Page- Key Verticals- Building.jpg" alt="Chip" />
+              </div>
+              */}
             <div >
+              <Link href="/key-verticals">
               <img src="/Home Page- Key Verticals- Data Center.jpg" alt="Industry" />
+              </Link>
             </div>
             <div >
+              <Link href="/key-verticals">
               <img src="/Home Page- Key Verticals- Building.jpg" alt="Chip" />
+              </Link>
             </div>
             <div >
+              <Link href="/key-verticals">
               <img src="/Home Page- Key Verticals- Food & Beverages.jpg" alt="Robotics" />
+              </Link>
             </div>
             
             <div >
+              <Link href="/key-verticals">
               <img src="/Home Page- Key Verticals- Manufacturing.jpg" alt="Medicalkkk" />
+              </Link>
             </div>
 
 

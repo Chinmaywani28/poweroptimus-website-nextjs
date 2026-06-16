@@ -1,6 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import "./feature-three.css";
+import ArchitectureDiagram from "../solution/architecture-diagram";
+import HomePoints from "../solution/home-points";
 
 const FeatureThree: React.FC = () => {
   
@@ -81,6 +83,10 @@ const FeatureThree: React.FC = () => {
           <li>ESG and sustainability reporting</li>
           <li>Cross-facility performance benchmarking</li>
         </ul>
+
+
+        {/* <HomePoints/> */}
+
 
         <div>
           Unlike control systems that react, EEMS drives proactive, data-driven

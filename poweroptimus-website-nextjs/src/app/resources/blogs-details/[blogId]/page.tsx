@@ -11,6 +11,10 @@ const page = () => {
   const [selectedBlog, setSelectedBlog] = useState<any>(null);
   const params = useParams();
 
+  
+
+  
+
   console.log('nvadsf',params)
 
   const blogId = Array.isArray(params.blogId) ? params.blogId[0] : params.blogId;
@@ -22,7 +26,16 @@ const page = () => {
     console.log('nbmbhf',blog)
 
     setSelectedBlog(blog);
+
+    
+
   }, [blogId]);
+
+  const imgObj : Record<string, string> = {
+    'Driving-Energy-Efficiency-Environmental-Monitoring-and-Sustainability-with-Smart-Energy-Management': '/Blog_UnderPage_Smart Energy Management.png',
+    'dont-Let-Your-Digital-Twin-Be-Just-a-Replica-Bring-It-to-Life': '/Blog_UnderPage_DIGITAL TWIN.jpg'
+  }
+
 
   useEffect(() => {
     loadSingleBlog();
@@ -48,7 +61,7 @@ const page = () => {
       <section className="media marTopGlobal">
         <div className="image-wrap">
           <img
-            src="/blogs-img.jpg"
+            src={imgObj[blogId as string] || '/abc.png'}
             alt="Blog Image"
             loading="lazy"
           />
