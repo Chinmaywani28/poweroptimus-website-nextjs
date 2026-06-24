@@ -31,8 +31,7 @@ import VideoOverlay from './feature-video-animation-two';
 import HomeVideoTwo from './home-video-two';
 import ImageBgOverlay from './image-bg';
 import ImageOver from './image-over';
-
-
+import FAQComponent from '../solution/faq-component';
 
 const HomeMainContent = () => {
 
@@ -244,6 +243,41 @@ const HomeMainContent = () => {
         imageSrc="/home-page-footer-one.jpg"
         imageAlt="Illustration of integration"
       />
+
+      <FAQComponent
+      title="Frequently Asked Questions"
+      description="Find answers to common questions about services, solutions & support."
+      faqList={[
+
+  {
+    question: "What does “Digital Twin as a Service (DTaaS)” mean?",
+    answer:
+      "Digital Twin as a Service (DTaaS) is a managed, end-to-end approach where EnvirOptimus creates, deploys, and maintains a dynamic digital twin of your facility. This eliminates the need for heavy upfront investment and ensures continuous updates, insights, and optimization.",
+  },
+
+  {
+    question: "How is EnvirOptimus different from traditional BMS or monitoring systems?",
+    answer:
+      "Traditional systems like BMS primarily monitor and control individual assets. EnvirOptimus goes beyond monitoring by integrating multiple systems, contextualizing data, and delivering actionable insights for optimized and intelligent operations."
+  },
+
+
+  {
+    question: "What types of facilities can benefit from EnvirOptimus?",
+    answer:
+      "EnvirOptimus is designed for a wide range of facilities, including:",
+    list: [
+          "Commercial buildings(offices, malls, mixed-use)",
+          "Hospitals and healthcare facilities",
+          "Industrial plants and manufacturing units",
+          "Airports, data centers, and other critical infrastructure"
+    ],
+
+  },
+
+  
+]}
+    />
 
     </div>
     </>

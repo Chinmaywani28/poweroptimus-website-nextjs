@@ -131,6 +131,7 @@ const Navbar = () => {
                   <li><Link href="/resources/webinars">Webinars</Link></li>
                   <li><Link href="/resources/videos">Videos</Link></li>
                   <li><Link href="/resources/brochures">Brochures</Link></li>
+                  <li><Link href="/faq">FAQs</Link></li>
                 </ul>
               )}
             </div>

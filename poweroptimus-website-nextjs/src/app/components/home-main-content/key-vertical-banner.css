@@ -10,7 +10,9 @@
   margin-top: 80px;
   background: #f0f4f8;
 
-  height: 76vh;
+  /* height: 76vh; it was firstly 76vh to show complete img did 85vh 22-06-2026 */
+  height: 85vh;
+
 }
 
 /* VIDEO BACKGROUND */

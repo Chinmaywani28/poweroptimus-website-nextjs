@@ -19,3 +19,11 @@ export const savewatchRecRequest = (payload: any) => {
     });
 }
     
+export const saveCaseStudyRequest = (payload: any) => {
+    console.log('caseStudyData::', payload)
+    addDoc(collection(db, 'case-study-requests'), {
+        ...payload,
+        completed: false,
+        createdOn: Timestamp.now()
+    });
+}

@@ -3,7 +3,7 @@
 ========================== */
 
 .faq-section {
-  margin: 5.5% 11.5%;
+  margin: 2.5% 11.5%;
   /* width: 100%; */
   /* padding: 80px 20px; */
 }
@@ -72,8 +72,14 @@
 
 .faq-item p {
   font-size: 20px;
-  padding: 0 24px 24px;
+  /* padding: 0 24px 24px; */
+  padding: 0 24px 0px;
   line-height: 1.7;
+}
+
+.faq-list-items{
+  font-size: 20px;
+  /* font-weight: 600;  */
 }
 
 /* ==========================

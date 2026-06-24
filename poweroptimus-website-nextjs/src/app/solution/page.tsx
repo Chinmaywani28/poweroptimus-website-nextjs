@@ -36,6 +36,7 @@ import ProcessDiagramThree from '../components/solution/process-diagram-new'
 import SolutionDescription from '../components/solution/solution-description'
 import HeroWithVideo from '../components/home-main-content/hero-with-video'
 import SustainableDev from '../components/home-main-content/sustainable-dev'
+import FAQComponent from '../components/solution/faq-component'
 
 
 const page = () => {
@@ -117,6 +118,41 @@ const page = () => {
         imageSrc="/Solution_Footer_500x500px.svg"
         imageAlt="Illustration of integration"
       /> */}
+
+
+      <FAQComponent
+      title="Frequently Asked Questions"
+      description="Find answers to common questions about services, solutions & support."
+      faqList={[
+
+  {
+    question: "What is EnvirOptimus?",
+    answer:
+      "EnvirOptimus is a Digital Twin–enabled platform that helps organizations transform facility operations by connecting design data with real-time operational data. It enables intelligent, data-driven decision-making to improve efficiency, sustainability, and asset performance.",
+  },
+
+  {
+    question: "Can EnvirOptimus integrate with my existing systems?",
+    answer:
+      "Yes. EnvirOptimus integrates seamlessly with existing systems such as BMS, SCADA, IoT devices, meters, and enterprise systems using standard protocols and APIs."
+  },
+
+
+  {
+    question: "What are the key benefits of using EnvirOptimus?",
+    list: [
+          "Improved energy efficiency and cost optimization",
+          "Real-time visibility across systems",
+          "Predictive and proactive maintenance",
+          "Enhanced compliance and reporting",
+          "Better occupant comfort and experience",
+          "Data-driven decision-making"
+    ]
+  },
+
+  
+]}
+    />
 
       <SolFeatureBtmSection
         heading="Connect today and take control of your energy and environmental performance."

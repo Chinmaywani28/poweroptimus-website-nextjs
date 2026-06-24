@@ -1,7 +1,8 @@
 "use client"
 // import './brochure-card-section.css';
 import styles from './brochure-card-section.module.css';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
+import { BrochureModalSection } from './brochure-modal';
 
 // ✅ Type for each card
 interface CardData {
@@ -11,6 +12,7 @@ interface CardData {
   image: string;
   buttonText?: string;
   link: string;
+  requiresForm?: boolean;
 }
 
 // ✅ Component props
@@ -23,7 +25,12 @@ interface EnergyCardSliderProps {
 
 export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) => {
 
+  const [showModal, setShowModal] = useState(false);
+  const [selectedPdf, setSelectedPdf] = useState("");
+  const [selectedTitle, setSelectedTitle] = useState("");
+
   const sliderRef = useRef<HTMLDivElement>(null);
+
 
   // ✅ Scroll left on arrow click
   const scrollLeft = () => {
@@ -34,6 +41,13 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
   const scrollRight = () => {
     sliderRef.current?.scrollBy({ left: 300, behavior: 'smooth' });
   };
+
+  const handleDownloadClick: any = (pdfLink: string, caseStudyTitle: string) => {
+  console.log("Download clicked for PDF:", pdfLink);
+  setSelectedPdf(pdfLink);
+  setSelectedTitle(caseStudyTitle);
+  setShowModal(true);
+};
 
   return (
     <>
@@ -49,10 +63,30 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
 
 
             {/* ✅ Download button */}
-            <button className={styles["download-btn"]} >
+            {/* <button className={styles["download-btn"]} onClick={() => handleDownloadClick(card.link)}>
               <span>{card.buttonText || <i className="ri-arrow-down-line"></i> }
               <a href={card.link} download style={{ textDecoration: 'none', color: 'green'  }}>Download</a> </span> 
+            </button> */}
+
+            <button
+              className={styles["download-btn"]}
+              onClick={() => handleDownloadClick(card.link, card.title)}
+            >
+              Download
             </button>
+
+              {/* <button className={styles["download-btn"]} onClick={() => handleDownloadClick(card)}>
+              <span>{card.buttonText || <i className="ri-arrow-down-line"></i> }
+              <a href={card.link} download style={{ textDecoration: 'none', color: 'green'  }}>Download</a> </span> 
+            </button> */}
+
+
+            {/* <button
+  className={styles["download-btn"]}
+  onClick={() => handleDownloadClick(card.link)}
+>
+  Download
+</button> */}
           </div>
         ))}
       </div>
@@ -66,12 +100,21 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
           <i className="ri-arrow-right-s-line"></i>
         </button>
       </div>
+
+
+      
     </div>
 
+    <BrochureModalSection
+  open={showModal}
+  pdfLink={selectedPdf}
+  caseStudyTitle={selectedTitle}
+  onClose={() => setShowModal(false)}
+/>
 
     </>
 
-
+    
 
   );
 };
