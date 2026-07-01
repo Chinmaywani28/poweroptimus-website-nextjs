@@ -3,7 +3,8 @@
 ========================== */
 
 .faq-section {
-  margin: 2.5% 11.5%;
+  /* margin: 2.5% 11.5%; */
+  margin: 0% 11.5% 2.5% 11.5%;
   /* width: 100%; */
   /* padding: 80px 20px; */
 }
@@ -15,6 +16,7 @@
 
 .faq-header {
   text-align: center;
+  /* margin-bottom: 50px; */
   margin-bottom: 50px;
 }
 
@@ -71,6 +73,8 @@
 }
 
 .faq-item p {
+  margin-top: 0px; 
+  /* margin-top: 0px; later added */
   font-size: 20px;
   /* padding: 0 24px 24px; */
   padding: 0 24px 0px;

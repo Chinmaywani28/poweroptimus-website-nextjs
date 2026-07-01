@@ -11,7 +11,8 @@ const Faq = () => {
     <>
    
     {/* <div>coming soon</div> */}
-      <FAQComponent
+    <div className="topSpacing">
+        <FAQComponent
       title="Frequently Asked Questions"
       description="Find answers to common questions about services, solutions & support."
       faqList={[
@@ -124,6 +125,8 @@ const Faq = () => {
 
 ]}
     />
+    </div>
+      
     </>
   );
 }

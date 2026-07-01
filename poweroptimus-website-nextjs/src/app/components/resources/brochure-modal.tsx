@@ -1,117 +1,128 @@
-"use client"
-import { saveCaseStudyRequest } from '@/app/services/demoService';
+"use client";
+import { saveCaseStudyRequest } from "@/app/services/demoService";
 // import './brochure-card-section.css';
-import styles from './brochure-modal.module.css';
-import { useRef, useState } from 'react';
-
-
-
-
-
-
+import styles from "./brochure-modal.module.css";
+import { useRef, useState } from "react";
 
 export const BrochureModalSection: React.FC<any> = ({
   open,
   pdfLink,
   onClose,
-  caseStudyTitle
+  caseStudyTitle,
 }) => {
-
   const isOrganizationEmail = (email: string) => {
-  const blockedDomains = [
-    "gmail.com",
-    "yahoo.com",
-    "hotmail.com",
-    "outlook.com",
-    "live.com",
-    "msn.com",
-    "aol.com",
-    "icloud.com",
-    "protonmail.com",
-    "zoho.com",
-    "mail.com",
-    "gmx.com",
-    "rediffmail.com"
-  ];
+    const blockedDomains = [
+      "gmail.com",
+      "yahoo.com",
+      "hotmail.com",
+      "outlook.com",
+      "live.com",
+      "msn.com",
+      "aol.com",
+      "icloud.com",
+      "protonmail.com",
+      "zoho.com",
+      "mail.com",
+      "gmx.com",
+      "rediffmail.com",
+    ];
 
-  const domain = email.split("@")[1]?.toLowerCase();
+    const domain = email.split("@")[1]?.toLowerCase();
 
-  return domain && !blockedDomains.includes(domain);
-};
-
+    return domain && !blockedDomains.includes(domain);
+  };
 
   const initialFormData = {
-  name: "",
-  company: "",
-  email: "",
-  phone: "",
-  jobTitle: "",
-  country: "",
-  city: ""
-};
+    name: "",
+    company: "",
+    email: "",
+    phone: "",
+    jobTitle: "",
+    country: "",
+    city: "",
+  };
 
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  const [formData, setFormData] = useState(initialFormData)
+  const [formData, setFormData] = useState(initialFormData);
   const [emailError, setEmailError] = useState("");
-
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [formError, setFormError] = useState("");
 
   if (!open) return null;
 
-  // const handleSubmit = () => {
-  //   console.log('formData', formData);
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
 
-  //   window.open(pdfLink, "_blank");
+  //   try {
+  //     console.log("pdf link::", pdfLink);
 
-  //   onClose();
+  //     if(!isOrganizationEmail(formData.email)){
+  //       setEmailError(
+  //         "Please enter a valid organization email address."
+  //       );
+  //         return
+  //     }
+
+  //     //   setEmailError("")
+
+  //     await saveCaseStudyRequest({
+  //       ...formData,
+  //       pdfLink,
+  //       caseStudyTitle,
+  //     });
+
+  //     setFormData(initialFormData);
+
+  //     onClose();
+  //   } catch (error) {
+  //     console.error("Firestore Error:", error);
+  //   }
   // };
 
-
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    try {
-      // await addDoc(collection(db, "brochure_downloads"), {
-      //   ...formData,
+  setFormError("");
+  setEmailError("");
 
-      //   brochureLink: pdfLink,
+  // Check all fields are filled
+  const hasEmptyField = Object.values(formData).some(
+    (value) => !value.trim()
+  );
 
-      //   createdAt: serverTimestamp(),
-      // });
+  if (hasEmptyField) {
+    setFormError("Please fill all fields.");
+    return;
+  }
 
-      // window.open(pdfLink, "_blank");
+  // Validate organization email
+  if (!isOrganizationEmail(formData.email)) {
+    setEmailError(
+      "Please enter a valid organization email address."
+    );
+    return;
+  }
 
-      // onClose();
+  try {
+    await saveCaseStudyRequest({
+      ...formData,
+      pdfLink,
+      caseStudyTitle,
+    });
 
-      console.log('pdf link::',pdfLink )
+    setFormData(initialFormData);
+    setIsSubmitted(true);
 
-      if(!isOrganizationEmail(formData.email)){
-        setEmailError(
-          "Please enter a valid organization email address."
-        );
-          return 
-      }
-
-        setEmailError("")
-
-
-      await saveCaseStudyRequest({
-        ...formData,
-        pdfLink,
-        caseStudyTitle
-      })
-
-      setFormData(initialFormData)
-
+    // Optional: close modal after 2 sec
+    setTimeout(() => {
       onClose();
+      setIsSubmitted(false);
+    }, 2000);
 
-
-
-    } catch (error) {
-      console.error("Firestore Error:", error);
-    }
-  };
-
+  } catch (error) {
+    console.error("Firestore Error:", error);
+    setFormError("Something went wrong. Please try again.");
+  }
+};
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData((prev) => ({
@@ -120,11 +131,9 @@ export const BrochureModalSection: React.FC<any> = ({
     }));
 
     if (e.target.name === "email") {
-     setEmailError("");
+      setEmailError("");
     }
   };
-
-  
 
   return (
     <>
@@ -138,10 +147,18 @@ export const BrochureModalSection: React.FC<any> = ({
 
           <p>Please fill in your details to download the Case Study.</p>
 
-          <form className={styles.form}>
+
+          {isSubmitted ? (
+  <div className={styles.successContainer}>
+    <h3>Submitted Successfully!</h3>
+    <p>Your request has been received.</p>
+  </div>
+) : (
+  <form className={styles.form}>
             <input
               name="name"
               type="text"
+              required
               placeholder="Full Name"
               value={formData.name}
               onChange={handleChange}
@@ -150,6 +167,7 @@ export const BrochureModalSection: React.FC<any> = ({
             <input
               name="company"
               type="text"
+              required
               placeholder="Company Name"
               value={formData.company}
               onChange={handleChange}
@@ -158,21 +176,23 @@ export const BrochureModalSection: React.FC<any> = ({
             <input
               name="email"
               type="email"
+              required
               placeholder="Company Email"
               value={formData.email}
               onChange={handleChange}
             />
 
             {emailError && (
-              <p style={{ color: "red", fontSize: "12px", marginTop: "4px" }}>
+              <div style={{ color: "red", fontSize: "14px", marginTop: "4px" }}>
                 {emailError}
-              </p>
+              </div>
             )}
 
             <input
               name="jobTitle"
               type="text"
-              placeholder="Telephone"
+              required
+              placeholder="Job Title"
               value={formData.jobTitle}
               onChange={handleChange}
             />
@@ -180,7 +200,8 @@ export const BrochureModalSection: React.FC<any> = ({
             <input
               name="phone"
               type="text"
-              placeholder="Telephone"
+              required
+              placeholder="Phone"
               value={formData.phone}
               onChange={handleChange}
             />
@@ -188,6 +209,7 @@ export const BrochureModalSection: React.FC<any> = ({
             <input
               name="country"
               type="text"
+              required
               placeholder="Country"
               value={formData.country}
               onChange={handleChange}
@@ -196,10 +218,18 @@ export const BrochureModalSection: React.FC<any> = ({
             <input
               name="city"
               type="text"
+              required
               placeholder="City"
               value={formData.city}
               onChange={handleChange}
             />
+
+
+            {formError && (
+              <p style={{ color: "red", fontSize: "14px" }}>
+                {formError}
+              </p>
+            )}
 
             <button
               type="submit"
@@ -209,9 +239,20 @@ export const BrochureModalSection: React.FC<any> = ({
               Submit & Download
             </button>
           </form>
+)}
+
+
+
+
+
+
+
+
+
+
+          
         </div>
       </div>
     </>
   );
 };
-

@@ -222,6 +222,7 @@ export const onCreateRecordingRequest = onDocumentCreated(
 
       logger.error("Error sending email", error);
     }
+    
   }
 );
 
@@ -248,6 +249,18 @@ export const onCreateCaseStudyRequest =
       const country = data?.country;
       const city = data?.city;
 
+      logger.info(
+          "datadata",
+          data
+        );
+
+      logger.info(
+          "asdf",
+          email
+        );
+
+
+
       const brochureName =
         data?.caseStudyTitle;
 
@@ -260,7 +273,7 @@ export const onCreateCaseStudyRequest =
       }
 
       if (!brochureLink) {
-        logger.error("No brochure link found");
+        logger.error("No Case Study link found");
         return;
       }
 
@@ -291,7 +304,7 @@ export const onCreateCaseStudyRequest =
 
           <p><b>City:</b> ${city}</p>
 
-          <p><b>Brochure:</b> ${brochureName}</p>
+          <p><b>Case Study:</b> ${brochureName}</p>
         `,
       };
 
@@ -309,14 +322,10 @@ export const onCreateCaseStudyRequest =
           <h3>Hi ${name} 👋</h3>
 
           <p>
-            Thank you for your interest in
-            ${brochureName}.
+            Thank you for showing your interest in downloading Case Study
+            "${brochureName}".
           </p>
 
-          <p>
-            You can download the case study
-            using the link below:
-          </p>
 
           <p>
             <a
@@ -345,18 +354,37 @@ export const onCreateCaseStudyRequest =
           adminMail
         );
 
-        await transporter.sendMail(
-          userMail
-        );
-
         logger.info(
-          "Case Study emails sent successfully ✅"
+          "Case Study admin email sent successfully ✅"
         );
 
       } catch (error) {
 
         logger.error(
-          "Error sending Case Study email",
+          "Error sending adminemail Case Study email",
+          error
+        );
+      }
+
+      // user email try catch
+      try {
+
+        // await transporter.sendMail(
+        //   userMail
+        // );
+
+        const userResult = await transporter.sendMail(userMail);
+
+        logger.info("User mail result:", userResult);
+
+        logger.info(
+          "Case Study user email sent successfully ✅"
+        );
+
+      } catch (error) {
+
+        logger.error(
+          "Error sending useremail Case Study email",
           error
         );
       }

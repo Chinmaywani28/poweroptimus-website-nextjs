@@ -120,6 +120,21 @@ const page = () => {
       /> */}
 
 
+      
+
+      <SolFeatureBtmSection
+        heading="Connect today and take control of your energy and environmental performance."
+        paragraphs={[
+          "Ready to unify your existing BMS, SCADA, or industrial automation systems? EnvirOptimus integrates effortlessly using industry-standard protocols so you can start optimizing without replacing existing infrastructure."
+        ]}
+        buttonText="Schedule a Demo"
+        // imageSrc="/Solution_Footer_500x500px.svg"
+        imageSrc="/Solutions_Footer_Image.jpg"
+        imageAlt="Illustration of integration"
+      />
+
+
+
       <FAQComponent
       title="Frequently Asked Questions"
       description="Find answers to common questions about services, solutions & support."
@@ -153,17 +168,6 @@ const page = () => {
   
 ]}
     />
-
-      <SolFeatureBtmSection
-        heading="Connect today and take control of your energy and environmental performance."
-        paragraphs={[
-          "Ready to unify your existing BMS, SCADA, or industrial automation systems? EnvirOptimus integrates effortlessly using industry-standard protocols so you can start optimizing without replacing existing infrastructure."
-        ]}
-        buttonText="Schedule a Demo"
-        // imageSrc="/Solution_Footer_500x500px.svg"
-        imageSrc="/Solutions_Footer_Image.jpg"
-        imageAlt="Illustration of integration"
-      />
 
 
     </>

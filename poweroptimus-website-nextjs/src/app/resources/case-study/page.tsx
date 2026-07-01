@@ -27,7 +27,7 @@ const page = () => {
               cards={[
                 {
                   id: 1,
-                  title: 'Solar Optimization',
+                  title: 'Driving Smart Environment and Energy Management Solution for a Leading Global Engineering Services & Solutions Company',
                   content: 'Track energy usage in real time.',
                   image: '/resources-brochure.png',
                   link: 'https://poweroptimus.com/casestudy.pdf'
