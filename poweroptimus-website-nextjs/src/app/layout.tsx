@@ -66,7 +66,7 @@ export default function RootLayout({
           content="google3a2fc1f778abbb3c"
         /> */}
 
-        <meta name="google-site-verification" content="5oPMjQENzouBRZgBrbM9rUKDThrGQ6reWFaA-ZbEolQ" />
+        <meta name="google-site-verification" content="bqF1irDnMg-_52hTjbajl1Qmja54aQWnKk9fNUi_X6w" />
 
         {/* both script added for Google Analytics data collection */}
           <Script
