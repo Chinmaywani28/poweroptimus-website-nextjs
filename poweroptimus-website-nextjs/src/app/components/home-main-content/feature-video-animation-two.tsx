@@ -69,7 +69,7 @@ const VideoOverlay = () => {
 
         autoPlay
         muted
-        // loop
+        loop
         playsInline
         className="video"
       />
