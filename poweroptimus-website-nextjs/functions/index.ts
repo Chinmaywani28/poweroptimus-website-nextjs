@@ -153,6 +153,9 @@ export const onCreateRecordingRequest = onDocumentCreated(
       'beyond monitoring: the digital twin mandate for data centers webinar':
         "https://www.youtube.com/watch?v=C2xvgR_53po",
 
+      'intelligent hospital operations: leveraging digital twins for better outcomes':
+        "https://youtu.be/VPJt32qG38c",
+
       // sustainability:
       //   "https://your-domain.com/recording-link-3",
     };

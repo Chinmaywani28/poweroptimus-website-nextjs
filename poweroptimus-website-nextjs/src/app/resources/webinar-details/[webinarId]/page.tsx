@@ -106,6 +106,10 @@ const page = () => {
   {
     title: "Beyond Monitoring: The Digital Twin Mandate for Data Centers Webinar",
     image: "/DataCenter_Webinar_Underpage_Image.jpg"
+  },
+  {
+    title: "Intelligent Hospital Operations: Leveraging Digital Twins for Better Outcomes",
+    image: "/Webinar Image_Intelligent Hospital Operations Leveraging Digital Twins for Better Outcomes.jpg"
   }
 ]
         }
