@@ -3,7 +3,7 @@ export const metadata = {
   description: "",
   keywords: [],
   alternates: {
-    canonical: "https://poweroptimus.com/cookie-policy",
+    canonical: "https://www.enviroptimus.com/cookie-policy",
   },
 };
 

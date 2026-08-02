@@ -3,7 +3,7 @@ export const metadata = {
   description: "",
   keywords: [],
   alternates: {
-    canonical: "",
+    canonical: "https://www.enviroptimus.com/contact-us",
   },
 };
 

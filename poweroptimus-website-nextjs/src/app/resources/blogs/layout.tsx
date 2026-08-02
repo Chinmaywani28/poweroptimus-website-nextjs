@@ -3,7 +3,7 @@ export const metadata = {
   description: "Explore blogs tailored with ideas, trends and insights on energy efficiency, environmental monitoring sustainability and smart management across industries.",
   keywords: "Blogs on Energy & Environmental Trends",
   alternates: {
-    canonical: "https://enviroptimus.com/resources/blogs",
+    canonical: "https://www.enviroptimus.com/resources/blogs",
   },
 };
 

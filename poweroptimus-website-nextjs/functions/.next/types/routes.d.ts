@@ -3,7 +3,7 @@
 
 type AppRoutes = "/" | "/contact-us" | "/cookie-policy" | "/disclaimer" | "/eula" | "/faq" | "/home" | "/key-verticals" | "/key-verticals/capabilities" | "/news-and-events/events" | "/news-and-events/events/events-details" | "/news-and-events/news" | "/news-and-events/news/news-details" | "/privacy-policies" | "/resources/blogs" | "/resources/blogs-details/[blogId]" | "/resources/brochures" | "/resources/case-study" | "/resources/case-study/case-study-details" | "/resources/videos" | "/resources/webinar-details/[webinarId]" | "/resources/webinars" | "/roles" | "/roles/responsibilities" | "/sitemap" | "/solution" | "/terms-and-condition"
 type PageRoutes = never
-type LayoutRoutes = "/" | "/contact-us" | "/cookie-policy" | "/disclaimer" | "/eula" | "/faq" | "/key-verticals" | "/key-verticals/capabilities" | "/privacy-policies" | "/resources/blogs" | "/resources/blogs-details/[blogId]" | "/resources/brochures" | "/resources/videos" | "/resources/webinar-details/[webinarId]" | "/resources/webinars" | "/roles" | "/roles/responsibilities" | "/sitemap" | "/solution" | "/terms-and-condition"
+type LayoutRoutes = "/" | "/contact-us" | "/cookie-policy" | "/disclaimer" | "/eula" | "/faq" | "/key-verticals" | "/key-verticals/capabilities" | "/privacy-policies" | "/resources/blogs" | "/resources/blogs-details/[blogId]" | "/resources/brochures" | "/resources/case-study" | "/resources/videos" | "/resources/webinar-details/[webinarId]" | "/resources/webinars" | "/roles" | "/roles/responsibilities" | "/sitemap" | "/solution" | "/terms-and-condition"
 type RedirectRoutes = never
 type RewriteRoutes = never
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes
@@ -55,6 +55,7 @@ interface LayoutSlotMap {
   "/resources/blogs": never
   "/resources/blogs-details/[blogId]": never
   "/resources/brochures": never
+  "/resources/case-study": never
   "/resources/videos": never
   "/resources/webinar-details/[webinarId]": never
   "/resources/webinars": never

@@ -3,7 +3,7 @@ export const metadata = {
   description: "",
   keywords: [],
   alternates: {
-    canonical: "https://poweroptimus.com/eula",
+    canonical: "https://www.enviroptimus.com/eula",
   },
 };
 

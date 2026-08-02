@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "",
   description: "",
   alternates: {
-    canonical: "",
+    canonical: "https://www.enviroptimus.com/sitemap-0.xml",
   },
 };
 

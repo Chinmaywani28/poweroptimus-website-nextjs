@@ -22,10 +22,10 @@ export const metadata: Metadata = {
   description: "EnvirOptimus is a data-driven energy management & environmental monitoring system which provides real-time insights to improve efficiency and sustainability.",
   keywords: ["energy management system","environmental monitoring system"],
   alternates: {
-    canonical: "https://enviroptimus.com",
+    canonical: "https://www.enviroptimus.com",
   },
   icons: {
-    icon: "/faviconn.ico", // or "/favicon.png" or "/icon.svg"
+    icon: "/EnvirOptimus_Logo_WithoutBG-SVG%201.svg", // or "/favicon.png" or "/icon.svg"
   },
 };
 

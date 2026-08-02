@@ -3,7 +3,7 @@ export const metadata = {
   description: "Streamline operations with environmental monitoring software for industrial facilities—real-time data and insights for facility managers at your fingertips.",
   keywords: "Environmental monitoring software for industrial facilities",
   alternates: {
-    canonical: "https://enviroptimus.com/roles",
+    canonical: "https://www.enviroptimus.com/roles",
   },
 };
 

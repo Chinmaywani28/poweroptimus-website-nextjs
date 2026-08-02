@@ -16,6 +16,8 @@ const page = () => {
   const [selectedBlog, setSelectedBlog] = useState<any>(null);
     const params = useParams();
 
+    console.log('vnavn', params)
+
     const [resetFormTrigger, setResetFormTrigger] = useState(false);
 
     const webinarId = Array.isArray(params.webinarId) ? params.webinarId[0] : params.webinarId;

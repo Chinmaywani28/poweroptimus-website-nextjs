@@ -3,7 +3,7 @@ export const metadata = {
   description: "Energy management and environmental monitoring solution empower organizations to improve efficiency, ensure compliance & achieve long-term sustainability goals.",
   keywords: ["Energy management solution","environmental monitoring solution","smart energy management systems"],
   alternates: {
-    canonical: "https://enviroptimus.com/solution",
+    canonical: "https://www.enviroptimus.com/solution",
   },
 };
 
