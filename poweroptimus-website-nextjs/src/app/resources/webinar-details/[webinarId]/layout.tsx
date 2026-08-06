@@ -12,6 +12,7 @@
 // }
 
 
+import { getWebinarByUrlId, getWebinars } from "@/app/services/blogService";
 import { Metadata } from "next";
 
 
@@ -30,15 +31,32 @@ export async function generateMetadata({
 
   console.log('webslug::',webinarId )
 
+  let webinar : any = null;
+  
+  
+        // "Driving Energy Efficiency, Environmental Monitoring & Sustainability",
+  
+  
+    try {
+      webinar = await getWebinarByUrlId(webinarId);
+      console.log("meta webinardetails::", webinar);
+    } catch (err) {
+      console.error("Error fetching webinar:", err);
+    }
+
+
+
   return {
-    title:
-      `${webinarId.split('-').join(' ')}`,
-    description:
-      "Transform your enterprise with integrated energy and environmental technology - reducing costs, boosting resilience, and meeting sustainability targets.",
-    keywords: [
-      "Connecting Energy Monitoring",
-      "Predictive Maintenance & Sustainability",
-    ],
+    title: webinar?.metaTitle || '',
+    description: webinar?.metadescription || '',
+
+      // "Transform your enterprise with integrated energy and environmental technology - reducing costs, boosting resilience, and meeting sustainability targets.",
+
+    keywords: [webinar.metaKeyword] , 
+    // [
+    //   "Connecting Energy Monitoring",
+    //   "Predictive Maintenance & Sustainability",
+    // ],
     alternates: {
       canonical: `https://www.enviroptimus.com/resources/webinar-details/${webinarId}`,
     },

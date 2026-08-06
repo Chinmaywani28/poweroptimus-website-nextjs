@@ -14,6 +14,9 @@
 
 
 import { Metadata } from "next";
+import { useCallback } from "react";
+import { getBlogByUrlId } from '@/app/services/blogService'
+
 
 
 type Props = {
@@ -29,16 +32,33 @@ export async function generateMetadata({
 
   const { blogId } = await params;
 
+
   console.log('blogIdslug::',blogId )
 
+  let blog : any = null;
+
+
+      // "Driving Energy Efficiency, Environmental Monitoring & Sustainability",
+
+
+  try {
+    blog = await getBlogByUrlId(blogId);
+    console.log("meta blogdetails::", blog);
+  } catch (err) {
+    console.error("Error fetching blog:", err);
+  }
+
+
   return {
-    title:
-      "Driving Energy Efficiency, Environmental Monitoring & Sustainability",
+    title:  blog?.metaTitle || '',
+      // "Driving Energy Efficiency, Environmental Monitoring & Sustainability",
     description:
-      "Find out how EnvirOptimus enables real-time energy monitoring, operational efficiency, and sustainability for effective industrial operations.",
-    keywords: [
-      "Environmental Monitoring & Sustainability"
-    ],
+      // "Find out how EnvirOptimus enables real-time energy monitoring, operational efficiency, and sustainability for effective industrial operations.",
+      blog?.metaDescription || '',
+    keywords: [blog.metaKeyword], 
+    // [
+    //   "Environmental Monitoring & Sustainability"
+    // ],
     alternates: {
       canonical: `https://www.enviroptimus.com/resources/blogs-details/${blogId}`,
     },

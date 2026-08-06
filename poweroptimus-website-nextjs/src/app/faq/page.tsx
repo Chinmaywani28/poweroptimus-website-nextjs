@@ -26,7 +26,7 @@ const Faq = () => {
   {
     question: "What does “Digital Twin as a Service (DTaaS)” mean?",
     answer:
-      " Digital Twin as a Service (DTaaS) is a managed, end-to-end approach where EnvirOptimus creates, deploys, and maintains a dynamic digital twin of your facility. This eliminates the need for heavy upfront investment and ensures continuous updates, insights, and optimization."
+      "Digital Twin as a Service (DTaaS) is a managed, end-to-end approach where EnvirOptimus creates, deploys, and maintains a dynamic digital twin of your facility. This enables the entire implementation process, from data integration and deployment to ongoing support and optimization, to be delivered through a single agency."
   },
 
 

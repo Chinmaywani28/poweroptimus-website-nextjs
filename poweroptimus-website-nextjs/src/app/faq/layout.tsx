@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [],
+  title: "Frequently Asked Questions | EnvirOptimus",
+  description: "Find answers to common questions about EnvirOptimus, covering features, benefits, integrations, security, implementation, and getting started quickly.",
+  keywords: ['Frequently Asked Questions'],
   alternates: {
     canonical: "https://www.enviroptimus.com/faq",
   },
