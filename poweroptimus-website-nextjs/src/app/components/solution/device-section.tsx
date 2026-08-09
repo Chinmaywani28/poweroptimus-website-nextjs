@@ -17,7 +17,7 @@ const DeviceSection = () => {
 
             <img
             src="/Gateway_Image.svg"
-            alt="Device"
+            alt="enviroptimus-gateway"
             className="device-image"
           />
           
@@ -37,7 +37,7 @@ const DeviceSection = () => {
 
           <img
             src="/Node_Image.svg"
-            alt="Device"
+            alt="enviroptimus-node"
             className="device-image"
           />
           <h3 className="device-title Header2 downMargin TextBlue">Node</h3>

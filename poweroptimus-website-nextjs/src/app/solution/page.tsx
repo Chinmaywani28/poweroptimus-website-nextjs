@@ -130,7 +130,7 @@ const page = () => {
         buttonText="Schedule a Demo"
         // imageSrc="/Solution_Footer_500x500px.svg"
         imageSrc="/Solutions_Footer_Image.jpg"
-        imageAlt="Illustration of integration"
+        imageAlt="energy and environmental performance"
       />
 
 

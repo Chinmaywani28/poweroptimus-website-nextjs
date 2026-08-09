@@ -18,7 +18,7 @@ const ArchitectureDiagram = () => {
 
         {/* <img src="/system-arch-three.jpg" alt="System Architecture" /> */}
         {/* <img src="/System Architecture Diagram 1920x 1080.jpg" alt="System Architecture" /> */}
-        <img src="/sys-two.jpg" alt="System Architecture" />
+        <img src="/sys-two.jpg" alt="enviroptimus deployment landscape" />
 
       </div>
     </section>

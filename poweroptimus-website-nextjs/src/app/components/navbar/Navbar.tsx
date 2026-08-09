@@ -92,7 +92,7 @@ const Navbar = () => {
 
             <img
               src="/EnvirOptimus_Logo_WithoutBG-SVG 1.svg"
-              alt="Logo"
+              alt="enviroptimus-logo"
               className="navbar-logo"
               // onClick={scrollToHero}
               style={{ cursor: "pointer" }} // Make it clear that it's clickable

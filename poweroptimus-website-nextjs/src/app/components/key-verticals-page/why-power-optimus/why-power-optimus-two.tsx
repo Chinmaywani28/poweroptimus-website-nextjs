@@ -90,7 +90,7 @@ export const WhyPowerOptimusTwo = () => {
     <div className="card-grid">
     
     <div className="card">
-      <img src="/Digital Twin_ KeyVerticals_WithoutBG.png" alt="Factory" className="card-icon" />
+      <img src="/Digital Twin_ KeyVerticals_WithoutBG.png" alt="Digital Twin–Enabled Intelligence" className="card-icon" />
       <div className="Header3 TextBlue">Digital Twin–Enabled Intelligence</div>
       <div className="body3 marTopGlobal">
         Transforms live operational data into interactive 3D insights for predictive analysis, scenario planning, and smarter decision-making.
@@ -98,7 +98,7 @@ export const WhyPowerOptimusTwo = () => {
     </div>
     
     <div className="card">
-      <img src="/key-vertical-icon-scalable.png" alt="Factory" className="card-icon" />
+      <img src="/key-vertical-icon-scalable.png" alt="Scalable and Future-Ready" className="card-icon" />
       <div className="Header3 TextBlue">Scalable and Future-Ready</div>
       <div className="body3 marTopGlobal">
         Designed to grow with your business, our platform integrates effortlessly with existing systems, including BIM, IoT devices, and SCADA.
@@ -107,7 +107,7 @@ export const WhyPowerOptimusTwo = () => {
 
     
     <div className="card">
-      <img src="/key-vertical-icon-actionable.png" alt="Factory" className="card-icon" />
+      <img src="/key-vertical-icon-actionable.png" alt="Actionable Insights, Always-On Monitoring" className="card-icon" />
       <div className="Header3 TextBlue">Actionable Insights, Always-On Monitoring</div>
       <div className="body3 marTopGlobal">
         Continuous data visibility across energy, environment, and operations helps you make informed decisions faster.
@@ -116,7 +116,7 @@ export const WhyPowerOptimusTwo = () => {
 
     
     <div className="card">
-      <img src="/key-vertical-icon-driving.png" alt="Factory" className="card-icon" />
+      <img src="/key-vertical-icon-driving.png" alt="Driving Environmental Responsibility" className="card-icon" />
       <div className="Header3 TextBlue">Driving Environmental Responsibility</div>
       <div className="body3 marTopGlobal">
         From toxic gas emission monitoring in factories to AQI tracking in hospitals, EnvirOptimus is built to support environmentally conscious operations.
@@ -125,7 +125,7 @@ export const WhyPowerOptimusTwo = () => {
 
     {/* next 2 */}
     <div className="card">
-      <img src="/BASBMS_ KeyVerticals-WithoutBG.png" alt="Factory" className="card-icon" />
+      <img src="/BASBMS_ KeyVerticals-WithoutBG.png" alt="Acts as a BAS/BMS or Intelligent Extension" className="card-icon" />
       <div className="Header3 TextBlue">Acts as a BAS/BMS or Intelligent Extension</div>
       <div className="body3 marTopGlobal">
         EnvirOptimus can function as a full BAS/BMS or integrate with your existing system filling performance gaps while extending advanced analytics, energy optimization, and environmental monitoring capabilities.
@@ -137,7 +137,7 @@ export const WhyPowerOptimusTwo = () => {
 
 
     <div className="card">
-      <img src="/key-vertical-icon-customizable.png" alt="Factory" className="card-icon" />
+      <img src="/key-vertical-icon-customizable.png" alt="Customizable to Industry Needs" className="card-icon" />
       <div className="Header3 TextBlue">Customizable to Industry Needs</div>
       <div className="body3 marTopGlobal">
         Whether it’s a factory, hospital, or high-rise, EnvirOptimus adapts to the unique KPIs that matter most to your operation.

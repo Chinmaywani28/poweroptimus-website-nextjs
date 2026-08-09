@@ -162,7 +162,7 @@ const WhyEnergy = () => {
           </ul>
 
           <div>
-            <img src="/Homepage_Why Environment and Energy Efficiency Matter More Than Ever1.png" alt="home" />
+            <img src="/Homepage_Why Environment and Energy Efficiency Matter More Than Ever1.png" alt="Environment and Energy Efficiency" />
           </div>
         </div>
 

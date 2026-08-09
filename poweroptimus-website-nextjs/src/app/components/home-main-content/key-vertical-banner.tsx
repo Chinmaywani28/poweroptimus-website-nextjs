@@ -11,7 +11,7 @@ const KeyVerticalBanner: React.FC = () => {
       {/* ✅ IMAGE BACKGROUND (replaced video) */}
       <img
         src="/Key Verticals Header Image.jpg"  // 🔥 replace with your image path
-        alt="Hero Background"
+        alt="Sustainable Energy Management Platform For Industries"
         className="videoHeroVideo"
       />
 

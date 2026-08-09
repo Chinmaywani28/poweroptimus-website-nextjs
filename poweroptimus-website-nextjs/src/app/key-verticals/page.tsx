@@ -272,7 +272,7 @@ const page = () => {
         buttonText="Schedule a Demo"
         // imageSrc="/key-vertical-new.svg"
         imageSrc="/Key Verticals Footer.jpg"
-        imageAlt="Illustration of integration"
+        imageAlt="Facility Optimized for Energy and Sustainability"
       />
       
 

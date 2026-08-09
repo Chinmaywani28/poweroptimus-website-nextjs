@@ -241,7 +241,7 @@ const HomeMainContent = () => {
         buttonText="Schedule a Demo"
         // imageSrc="/HomePage_Footer_Vector_Image.svg"
         imageSrc="/home-page-footer-one.jpg"
-        imageAlt="Illustration of integration"
+        imageAlt="enviroptimus for smarter operations"
       />
 
       <FAQComponent
