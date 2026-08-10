@@ -32,12 +32,13 @@ const page = () => {
 
      const cards = blogs.map((b: any) => ({
       //  imageSrc: b.image || "/default-blog.png",
-      imageSrc: ["/form-building-management-system-outside-image.jpg","/form-building-management-system-outside-image.jpg","/Blog_Image.png","/resource-blog-image.jpg"],
+      imageSrc: ["/blog-four-out-img.jpg","/form-building-management-system-outside-image.jpg","/Blog_Image.png","/resource-blog-image.jpg"],
       title: b.title,
        description: b.metaDescription || "",
        date: b.date || "Nov 25",
        linkText: "Read More",
        linkHref: `/resources/blogs-details/${b.urlId}`,
+       alt: b.alt || ""
      }));
     
      console.log('ckdf',cards)
@@ -54,7 +55,7 @@ const page = () => {
 
       <Hero headerText={"Explore Blogs on Environmental & Energy Trends"} bodyText={
           "Your hub for insights, ideas, and trends in environment and energy, curated to inform, inspire, and keep you ahead across industries, while keeping you updated on innovations, technologies, and best practices shaping a more sustainable future."
-      } image='/Resource_Blogs_Header_Vector_Image.svg' />
+      } image='/Resource_Blogs_Header_Vector_Image.svg' alt='EnvirOptimus Blogs'/>
 
       {/* <CardGridSection
         cards={[

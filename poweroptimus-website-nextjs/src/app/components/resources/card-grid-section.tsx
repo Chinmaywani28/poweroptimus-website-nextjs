@@ -87,7 +87,7 @@ export const CardGridSection = ({cards}: Props) => {
 
               <img 
               src={card.imageSrc[index]} 
-              alt={card.title} 
+              alt={card.alt} 
                 className={styles["card-image"]}
               />
 

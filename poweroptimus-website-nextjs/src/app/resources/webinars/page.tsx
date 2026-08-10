@@ -40,6 +40,7 @@ const page = () => {
          date: b.date || "Nov 25",
          linkText: "Read More",
          linkHref: `/resources/webinar-details/${b.urlId}`,
+         alt: b.alt
        }));
       
        console.log('ckdf',cards)

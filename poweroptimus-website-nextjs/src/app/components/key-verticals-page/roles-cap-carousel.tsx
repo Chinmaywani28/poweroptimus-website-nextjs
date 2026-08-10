@@ -18,7 +18,8 @@ const RolesCapCarousel = ( ) => {
       tagPath1: '/roles/responsibilities/#employee-awareness',
       tagPath2: '/roles/responsibilities/#energy-audits',
       tagPath3: '/roles/responsibilities/#predictive-maintenance',
-      cheForm: false
+      cheForm: false,
+      alt: 'EnvirOptimus for facility managers'
     },
     {
       // img: "/Operation Heads  Image.jpg",
@@ -31,7 +32,9 @@ const RolesCapCarousel = ( ) => {
       tagPath1: '/roles/responsibilities/#co2-monitoring',
       tagPath2: '/roles/responsibilities/#data-analysis',
       tagPath3: '/roles/responsibilities/#energy-audits',
-      cheForm: false
+      cheForm: false,
+      alt: 'EnvirOptimus for Operations Heads'
+
 
     },
     {
@@ -45,7 +48,9 @@ const RolesCapCarousel = ( ) => {
       tagPath1: '/roles/responsibilities/#real-time',
       tagPath2: '/roles/responsibilities/#energy-audits',
       tagPath3: '/roles/responsibilities/#roi',
-      cheForm: false
+      cheForm: false,
+      alt: 'EnvirOptimus for Energy Managers'
+
     },
     {
       // img: "/C-Executives Image.jpg",
@@ -58,13 +63,14 @@ const RolesCapCarousel = ( ) => {
       tagPath1: '/roles/responsibilities/#co2-monitoring',
       tagPath2: '/roles/responsibilities/#roi',
       tagPath3: '/roles/responsibilities/#data-analysis',
-      cheForm: false
+      cheForm: false,
+      alt: 'EnvirOptimus for C-Suite Executives (CXOs)'
 
     },
     {
       // img: "/EHS Heads.jpg",
       img: "/EHS.png",
-      title: "EHS(Environmental Health & Safety) Heads",
+      title: "EHS (Environmental Health & Safety) Heads",
       text: `EHS leaders focus on sustainability, compliance, and reducing the environmental footprint of operations. Their responsibilities often extend to tracking emissions, reporting under frameworks like ISO 14001, and ensuring adherence to internal and external sustainability standards. EnvirOptimus helps EHS heads by automatically tracking carbon emissions and energy intensity metrics, simplifying GHG reporting and compliance documentation. The platform provides visibility into sustainability KPIs across sites and teams, and it drives behavioural change by making progress transparent and actionable. This not only ensures compliance but also embeds sustainability into the daily culture of operations.`,
       label1: 'Co2 Emissions Monitoring',
       label2: 'Safety Audits',
@@ -72,7 +78,8 @@ const RolesCapCarousel = ( ) => {
       tagPath1: '/roles/responsibilities/#co2-monitoring',
       tagPath2: '/roles/responsibilities/#safety-audits',
       tagPath3: '/roles/responsibilities/#co2-monitoring',
-      cheForm: true
+      cheForm: true,
+      alt: 'EnvirOptimus for EHS(Environmental Health & Safety) Heads'
 
     },
     {
@@ -86,7 +93,9 @@ const RolesCapCarousel = ( ) => {
       tagPath1: '/roles/responsibilities/#machine-levels',
       tagPath2: '/roles/responsibilities/#predictive-maintenance',
       tagPath3: '/roles/responsibilities/#energy-audits',
-      cheForm: false
+      cheForm: false,
+      alt: 'EnvirOptimus for Production Managers'
+
 
     },
     // {
@@ -137,7 +146,7 @@ const RolesCapCarousel = ( ) => {
         {slides.map((slide, i) => (
           <div className="slide" key={i}>
             <div className="image-box">
-              <img src={slide.img} alt={slide.title} />
+              <img src={slide.img} alt={slide.alt} />
             </div>
 
             <div className="text-box">

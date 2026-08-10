@@ -2,7 +2,7 @@ import Link from 'next/link';
 import './facility-sections.css'; // Import HomePage specific styles
 
 
-const FacilitySections = ({ title,subTitle,subTitleTwo, text , textArr, imageSrc, reverse,label1,label2,label3,listOne,listTwo,listThree,listFour,tagPath1,tagPath2,tagPath3 }: {
+const FacilitySections = ({ title,subTitle,subTitleTwo, text , textArr, imageSrc, reverse,label1,label2,label3,listOne,listTwo,listThree,listFour,tagPath1,tagPath2,tagPath3, alt }: {
   title: string;
   subTitle: string;
   subTitleTwo: string;
@@ -21,12 +21,13 @@ const FacilitySections = ({ title,subTitle,subTitleTwo, text , textArr, imageSrc
   tagPath1: string
   tagPath2: string
   tagPath3: string
+  alt?: string
 }) => {
   return (
     <section className="facility-section">
       <div className={`facility-content ${reverse ? "reverse" : ""}`}>
         <div className="facility-image">
-          <img src={imageSrc} alt={title} />
+          <img src={imageSrc} alt={alt} />
         </div>
         <div className="facility-text">
           <div className="Header2 TextBlue marBtm">{title}</div>

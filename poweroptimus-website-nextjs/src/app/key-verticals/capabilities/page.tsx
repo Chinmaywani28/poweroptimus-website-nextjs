@@ -94,7 +94,7 @@ export default function Page() {
 
       <Hero headerText={"Key Capabilities"} bodyText={
           "Explore how EnvirOptimus empowers organizations across industries to enhance operational efficiency, safeguard people and assets, and advance sustainability goals. From intelligent air quality management and hazardous gas monitoring to smart HVAC and compressor control, our integrated solutions deliver actionable insights and automated responses, building safer and more resilient facilities."
-      } image='/Key Capabilities Header Vector Image Final.svg'/>
+      } image='/Key Capabilities Header Vector Image Final.svg' alt='EnvirOptimus key capabilities'/>
 
       {/* <FacilitySectionsTwo
         title="PowerOptimus continuously tracks indoor air quality to ensure healthy, compliant environments:"
@@ -246,6 +246,7 @@ export default function Page() {
             text: "BMS integration & special uses (breweries, large spaces, ISO 14001 support)"
           }
         ]}
+        alt='EnvirOptimus: Air Quality Monitoring'
       />
 
       {/* Image on Left */}
@@ -270,6 +271,8 @@ export default function Page() {
             text: "Byproduct detection in pharma units for worker safety"
           }
         ]}
+        alt='EnvirOptimus: common to all Hazardous Gas Monitoring'
+
       />
 
       {/* Image on right */}
@@ -294,6 +297,8 @@ export default function Page() {
             text: "Digital documentation for audits & regulatory compliance"
           }
         ]}
+        alt='EnvirOptimus: Sustainability & Compliance Automation'
+
       />
 
       {/* Image on Left */}
@@ -341,6 +346,8 @@ export default function Page() {
             text: "Fuel cost reduction through optimized performance"
           }
         ]}
+        alt='EnvirOptimus: Boiler Optimization & Temperature Monitoring'
+
       />
 
       {/* Image on Left */}
@@ -365,6 +372,8 @@ export default function Page() {
             text: "Targeted optimization for reduced waste & better comfort"
           }
         ]}
+        alt='EnvirOptimus: Occupancy Monitoring for Smart HVAC'
+
       />
 
       <FacilitySection
@@ -388,6 +397,8 @@ export default function Page() {
             text: "Live benchmarking (real-time kW/CFM analysis) for efficiency"
           }
         ]}
+        alt='EnvirOptimus: Compressor Management for HVAC'
+
       />
 
       <FacilitySection
@@ -411,6 +422,8 @@ export default function Page() {
             text: "Automated alerts for quick KPI deviation response"
           },
         ]}
+        alt='EnvirOptimus: Advanced HVAC Controls & Pump Efficiency'
+
       />
 
       {/* Image on Left */}
@@ -441,7 +454,7 @@ export default function Page() {
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/Key Capabilities Footer Vector Image1.svg"
-        imageAlt="Illustration of integration"
+        imageAlt="EnvirOptimus for sustainable future"
       />
     </div>
   );

@@ -13,6 +13,7 @@ interface CardData {
   buttonText?: string;
   link: string;
   requiresForm?: boolean;
+  alt?: string 
 }
 
 // ✅ Component props
@@ -58,7 +59,7 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
           <div className={styles["energy-card"]} key={card.id}>
             {/* ✅ Card image */}
             <div className={styles["card-image"]}>
-              <img src={card.image} alt={card.title} />
+              <img src={card.image} alt={card.alt} />
             </div>
 
 

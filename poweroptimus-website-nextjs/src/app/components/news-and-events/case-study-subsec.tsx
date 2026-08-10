@@ -267,7 +267,7 @@ useEffect(() => {
               {/* <img src={imageSrc} alt="Case study" className="main-image" /> */}
               <img
                 src={matchedImage?.image || "/default-image.jpg"}
-                alt="Webinar-image"
+                alt={title}
                 className="main-image"
               />
             </div>

@@ -93,7 +93,7 @@ const page = () => {
         tagPath1="/key-verticals/capabilities/#hazardous-gas"
         tagPath2="/key-verticals/capabilities/#occu"
         tagPath3="/key-verticals/capabilities/#advanced-hvac"
-
+        alt='EnvirOptimus for smart buildings'
       />
 
       <FacilitySections
@@ -117,7 +117,7 @@ const page = () => {
         tagPath1="/key-verticals/capabilities/#hazardous-gas"
         tagPath2="/key-verticals/capabilities/#occu"
         tagPath3="/key-verticals/capabilities/#advanced-hvac"
-
+        alt='EnvirOptimus For Industrial Plants & Factories'
       />
 
 
@@ -143,7 +143,7 @@ const page = () => {
         tagPath1="/key-verticals/capabilities/#hazardous-gas"
         tagPath2="/key-verticals/capabilities/#occu"
         tagPath3="/key-verticals/capabilities/#advanced-hvac"
-
+        alt='EnvirOptimus For Large Infrastructure'
       />
 
       

@@ -36,7 +36,8 @@ const page = () => {
   const imgObj : Record<string, string> = {
     'Driving-Energy-Efficiency-Environmental-Monitoring-and-Sustainability-with-Smart-Energy-Management': '/Blog_UnderPage_Smart Energy Management.png',
     'dont-Let-Your-Digital-Twin-Be-Just-a-Replica-Bring-It-to-Life': '/Blog_UnderPage_DIGITAL TWIN.jpg',
-    "From-Building-Management-Systems-to-Intelligent-Operations-The-Next-Evolution-of-Smart-Facilities": '/from-building-management-system-inside-image.jpg'
+    "From-Building-Management-Systems-to-Intelligent-Operations-The-Next-Evolution-of-Smart-Facilities": '/from-building-management-system-inside-image.jpg',
+    "The-Real-Cost-of-Not-Knowing-What-Your-Building-Is-Doing-Right-Now": "/bloog-four-image-four.jpg"
   }
 
 
@@ -65,7 +66,7 @@ const page = () => {
         <div className="image-wrap">
           <img
             src={imgObj[blogId as string] || '/abc.png'}
-            alt="Blog Image"
+            alt={selectedBlog?.title}
             loading="lazy"
           />
         </div>

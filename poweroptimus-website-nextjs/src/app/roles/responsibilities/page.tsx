@@ -43,7 +43,7 @@ export default function Page() {
 
       <Hero headerText={"Transforming Energy Management and Environmental Monitoring with Intelligence"} bodyText={
           "Traditional tracking often stops at consumption reports, offering little insight into inefficiencies or long-term sustainability goals. With advanced analytics, real-time monitoring, and intelligent insights, enterprises can optimize energy use, improve asset performance, and strengthen ESG compliance."
-      } image='/Roles Transforming EEMM with Intelligence.svg'/>
+      } image='/Roles Transforming EEMM with Intelligence.svg' alt='EnvirOptimus roles and responsibilites'/>
 
       <FacilitySectionsTwo
         id="predictive-maintenance"
@@ -66,6 +66,7 @@ export default function Page() {
             text: "Extend lifespan of HVAC units, pumps, compressors, and more.",
           }
         ]}
+        alt='EnvirOptimus: Predictive Maintenance for Reliability'
       />
 
       <FacilitySectionsTwo
@@ -89,6 +90,8 @@ export default function Page() {
             text: "Align energy use with business and sustainability objectives.",
           },
         ]}
+        alt='EnvirOptimus: Energy Strategy that Delivers ROI'
+
       />
 
       <FacilitySectionsTwo
@@ -112,6 +115,8 @@ export default function Page() {
             text: "Involve teams in sustainability initiatives.",
           },
         ]}
+        alt='EnvirOptimus: Employee Awareness & Training'
+
       />
 
       <FacilitySectionsTwo
@@ -135,6 +140,8 @@ export default function Page() {
             text: "Enable continuous post-audit monitoring.",
           },
         ]}
+        alt='EnvirOptimus: Energy Audits & Efficiency Improvements'
+
       />
 
       <FacilitySectionsTwo
@@ -155,6 +162,8 @@ export default function Page() {
             text: "Receive instant alerts for corrective action.",
           }
         ]}
+        alt='EnvirOptimus: Real-Time Inefficiency Detection'
+
       />
 
       <FacilitySectionsTwo
@@ -178,6 +187,8 @@ export default function Page() {
             text: "Stay compliant with regulations to avoid penalties."
           }
         ]}
+        alt='EnvirOptimus: ROI & Cost Optimization'
+
       />
 
       <FacilitySectionsTwo
@@ -201,6 +212,8 @@ export default function Page() {
             text: "Deliver actionable insights for decision-makers."
           }
         ]}
+        alt='EnvirOptimus: Data Analysis & KPI Monitoring'
+
       />
 
       <FacilitySectionsTwo
@@ -224,6 +237,8 @@ export default function Page() {
             text: "Track progress toward carbon goals."
           }
         ]}
+        alt='EnvirOptimus: CO₂ Monitoring & Sustainability'
+
       />
 
       <FacilitySectionsTwo
@@ -247,6 +262,8 @@ export default function Page() {
             text: "Improve workplace safety."
           }
         ]}
+        alt='EnvirOptimus: Safety Audits & Risk Reduction'
+
       />
 
       <FacilitySectionsTwo
@@ -270,6 +287,8 @@ export default function Page() {
             text: "Allocate energy costs with precision."
           }
         ]}
+        alt='EnvirOptimus: Machine-Level Energy Intensity'
+
       />
 
       {/* <FacilitySection/> */}
@@ -368,7 +387,7 @@ export default function Page() {
         ]}
         buttonText="Schedule a Demo"
         imageSrc="/Roles Operations to Optimization 1.svg"
-        imageAlt="Illustration of integration"
+        imageAlt="Enviroptimus for sustainable operations"
       />
     </div>
   );

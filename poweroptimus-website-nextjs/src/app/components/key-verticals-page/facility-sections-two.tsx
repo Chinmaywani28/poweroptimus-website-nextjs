@@ -55,7 +55,8 @@ interface FacilitySectionProps {
   description: string;
   imageSrc: string;
   imageLeft?: boolean; // if true -> image on left
-  listItems?: any
+  listItems?: any;
+  alt?: string
 }
 
 export default function FacilitySection({
@@ -65,7 +66,8 @@ export default function FacilitySection({
   description,
   imageSrc,
   imageLeft = false,
-  listItems
+  listItems,
+  alt
 }: FacilitySectionProps) {
   return (
     <section id={id}
@@ -97,7 +99,7 @@ export default function FacilitySection({
 
       {/* Image */}
       <div className={styles["facility-image"]}>
-        <img src={imageSrc} alt="facility" className={styles["fac-img"]}/>
+        <img src={imageSrc} alt={alt} className={styles["fac-img"]}/>
       </div>
     </section>
   );

@@ -5,19 +5,57 @@ import "./sustainable-dev.css";
 
 const SustainableDev: React.FC = () => {
   // Left side thumbnails
+  // const leftImages = [
+  //   "/sus-dev-one.png",
+  //   "/sus-dev-two.png",
+  //   "/sus-dev-three.png",
+  //   "/sus-dev-four.png"
+  // ];
+
   const leftImages = [
-    "/sus-dev-one.png",
-    "/sus-dev-two.png",
-    "/sus-dev-three.png",
-    "/sus-dev-four.png"
+    {
+      path: '/sus-dev-one.png',
+      alt: 'EnvirOptimus for Sustainability Goals : clean energy'
+    },
+    {
+      path: '/sus-dev-two.png',
+      alt: 'EnvirOptimus for Sustainability Goals : industry and infrastructure'
+    },
+    {
+      path: '/sus-dev-three.png',
+      alt: 'EnvirOptimus for Sustainability Goals : consumption and production'
+    },
+    {
+      path: '/sus-dev-four.png',
+      alt: 'EnvirOptimus for Sustainability Goals : climate action'
+    }
   ];
 
   // Right side images
+  // const rightImages = [
+  //   "/sus-dev-carousel-one.png",
+  //   "/sus-dev-carousel-two.png",
+  //   "/sus-dev-carousel-three.png",
+  //   "/sus-dev-carousel-four.png"
+  // ];
+
   const rightImages = [
-    "/sus-dev-carousel-one.png",
-    "/sus-dev-carousel-two.png",
-    "/sus-dev-carousel-three.png",
-    "/sus-dev-carousel-four.png"
+    {
+      path: '/sus-dev-carousel-one.png',
+      alt: 'EnvirOptimus for Sustainability Goals : clean energy'
+    },
+    {
+      path: 'sus-dev-carousel-two.png',
+      alt: 'EnvirOptimus for Sustainability Goals : industry and infrastructure'
+    },
+    {
+      path: '/sus-dev-carousel-three.png',
+      alt: 'EnvirOptimus for Sustainability Goals : consumption and production'
+    },
+    {
+      path: '/sus-dev-carousel-four.png',
+      alt: 'EnvirOptimus for Sustainability Goals : climate action'
+    }
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -56,7 +94,9 @@ const SustainableDev: React.FC = () => {
                   onMouseEnter={() => setHoveredIndex(index)}
                   onMouseLeave={() => setHoveredIndex(null)}
                 >
-                  <img src={src} alt={`thumb-${index}`} />
+                  {/* <img src={src} alt={`thumb-${index}`} /> */}
+                  <img src={src.path} alt={src.alt} />
+
                 </div>
               ))}
             </div>
@@ -65,9 +105,13 @@ const SustainableDev: React.FC = () => {
           {/* RIGHT */}
           <div className="sus-home_sectionHeader_right">
             <div className="goal-display">
-              <img
+              {/* <img
                 src={rightImages[displayIndex]}
                 alt={`right-${displayIndex}`}
+              /> */}
+              <img
+                src={rightImages[displayIndex].path}
+                alt={rightImages[displayIndex].alt}
               />
 
               {/* Circle dots below image */}

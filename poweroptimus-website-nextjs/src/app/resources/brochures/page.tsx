@@ -22,7 +22,7 @@ const page = () => {
 
       <Hero headerText={"Discover Smarter Solutions with Us"} bodyText={
           "Explore how our solutions optimize operations, improve efficiency, and drive sustainable growth, featuring key benefits, use cases, and insights to enable data-driven decisions and operational excellence."
-      } image='/Resource_Brouchure_Header_Vector_Image.svg' />
+      } image='/Resource_Brouchure_Header_Vector_Image.svg' alt='EnvirOptimus brochures'/>
 
       <BrochureCardSection
         cards={[
@@ -31,7 +31,8 @@ const page = () => {
             title: 'Solar Optimization',
             content: 'Track energy usage in real time.',
             image: '/Brochure_Image.jpg',
-            link: 'https://poweroptimus.com/EnvirOptimus Brochure for Sydney build 2026_v6_justified-AMD.pdf'
+            link: 'https://poweroptimus.com/EnvirOptimus Brochure for Sydney build 2026_v6_justified-AMD.pdf',
+            alt: 'unified digital twin platform'
           },
           // {
           //   id: 2,

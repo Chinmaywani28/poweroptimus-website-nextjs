@@ -5,10 +5,11 @@ import './hero.css'
 type HeroProps = {
  headerText: string,
  bodyText: string,
- image?: string
+ image?: string,
+ alt?: string
 }
 
-const Hero = ({headerText,bodyText,image}: HeroProps) => {
+const Hero = ({headerText,bodyText,image,alt}: HeroProps) => {
 
 
   const { t } = useTranslation(); // Initialize translation hook
@@ -38,7 +39,7 @@ const Hero = ({headerText,bodyText,image}: HeroProps) => {
                 {/* section 1.2 */}
                 <div className="home_sectionHeader_right"> 
                   {/* <img src="/Solutions_Header_Vector_Img 1.svg" alt="Logo" className="header-image" /> */}
-                  <img src={image} alt="Logo" className="header-image" />
+                  <img src={image} alt={alt} className="header-image" />
                   
                 </div>
         </div>
