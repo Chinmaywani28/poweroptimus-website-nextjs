@@ -78,12 +78,19 @@ const page = () => {
 
       {/* Blog Content */}
       <div className="blog-text marTopGlobal">
+
+
         <div
           dangerouslySetInnerHTML={{
             __html: selectedBlog?.content ?? "",
           }}
         />
+
+
+
       </div>
+
+
     </div>
 
     {/* RIGHT COLUMN */}

@@ -241,7 +241,7 @@ const HomeMainContent = () => {
         buttonText="Schedule a Demo"
         // imageSrc="/HomePage_Footer_Vector_Image.svg"
         imageSrc="/home-page-footer-one.jpg"
-        imageAlt="enviroptimus for smarter operations"
+        imageAlt="EnvirOptimus for smarter operations"
       />
 
       <FAQComponent
@@ -252,13 +252,36 @@ const HomeMainContent = () => {
   {
     question: "What does “Digital Twin as a Service (DTaaS)” mean?",
     answer:
-      "Digital Twin as a Service (DTaaS) is a managed, end-to-end approach where EnvirOptimus creates, deploys, and maintains a dynamic digital twin of your facility. This eliminates the need for heavy upfront investment and ensures continuous updates, insights, and optimization.",
+
+        (
+      <>
+        <a href="https://www.enviroptimus.com/resources/blogs-details/dont-Let-Your-Digital-Twin-Be-Just-a-Replica-Bring-It-to-Life">Digital Twin as a Service (DTaaS) </a>
+           is a managed, end-to-end approach where EnvirOptimus creates, deploys, and maintains a dynamic digital twin of your facility. This eliminates the need for heavy upfront investment and ensures continuous updates, insights, and optimization.
+      </>
+    ),
+
+
+
+      // "Digital Twin as a Service (DTaaS)  is a managed, end-to-end approach where EnvirOptimus creates, deploys, and maintains a dynamic digital twin of your facility. This eliminates the need for heavy upfront investment and ensures continuous updates, insights, and optimization.",
   },
 
   {
     question: "How is EnvirOptimus different from traditional BMS or monitoring systems?",
     answer:
-      "Traditional systems like BMS primarily monitor and control individual assets. EnvirOptimus goes beyond monitoring by integrating multiple systems, contextualizing data, and delivering actionable insights for optimized and intelligent operations."
+
+      (
+      <>
+         Traditional systems like 
+        <a href="https://www.enviroptimus.com/"> Building Management Systems (BMS) </a>
+         
+        primarily monitor and control individual assets. EnvirOptimus goes beyond monitoring by integrating multiple systems, contextualizing data, and delivering actionable insights for optimized and intelligent operations.
+      </>
+    ),
+
+
+
+
+      // "Traditional systems like Building Management Systems primarily monitor and control individual assets. EnvirOptimus goes beyond monitoring by integrating multiple systems, contextualizing data, and delivering actionable insights for optimized and intelligent operations."
   },
 
 
@@ -267,7 +290,16 @@ const HomeMainContent = () => {
     answer:
       "EnvirOptimus is designed for a wide range of facilities, including:",
     list: [
-          "Commercial buildings(offices, malls, mixed-use)",
+
+          (
+      <>
+        <a href="https://www.enviroptimus.com/key-verticals"> Commercial buildings </a>
+         (offices, malls, mixed-use)
+      </>
+    ),
+
+
+          // "Commercial buildings (offices, malls, mixed-use)",
           "Hospitals and healthcare facilities",
           "Industrial plants and manufacturing units",
           "Airports, data centers, and other critical infrastructure"

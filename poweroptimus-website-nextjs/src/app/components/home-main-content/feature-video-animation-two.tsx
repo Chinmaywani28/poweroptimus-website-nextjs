@@ -62,9 +62,16 @@ const VideoOverlay = () => {
   return (
     <section className="video-section">
       {/* 🎥 Video */}
+
       <video
+        title="EnvirOptimus EEMS Explainer — From Design to Intelligence"
+        aria-label="Motion graphic explaining how EnvirOptimus EEMS enables sustainable building performance"
+        // controls
+        preload="metadata"
         ref={videoRef}
-        src="/videos/Revised_Final_With Text-Latest_Neil Automation website Motion Graphic two.mp4"
+        // src="/videos/Revised_Final_With Text-Latest_Neil Automation website Motion Graphic two.mp4"
+        src="/videos/enviroptimus-eems-explainer-motion-graphic.mp4"
+
         // src="/videos/Final_With Text-Latest_Neil Automation website Motion Graphic-10.mp4"
 
         autoPlay
@@ -72,7 +79,40 @@ const VideoOverlay = () => {
         loop
         playsInline
         className="video"
-      />
+
+
+      >
+        </video>
+
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": "EnvirOptimus EEMS Explainer",
+              "description": "Motion graphic explaining why an Environment & Energy Management Solution (EEMS) is the core of sustainable building performance.",
+              "uploadDate": "2026-08-07",
+              "contentUrl": "https://www.enviroptimus.com/videos/enviroptimus-eems-explainer-motion-graphic.mp4"
+            }),
+          }}
+        </script> */}
+
+
+        <script 
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": "EnvirOptimus EEMS Explainer",
+              "description": "Motion graphic explaining why an Environment & Energy Management Solution (EEMS) is the core of sustainable building performance.",
+              "uploadDate": "2026-08-11",
+              "contentUrl": "https://www.enviroptimus.com/videos/enviroptimus-eems-explainer-motion-graphic.mp4"
+          })
+        }}>
+      </script>
+
 
       {/* right now this image has been added */}
       {/* <img src="/video-animationss.png" alt="Logo" className="header-image" /> */}

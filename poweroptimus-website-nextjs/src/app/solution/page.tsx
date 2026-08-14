@@ -143,26 +143,89 @@ const page = () => {
   {
     question: "What is EnvirOptimus?",
     answer:
-      "EnvirOptimus is a Digital Twin–enabled platform that helps organizations transform facility operations by connecting design data with real-time operational data. It enables intelligent, data-driven decision-making to improve efficiency, sustainability, and asset performance.",
+
+    (
+      <>
+        <a href="https://www.enviroptimus.com/">EnvirOptimus </a>
+         is a Digital Twin–enabled platform that helps organizations transform facility operations by connecting design data with real-time operational data. It enables intelligent, data-driven decision-making to improve efficiency, sustainability, and asset performance.`,
+      </>
+    ),
+
+      // "EnvirOptimus is a Digital Twin–enabled platform that helps organizations transform facility operations by connecting design data with real-time operational data. It enables intelligent, data-driven decision-making to improve efficiency, sustainability, and asset performance.",
   },
 
   {
     question: "Can EnvirOptimus integrate with my existing systems?",
     answer:
-      "Yes. EnvirOptimus integrates seamlessly with existing systems such as BMS, SCADA, IoT devices, meters, and enterprise systems using standard protocols and APIs."
+
+      (
+      <>
+         Yes. EnvirOptimus integrates seamlessly with existing systems such as <a href="https://www.enviroptimus.com/resources/blogs-details/From-Building-Management-Systems-to-Intelligent-Operations-The-Next-Evolution-of-Smart-Facilities"> Building Management System</a> , SCADA, IoT devices, meters, and enterprise systems using standard protocols and APIs.
+
+      </>
+    ),
+
+
+
+      // "Yes. EnvirOptimus integrates seamlessly with existing systems such as BMS, SCADA, IoT devices, meters, and enterprise systems using standard protocols and APIs."
   },
 
 
   {
     question: "What are the key benefits of using EnvirOptimus?",
+
     list: [
-          "Improved energy efficiency and cost optimization",
-          "Real-time visibility across systems",
-          "Predictive and proactive maintenance",
-          "Enhanced compliance and reporting",
-          "Better occupant comfort and experience",
-          "Data-driven decision-making"
-    ]
+
+
+
+        (
+      <>
+       Improved energy efficiency and cost optimization
+      </>
+    ),
+
+
+     (
+      <>
+        Real-time visibility across systems
+      </>
+    ),
+
+     (
+      <>
+        Predictive and proactive maintenance
+      </>
+    ),
+
+     (
+      <>
+        Enhanced compliance and reporting
+      </>
+    ),
+
+     (
+      <>
+        Better occupant comfort and experience
+      </>
+    ),
+      (
+      <>
+      Data-driven decision-making
+      </>
+    )
+
+
+    ],
+
+
+    // list: [
+    //       "Improved energy efficiency and cost optimization",
+    //       "Real-time visibility across systems",
+    //       "Predictive and proactive maintenance",
+    //       "Enhanced compliance and reporting",
+    //       "Better occupant comfort and experience",
+    //       "Data-driven decision-making"
+    // ]
   },
 
   

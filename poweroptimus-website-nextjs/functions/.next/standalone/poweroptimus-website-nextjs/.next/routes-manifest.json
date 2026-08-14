@@ -158,6 +158,12 @@
       "namedRegex": "^/resources/case\\-study/case\\-study\\-details(?:/)?$"
     },
     {
+      "page": "/resources/events",
+      "regex": "^/resources/events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/events(?:/)?$"
+    },
+    {
       "page": "/resources/videos",
       "regex": "^/resources/videos(?:/)?$",
       "routeKeys": {},

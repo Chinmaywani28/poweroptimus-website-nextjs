@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://poweroptimus.com
+Host: https://www.enviroptimus.com
 
 # Sitemaps
-Sitemap: https://poweroptimus.com/sitemap.xml
+Sitemap: https://www.enviroptimus.com/sitemap.xml

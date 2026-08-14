@@ -87,23 +87,23 @@ export const KeyVerticesTwo = () => {
               */}
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Data Center.jpg" alt="enviroptimus for data center" />
+              <img src="/Home Page- Key Verticals- Data Center.jpg" alt="EnvirOptimus for data center" />
               </Link>
             </div>
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Building.jpg" alt="enviroptimus for commercial facilities" />
+              <img src="/Home Page- Key Verticals- Building.jpg" alt="EnvirOptimus for commercial facilities" />
               </Link>
             </div>
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Food & Beverages.jpg" alt="enviroptimus for food and beverages" />
+              <img src="/Home Page- Key Verticals- Food & Beverages.jpg" alt="EnvirOptimus for food and beverages" />
               </Link>
             </div>
             
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Manufacturing.jpg" alt="enviroptimus for manufacturing" />
+              <img src="/Home Page- Key Verticals- Manufacturing.jpg" alt="EnvirOptimus for manufacturing" />
               </Link>
             </div>
 

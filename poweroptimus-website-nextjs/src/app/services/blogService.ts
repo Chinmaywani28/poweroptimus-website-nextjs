@@ -161,3 +161,57 @@ export async function getWebinarByUrlId(urlId:string) {
     });
     return blogList[0];
 }
+
+
+// get events
+export async function getEvents(params: { limit?: number, skipId?: string }) {
+  try {
+    // // Step 1: Add a test document
+    // const docRef = await addDoc(collection(db, "testCollection"), {
+    //   message: "Hello Firebase!",
+    //   createdAt: new Date(),
+    // });
+    // console.log("✅ Test document added with ID:", docRef.id);
+
+    // Step 2: Fetch all documents from testCollection
+
+
+    const queryConstraints: QueryConstraint[] = [];
+
+    if (params.skipId)
+        queryConstraints.push(where(documentId(), "!=", params.skipId));
+    else
+        queryConstraints.push(orderBy('createdOn', 'desc'));
+
+    if (params.limit)
+        queryConstraints.push(limit(params.limit));
+
+    const querySnapshot = await getDocs(query(collection(db, "events"), ...queryConstraints));
+    console.log('eventQuerySnapshot',querySnapshot)
+    const eventsLists = querySnapshot.docs.map((doc,i) => {
+
+        console.log('docdoc',doc)
+        const data = doc.data();
+        const updatedOn = data.updatedOn ? data.updatedOn : data.createdOn;
+        return {
+            ...data,
+            id: doc.id, index: i + 1,
+            urlId: data.urlId,
+            ref: doc.ref,
+            createdOn: data.createdOn.toDate().toDateString(),
+            createdOnStr: getReadableDate(data.createdOn.toDate()),
+            updatedOn: data.createdOn.toDate().toDateString(),
+            updatedOnStr: getReadableDate(updatedOn.toDate())
+        };
+
+
+    })
+    console.log('eventsLists::ChinmayJi',eventsLists)
+    return eventsLists
+    
+
+    console.log("✅ Firestore connection works perfectly!");
+  } catch (error) {
+    console.error("❌ Firestore connection failed:", error);
+  }
+}

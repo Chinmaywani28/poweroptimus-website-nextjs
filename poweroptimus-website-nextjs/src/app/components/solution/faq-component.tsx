@@ -148,8 +148,8 @@
 
 interface FAQItem {
   question: string;
-  answer?: string;
-  list?: string[];
+  answer?: React.ReactNode;
+  list?: React.ReactNode[];
 }
 
 interface FAQComponentProps {
@@ -171,8 +171,8 @@ const FAQComponent = ({
       <div className="faq-container">
 
         <div className="faq-header">
-          <h2>{title}</h2>
-          {description && <p>{description}</p>}
+          <h1>{title}</h1>
+          {description && <h2>{description}</h2>}
         </div>
 
         <div className="faq-list">
@@ -180,7 +180,14 @@ const FAQComponent = ({
             <details className="faq-item" key={index}>
               <summary>{faq.question}</summary>
 
-              {faq.answer && <p>{faq.answer}</p>}
+              {faq.answer && 
+              
+              
+              <p>{faq.answer}</p>
+              
+              
+              
+              }
 
               {faq.list?.length > 0 && (
                 <ul>
