@@ -130,9 +130,9 @@ const WhyEnergy = () => {
     <div className="WhyEnergy_home_container">
       <div className="WhyEnergyhome">
         <div className="HeaderWhyEnergy">
-          <div className="Header2 TextBlue">
+          <h2 className="Header2 TextBlue">
             {t("WhyEnergyEfficiencyMatters")}
-          </div>
+          </h2>
           {/* <div className="body2 alignbodytext2">
             {t("WhyEnergyEfficiencyDescription")}
           </div> */}

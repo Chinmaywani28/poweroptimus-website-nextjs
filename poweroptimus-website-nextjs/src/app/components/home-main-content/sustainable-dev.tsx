@@ -79,9 +79,9 @@ const SustainableDev: React.FC = () => {
       <div id="hero-section" className="home-container">
         <div className="susHome">
           <div className="sus-dev-header">
-            <div className="section-title Header1 TextBlue">
+            <h2 className="section-title Header1 TextBlue" style={{ marginTop: 0, marginBottom: 0 }}>
               EnvirOptimus for Sustainability Goals : Strategic Alignment
-            </div>
+            </h2>
           </div>
 
           {/* LEFT */}

@@ -83,7 +83,7 @@ const page = () => {
         subTitleTwo='Modern buildings must maintain healthy indoor environments despite fluctuating occupancy and rising energy costs. EnvirOptimus enables continuous monitoring of air quality, temperature, humidity, ventilation performance, and emissions, ensuring comfort, compliance, and efficient building operations.
         Advanced analytics further enable proactive decision-making, optimizing performance and reducing operational risks while maintaining consistent indoor environmental quality across diverse building types.'
         // imageSrc="/key-vertical-five.jpg"
-        imageSrc="/Key Verticals- Buildings (1).jpg"
+        imageSrc="/key-verticals-buildings.jpg"
         
         reverse
         label1="Hazardous Gas   Monitoring"
@@ -108,15 +108,15 @@ const page = () => {
         ]}
         subTitleTwo='Industrial facilities face strict environmental regulations and energy-intensive production cycles. EnvirOptimus provides asset- and process-level environmental and energy visibility, helping industries control emissions, optimize production efficiency, and maintain regulatory adherence. This evolution marked a significant shift towards digitized workflows and standardized documentation, laying the foundation for modern industrial communication and data-driven decision-making.'
         // imageSrc="/Key Verticals- Industrial Plants and Factories.jpg"
-        imageSrc="/Key Verticals- Industrial Plants and Factory.jpg"
+        imageSrc="/key-verticals-industrial-plants-and-factory.jpg"
         // reverse
         label1="Compressor Management"
         label2="HVAC"
         label3="Boiler Optimization"
          showList={false}
-        tagPath1="/key-verticals/capabilities/#hazardous-gas"
-        tagPath2="/key-verticals/capabilities/#occu"
-        tagPath3="/key-verticals/capabilities/#advanced-hvac"
+        tagPath1="/key-verticals/capabilities/#compressor-management"
+        tagPath2="/key-verticals/capabilities/#advanced-hvac"
+        tagPath3="/key-verticals/capabilities/#boiler-optimization"
         alt='EnvirOptimus For Industrial Plants & Factories'
       />
 
@@ -134,15 +134,15 @@ const page = () => {
         subTitleTwo='Large infrastructure assets require continuous environmental oversight alongside energy management. EnvirOptimus centralizes visibility across distributed systems, enabling operators to optimize cooling, balance loads, and manage compliance without compromising stability. 
         Modern infrastructure environments generate vast volumes of operational and environmental data that must be continuously monitored, analyzed, and acted upon in real time. By integrating diverse systems into a unified platform, organizations can gain actionable insights, improve efficiency, and maintain operational resilience. This approach supports proactive decision-making, enhances system performance, and ensures long-term sustainability while adapting to evolving regulatory and operational demands.'
         // imageSrc="/Key Verticals- Large Critical Infrastructure.jpg"
-        imageSrc="/Key Verticals- Large Critical Infrast.jpg"
+        imageSrc="/key-verticals-large-critical-infrast.jpg"
         reverse
         label1="HVAC"
         label2="Energy Monitoring"
         label3="Compressor Management"
          showList={false}
-        tagPath1="/key-verticals/capabilities/#hazardous-gas"
+        tagPath1="/key-verticals/capabilities/#advanced-hvac"
         tagPath2="/key-verticals/capabilities/#occu"
-        tagPath3="/key-verticals/capabilities/#advanced-hvac"
+        tagPath3="/key-verticals/capabilities/#compressor-management"
         alt='EnvirOptimus For Large Infrastructure'
       />
 

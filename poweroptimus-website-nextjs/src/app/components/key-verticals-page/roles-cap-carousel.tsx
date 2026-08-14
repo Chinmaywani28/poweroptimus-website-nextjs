@@ -9,7 +9,7 @@ const RolesCapCarousel = ( ) => {
   const slides = [
     {
       // img: "/roles-new-one.jpg",
-      img: "/Facility_Managers.png",
+      img: "/facility-managers.png",
       title: "Facility Managers",
       text: `Facility Managers are tasked with ensuring the smooth and efficient operation of building systems daily. From managing HVAC, lighting, and equipment schedules to balancing energy consumption with occupant comfort, their role is critical to maintaining reliability and cost control. EnvirOptimus supports facility managers by providing real-time monitoring and control of energy-intensive assets, sending proactive alerts for abnormal consumption or equipment failure, and reducing downtime through predictive insights. This ensures that buildings remain comfortable and operationally sound while lowering utility costs and maintenance burdens.`,
       label1: 'Employee Awareness Training',
@@ -23,7 +23,7 @@ const RolesCapCarousel = ( ) => {
     },
     {
       // img: "/Operation Heads  Image.jpg",
-      img: "/Operation_Heads.png",
+      img: "/operation-heads.png",
       title: "Operations Heads",
       text: `Operations Heads oversee plant and process performance, where efficiency, cost management, and resource optimization are key to achieving operational excellence. EnvirOptimus empowers them with facility-wide dashboards that provide instant visibility into energy usage, helping to correlate energy consumption with process output and identify bottlenecks. Load balancing and shift optimization features enable better resource allocation, while benchmarking and target setting support energy budgeting and long-term performance improvement. This visibility allows operations leaders to enhance productivity without losing sight of energy and cost efficiency.`,
       label1: 'Sustainability and ESG Analysis',
@@ -39,7 +39,7 @@ const RolesCapCarousel = ( ) => {
     },
     {
       // img: "/Energy Managers.jpg",
-      img: "/Energy_Managers.png",
+      img: "/energy-managers.png",
       title: "Energy Managers",
       text: `Energy Managers focus on reducing consumption, improving efficiency, and driving sustainability across operations. Their role has become increasingly strategic and data-driven, requiring tools that provide both depth and clarity. EnvirOptimus equips energy managers with granular, circuit-level monitoring and historical data, helping them identify inefficiencies through trend analysis and consumption patterns. The platform also enables benchmarking across different departments or locations, ensuring fair comparisons and actionable insights. By supporting compliance with ISO 50001 and other energy management frameworks, our solutions help energy managers achieve both organizational and regulatory sustainability goals.`,
       label1: 'Detects Operational Inefficiencies',
@@ -54,7 +54,7 @@ const RolesCapCarousel = ( ) => {
     },
     {
       // img: "/C-Executives Image.jpg",
-      img: "/C-Executives.png",
+      img: "/c-executives.png",
       title: "C-Suite Executives (CXOs)",
       text: `For CXOs, the priorities extend beyond day-to-day operations to profitability, compliance, and long-term sustainability. They require insights that connect performance with strategic decision-making, not just raw data. EnvirOptimus addresses this by delivering executive dashboards with key performance indicators spanning energy, cost, and carbon impact. The platform enables leaders to align ESG initiatives with real-time operational performance while also providing ROI projections for energy interventions and capital investments. With scenario analysis and forecasting, this solution  empowers executives to make informed strategic decisions that balance profitability, compliance, and environmental responsibility.`,
       label1: 'Sustainability and ESG Analysis',
@@ -69,7 +69,7 @@ const RolesCapCarousel = ( ) => {
     },
     {
       // img: "/EHS Heads.jpg",
-      img: "/EHS.png",
+      img: "/ehs.png",
       title: "EHS (Environmental Health & Safety) Heads",
       text: `EHS leaders focus on sustainability, compliance, and reducing the environmental footprint of operations. Their responsibilities often extend to tracking emissions, reporting under frameworks like ISO 14001, and ensuring adherence to internal and external sustainability standards. EnvirOptimus helps EHS heads by automatically tracking carbon emissions and energy intensity metrics, simplifying GHG reporting and compliance documentation. The platform provides visibility into sustainability KPIs across sites and teams, and it drives behavioural change by making progress transparent and actionable. This not only ensures compliance but also embeds sustainability into the daily culture of operations.`,
       label1: 'Co2 Emissions Monitoring',
@@ -84,7 +84,7 @@ const RolesCapCarousel = ( ) => {
     },
     {
       // img: "/prod-manager.png",
-      img: "/Production_Managers.png",
+      img: "/production-managers.png",
       title: "Production Managers",
       text: `Production Managers are under constant pressure to maximize throughput, quality, and uptime, often balancing trade-offs between productivity and energy use. EnvirOptimus helps them strike this balance by linking machine-level energy data with production metrics, making inefficiencies visible during idle, peak, or off-peak hours. By supporting lean manufacturing through energy-aware scheduling, the platform ensures that processes run with minimal waste and maximum efficiency. This allows production managers to maintain output targets while reducing unnecessary energy expenditure, achieving both operational and sustainability objectives.`,
       label1: 'Machine Energy Intensity',

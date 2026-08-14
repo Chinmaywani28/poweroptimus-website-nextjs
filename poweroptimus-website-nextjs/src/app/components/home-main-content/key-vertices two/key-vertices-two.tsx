@@ -87,23 +87,24 @@ export const KeyVerticesTwo = () => {
               */}
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Data Center.jpg" alt="EnvirOptimus for data center" />
+              {/* home-page-key-verticals-data-center */}
+              <img src="/home-page-key-verticals-data-center.jpg" alt="EnvirOptimus for data center" />
+              </Link> 
+            </div>
+            <div >
+              <Link href="/key-verticals">
+              <img src="/home-page-key-verticals-building.jpg" alt="EnvirOptimus for commercial facilities" />
               </Link>
             </div>
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Building.jpg" alt="EnvirOptimus for commercial facilities" />
-              </Link>
-            </div>
-            <div >
-              <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Food & Beverages.jpg" alt="EnvirOptimus for food and beverages" />
+              <img src="/home-page-key-verticals-food-&-beverages.jpg" alt="EnvirOptimus for food and beverages" />
               </Link>
             </div>
             
             <div >
               <Link href="/key-verticals">
-              <img src="/Home Page- Key Verticals- Manufacturing.jpg" alt="EnvirOptimus for manufacturing" />
+              <img src="/home-page-key-verticals-manufacturing.jpg" alt="EnvirOptimus for manufacturing" />
               </Link>
             </div>
 
@@ -123,9 +124,9 @@ export const KeyVerticesTwo = () => {
 
         {/* === Right Side: Text Content === */}
         <div className='HomeFeature_Leftsss'>
-          <div className='Header2 TextBlue'>
+          <h2 className='Header2 TextBlue'>
             Key Verticals
-          </div>
+          </h2>
           {/* <div className='body2'>
             <p>EnvirOptimus helps industries manage energy consumption efficiently, reduce costs, and support sustainability. as a comprehensive Energy Management System (EMS) and Environmental Monitoring System. Its data-driven energy management capabilities make it a valuable solution for all types of industries and sectors with high energy demands and optimum environmental conditions. By using IoT sensors, real-time analytics, and automation, the platform detects inefficiencies early, optimizes load to avoid peak tariffs, and supports renewable energy integration.</p>
             <p>

@@ -37,15 +37,64 @@ import SolutionDescription from '../components/solution/solution-description'
 import HeroWithVideo from '../components/home-main-content/hero-with-video'
 import SustainableDev from '../components/home-main-content/sustainable-dev'
 import FAQComponent from '../components/solution/faq-component'
+// import SchemaMarkup from '../components/schema/schemaMarkup'
 
 
 const page = () => {
+
+  const pageSchema = 
+      {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is EnvirOptimus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<a href=\"https://www.enviroptimus.com/\">EnvirOptimus</a> is a Digital Twin–enabled platform that helps organizations transform facility operations by connecting design data with real-time operational data. It enables intelligent, data-driven decision-making to improve efficiency, sustainability, and asset performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can EnvirOptimus integrate with my existing systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. EnvirOptimus integrates seamlessly with existing systems such as <a href=\"https://www.enviroptimus.com/resources/blogs-details/From-Building-Management-Systems-to-Intelligent-Operations-The-Next-Evolution-of-Smart-Facilities\">Building Management System</a>, SCADA, IoT devices, meters, and enterprise systems using standard protocols and APIs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key benefits of using EnvirOptimus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key benefits of using EnvirOptimus include improved energy efficiency and cost optimization, real-time visibility across systems, predictive and proactive maintenance, enhanced compliance and reporting, better occupant comfort and experience, and data-driven decision-making."
+      }
+    }
+  ]
+};
+
+
+
+
   return (
     <>
     {/* <Hero/> */}
     {/* <HeroTwo/> */}
     {/* <SolutionHero headerText={'PowerOptimus – A Smart Solution for Energy Management and Environmental Monitoring'} bodyText={'PowerOptimus is an intelligent, scalable system designed to support industries and commercial buildings in driving efficiency, reducing operational costs, and aligning with sustainability goals through robust energy monitoring and management systems.'}/> */}
 
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(pageSchema),
+        }}
+      />
+
+
+          {/* <SchemaMarkup schema={pageSchema} /> */}
+          
+    
 
     <HeroWithVideo headerText={"EnvirOptimus – A Smart Environmental and Energy Management Solution"} bodyText={
           "A unified solution for managing assets and utilities to enable Digital Twin–driven operations, optimize performance, ensure compliance, and support sustainability goals."
@@ -60,7 +109,7 @@ const page = () => {
     {/* description section */}
     <SolutionDescription bodyText={'EnvirOptimus is a scalable Environment and Energy Management Solution built to improve energy efficiency, lower operating costs, and meet sustainability targets. By combining advanced energy monitoring with environmental performance management, it enables organizations to enhance operational control, ensure compliance, and drive measurable sustainability outcomes.'}/>
 
-    <div className="feature-title Header1TwoDD TextBlue">Features Driving Results</div>
+    <h2 className="feature-title Header1TwoDD TextBlue">Features Driving Results</h2>
 
     {/* <FeatureCard title={'Utility Energy Monitoring'} description={'PowerOptimus enables real-time tracking of utilities such as electricity, water, and compressed air across the facility. By identifying excessive usage patterns, the system empowers organizations to take corrective actions that minimize wastage, optimize utility consumption, and enhance resource efficiency. This not only contributes to lower energy bills but also supports long-term sustainability goals and operational resilience.'}/>
 

@@ -9,10 +9,10 @@ const FeatureThree: React.FC = () => {
 
   return (
     <div className="marTopBot">
-      <div className="Header2 featureHe TextBlue">
+      <h2 className="Header2 featureHe TextBlue">
         From Design to Intelligence: Why EEMS Is the Core of Sustainable
         Building Performance
-      </div>
+      </h2>
 
       {/* <img className="featWidth" src="/Digital Twin Diagram.png" alt="" /> */}
 
@@ -46,8 +46,10 @@ const FeatureThree: React.FC = () => {
           automation systems, monitoring platforms, and advanced intelligence
           solutions. While each layer has a defined role, true performance
           optimization happens when energy and environmental intelligence sit at
-          the core. That role is fulfilled by an Environment & Energy Management
-          Solution (EEMS) such as EnvirOptimus. 
+          the core. That role is fulfilled by an <a href="https://www.enviroptimus.com/resources/blogs-details/Driving-Energy-Efficiency-Environmental-Monitoring-and-Sustainability-with-Smart-Energy-Management">
+         Environment & Energy Management
+          Solution (EEMS) 
+        </a> such as EnvirOptimus. 
            BIM provides the digital design
           foundation with 3D models, asset specifications, and lifecycle
           documentation, but it is not operational.
@@ -58,17 +60,17 @@ const FeatureThree: React.FC = () => {
             energy and environmental data.
           </b>
         </div>
-        <div>
+        <p>
           BMS/BAS and MES/SCADA control building and industrial systems,
           ensuring stability and process continuity, yet they remain largely
           reactive.
-        </div>
+        </p>
         <div>
           An Environment & Energy Monitoring Platform adds structured visibility
           through IoT-based tracking of utilities, emissions, air quality, and
           KPIs.
         </div>
-        <div>Where EEMS Creates Impact</div>
+        <p><b>Where EEMS Creates Impact</b></p>
         <div>
           An EEMS transforms visibility into optimization. It captures granular
           sub-metered data, integrates emissions and environmental parameters,
@@ -93,7 +95,7 @@ const FeatureThree: React.FC = () => {
           optimization — making it the sustainability intelligence layer within
           the digital stack.
         </div>
-        <div>
+        <p>
           As maturity increases, Predictive Analytics enables forecasting and
           early fault detection, while Asset Maintenance systems use performance
           insights to improve reliability and lifecycle management. At the
@@ -101,7 +103,7 @@ const FeatureThree: React.FC = () => {
           EEMS data to enable simulation and adaptive optimization, but its
           intelligence depends heavily on structured energy and operational data
           from the EEMS layer.
-        </div>
+        </p>
         <div>
           Importantly, EEMS and control systems can function independently of
           BIM, enabling even brownfield facilities to achieve measurable energy
