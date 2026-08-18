@@ -393,3 +393,112 @@ export const onCreateCaseStudyRequest =
       }
     }
   );
+
+// events registrations
+// 🔥 Trigger on Firestore - Event Registration
+export const onCreateEventRegistration = onDocumentCreated(
+  "events-registration/{docId}",
+  async (event) => {
+
+    const snapshot = event.data;
+
+    if (!snapshot) {
+      logger.info("No registration data found");
+      return;
+    }
+
+    const data = snapshot.data();
+
+    logger.info(
+        `Event data:: ${data}`
+      );
+
+    // 📋 Get registration details
+    const firstName = data?.firstName;
+    const lastName = data?.lastName;
+    const email = data?.businessEmail;
+    const phone = data?.phone;
+    const companyName = data?.companyName;
+    const jobRole = data?.jobRole;
+    const eventName = data?.eventName;
+    const country = data?.country;
+
+    // ❌ Email is mandatory
+    if (!email) {
+      logger.error("No email found in event registration");
+      return;
+    }
+
+    // 📩 Email to ADMIN
+    const adminMail = {
+      from: `${senderName} <${senderEmail}>`,
+      to: adminEmails,
+      subject: `New Event Registration: ${eventName}`,
+      html: `
+        <h3>New Event Registration</h3>
+
+        <p><b>Name:</b> ${firstName + lastName || "N/A"}</p>
+        <p><b>Email:</b> ${email}</p>
+        <p><b>Phone:</b> ${phone || "N/A"}</p>
+        <p><b>Company:</b> ${companyName || "N/A"}</p>
+        <p><b>Job Role:</b> ${jobRole || "N/A"}</p>
+        <p><b>Country:</b> ${country || "N/A"}</p>
+        <p><b>Event:</b> ${eventName || "N/A"}</p>
+      `,
+    };
+
+    // 📩 Email to USER
+    const userMail = {
+      from: `${senderName} <${senderEmail}>`,
+      to: email,
+      subject: `Registration Confirmed - ${eventName}`,
+      html: `
+        <h3>Hi ${firstName + lastName || "there"} 👋</h3>
+
+        <p>
+          Thank you for registering for our event.
+        </p>
+
+        <p>
+          Your registration has been successfully received.
+        </p>
+
+        <p>
+          <b>Event:</b> ${eventName || "N/A"}
+        </p>
+
+        <p>
+          We look forward to having you join us.
+        </p>
+
+        <br />
+
+        <p>Best Regards,</p>
+        <p>EnvirOptimus Team</p>
+      `,
+    };
+
+    try {
+
+      await transporter.sendMail(adminMail);
+      await transporter.sendMail(userMail);
+
+      // logger.info(
+      //   `Event registration emails sent successfully for ${email}`
+      // );
+
+      logger.info(
+          `Event registration emails sent successfully for ${adminMail}`
+        );
+
+      logger.info(
+          `Event registration emails sent successfully for ${userMail}`
+        );
+
+    } catch (error) {
+
+      logger.error("Error sending event registration emails", error);
+
+    }
+  }
+);

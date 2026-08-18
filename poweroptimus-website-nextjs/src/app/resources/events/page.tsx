@@ -31,16 +31,16 @@ const page = () => {
     }, [loadEvents])
 
      const cards = events.map((b: any) => ({
-      imageSrc: ["/blog-four-out-img.jpg","/form-building-management-system-outside-image.jpg","/Blog_Image.png","/resource-blog-image.jpg"],
+      imageSrc: ["/enviroptimus-au-event.png"],
       title: b.title,
        description: b.metaDescription || "",
        date: b.date || "Nov 25",
        linkText: "Read More",
-       linkHref: `/resources/blogs-details/${b.urlId}`,
+       linkHref: `/resources/events-details/${b.urlId}/registration-form`,
        alt: b.alt || ""
      }));
     
-     console.log('ckdf',cards)
+     console.log('events list',cards)
 
   return (
     <>

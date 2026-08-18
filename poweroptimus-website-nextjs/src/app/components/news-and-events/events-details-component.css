@@ -1,0 +1,327 @@
+/* === Basic container === */
+.blog-page {
+  /* padding: 0 40px;  */
+  
+}
+
+.container {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  padding: 0 11.4%; 
+  margin-top: 90px;
+}
+
+/* === Back link === */
+.topbar {
+  padding: 20px 0;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.arrow {
+  /* font-size: 18px; */
+}
+
+/* === Hero text === */
+.hero {
+  text-align: center;
+  margin: 30px 0 40px;
+}
+
+.hero h1 {
+  /* font-size: 36px; */
+  /* line-height: 1.2;
+  font-weight: 700; */
+  max-width: 700px;
+  margin: 0 auto 16px;
+}
+
+.hero .lead {
+  /* color: #666; */
+  /* font-size: 16px; */
+  /* max-width: 800px; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Image + meta === */
+.media {
+  margin: 40px 0;
+}
+
+.image-wrap {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.meta {
+  /* font-size: 14px; */
+  color: #555;
+}
+
+/* ================== Responsive Breakpoints ================== */
+
+/* 1) Mobile: max-width 600px */
+@media (max-width: 600px) {
+  .blog-page {
+    /* padding: 0 20px; */
+  }
+  .hero h1 {
+    /* font-size: 24px; */
+    max-width: 90%;
+  }
+  .hero .lead {
+    /* font-size: 14px; */
+  }
+}
+
+/* 2) Tablet: 601–900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .hero h1 {
+    /* font-size: 28px; */
+  }
+}
+
+/* 3) Laptop: 901–1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .hero h1 {
+    /* font-size: 32px; */
+  }
+}
+
+/* 4) Desktop: 1201px+ */
+@media (min-width: 1201px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+
+/* down section */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.case-study-section {
+  /* font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  padding: 20px; */
+  padding: 0px 11.5%;
+  margin-top: 121px;
+  margin-bottom: 90px;
+}
+
+/* --- Header Section --- */
+.page-header {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 15px; */
+  /* justify-content: space-between; */
+  /* margin-bottom: 30px; */
+}
+
+.breadcrumb {
+  /* font-size: 14px;
+  color: gray; */
+}
+
+.page-title {
+  /* font-size: 28px;
+  font-weight: bold; */
+}
+
+.download-btn {
+  align-self: flex-start;
+  background: #dff4e5;
+  border: 1px solid #a4d4af;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* --- Main Grid Layout --- */
+.page-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+}
+
+.main-image {
+  width: 100%;
+  /* aspect-ratio: 16/9; */
+  aspect-ratio: 16/10;
+  /* object-fit: cover; */
+  /* margin-bottom: 20px; */
+}
+
+.content p {
+  margin-bottom: 16px;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.share-icons span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.other-cases ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.other-cases a {
+  color: black;
+  text-decoration: none;
+}
+
+.recent-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  /* margin-bottom: 40px; */
+}
+
+/* -------------------
+   RESPONSIVE BREAKPOINTS
+------------------- */
+
+/* Mobile (≤600px) */
+@media (max-width: 600px) {
+  .page-content {
+    grid-template-columns: 1fr; /* Stack */
+  }
+
+  .download-btn {
+    align-self: center;
+    width: 100%;
+  }
+}
+
+/* Tablet (601px–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .page-content {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+/* Laptop (901px–1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .page-content {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* Desktop (≥1201px) */
+@media (min-width: 1201px) {
+  .page-content {
+    grid-template-columns: 3.5fr 1fr;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+  }
+}
+
+
+/* right sec for form*/
+/* Sidebar (form) */
+/* .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-form input,
+.contact-form textarea, 
+.contact-form select{
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  
+}
+
+.contact-form input:focus, 
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.3);
+} */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.3);
+}
+
+
+
+.submit-btn {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  /* font-size: 14px; */
+}
+
+.submit-btn:hover {
+  background: #43a047;
+}

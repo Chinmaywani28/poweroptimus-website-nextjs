@@ -27,3 +27,13 @@ export const saveCaseStudyRequest = (payload: any) => {
         createdOn: Timestamp.now()
     });
 }
+
+// eventRegistration list
+export const saveEventsRegRequest = (payload: any) => {
+    // console.log('adsnfadsf', ...payload)
+    addDoc(collection(db, 'events-registration'), {
+        ...payload,
+        completed: false,
+        createdOn: Timestamp.now()
+    });
+}

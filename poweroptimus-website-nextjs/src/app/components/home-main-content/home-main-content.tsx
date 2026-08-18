@@ -272,7 +272,7 @@ const HomeMainContent = () => {
       (
       <>
          Traditional systems like 
-        <a href="https://www.enviroptimus.com/"> Building Management Systems (BMS) </a>
+        <a href="https://www.enviroptimus.com/resources/blogs-details/From-Building-Management-Systems-to-Intelligent-Operations-The-Next-Evolution-of-Smart-Facilities"> Building Management Systems (BMS) </a>
          
         primarily monitor and control individual assets. EnvirOptimus goes beyond monitoring by integrating multiple systems, contextualizing data, and delivering actionable insights for optimized and intelligent operations.
       </>

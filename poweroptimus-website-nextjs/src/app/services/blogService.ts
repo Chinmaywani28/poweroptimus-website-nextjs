@@ -215,3 +215,30 @@ export async function getEvents(params: { limit?: number, skipId?: string }) {
     console.error("❌ Firestore connection failed:", error);
   }
 }
+
+export async function getEventByUrlId(urlId:string) {
+    console.log('mnmh',urlId)
+    // debugger;
+    
+    const snapshot = await getDocs(query(collection(db, "events"), where("urlId", "==", urlId)));
+    const blogList = snapshot.docs.map((doc) => {
+        const data = doc.data();
+        console.log('dfkanf',data)
+        const updatedOn = data.updatedOn ? data.updatedOn : data.createdOn;
+        return {
+            ...data,
+            id: doc.id,
+            ref: doc.ref,
+            createdOn: data.createdOn.toDate().toDateString(),
+            createdOnStr: getReadableDate(data.createdOn.toDate()),
+            updatedOn: data.createdOn.toDate().toDateString(),
+            updatedOnStr: getReadableDate(updatedOn.toDate()),
+            metaTitle: data.metaTitle,          // ✅ Ensure these are included
+            metaDescription: data.metaDescription,
+            metaKeyword: data.metaKeyword,
+            urlId: data.urlId,
+
+        };
+    });
+    return blogList[0];
+}
