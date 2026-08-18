@@ -107,6 +107,7 @@ const VideoOverlay = () => {
               "@type": "VideoObject",
               "name": "EnvirOptimus EEMS Explainer",
               "description": "Motion graphic explaining why an Environment & Energy Management Solution (EEMS) is the core of sustainable building performance.",
+              "thumbnailUrl": "/enviroptimus-eems-explainer-thumbnail.jpg",
               "uploadDate": "2026-08-11",
               "contentUrl": "https://www.enviroptimus.com/videos/enviroptimus-eems-explainer-motion-graphic.mp4"
           })
