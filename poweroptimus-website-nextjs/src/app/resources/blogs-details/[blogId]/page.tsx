@@ -37,7 +37,8 @@ const page = () => {
     'Driving-Energy-Efficiency-Environmental-Monitoring-and-Sustainability-with-Smart-Energy-Management': '/Blog_UnderPage_Smart Energy Management.png',
     'dont-Let-Your-Digital-Twin-Be-Just-a-Replica-Bring-It-to-Life': '/Blog_UnderPage_DIGITAL TWIN.jpg',
     "From-Building-Management-Systems-to-Intelligent-Operations-The-Next-Evolution-of-Smart-Facilities": '/from-building-management-system-inside-image.jpg',
-    "The-Real-Cost-of-Not-Knowing-What-Your-Building-Is-Doing-Right-Now": "/bloog-four-image-four.jpg"
+    "The-Real-Cost-of-Not-Knowing-What-Your-Building-Is-Doing-Right-Now": "/bloog-four-image-four.jpg",
+    "The-Shift-from-Reactive-Control-Systems-to-Proactive-Optimization": "/resource-blog-shift-two.png",
   }
 
 

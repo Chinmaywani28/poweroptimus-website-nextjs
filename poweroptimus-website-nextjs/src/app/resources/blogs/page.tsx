@@ -32,7 +32,7 @@ const page = () => {
 
      const cards = blogs.map((b: any) => ({
       //  imageSrc: b.image || "/default-blog.png",
-      imageSrc: ["/blog-four-out-img.jpg","/form-building-management-system-outside-image.jpg","/Blog_Image.png","/resource-blog-image.jpg"],
+      imageSrc: ["/resource-blog-shift.jpg","/blog-four-out-img.jpg","/form-building-management-system-outside-image.jpg","/Blog_Image.png","/resource-blog-image.jpg"],
       title: b.title,
        description: b.metaDescription || "",
        date: b.date || "Nov 25",
