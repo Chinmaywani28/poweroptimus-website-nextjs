@@ -3,7 +3,7 @@ export const metadata = {
   description: "Uncover how EnvirOptimus drives energy efficiency and sustainability, reducing costs & emissions while improving operational performance & environmental impact.",
   keywords: "Energy & Environmental Innovations",
   alternates: {
-    canonical: "https://www.enviroptimus.com/resources/video",
+    canonical: "https://www.enviroptimus.com/resources/videos",
   },
 };
 

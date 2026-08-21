@@ -30,7 +30,17 @@ const page = () => {
                   title: 'Driving Smart Environment and Energy Management Solution for a Leading Global Engineering Services & Solutions Company',
                   content: 'Track energy usage in real time.',
                   image: '/resources-brochure.png',
-                  link: 'https://poweroptimus.com/casestudy.pdf',
+                  link: 'https://enviroptimus.com/casestudy.pdf',
+                  alt:'EnvirOptimus for case study'
+                },
+
+                {
+                  id: 2,
+                  title: 'Big Construction Company EnvirOptimus CaseStudy',
+                  content: 'Track energy usage in real time.',
+                  image: '/resources-brochure.png',
+                  // link: 'https://enviroptimus.com/L&TCaseStudy.pdf',
+                  link: 'http://enviroptimus.com/L&TCaseStudy.pdf',
                   alt:'EnvirOptimus for case study'
                 },
                 
