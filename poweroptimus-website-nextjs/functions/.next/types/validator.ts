@@ -438,6 +438,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../src/app/resources/events-details/[eventsId]/registration-form/layout.tsx
+{
+  type __IsExpected<Specific extends LayoutConfig<"/resources/events-details/[eventsId]/registration-form">> = Specific
+  const handler = {} as typeof import("../../src/app/resources/events-details/[eventsId]/registration-form/layout.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/resources/events/layout.tsx
 {
   type __IsExpected<Specific extends LayoutConfig<"/resources/events">> = Specific

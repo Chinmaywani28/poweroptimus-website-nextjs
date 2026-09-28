@@ -147,7 +147,7 @@ export async function getWebinarByUrlId(urlId:string) {
         return {
             ...data,
             id: doc.id,
-            ref: doc.ref,
+            // ref: doc.ref,
             createdOn: data.createdOn.toDate().toDateString(),
             createdOnStr: getReadableDate(data.createdOn.toDate()),
             updatedOn: data.createdOn.toDate().toDateString(),

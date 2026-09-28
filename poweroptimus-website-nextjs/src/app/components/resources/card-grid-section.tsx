@@ -13,7 +13,7 @@ type CardData = {
 };
 
 type Props = {
-  cards: CardData[];
+  cards: any;
 };
 
 export const CardGridSection = ({cards}: Props) => {

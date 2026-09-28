@@ -28,6 +28,22 @@
       "namedRegex": "^/resources/blogs\\-details/(?<nxtPblogId>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/resources/events-details/[eventsId]",
+      "regex": "^/resources/events\\-details/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPeventsId": "nxtPeventsId"
+      },
+      "namedRegex": "^/resources/events\\-details/(?<nxtPeventsId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/resources/events-details/[eventsId]/registration-form",
+      "regex": "^/resources/events\\-details/([^/]+?)/registration\\-form(?:/)?$",
+      "routeKeys": {
+        "nxtPeventsId": "nxtPeventsId"
+      },
+      "namedRegex": "^/resources/events\\-details/(?<nxtPeventsId>[^/]+?)/registration\\-form(?:/)?$"
+    },
+    {
       "page": "/resources/webinar-details/[webinarId]",
       "regex": "^/resources/webinar\\-details/([^/]+?)(?:/)?$",
       "routeKeys": {

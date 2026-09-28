@@ -166,6 +166,8 @@ const Page = async () => {
   const blogs: any = await getBlogs({});
 
   const cards = blogs?.map((b: any) => ({
+
+    
     imageSrc: [
       "/resource-blog-shift.jpg",
       "/blog-four-out-img.jpg",
@@ -178,7 +180,7 @@ const Page = async () => {
     date: b.date || "Nov 25",
     linkText: "Read More",
     linkHref: `/resources/blogs-details/${b.urlId}`,
-    alt: b.alt || b.title || "EnvirOptimus Blog"
+    alt: b.alt || ""
   })) || [];
 
   return (
