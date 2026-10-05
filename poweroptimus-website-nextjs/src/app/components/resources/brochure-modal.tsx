@@ -1,5 +1,5 @@
 "use client";
-import { saveCaseStudyRequest } from "@/app/services/demoService";
+import { saveBrochureRequest, saveCaseStudyRequest } from "@/app/services/demoService";
 // import './brochure-card-section.css';
 import styles from "./brochure-modal.module.css";
 import { useRef, useState } from "react";
@@ -9,6 +9,7 @@ export const BrochureModalSection: React.FC<any> = ({
   pdfLink,
   onClose,
   caseStudyTitle,
+  downloadText
 }) => {
   const isOrganizationEmail = (email: string) => {
     const blockedDomains = [
@@ -103,11 +104,26 @@ export const BrochureModalSection: React.FC<any> = ({
   }
 
   try {
-    await saveCaseStudyRequest({
+
+    console.log('downloadText', downloadText)
+
+    if(downloadText == "brochure"){
+
+      await saveBrochureRequest({
       ...formData,
       pdfLink,
       caseStudyTitle,
     });
+
+    }else{
+       await saveCaseStudyRequest({
+      ...formData,
+      pdfLink,
+      caseStudyTitle,
+    });
+    }
+
+   
 
     setFormData(initialFormData);
     setIsSubmitted(true);
@@ -143,9 +159,9 @@ export const BrochureModalSection: React.FC<any> = ({
             <i className="ri-close-line"></i>
           </button>
 
-          <h2>Download Case Study</h2>
+          <h2>Download {downloadText}</h2>
 
-          <p>Please fill in your details to download the Case Study.</p>
+          <p>Please fill in your details to download the {downloadText}.</p>
 
 
           {isSubmitted ? (

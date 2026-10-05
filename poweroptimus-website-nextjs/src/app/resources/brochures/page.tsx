@@ -28,11 +28,11 @@ const page = () => {
         cards={[
           {
             id: 1,
-            title: 'Solar Optimization',
+            title: 'A Unified Digital Twin Platform Driving Intelligent & Optimized Operations',
             content: 'Track energy usage in real time.',
             image: '/Brochure_Image.jpg',
-            link: 'https://poweroptimus.com/EnvirOptimus Brochure for Sydney build 2026_v6_justified-AMD.pdf',
-            alt: 'unified digital twin platform'
+            link: 'https://enviroptimus.com/EnvirOptimus Brochure for Sydney build 2026_v6_justified-AMD.pdf',
+            alt: 'unified digital twin platform',
           },
           // {
           //   id: 2,
@@ -53,6 +53,7 @@ const page = () => {
           //   image: '../resources-brochure.png',
           // }
         ]}
+        downloadText="brochure"
       />
 
       {/* <SolFeatureBtmSection

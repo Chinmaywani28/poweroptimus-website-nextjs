@@ -38,13 +38,15 @@ const page = () => {
                   id: 2,
                   title: 'Big Construction Company EnvirOptimus CaseStudy',
                   content: 'Track energy usage in real time.',
-                  image: '/resources-brochure.png',
+                  image: '/LNT CaseStudy Website Image.jpg',
                   // link: 'https://enviroptimus.com/L&TCaseStudy.pdf',
                   link: 'http://enviroptimus.com/L&TCaseStudy.pdf',
                   alt:'EnvirOptimus for case study'
                 },
                 
               ]}
+              downloadText="Case Study"
+
             />
 
 

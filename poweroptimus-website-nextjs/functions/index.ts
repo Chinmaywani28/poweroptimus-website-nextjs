@@ -502,3 +502,162 @@ export const onCreateEventRegistration = onDocumentCreated(
     }
   }
 );
+
+// Brochures trigger
+export const onCreateBrochureRequest =
+  onDocumentCreated(
+    "brochure-requests/{docId}",
+    async (event) => {
+
+      const snapshot = event.data;
+
+      if (!snapshot) {
+        logger.info("No data found");
+        return;
+      }
+
+      const data = snapshot.data();
+
+      const name = data?.name;
+      const company = data?.company;
+      const email = data?.email;
+      const phone = data?.phone;
+      const jobTitle = data?.jobTitle;
+      const country = data?.country;
+      const city = data?.city;
+
+      logger.info(
+          "datadata",
+          data
+        );
+
+      logger.info(
+          "asdf",
+          email
+        );
+
+
+
+      const brochureName =
+        data?.caseStudyTitle;
+
+      const brochureLink =
+        data?.pdfLink;
+
+      if (!email) {
+        logger.error("No email found");
+        return;
+      }
+
+      if (!brochureLink) {
+        logger.error("No brochure link found");
+        return;
+      }
+
+      // ==========================
+      // ADMIN EMAIL
+      // ==========================
+
+      const adminMail = {
+        from: `${senderName} <${senderEmail}>`,
+        to: adminEmails,
+
+        subject: `New Brochure Download - ${brochureName}`,
+
+        html: `
+          <h3>New Brochure Download Request</h3>
+
+          <p><b>Name:</b> ${name}</p>
+
+          <p><b>Company:</b> ${company}</p>
+
+          <p><b>Email:</b> ${email}</p>
+
+          <p><b>Phone:</b> ${phone}</p>
+
+          <p><b>Job Title:</b> ${jobTitle}</p>
+
+          <p><b>Country:</b> ${country}</p>
+
+          <p><b>City:</b> ${city}</p>
+
+          <p><b>Brochure:</b> ${brochureName}</p>
+        `,
+      };
+
+      // ==========================
+      // USER EMAIL
+      // ==========================
+
+      const userMail = {
+        from: `${senderName} <${senderEmail}>`,
+        to: email,
+
+        subject: `Your ${brochureName}`,
+
+        html: `
+          <h3>Hi ${name} 👋</h3>
+
+          <p>
+            Thank you for showing your interest in downloading Brochure
+            "${brochureName}".
+          </p>
+
+
+          <p>
+            <a
+              href="${brochureLink}"
+              target="_blank"
+            >
+              Download Brochure
+            </a>
+          </p>
+
+          <br/>
+
+          <p>
+            Best Regards,
+          </p>
+
+          <p>
+            EnvirOptimus Team
+          </p>
+        `,
+      };
+
+      try {
+
+        await transporter.sendMail(adminMail);
+
+        logger.info(
+          "Brochure admin email sent successfully ✅"
+        );
+
+      } catch (error) {
+
+        logger.error(
+          "Error sending adminemail Brochure email",
+          error
+        );
+      }
+
+      // user email try catch
+      try {
+
+        await transporter.sendMail(userMail);
+
+        logger.info("User mail result:");
+
+        logger.info(
+          "Brochure user email sent successfully ✅"
+        );
+
+      } catch (error) {
+
+        logger.error(
+          "Error sending useremail Brochure email",
+          error
+        );
+      }
+    }
+  );

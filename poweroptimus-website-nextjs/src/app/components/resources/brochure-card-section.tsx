@@ -13,18 +13,16 @@ interface CardData {
   buttonText?: string;
   link: string;
   requiresForm?: boolean;
-  alt?: string 
+  alt?: string
 }
 
 // ✅ Component props
 interface EnergyCardSliderProps {
   cards: CardData[];
+  downloadText?: any
 }
 
-
-
-
-export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) => {
+export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards, downloadText}) => {
 
   const [showModal, setShowModal] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState("");
@@ -111,6 +109,7 @@ export const BrochureCardSection: React.FC<EnergyCardSliderProps> = ({cards}) =>
   pdfLink={selectedPdf}
   caseStudyTitle={selectedTitle}
   onClose={() => setShowModal(false)}
+  downloadText={downloadText}
 />
 
     </>

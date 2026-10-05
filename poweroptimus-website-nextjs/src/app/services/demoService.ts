@@ -37,3 +37,13 @@ export const saveEventsRegRequest = (payload: any) => {
         createdOn: Timestamp.now()
     });
 }
+
+//onbrochure Download
+export const saveBrochureRequest = (payload: any) => {
+    console.log('brochureData::', payload)
+    addDoc(collection(db, 'brochure-requests'), {
+        ...payload,
+        completed: false,
+        createdOn: Timestamp.now()
+    });
+}
