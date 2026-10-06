@@ -132,7 +132,7 @@ const RequestDemo = () => {
               onChange={handleChange}
             >
               <option value="">Select Interest</option>
-              <option value="Enviorment Management">Enviormental Monitoring</option>
+              <option value="Enviorment Management">Environmental Monitoring</option>
               <option value="Energy Management">Energy Management</option>
               <option value="Digital Twin">Digital Twin</option>
 

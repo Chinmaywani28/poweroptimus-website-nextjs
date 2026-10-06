@@ -159,9 +159,7 @@ export const BrochureModalSection: React.FC<any> = ({
             <i className="ri-close-line"></i>
           </button>
 
-          <h2>Download {downloadText}</h2>
-
-          <p>Please fill in your details to download the {downloadText}.</p>
+          
 
 
           {isSubmitted ? (
@@ -170,7 +168,12 @@ export const BrochureModalSection: React.FC<any> = ({
     <p>Your request has been received.</p>
   </div>
 ) : (
-  <form className={styles.form}>
+  <div>
+
+    <h2>Download {downloadText}</h2>
+
+          <p>Please fill in your details to download the {downloadText}.</p>
+        <form className={styles.form}>
             <input
               name="name"
               type="text"
@@ -252,9 +255,11 @@ export const BrochureModalSection: React.FC<any> = ({
               className={styles.submitBtn}
               onClick={handleSubmit}
             >
-              Submit & Download
+              Submit
             </button>
           </form>
+  </div>
+  
 )}
 
 

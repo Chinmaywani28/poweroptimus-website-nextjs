@@ -25,7 +25,8 @@ export const metadata: Metadata = {
     canonical: "https://www.enviroptimus.com",
   },
   icons: {
-    icon: "/EnvirOptimus_Logo_WithoutBG-SVG%201.svg", // or "/favicon.png" or "/icon.svg"
+    // icon: "/EnvirOptimus_Logo_WithoutBG-SVG%201.svg", // or "/favicon.png" or "/icon.svg"
+    icon: "/Fevicon_EnvirOptimus_with_bg.png", // or "/favicon.png" or "/icon.svg"
   },
 };
 
